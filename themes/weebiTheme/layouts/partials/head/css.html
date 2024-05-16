@@ -1,0 +1,15 @@
+<link rel="stylesheet" type="text/css" href="/css/animate.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/swiper-bundle.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/flag-icons.min.css" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+{{- with resources.Get "css/main.css" }}
+  {{- if eq hugo.Environment "development" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{- else }}
+    {{- with . | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+    {{- end }}
+  {{- end }}
+{{- end }}

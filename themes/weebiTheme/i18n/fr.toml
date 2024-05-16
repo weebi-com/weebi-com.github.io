@@ -1,0 +1,119 @@
+# header
+
+videos = "Vidéos"
+price = "Le prix"
+our_customers = "Nos clients"
+contact = "Contact"
+blog = "Blog"
+download = "Télécharger"
+
+# home
+
+site_title = "votre application de caisse"
+site_description = "Weebi est une application de caisse conçue à Dakar pour suivre les ventes, le stock et les comptes clients."
+
+web_demo = "Demo web"
+
+# atouts
+atous_title = "Une appli simple et efficace"
+atous_description = "L'appli weebi fournit tous les outils nécessaires au gestionnaire moderne : Suivi du stock, gestion des soldes client, facturation et bien d'autres !"
+
+atouts_1_subtitle = "Des ventes améliorées"
+atouts_1_description = "L'application facilite le paiement et le suivi des reçus"
+atouts_2_subtitle = "Références par milliers"
+atouts_2_description = " Le catalogue produit peut contenir plus de dix mille références produits sans ralentissement"
+atouts_3_subtitle = "Fidélisation client"
+atouts_3_description = "Accordez un acompte client en un clic "
+
+# utilisations
+
+utilisations_title = "Comment Weebi est utilisée ?"
+
+utilisations_exemple_1 = "Binta du groupement Sell Sellal"
+utilisations_exemple_2 = "Une autre membre du groupement Sell Sellal"
+
+utilisations_1_subtitle = "Sur le terrain"
+utilisations_1_description = "Sur mobile ou sur pc/mac l'application s'adapte à votre besoin"
+
+utilisations_2_subtitle = "En magasin"
+utilisations_2_description = "Weebi est aussi utilisé par des commerces de proximité comme des boulangeries, des cosmétiques, des blanchisseries..."
+
+utilisations_text_image_1 = "Configuration du kit weebi dans la boulangerie 'Chez Matisse' à Dakar - Bourguiba"
+utilisations_text_image_2 = "1er test dans la boutique de Dian & Thierno à Fenetre Mermoz Dakar"
+utilisations_text_image_3 = "Première utilisation de weebi dans une boutique à Abidjan"
+
+# apercu
+
+apercu_title = "Aperçu"
+apercu_description = "Sur mobile ou sur pc/mac l'application s'adapte à votre besoin"
+
+
+# fonctionnalites
+
+fonctionnalites_title = "Design simple"
+fonctionnalites_description = "Pas de configuration à ajuster"
+
+fonctionnalites_maj_title = "DES MISES À JOUR RÉGULIÈRES"
+fonctionnalites_maj_description = "L'application Weebi est constamment enrichie de nouvelles fonctionnalités. Vous avez un besoin ? Demandez-nous, il sera livré !"
+
+fonctionnalites_rg_title = "Rapport graphique"
+fonctionnalites_rg_description = " L'appli fournit une vaste collection de graphiques et de métriques pour suivre les performances de votre activité"
+
+fonctionnalites_cp_wtsp_title = "COMPATIBLE AVEC WHATSAPP"
+fonctionnalites_cp_wtsp_description = "Intégrée directement avec whatsapp, l'appli weebi facilite le partage de devis/facture sur le canal préféré de vos clients"
+
+# telechargement
+
+telechargement_title = "Téléchargement gratuit sans période d'essai"
+telechargement_description = "L'appli weebi est gratuite et fonctionne hors-ligne. Nous proposerons bientôt une offre d'abonnement pour la synchronisation des données. Permettant de suivre à distance l'activité de la boutique et/ou de gérer plusieurs points de vente."
+
+# demo
+
+demo_title = "Démos et Tutoriels"
+demo_do_a_cash_sale = "Faire une vente cash"
+demo_new_stock = "Noter une entrée de stock"
+demo_see_a_video = "Voir la vidéo"
+
+# reportages
+
+reportages_title = "Reportages tv"
+
+# pressesetradio
+
+pressesetradio_title = "Presse et Radio"
+pressesetradio_read_article = "Lire l’article"
+
+# temoignages
+
+temoignages_title = "NOS CLIENTS TÉMOIGNENT"
+temoignages_1_description = "Nyara est une boutique de cosmétique avec 3 000 référence produits, l'équipe Weebi nous a accompagné dans toute la configuration du catalogue et la mise en place de tableaux de bord dédiés."
+temoignages_2_description = "Nous avions besoin d'un outil de caisse pour démarrer rapidement notre activité de restauration à distance. Nos équipes ont pris en main Weebi en un clin d'oeil ce qui nous a permis de nous concentrer sur notre coeur de métier."
+
+# foireauquestions
+
+foireauquestions_title = "LA FOIRE AUX QUESTIONS"
+foireauquestions_description = "Voici les réponses aux questions qui nous sont posés le plus souvent."
+
+foireauquestions_1_title = "COMBIEN DE TEMPS PUIS-JE UTILISER WEEBI GRATUITEMENT ?"
+foireauquestions_1_description = "Toujours. Vous n'aurez besoin de vous abonnez que si vous souhaitez synchroniser vos données."
+
+foireauquestions_2_title = "PUIS-JE L'UTILISER SUR PLUSIEURS POINTS DE VENTE?"
+foireauquestions_2_description = "Oui c'est possible, mais cela exige de synchroniser des données, ce qui requiert un abonnement."
+
+foireauquestions_3_title = "QUELS ACCESSOIRES SONT COMPATIBLES ?"
+foireauquestions_3_description = "L'application mobile weebi peut se connecter à tous les types d'imprimantes thermiques Bluetooth. Elle peut aussi être lié à une balance digitale via bluettoth pour accélérer la pesée des produits. Sur mobile la caméro du téléphone fait office de lecteur de code barre, et il est possible de s'intégrer à un lecteur existant sur pc/macos."
+
+foireauquestions_4_title = "COMMENT PEUT-ON CONFIGURER LE CATALOGUE PRODUIT ?"
+foireauquestions_4_description = "La création/mise à jour/suppression d'un produit se fait directement depuis l'application. Il est possible d'importer un catalogue produit depuis un fichier excel. Un modèle du fichier et un tutoriel sont disponibles dans l'application. Il est aussi possible de charger un ancien catalogue de produits weebi en 1 clic."
+
+foireauquestions_5_title = "EST-CE QUE WEEBI PERMET DE SUIVRE LE NIVEAU DE STOCK ?"
+foireauquestions_5_description = "Oui, weebi permet de suivre le stock et fournit des outils de gestion comme les entrées et les sorties de stock."
+
+# telechargement
+
+telechargement_title_2 = "Téléchargez dès maintenant"
+telechargement_description_2 = "Gratuit sans période d'essai."
+
+# footer
+
+build_with_love = "Fait avec"

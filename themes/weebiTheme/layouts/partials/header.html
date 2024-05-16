@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg bg-body-white">
+  <div class="container py-2">
+    <a class="navbar-brand" href="/">
+      <img src="/images/Weebi_Logo_Full.png" alt="Weebi" width="130" height="35">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="{{ "#demo" }}">{{ T "videos" }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ "#telechargement-prix" }}">{{ T "price" }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#utilisations">{{ T "our_customers" }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">{{ T "contact" }}</a>
+        </li>
+      </ul>
+      <div class="d-flex">
+        <a class="btn btn-link text-decoration-none text-dark" href="{{ "posts" }}">{{ T "blog" }}</a>
+        <!--<button class="btn btn-weebi rounded-pill">{{ T "download" }}</button> -->
+        <div class="mx-2">
+          <select class="form-select" onchange="window.location.href=this.value;" name="languages">
+            <option value="{{ .Site.BaseURL }}/fr"{{ if eq .Site.Language.Lang "fr" }} selected{{ end }}>FR</option>
+            <option value="{{ .Site.BaseURL }}/en"{{ if eq .Site.Language.Lang "en" }} selected{{ end }}>EN</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

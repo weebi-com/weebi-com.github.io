@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<main id="main" class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="px-4 pt-5 text-center border-bottom">
+        <div class="overflow-hidden" style="max-height: 40vh;">
+          <div class="container px-5">
+            <img src="https://cdn.dribbble.com/userupload/3511060/file/original-88c5c54c7d4cd18054dc7e8c1ef918fd.jpg"
+              class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="800" height="600"
+              loading="lazy"
+              alt="image 404">
+          </div>
+        </div>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">the page you are looking for not avaible!</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <a href="{{ "" | relURL }}" class="btn btn-outline-secondary btn-lg px-4">Go to Home</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}

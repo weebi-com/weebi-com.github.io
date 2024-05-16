@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <div class="container py-4 mb-4">
+    <div class="row my-3">
+      <div class="col-12">
+        <h1 class="h1 text-decoration-none weebi-text-primary-color">{{ .Title }}</h1>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" data-masonry='{"percentPosition": true }'>
+      {{ .Content }}
+      {{ range .Pages }}
+        <div class="col-sm-12 col-md-6">
+          <img src="/images/blog_image.jpeg" class="card-img-top" alt="...">
+          <div class="card shadow-sm p-3 border rounded">
+            <h2 class="my-3"><a class="text-decoration-none weebi-text-primary-color" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+            <p class="card-text">{{ .Summary }}</p>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

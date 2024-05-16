@@ -1,0 +1,36 @@
+baseURL = '/'
+theme = 'weebiTheme'
+defaultContentLanguage = 'fr'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.fr]
+    languageCode = 'fr-FR'
+    title = 'Weebi : Suivi des Ventes, Gestion de Stock et Comptes Clients à Dakar'
+    contentDir = 'content/fr'
+    disabled = false
+    # languageDirection = 'ltr'
+    languageName = 'Français'
+    [languages.fr.params]
+      Description = "Weebi est une application de caisse conçue à Dakar pour suivre les ventes, le stock et les comptes clients."
+    # [languages.fr.permalinks]
+    #   [languages.fr.permalinks.section]
+    #     posts = '/posts/'
+  [languages.en]
+    languageCode = 'en-US'
+    title = 'Weebi: Sales Monitoring, Stock Management and Customer Accounts in Dakar'
+    contentDir = 'content/en'
+    disabled = false
+    # languageDirection = 'ltr'
+    languageName = 'English'
+    [languages.en.params]
+      Description = "Weebi is a cash register application designed in Dakar to track sales, stock and customer accounts."
+    # [languages.en.permalinks]
+    #   [languages.en.permalinks.section]
+    #     posts = '/posts/'
+# [services]
+#   [services.googleAnalytics]
+#     ID = 'G-XXXXXXXXX'
+# [security]
+#   enableInlineShortcodes = false
+#   [security.funcs]
+#     getenv = ['^HUGO_']

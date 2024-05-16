@@ -1,0 +1,644 @@
+{{ define "main" }}
+
+<div class=" main-hero">
+  <div class="container intro-wrapper py-5">
+    <div class="row align-items-center g-5">
+      <div class="col-md-12 col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"><span
+            class="weebi-text-primary-color fw-bold animate__animated animate__bounceInDown">Weebi</span>, {{ T "site_title" }}</h1>
+        <p class="lead animate__animated animate__bounceInDown">{{ T "site_description" }}</p>
+        <div class="d-grid gap-2 d-md-flex col-md-12 justify-content-md-start download-cta">
+          <a target="_blank" id="download_playstore" class="btn btn-black-weebi btn-lg btn-sm px-4 centered-btn"
+            href="https://play.google.com/store/apps/details?id=com.weebi.weebiapp">
+            <i class="bi  bi-google-play"></i>
+            Google Play
+          </a>
+          <a target="_blank" id="download_apple_store" class="btn btn-black-weebi btn-lg btn-sm px-4 centered-btn"
+            href="https://apps.apple.com/us/app/weebi/id1602769796">
+            <i class="bi bi-apple"></i>
+            Apple Store
+          </a>
+          <a target="_blank" id="download_microsoft_store" class="btn btn-black-weebi btn-lg px-4 centered-btn"
+            href="https://apps.microsoft.com/store/detail/weebi/9N89B761JRRT?hl=fr-fr&amp;gl=fr">
+            <i class="bi bi-microsoft"></i>
+            Microsoft
+          </a>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-6">
+        <a target="_blank" id="open_web_demo" class="btn btn-black-weebi btn-lg px-4 centered-btn"
+            href="https://articles-demo-web.web.app/">
+            
+            {{ T "web_demo" }}
+          </a>
+        
+          <!-- <iframe src="https://articles-demo-web.web.app/" title="Articles demo web app" allowfullscreen width="100%" height="500" width="700"></iframe> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="atouts section-py-8" id="atouts">
+  <div class="container overflow-hidden">
+    <div class="row gx-5 py-6">
+      <div class="col-lg-6 col-md-12">
+        <img src="/images/weebi-thierno-boutique.jpg" class="img-fluid rounded h-100" alt="Facile" />
+      </div>
+      <div class="col-lg-6 col-md-12 d-flex align-items-center">
+        <div>
+          <h2 class="h2 fw-bold inner-section-title">{{ T "atous_title" }}</h2>
+          <p>{{ T "atous_description" }}</p>
+          <div class="vstack gap-4">
+            <div class="hstack gap-3 ">
+              <div class="square-icon-group">
+                <i class="bi bi-cart-fill"></i>
+              </div>
+              <div class="icon-group-content-wrapper">
+                <h6 class="h6 fw-bold">{{ T "atouts_1_subtitle" }}</h6>
+                <p>{{ T "atouts_1_description" }}</p>
+              </div>
+            </div>
+            <div class="hstack gap-3 ">
+              <div class="square-icon-group">
+                <i class="bi bi-tag-fill"></i>
+              </div>
+              <div class="icon-group-content-wrapper">
+                <h6 class="h6 fw-bold">{{ T "atouts_2_subtitle" }}</h6>
+                <p>{{ T "atouts_2_description" }}</p>
+              </div>
+            </div>
+            <div class="hstack gap-3">
+              <div class="square-icon-group">
+                <i class="bi bi-person-add"></i>
+              </div>
+              <div class="icon-group-content-wrapper">
+                <h6 class="h6 fw-bold">{{ T "atouts_3_subtitle" }}</h6>
+                <p>{{ T "atouts_3_description" }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="utilisations section-py-8" id="utilisations">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="h2 fw-bold text-center weebi-text-primary-color inner-section-title">{{ T "utilisations_title" }}
+        </h2>
+      </div>
+    </div>
+    <div class="row py-3">
+      <div class="col-md-12">
+        <h3 class="h2 fw-bold">{{ T "utilisations_1_subtitle" }}</h3>
+        <p>{{ T "utilisations_1_description" }}</p>
+      </div>
+    </div>
+    <div class="row py-3">
+      <div class="col-md-6">
+        <img src="/images/binta_sell_sellal_dakar_weebi.jpeg" class="rounded" width="612px" height="498px"
+          alt="Facile" />
+        <p class="py-3 fst-italic">{{ T "utilisations_exemple_1" }}</p>
+      </div>
+      <div class="col-md-6">
+        <img src="/images/sell_sellal_dakar_weebi.jpg" class="rounded" width="612px" height="498px" alt="Facile" />
+        <p class="py-3 fst-italic">{{ T "utilisations_exemple_2" }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="utilisations-en-magasin bg-weebi text-white section-py-6">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-md-12">
+        <h3 class="h2 fw-bold">{{ T "utilisations_2_subtitle" }}</h3>
+        <p class="">{{ T "utilisations_2_description" }}</p>
+      </div>
+    </div>
+    <div class="row g-5 pb-5">
+      <div class="col-md-4 col-sm-12">
+        <img src="/images/boulangerie_matisse_dakar_weebi.jpg" class="img-fluid rounded" alt="Facile" width="500px"
+          height="500px" />
+        <p class="p-2 fst-italic">{{ T "utilisations_text_image_1" }}</p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img src="/images/weebi-thierno-boutique.jpg" class="img-fluid rounded" alt="Facile" width="500px"
+          height="500px" />
+        <p class="p-2 fst-italic">{{ T "utilisations_text_image_2" }}</p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img src="/images/boutique-abidjan.jpg" class="img-fluid rounded" alt="Facile" width="500px" height="500px" />
+        <p class="p-2 fst-italic">{{ T "utilisations_text_image_3" }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="apercu bg-feature section-py-6" id="apercu">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-12 text-center">
+        <h2 class="h2 fw-bold inner-section-title">{{ T "apercu_title" }}</h2>
+        <p>{{ T "apercu_description" }}</p>
+      </div>
+    </div>
+
+    <div class="row py-3 preview-img-wrapper">
+      <div class="col">
+        <img src="/images/apercu/screenshot1.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+      </div>
+      <div class="col">
+        <img src="/images/apercu/screenshot2.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+      </div>
+      <div class="col">
+        <img src="/images/apercu/screenshot3.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+      </div>
+      <div class="col">
+        <img src="/images/apercu/screenshot4.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+      </div>
+      <div class="col">
+        <img src="/images/apercu/screenshot5.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="fonctionnalites py-5" id="fonctionnalites">
+  <div class="container py-5">
+    <div class="row bg-feature d-flex align-items-center rounded p-5">
+      <div class="col-md-4 features-col">
+        <div class="vstack gap-1">
+          <div class="square-icon-group">
+            <i class="bi bi-gear-fill"></i>
+          </div>
+          <span class="feature-list-title">{{ T "fonctionnalites_title" }}</span>
+          <span class="feature-list-description">{{ T "fonctionnalites_description" }}</span>
+        </div>
+
+        <div class="vstack gap-1">
+          <div class="square-icon-group">
+            <i class="bi bi-arrow-repeat"></i>
+          </div>
+          <span class="feature-list-title">{{ T "fonctionnalites_maj_title" }}</span>
+          <span class="feature-list-description">{{ T "fonctionnalites_maj_description" }}</span>
+        </div>
+      </div>
+
+      <div class="col-md-4 features-col">
+        <div class="vstack gap-1">
+          <div class="square-icon-group">
+            <i class="bi bi-pie-chart-fill"></i>
+          </div>
+          <span class="feature-list-title">{{ T "fonctionnalites_rg_title" }}</span>
+          <span class="feature-list-description">{{ T "fonctionnalites_rg_description" }}</span>
+        </div>
+
+        <div class="vstack gap-1">
+          <div class="square-icon-group">
+            <i class="bi bi-whatsapp"></i>
+          </div>
+          <span class="feature-list-title">{{ T "fonctionnalites_cp_wtsp_title" }}</span>
+          <span class="feature-list-description">{{ T "fonctionnalites_cp_wtsp_description" }}</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="telechargement bg-weebi text-white section-py-4 dwl-banner-img" id="telechargement-prix">
+  <div class="container px-4 py-5 ">
+    <div class="row align-items-center g-5 ">
+      <div class="col-md-7">
+        <h2 class="fw-bold mb-3 inner-section-title">{{T "telechargement_title" }}</h2>
+        <p>{{ T "telechargement_description" }}</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start download-cta">
+          <a target="_blank" class="btn btn-black-weebi btn-lg px-4"
+            href="https://play.google.com/store/apps/details?id=com.weebi.weebiapp">
+            <i class="bi  bi-google-play"></i>
+            Google Play
+          </a>
+          <a target="_blank" class="btn btn-black-weebi btn-lg px-4"
+            href="https://apps.apple.com/us/app/weebi/id1602769796">
+            <i class="bi bi-apple"></i>
+            Apple Store
+          </a>
+          <a target="_blank" class="btn btn-black-weebi btn-lg px-4"
+            href="https://apps.microsoft.com/store/detail/weebi/9N89B761JRRT?hl=fr-fr&amp;gl=fr">
+            <i class="bi bi-microsoft"></i>
+            Microsoft
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-md-5 ">
+        <img src="/images/apercu/screenshot2.png" class="d-block mx-lg-auto download-img" alt="Bootstrap Themes"
+          loading="lazy">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="demo py-5 section-py-6" id="demo">
+  <div class="container">
+
+    <div class="row py-4">
+      <div class="col-md-12 text-center">
+        <h2 class="h2 fw-bold inner-section-title">{{T "demo_title" }}</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides 1 -->
+            <div class="swiper-slide">
+              <div class="container utilisations rounded py-5">
+                <div class="row py-5 tuto-content-wrapper">
+                  <div class="col-md-6">
+                    <h3 class="fw-bold h3">{{ T "demo_do_a_cash_sale" }}</h3>
+                    <button class="btn btn-black-weebi">
+                      {{ T "demo_see_a_video" }}
+                    </button>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <div class="ratio ratio-16x9">
+                      <iframe src="https://www.youtube.com/embed/zilrWrkgdOw?si=wDPS78bMQW0q2mn1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                        allowfullscreen width="300" height="400" class="rounded"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slides 2 -->
+            <div class="swiper-slide">
+              <div class="container utilisations rounded py-5">
+                <div class="row py-5 tuto-content-wrapper">
+                  <div class="col-md-6">
+                    <h3 class="fw-bold h3">{{ T "demo_new_stock" }}</h3>
+                    <button class="btn btn-black-weebi">
+                      {{ T "demo_see_a_video" }}
+                    </button>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <div class="ratio ratio-16x9">
+                      <iframe src="https://www.youtube.com/embed/7ZLZt6gn8PY?si=gyjLGrdpwADn_N5I"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+                        allowfullscreen width="300" height="400" class="rounded"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="reportages section-py-6" id="reportages">
+  <div class="container">
+
+    <div class="row py-4">
+      <div class="col-md-12 text-center">
+        <h2 class="h2 fw-bold inner-section-title">{{ T "reportages_title" }}</h2>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-3">
+      <div class="col-md-4 card border-0 p-2">
+        <div class="reportage-item clay-bg">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/uEG2nONvjTU?si=ycJK37iWO_obB3w2" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+              allowfullscreen width="300" height="300" class="rounded"></iframe>
+          </div>
+          <div class="content-wrapper">
+            <h5 class="card-title">France5 TV</h5>
+            <p class="card-text">Un reportage de L'agence France Presse pour France5 TV</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 card border-0 p-2">
+        <div class="reportage-item clay-bg">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/jWmpoPAyM1A?si=qGu4MJkMdrurR6mX" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+              allowfullscreen width="300" height="300" class="rounded"></iframe>
+          </div>
+          <div class="content-wrapper">
+            <h5 class="card-title">Canal+ Réussite</h5>
+            <p class="card-text">Un reportage de Canal+ pour l'émission Réussite</p>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 card border-0 p-2">
+        <div class="reportage-item clay-bg">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/jAQIVGfgAZg?si=KEE691ib1NvXJ58C" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+              allowfullscreen width="300" height="300" class="rounded"></iframe>
+          </div>
+          <div class="content-wrapper">
+            <h5 class="card-title">Animated pitch</h5>
+            <p class="card-text">Animation around weebi by Joseph Darosa</p>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 card border-0 p-2">
+        <div class="reportage-item clay-bg">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/pI9kpiOJvHo?si=s0f-InAa69IJQDKd" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+              allowfullscreen width="300" height="300" class="rounded"></iframe>
+          </div>
+          <div class="content-wrapper">
+            <h5 class="card-title">Medi1 TV</h5>
+            <p class="card-text">Un reportage de Medi1 TV</p>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="pressesetradio mb-5" id="pressesetradio">
+  <div class="container">
+
+    <div class="row py-2">
+      <div class="col-md-12">
+        <h2 class="h2 fw-bold inner-section-title">{{ T "pressesetradio_title" }}</h2>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-3">
+      <div class="col-md-6 rounded">
+        <div class="d-flex align-items-center presse-color p-4 rounded">
+          <div class="flex-shrink-0">
+            <img width="75" height="75" class="rounded" src="/images/le_point.png" alt="...">
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <p class="mb-0">
+              Le Point 2017 : au Sénégal des outils numériques simplifient la vie des
+              micro-entrepreneurs
+            </p>
+            <a href="https://www.lepoint.fr/high-tech-internet/au-senegal-des-outils-numeriques-simplifient-la-vie-des-micro-entrepreneurs-18-06-2017-2136228_47.php"
+              target="_blank" class="link-offset-3 red-color">{{ T "pressesetradio_read_article" }}</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 rounded">
+        <div class="d-flex align-items-center presse-color p-4 rounded">
+          <div class="flex-shrink-0">
+            <img width="75" height="75" class="rounded" src="/images/oserafrique.jpeg" alt="...">
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <p class="mb-0">
+              Oser l'afrique 2018 : à la rencontre de weebi
+            </p>
+            <a href="http://oserlafrique.com/a-la-rencontre-de-weebi/" target="_blank"
+              class="link-offset-3 red-color">{{ T "pressesetradio_read_article" }}</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 rounded">
+        <div class="d-flex align-items-center presse-color p-4 rounded">
+          <div class="flex-shrink-0">
+            <img width="75" height="75" class="rounded" src="/images/jeuneafrique.png" alt="...">
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <p class="mb-0">
+              Jeune Afrique 2017 : start-up-africaine de la semaine : weebi l'ardoise electronique
+            </p>
+            <a target="_blank"
+              href="https://www.jeuneafrique.com/367447/economie-entreprises/start-up-africaine-de-semaine-weebi-lardoise-electronique-commercants-de-dakar/"
+              class="link-offset-3 red-color">{{ T "pressesetradio_read_article" }}</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 rounded">
+        <div class="d-flex align-items-center presse-color p-4 rounded">
+          <div class="flex-shrink-0">
+            <img width="75" height="75" class="rounded" src="/images/rfi.png" alt="...">
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <p class="mb-0">
+              RFI Janvier 2017 - Sénégal: bien gérer son commerce grace à l'application weebi
+            </p>
+            <a target="_blank"
+              href="https://www.rfi.fr/fr/emission/20170114-senegal-bien-gerer-son-commerce-grace-application-weebi"
+              class="link-offset-3 red-color">{{ T "pressesetradio_read_article" }}</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 rounded">
+        <div class="d-flex align-items-center presse-color p-4 rounded">
+          <div class="flex-shrink-0">
+            <img width="75" height="75" class="rounded" src="/images/rfi2.jpeg" alt="...">
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <p class="mb-0">
+              RFI Juin 2017 Sénégal: Weebi une application innovante au service des
+              micro-entrepreneurs
+            </p>
+            <a target="_blank"
+              href="https://www.rfi.fr/fr/afrique/20170623-senegal-weebi-une-application-innovante-service-micro-entrepreneurs"
+              class="link-offset-3 red-color">{{ T "pressesetradio_read_article" }}</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="temoignages py-5 bg-temoignages" id="temoignages">
+  <div class="container">
+
+    <div class="row py-4">
+      <div class="col-md-12 text-center">
+        <h2 class="h2 fw-bold text-white inner-section-title">{{ T "temoignages_title" }}</h2>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-3">
+      <div class="col-md-12">
+        <div class="swiper2 pb-5">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides 1 -->
+            <div class="swiper-slide">
+              <div class="container">
+                <div class="row align-items-center py-3">
+                  <div class="col-md-6 p-2">
+                    <div class="temoignages-card rounded-4 p-4">
+                      <i class="bi bi-quote" style="font-size: 3rem; color: #046DB5;"></i>
+                      <p>{{ T "temoignages_1_description" }}</p>
+                      <h5 class="fw-bold">Aissatou Conte</h5>
+                      <h6 class="">CEO @Nyara cosmetique</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-6 p-2">
+                    <div class="temoignages-card rounded-4 p-4">
+                      <i class="bi bi-quote" style="font-size: 3rem; color: #046DB5;"></i>
+                      <p>{{ T "temoignages_2_description" }}</p>
+                      <h5 class="fw-bold">INNA & PALOMA SANE</h5>
+                      <h6 class="">Cofounders @ Dinota traiteur</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="foireauquestions section-py-6" id="foireauquestions">
+  <div class="container">
+
+    <div class="row py-4">
+      <div class="col-md-12 text-center">
+        <h2 class="h2 fw-bold inner-section-title">{{ T "foireauquestions_title" }}</h2>
+        <p>{{ T "foireauquestions_description" }}</p>
+      </div>
+    </div>
+
+    <div class="row py-4">
+      <div class="col-md-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                {{ T "foireauquestions_1_title" }}
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                {{ T "foireauquestions_1_description" }}              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                {{ T "foireauquestions_2_title" }}
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                {{ T "foireauquestions_2_description" }}
+                         </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                {{ T "foireauquestions_3_title" }}
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                {{ T "foireauquestions_3_description" }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                aria-expanded="true" aria-controls="collapseFour">
+                {{ T "foireauquestions_4_title" }}
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                {{ T "foireauquestions_4_description" }}
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                {{ T "foireauquestions_5_title" }}
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                {{ T "foireauquestions_5_description" }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="telechargement"  id="telechargement">
+  <div class="container px-4 py-5 utilisations rounded-4">
+    <div class="row align-items-center g-5">
+      <div class="col-md-7">
+        <h2 class="mb-3 inner-section-title fw-bold">{{ T "telechargement_title_2" }}</h2>
+        <p>{{ T "telechargement_description_2" }}</p>
+        <div class="d-grid gap-2 mt-4 d-md-flex justify-content-md-start download-cta">
+          <a target="_blank" class="btn btn-black-weebi btn-lg px-4"
+            href="https://play.google.com/store/apps/details?id=com.weebi.weebiapp">
+            <i class="bi  bi-google-play"></i>
+            Google Play
+          </a>
+          <a target="_blank" class="btn btn-black-weebi btn-lg px-4"
+            href="https://apps.apple.com/us/app/weebi/id1602769796">
+            <i class="bi bi-apple"></i>
+            Apple Store
+          </a>
+          <a target="_blank" class="btn btn-black-weebi btn-lg px-4"
+            href="https://apps.microsoft.com/store/detail/weebi/9N89B761JRRT?hl=fr-fr&amp;gl=fr">
+            <i class="bi bi-microsoft"></i>
+            Microsoft
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
