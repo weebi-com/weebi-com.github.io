@@ -61,7 +61,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           APTABASE_KEY: ${{ secrets.APTABASE_KEY }}
-          path: ./public
+          path: ./docs
 
   # Deployment job
   deploy:
