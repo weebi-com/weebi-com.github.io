@@ -1,6 +1,6 @@
 import { init, trackEvent } from '@aptabase/web';
 
-init(APTABASE_KEY);
+init('A-EU-6403105423');
 
 const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
