@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weebi: Sales Monitoring, Stock Management and Customer Accounts in Dakar</title>
+    <link>//localhost:1313/en/</link>
+    <description>Recent content on Weebi: Sales Monitoring, Stock Management and Customer Accounts in Dakar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 01 Apr 2024 08:30:00 -0700</lastBuildDate>
+    <atom:link href="//localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privacy Policy</title>
+      <link>//localhost:1313/en/privacy_policy/</link>
+      <pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate>
+      <guid>//localhost:1313/en/privacy_policy/</guid>
+      <description>Personal data collected by weebi.com will only be used according to the purpose with which you have left them and complies with the Senegalese Data Protection Act. This privacy policy sets out how we collect and process personal information.&#xA;What sensitive information do we collect ? None today. Weebi will provide automatic backup but it is not yet available.&#xA;How do we protect information ? This information will be contained behind secured networks and will only accessible by a limited number of persons who have special access rights to such systems and are required to keep the information confidential.</description>
+    </item>
+    <item>
+      <title>Activity Demo Articles</title>
+      <link>//localhost:1313/en/posts/demo-articles/</link>
+      <pubDate>Sun, 14 May 2023 11:00:00 -0700</pubDate>
+      <guid>//localhost:1313/en/posts/demo-articles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>We&#39;re Back!</title>
+      <link>//localhost:1313/en/posts/on-reprend/</link>
+      <pubDate>Sun, 14 May 2023 11:00:00 -0700</pubDate>
+      <guid>//localhost:1313/en/posts/on-reprend/</guid>
+      <description>June 26, 2019. Dakar, Senegal. Binta is inputting the vegetables she sells on her Weebi tablet. The application has helped her manage her stock and sales.&#xA;After a two-year hiatus, Sidy is thrilled to announce that the service is back! The application has been revamped with a new version (the 3rd) available on:&#xA;Android Weebi Playstore iOS Weebi Appstore macOS link on weebi.com Windows link on weebi.com The application remains available for free, and we only ask for your email upon initialization to be able to assist you if needed.</description>
+    </item>
+  </channel>
+</rss>
