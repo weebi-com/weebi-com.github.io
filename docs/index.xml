@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weebi : Suivi des Ventes, Gestion de Stock et Comptes Clients à Dakar</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Weebi : Suivi des Ventes, Gestion de Stock et Comptes Clients à Dakar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Sun, 14 May 2023 11:00:00 -0700</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Activity Demo Articles</title>
+      <link>//localhost:1313/en/posts/demo-articles/</link>
+      <pubDate>Sun, 14 May 2023 11:00:00 -0700</pubDate>
+      <guid>//localhost:1313/en/posts/demo-articles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Démo de l’activité articles</title>
+      <link>//localhost:1313/posts/demo-articles/</link>
+      <pubDate>Sun, 14 May 2023 11:00:00 -0700</pubDate>
+      <guid>//localhost:1313/posts/demo-articles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>On reprend !</title>
+      <link>//localhost:1313/posts/on-reprend/</link>
+      <pubDate>Sun, 14 May 2023 11:00:00 -0700</pubDate>
+      <guid>//localhost:1313/posts/on-reprend/</guid>
+      <description>26 June 2019. Dakar, Senegal. Binta is filling the vegetables she sells on her Weebi tablet. The application has helped her manage her stock and sales.&#xA;Après deux ans de pause, Sidy est heureux de vous annoncer que le service reprend ! L’application fait peau neuve avec une nouvelle version (la 3è) disponible sur :&#xA;– android weebi playstore – iOS weebi appstore – macOS lien sur weebi.com – windows lien sur weebi.</description>
+    </item>
+    <item>
+      <title>We&#39;re Back!</title>
+      <link>//localhost:1313/en/posts/on-reprend/</link>
+      <pubDate>Sun, 14 May 2023 11:00:00 -0700</pubDate>
+      <guid>//localhost:1313/en/posts/on-reprend/</guid>
+      <description>June 26, 2019. Dakar, Senegal. Binta is inputting the vegetables she sells on her Weebi tablet. The application has helped her manage her stock and sales.&#xA;After a two-year hiatus, Sidy is thrilled to announce that the service is back! The application has been revamped with a new version (the 3rd) available on:&#xA;Android Weebi Playstore iOS Weebi Appstore macOS link on weebi.com Windows link on weebi.com The application remains available for free, and we only ask for your email upon initialization to be able to assist you if needed.</description>
+    </item>
+  </channel>
+</rss>
