@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Le blog de weebi on Weebi : Suivi des Ventes, Gestion de Stock et Comptes Clients à Dakar</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Le blog de weebi on Weebi : Suivi des Ventes, Gestion de Stock et Comptes Clients à Dakar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Sun, 14 May 2023 11:00:00 -0700</lastBuildDate>
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Démo de l’activité articles</title>
+      <link>//localhost:1313/posts/demo-articles/</link>
+      <pubDate>Sun, 14 May 2023 11:00:00 -0700</pubDate>
+      <guid>//localhost:1313/posts/demo-articles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>On reprend !</title>
+      <link>//localhost:1313/posts/on-reprend/</link>
+      <pubDate>Sun, 14 May 2023 11:00:00 -0700</pubDate>
+      <guid>//localhost:1313/posts/on-reprend/</guid>
+      <description>26 June 2019. Dakar, Senegal. Binta is filling the vegetables she sells on her Weebi tablet. The application has helped her manage her stock and sales.&#xA;Après deux ans de pause, Sidy est heureux de vous annoncer que le service reprend ! L’application fait peau neuve avec une nouvelle version (la 3è) disponible sur :&#xA;– android weebi playstore – iOS weebi appstore – macOS lien sur weebi.com – windows lien sur weebi.</description>
+    </item>
+  </channel>
+</rss>
