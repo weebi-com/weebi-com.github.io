@@ -177,6 +177,10 @@ body {
   object-fit: cover;
 }
 
+.swiper-wrapper {
+  justify-content: center !important;
+}
+
 /* ========================================== */
 /* Swiper */
 /* ========================================== */
