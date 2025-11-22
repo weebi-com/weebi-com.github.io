@@ -1,25 +1,77 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html lang="{{ if .Site }}{{ .Site.Language.Lang }}{{ else }}en{{ end }}" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 - {{ if .Site }}{{ T "page_not_found_title" }} | {{ .Site.Title }}{{ else }}Page Not Found{{ end }}</title>
+  {{ if .Site }}{{ partial "head.html" . }}{{ else }}
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css" />
+  {{ end }}
+</head>
+<body>
+  {{ if .Site }}
+  <header class="shadow-lg">
+    {{ partial "header.html" . }}
+  </header>
+  {{ end }}
+  <main>
+    <div class="main-hero">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-md-10 col-lg-8 text-center">
+            <div class="py-5">
+              <h1 class="display-1 fw-bold weebi-text-primary-color mb-4">404</h1>
+              <h2 class="h3 fw-bold mb-3">{{ if .Site }}{{ T "page_not_found_title" }}{{ else }}Page Not Found{{ end }}</h2>
+              <p class="lead mb-5">{{ if .Site }}{{ T "page_not_found_description" }}{{ else }}Sorry, the page you are looking for is not available.{{ end }}</p>
+              
+              <div class="d-grid gap-3 d-md-flex justify-content-md-center mb-5">
+                {{ $lang := "en" }}
+                {{ $baseURL := "/" }}
+                {{ if .Site }}
+                  {{ $lang = .Site.Language.Lang }}
+                  {{ $baseURL = .Site.BaseURL }}
+                {{ end }}
+                <a href="{{ $baseURL }}{{ $lang }}/" class="btn btn-black-weebi btn-lg px-5">
+                  <i class="bi bi-house-door"></i>
+                  {{ if .Site }}{{ T "go_to_home" }}{{ else }}Go to Home{{ end }}
+                </a>
+                <a href="{{ $baseURL }}{{ $lang }}/privacy_policy/" class="btn btn-outline-secondary btn-lg px-5">
+                  <i class="bi bi-shield-check"></i>
+                  {{ if .Site }}{{ T "privacy_policy" }}{{ else }}Privacy Policy{{ end }}
+                </a>
+              </div>
 
-<main id="main" class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <div class="px-4 pt-5 text-center border-bottom">
-        <div class="overflow-hidden" style="max-height: 40vh;">
-          <div class="container px-5">
-            <img src="https://cdn.dribbble.com/userupload/3511060/file/original-88c5c54c7d4cd18054dc7e8c1ef918fd.jpg"
-              class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="800" height="600"
-              loading="lazy"
-              alt="image 404">
-          </div>
-        </div>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">the page you are looking for not avaible!</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-            <a href="{{ "" | relURL }}" class="btn btn-outline-secondary btn-lg px-4">Go to Home</a>
+              {{ if .Site }}
+              <div class="mt-5">
+                <h3 class="h5 mb-3">{{ T "popular_pages" }}</h3>
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                  <a href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}#demo" class="text-decoration-none">
+                    <span class="badge bg-weebi text-white px-3 py-2">{{ T "videos" }}</span>
+                  </a>
+                  <a href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}#telechargement-prix" class="text-decoration-none">
+                    <span class="badge bg-weebi text-white px-3 py-2">{{ T "price" }}</span>
+                  </a>
+                  <a href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}#utilisations" class="text-decoration-none">
+                    <span class="badge bg-weebi text-white px-3 py-2">{{ T "our_customers" }}</span>
+                  </a>
+                  <a href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}/posts/" class="text-decoration-none">
+                    <span class="badge bg-weebi text-white px-3 py-2">{{ T "blog" }}</span>
+                  </a>
+                </div>
+              </div>
+              {{ end }}
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</main>
-{{ end }}
+  </main>
+  {{ if .Site }}
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+  {{ end }}
+</body>
+</html>

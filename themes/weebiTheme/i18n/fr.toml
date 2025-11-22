@@ -13,6 +13,7 @@ site_title = "votre application de caisse"
 site_description = "Weebi est une application de caisse conçue à Dakar pour suivre les ventes, le stock et les comptes clients."
 
 web_demo = "Demo web"
+web_demo_description = "Essayez Weebi directement dans votre navigateur - aucun téléchargement requis"
 
 # atouts
 atous_title = "Une appli simple et efficace"
@@ -117,4 +118,11 @@ telechargement_description_2 = "Gratuit sans période d'essai."
 
 # footer
 
+privacy_policy = "Politique de confidentialité"
 build_with_love = "Fait avec"
+
+# 404 page
+page_not_found_title = "Page non trouvée"
+page_not_found_description = "Désolé, la page que vous recherchez n'est pas disponible. Elle a peut-être été déplacée ou supprimée."
+go_to_home = "Retour à l'accueil"
+popular_pages = "Pages populaires"

@@ -27,10 +27,549 @@ defaultContentLanguageInSubdir = true
     # [languages.en.permalinks]
     #   [languages.en.permalinks.section]
     #     posts = '/posts/'
-# [services]
 #   [services.googleAnalytics]
 #     ID = 'G-XXXXXXXXX'
 # [security]
 #   enableInlineShortcodes = false
 #   [security.funcs]
 #     getenv = ['^HUGO_']
+  [languages.af]
+    languageCode = 'af-ZA'
+    title = 'Weebi: Privacy Policy (Afrikaans)'
+    contentDir = 'content/af'
+    disabled = false
+    languageName = 'Afrikaans'
+    [languages.af.params]
+      Description = "Weebi privacy policy in Afrikaans"
+  [languages.am]
+    languageCode = 'am-ET'
+    title = 'Weebi: Privacy Policy (Amharic)'
+    contentDir = 'content/am'
+    disabled = false
+    languageName = 'Amharic'
+    [languages.am.params]
+      Description = "Weebi privacy policy in Amharic"
+  [languages.ar]
+    languageCode = 'ar-SA'
+    title = 'Weebi: Privacy Policy (Arabic)'
+    contentDir = 'content/ar'
+    disabled = false
+    languageDirection = 'rtl'
+    languageName = 'Arabic'
+    [languages.ar.params]
+      Description = "Weebi privacy policy in Arabic"
+  [languages.az]
+    languageCode = 'az-AZ'
+    title = 'Weebi: Privacy Policy (Azerbaijani)'
+    contentDir = 'content/az'
+    disabled = false
+    languageName = 'Azerbaijani'
+    [languages.az.params]
+      Description = "Weebi privacy policy in Azerbaijani"
+  [languages.bg]
+    languageCode = 'bg-BG'
+    title = 'Weebi: Privacy Policy (Bulgarian)'
+    contentDir = 'content/bg'
+    disabled = false
+    languageName = 'Bulgarian'
+    [languages.bg.params]
+      Description = "Weebi privacy policy in Bulgarian"
+  [languages.bn]
+    languageCode = 'bn-BD'
+    title = 'Weebi: Privacy Policy (Bengali)'
+    contentDir = 'content/bn'
+    disabled = false
+    languageName = 'Bengali'
+    [languages.bn.params]
+      Description = "Weebi privacy policy in Bengali"
+  [languages.bs]
+    languageCode = 'bs-BA'
+    title = 'Weebi: Privacy Policy (Bosnian)'
+    contentDir = 'content/bs'
+    disabled = false
+    languageName = 'Bosnian'
+    [languages.bs.params]
+      Description = "Weebi privacy policy in Bosnian"
+  [languages.ca]
+    languageCode = 'ca-ES'
+    title = 'Weebi: Privacy Policy (Catalan)'
+    contentDir = 'content/ca'
+    disabled = false
+    languageName = 'Catalan'
+    [languages.ca.params]
+      Description = "Weebi privacy policy in Catalan"
+  [languages.cs]
+    languageCode = 'cs-CZ'
+    title = 'Weebi: Privacy Policy (Czech)'
+    contentDir = 'content/cs'
+    disabled = false
+    languageName = 'Czech'
+    [languages.cs.params]
+      Description = "Weebi privacy policy in Czech"
+  [languages.da]
+    languageCode = 'da-DK'
+    title = 'Weebi: Privacy Policy (Danish)'
+    contentDir = 'content/da'
+    disabled = false
+    languageName = 'Danish'
+    [languages.da.params]
+      Description = "Weebi privacy policy in Danish"
+  [languages.de]
+    languageCode = 'de-DE'
+    title = 'Weebi: Privacy Policy (German)'
+    contentDir = 'content/de'
+    disabled = false
+    languageName = 'German'
+    [languages.de.params]
+      Description = "Weebi privacy policy in German"
+  [languages.el]
+    languageCode = 'el-GR'
+    title = 'Weebi: Privacy Policy (Greek)'
+    contentDir = 'content/el'
+    disabled = false
+    languageName = 'Greek'
+    [languages.el.params]
+      Description = "Weebi privacy policy in Greek"
+  [languages.es]
+    languageCode = 'es-ES'
+    title = 'Weebi: Privacy Policy (Spanish)'
+    contentDir = 'content/es'
+    disabled = false
+    languageName = 'Spanish'
+    [languages.es.params]
+      Description = "Weebi privacy policy in Spanish"
+  [languages.et]
+    languageCode = 'et-EE'
+    title = 'Weebi: Privacy Policy (Estonian)'
+    contentDir = 'content/et'
+    disabled = false
+    languageName = 'Estonian'
+    [languages.et.params]
+      Description = "Weebi privacy policy in Estonian"
+  [languages.fa]
+    languageCode = 'fa-IR'
+    title = 'Weebi: Privacy Policy (Persian)'
+    contentDir = 'content/fa'
+    disabled = false
+    languageDirection = 'rtl'
+    languageName = 'Persian'
+    [languages.fa.params]
+      Description = "Weebi privacy policy in Persian"
+  [languages.fi]
+    languageCode = 'fi-FI'
+    title = 'Weebi: Privacy Policy (Finnish)'
+    contentDir = 'content/fi'
+    disabled = false
+    languageName = 'Finnish'
+    [languages.fi.params]
+      Description = "Weebi privacy policy in Finnish"
+  [languages.gl]
+    languageCode = 'gl-ES'
+    title = 'Weebi: Privacy Policy (Galician)'
+    contentDir = 'content/gl'
+    disabled = false
+    languageName = 'Galician'
+    [languages.gl.params]
+      Description = "Weebi privacy policy in Galician"
+  [languages.ha]
+    languageCode = 'ha-NG'
+    title = 'Weebi: Privacy Policy (Hausa)'
+    contentDir = 'content/ha'
+    disabled = false
+    languageName = 'Hausa'
+    [languages.ha.params]
+      Description = "Weebi privacy policy in Hausa"
+  [languages.he]
+    languageCode = 'he-IL'
+    title = 'Weebi: Privacy Policy (Hebrew)'
+    contentDir = 'content/he'
+    disabled = false
+    languageDirection = 'rtl'
+    languageName = 'Hebrew'
+    [languages.he.params]
+      Description = "Weebi privacy policy in Hebrew"
+  [languages.hi]
+    languageCode = 'hi-IN'
+    title = 'Weebi: Privacy Policy (Hindi)'
+    contentDir = 'content/hi'
+    disabled = false
+    languageName = 'Hindi'
+    [languages.hi.params]
+      Description = "Weebi privacy policy in Hindi"
+  [languages.hr]
+    languageCode = 'hr-HR'
+    title = 'Weebi: Privacy Policy (Croatian)'
+    contentDir = 'content/hr'
+    disabled = false
+    languageName = 'Croatian'
+    [languages.hr.params]
+      Description = "Weebi privacy policy in Croatian"
+  [languages.ht]
+    languageCode = 'ht-HT'
+    title = 'Weebi: Privacy Policy (Haitian Creole)'
+    contentDir = 'content/ht'
+    disabled = false
+    languageName = 'Haitian Creole'
+    [languages.ht.params]
+      Description = "Weebi privacy policy in Haitian Creole"
+  [languages.hu]
+    languageCode = 'hu-HU'
+    title = 'Weebi: Privacy Policy (Hungarian)'
+    contentDir = 'content/hu'
+    disabled = false
+    languageName = 'Hungarian'
+    [languages.hu.params]
+      Description = "Weebi privacy policy in Hungarian"
+  [languages.hy]
+    languageCode = 'hy-AM'
+    title = 'Weebi: Privacy Policy (Armenian)'
+    contentDir = 'content/hy'
+    disabled = false
+    languageName = 'Armenian'
+    [languages.hy.params]
+      Description = "Weebi privacy policy in Armenian"
+  [languages.id]
+    languageCode = 'id-ID'
+    title = 'Weebi: Privacy Policy (Indonesian)'
+    contentDir = 'content/id'
+    disabled = false
+    languageName = 'Indonesian'
+    [languages.id.params]
+      Description = "Weebi privacy policy in Indonesian"
+  [languages.is]
+    languageCode = 'is-IS'
+    title = 'Weebi: Privacy Policy (Icelandic)'
+    contentDir = 'content/is'
+    disabled = false
+    languageName = 'Icelandic'
+    [languages.is.params]
+      Description = "Weebi privacy policy in Icelandic"
+  [languages.it]
+    languageCode = 'it-IT'
+    title = 'Weebi: Privacy Policy (Italian)'
+    contentDir = 'content/it'
+    disabled = false
+    languageName = 'Italian'
+    [languages.it.params]
+      Description = "Weebi privacy policy in Italian"
+  [languages.iu]
+    languageCode = 'iu-CA'
+    title = 'Weebi: Privacy Policy (Inuktitut)'
+    contentDir = 'content/iu'
+    disabled = false
+    languageName = 'Inuktitut'
+    [languages.iu.params]
+      Description = "Weebi privacy policy in Inuktitut"
+  [languages.ja]
+    languageCode = 'ja-JP'
+    title = 'Weebi: Privacy Policy (Japanese)'
+    contentDir = 'content/ja'
+    disabled = false
+    languageName = 'Japanese'
+    [languages.ja.params]
+      Description = "Weebi privacy policy in Japanese"
+  [languages.ka]
+    languageCode = 'ka-GE'
+    title = 'Weebi: Privacy Policy (Georgian)'
+    contentDir = 'content/ka'
+    disabled = false
+    languageName = 'Georgian'
+    [languages.ka.params]
+      Description = "Weebi privacy policy in Georgian"
+  [languages.kk]
+    languageCode = 'kk-KZ'
+    title = 'Weebi: Privacy Policy (Kazakh)'
+    contentDir = 'content/kk'
+    disabled = false
+    languageName = 'Kazakh'
+    [languages.kk.params]
+      Description = "Weebi privacy policy in Kazakh"
+  [languages.km]
+    languageCode = 'km-KH'
+    title = 'Weebi: Privacy Policy (Khmer)'
+    contentDir = 'content/km'
+    disabled = false
+    languageName = 'Khmer'
+    [languages.km.params]
+      Description = "Weebi privacy policy in Khmer"
+  [languages.ko]
+    languageCode = 'ko-KR'
+    title = 'Weebi: Privacy Policy (Korean)'
+    contentDir = 'content/ko'
+    disabled = false
+    languageName = 'Korean'
+    [languages.ko.params]
+      Description = "Weebi privacy policy in Korean"
+  [languages.ku]
+    languageCode = 'ku-IQ'
+    title = 'Weebi: Privacy Policy (Kurdish)'
+    contentDir = 'content/ku'
+    disabled = false
+    languageName = 'Kurdish'
+    [languages.ku.params]
+      Description = "Weebi privacy policy in Kurdish"
+  [languages.ky]
+    languageCode = 'ky-KG'
+    title = 'Weebi: Privacy Policy (Kyrgyz)'
+    contentDir = 'content/ky'
+    disabled = false
+    languageName = 'Kyrgyz'
+    [languages.ky.params]
+      Description = "Weebi privacy policy in Kyrgyz"
+  [languages.lt]
+    languageCode = 'lt-LT'
+    title = 'Weebi: Privacy Policy (Lithuanian)'
+    contentDir = 'content/lt'
+    disabled = false
+    languageName = 'Lithuanian'
+    [languages.lt.params]
+      Description = "Weebi privacy policy in Lithuanian"
+  [languages.lv]
+    languageCode = 'lv-LV'
+    title = 'Weebi: Privacy Policy (Latvian)'
+    contentDir = 'content/lv'
+    disabled = false
+    languageName = 'Latvian'
+    [languages.lv.params]
+      Description = "Weebi privacy policy in Latvian"
+  [languages.mk]
+    languageCode = 'mk-MK'
+    title = 'Weebi: Privacy Policy (Macedonian)'
+    contentDir = 'content/mk'
+    disabled = false
+    languageName = 'Macedonian'
+    [languages.mk.params]
+      Description = "Weebi privacy policy in Macedonian"
+  [languages.ml]
+    languageCode = 'ml-IN'
+    title = 'Weebi: Privacy Policy (Malayalam)'
+    contentDir = 'content/ml'
+    disabled = false
+    languageName = 'Malayalam'
+    [languages.ml.params]
+      Description = "Weebi privacy policy in Malayalam"
+  [languages.ms]
+    languageCode = 'ms-MY'
+    title = 'Weebi: Privacy Policy (Malay)'
+    contentDir = 'content/ms'
+    disabled = false
+    languageName = 'Malay'
+    [languages.ms.params]
+      Description = "Weebi privacy policy in Malay"
+  [languages.my]
+    languageCode = 'my-MM'
+    title = 'Weebi: Privacy Policy (Myanmar)'
+    contentDir = 'content/my'
+    disabled = false
+    languageName = 'Myanmar'
+    [languages.my.params]
+      Description = "Weebi privacy policy in Myanmar"
+  [languages.nb]
+    languageCode = 'nb-NO'
+    title = 'Weebi: Privacy Policy (Norwegian Bokmål)'
+    contentDir = 'content/nb'
+    disabled = false
+    languageName = 'Norwegian Bokmål'
+    [languages.nb.params]
+      Description = "Weebi privacy policy in Norwegian Bokmål"
+  [languages.ne]
+    languageCode = 'ne-NP'
+    title = 'Weebi: Privacy Policy (Nepali)'
+    contentDir = 'content/ne'
+    disabled = false
+    languageName = 'Nepali'
+    [languages.ne.params]
+      Description = "Weebi privacy policy in Nepali"
+  [languages.nl]
+    languageCode = 'nl-NL'
+    title = 'Weebi: Privacy Policy (Dutch)'
+    contentDir = 'content/nl'
+    disabled = false
+    languageName = 'Dutch'
+    [languages.nl.params]
+      Description = "Weebi privacy policy in Dutch"
+  [languages.no]
+    languageCode = 'no-NO'
+    title = 'Weebi: Privacy Policy (Norwegian)'
+    contentDir = 'content/no'
+    disabled = false
+    languageName = 'Norwegian'
+    [languages.no.params]
+      Description = "Weebi privacy policy in Norwegian"
+  [languages.pl]
+    languageCode = 'pl-PL'
+    title = 'Weebi: Privacy Policy (Polish)'
+    contentDir = 'content/pl'
+    disabled = false
+    languageName = 'Polish'
+    [languages.pl.params]
+      Description = "Weebi privacy policy in Polish"
+  [languages.ps]
+    languageCode = 'ps-AF'
+    title = 'Weebi: Privacy Policy (Pashto)'
+    contentDir = 'content/ps'
+    disabled = false
+    languageName = 'Pashto'
+    [languages.ps.params]
+      Description = "Weebi privacy policy in Pashto"
+  [languages.pt]
+    languageCode = 'pt-PT'
+    title = 'Weebi: Privacy Policy (Portuguese)'
+    contentDir = 'content/pt'
+    disabled = false
+    languageName = 'Portuguese'
+    [languages.pt.params]
+      Description = "Weebi privacy policy in Portuguese"
+  [languages.ro]
+    languageCode = 'ro-RO'
+    title = 'Weebi: Privacy Policy (Romanian)'
+    contentDir = 'content/ro'
+    disabled = false
+    languageName = 'Romanian'
+    [languages.ro.params]
+      Description = "Weebi privacy policy in Romanian"
+  [languages.ru]
+    languageCode = 'ru-RU'
+    title = 'Weebi: Privacy Policy (Russian)'
+    contentDir = 'content/ru'
+    disabled = false
+    languageName = 'Russian'
+    [languages.ru.params]
+      Description = "Weebi privacy policy in Russian"
+  [languages.sd]
+    languageCode = 'sd-PK'
+    title = 'Weebi: Privacy Policy (Sindhi)'
+    contentDir = 'content/sd'
+    disabled = false
+    languageName = 'Sindhi'
+    [languages.sd.params]
+      Description = "Weebi privacy policy in Sindhi"
+  [languages.sk]
+    languageCode = 'sk-SK'
+    title = 'Weebi: Privacy Policy (Slovak)'
+    contentDir = 'content/sk'
+    disabled = false
+    languageName = 'Slovak'
+    [languages.sk.params]
+      Description = "Weebi privacy policy in Slovak"
+  [languages.sl]
+    languageCode = 'sl-SI'
+    title = 'Weebi: Privacy Policy (Slovenian)'
+    contentDir = 'content/sl'
+    disabled = false
+    languageName = 'Slovenian'
+    [languages.sl.params]
+      Description = "Weebi privacy policy in Slovenian"
+  [languages.so]
+    languageCode = 'so-SO'
+    title = 'Weebi: Privacy Policy (Somali)'
+    contentDir = 'content/so'
+    disabled = false
+    languageName = 'Somali'
+    [languages.so.params]
+      Description = "Weebi privacy policy in Somali"
+  [languages.sq]
+    languageCode = 'sq-AL'
+    title = 'Weebi: Privacy Policy (Albanian)'
+    contentDir = 'content/sq'
+    disabled = false
+    languageName = 'Albanian'
+    [languages.sq.params]
+      Description = "Weebi privacy policy in Albanian"
+  [languages.sr]
+    languageCode = 'sr-RS'
+    title = 'Weebi: Privacy Policy (Serbian)'
+    contentDir = 'content/sr'
+    disabled = false
+    languageName = 'Serbian'
+    [languages.sr.params]
+      Description = "Weebi privacy policy in Serbian"
+  [languages.sv]
+    languageCode = 'sv-SE'
+    title = 'Weebi: Privacy Policy (Swedish)'
+    contentDir = 'content/sv'
+    disabled = false
+    languageName = 'Swedish'
+    [languages.sv.params]
+      Description = "Weebi privacy policy in Swedish"
+  [languages.ta]
+    languageCode = 'ta-IN'
+    title = 'Weebi: Privacy Policy (Tamil)'
+    contentDir = 'content/ta'
+    disabled = false
+    languageName = 'Tamil'
+    [languages.ta.params]
+      Description = "Weebi privacy policy in Tamil"
+  [languages.th]
+    languageCode = 'th-TH'
+    title = 'Weebi: Privacy Policy (Thai)'
+    contentDir = 'content/th'
+    disabled = false
+    languageName = 'Thai'
+    [languages.th.params]
+      Description = "Weebi privacy policy in Thai"
+  [languages.tk]
+    languageCode = 'tk-TM'
+    title = 'Weebi: Privacy Policy (Turkmen)'
+    contentDir = 'content/tk'
+    disabled = false
+    languageName = 'Turkmen'
+    [languages.tk.params]
+      Description = "Weebi privacy policy in Turkmen"
+  [languages.tr]
+    languageCode = 'tr-TR'
+    title = 'Weebi: Privacy Policy (Turkish)'
+    contentDir = 'content/tr'
+    disabled = false
+    languageName = 'Turkish'
+    [languages.tr.params]
+      Description = "Weebi privacy policy in Turkish"
+  [languages.tt]
+    languageCode = 'tt-RU'
+    title = 'Weebi: Privacy Policy (Tatar)'
+    contentDir = 'content/tt'
+    disabled = false
+    languageName = 'Tatar'
+    [languages.tt.params]
+      Description = "Weebi privacy policy in Tatar"
+  [languages.ug]
+    languageCode = 'ug-CN'
+    title = 'Weebi: Privacy Policy (Uyghur)'
+    contentDir = 'content/ug'
+    disabled = false
+    languageName = 'Uyghur'
+    [languages.ug.params]
+      Description = "Weebi privacy policy in Uyghur"
+  [languages.uk]
+    languageCode = 'uk-UA'
+    title = 'Weebi: Privacy Policy (Ukrainian)'
+    contentDir = 'content/uk'
+    disabled = false
+    languageName = 'Ukrainian'
+    [languages.uk.params]
+      Description = "Weebi privacy policy in Ukrainian"
+  [languages.ur]
+    languageCode = 'ur-PK'
+    title = 'Weebi: Privacy Policy (Urdu)'
+    contentDir = 'content/ur'
+    disabled = false
+    languageDirection = 'rtl'
+    languageName = 'Urdu'
+    [languages.ur.params]
+      Description = "Weebi privacy policy in Urdu"
+  [languages.uz]
+    languageCode = 'uz-UZ'
+    title = 'Weebi: Privacy Policy (Uzbek)'
+    contentDir = 'content/uz'
+    disabled = false
+    languageName = 'Uzbek'
+    [languages.uz.params]
+      Description = "Weebi privacy policy in Uzbek"
+  [languages.vi]
+    languageCode = 'vi-VN'
+    title = 'Weebi: Privacy Policy (Vietnamese)'
+    contentDir = 'content/vi'
+    disabled = false
+    languageName = 'Vietnamese'
+    [languages.vi.params]
+      Description = "Weebi privacy policy in Vietnamese"

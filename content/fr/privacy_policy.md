@@ -1,5 +1,10 @@
-Politique de confidentialité
-Politique de confidentialité de Weebi
+---
+title: "Politique de confidentialité"
+Description: "Politique de confidentialité de Weebi"
+layout: "privacy"
+date: 2024-04-01T08:30:00-07:00
+---
+
 Les données personnelles collectées par weebi.com ne seront utilisées que dans le cadre de la finalité pour laquelle vous les avez saisies et sont conformes à la loi européene sur la protection des données personnelles.
 Cette politique de confidentialité définit la manière dont nous recueillons et traitons les informations personnelles.
 ## Quelles informations sensibles collectons-nous ?

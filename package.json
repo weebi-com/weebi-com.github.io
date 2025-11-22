@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@aptabase/react-native": "^0.3.9",
-    "@aptabase/web": "^0.4.2"
+    "@aptabase/web": "^0.4.3"
   }
 }

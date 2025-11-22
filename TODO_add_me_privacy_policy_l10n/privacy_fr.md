@@ -1,16 +1,39 @@
 Politique de confidentialité
 Politique de confidentialité de Weebi
-Les données personnelles collectées par weebi.com ne seront utilisées que dans le cadre de l’objectif pour lequel vous les avez laissées et conformément à la loi sur le règlement général sur la protection des données de l’Union européenne.
+Les données personnelles collectées par weebi.com ne seront utilisées que dans le cadre de la finalité pour laquelle vous les avez saisies et sont conformes à la loi européene sur la protection des données personnelles.
 Cette politique de confidentialité définit la manière dont nous recueillons et traitons les informations personnelles.
 ## Quelles informations sensibles collectons-nous ?
 Aucun par défaut.
 Weebi ne stocke des informations que si vous vous êtes inscrit à l’une des offres cloud.
 Les informations enregistrées sur weebi cloud sont les suivantes : 
-- Boutiques : nom, email, numéro de téléphone, adresse et pays
-- Articles : désignation, prix, coût, photos, catégories
-- Contacts : prénom, nom, email, numéro de téléphone, adresse et pays
-- Facturer les billets : date, boutiqueId, articles, coordonnées, type de billet, mode de paiement
-- Utilisateurs de l’application Weebi : prénom, nom, email, numéro de téléphone, mot de passe crypté
+### Utilisateur
+- prénom
+- nom de famille
+- Messagerie électronique
+- Mot de passe crypté
+### Boutique
+- Nom
+- Messagerie électronique
+- Téléphone
+- Pays
+### Des articles
+- Désignation
+- Prix
+- Coût
+- Photos
+- Catégories
+### Contacts
+- Prénom
+- Nom de famille
+- Messagerie électronique
+- Téléphone
+- Pays
+### Tickets
+- Date
+- BoutiqueId
+- Items
+- Contact
+
 ## Comment protégeons-nous les informations ?
 Ces informations sont contenues derrière des réseaux sécurisés et ne sont accessibles qu’à un nombre limité de personnes disposant de droits d’accès spéciaux aux systèmes et sont tenues de garder les informations confidentielles.
 ## Partageons-nous des données avec des tiers ?
