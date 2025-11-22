@@ -252,14 +252,6 @@ defaultContentLanguageInSubdir = true
     languageName = 'Italian'
     [languages.it.params]
       Description = "Weebi privacy policy in Italian"
-  [languages.iu]
-    languageCode = 'iu-CA'
-    title = 'Weebi: Privacy Policy (Inuktitut)'
-    contentDir = 'content/iu'
-    disabled = false
-    languageName = 'Inuktitut'
-    [languages.iu.params]
-      Description = "Weebi privacy policy in Inuktitut"
   [languages.ja]
     languageCode = 'ja-JP'
     title = 'Weebi: Privacy Policy (Japanese)'
@@ -364,14 +356,6 @@ defaultContentLanguageInSubdir = true
     languageName = 'Myanmar'
     [languages.my.params]
       Description = "Weebi privacy policy in Myanmar"
-  [languages.nb]
-    languageCode = 'nb-NO'
-    title = 'Weebi: Privacy Policy (Norwegian Bokmål)'
-    contentDir = 'content/nb'
-    disabled = false
-    languageName = 'Norwegian Bokmål'
-    [languages.nb.params]
-      Description = "Weebi privacy policy in Norwegian Bokmål"
   [languages.ne]
     languageCode = 'ne-NP'
     title = 'Weebi: Privacy Policy (Nepali)'
@@ -508,14 +492,6 @@ defaultContentLanguageInSubdir = true
     languageName = 'Thai'
     [languages.th.params]
       Description = "Weebi privacy policy in Thai"
-  [languages.tk]
-    languageCode = 'tk-TM'
-    title = 'Weebi: Privacy Policy (Turkmen)'
-    contentDir = 'content/tk'
-    disabled = false
-    languageName = 'Turkmen'
-    [languages.tk.params]
-      Description = "Weebi privacy policy in Turkmen"
   [languages.tr]
     languageCode = 'tr-TR'
     title = 'Weebi: Privacy Policy (Turkish)'
@@ -524,14 +500,6 @@ defaultContentLanguageInSubdir = true
     languageName = 'Turkish'
     [languages.tr.params]
       Description = "Weebi privacy policy in Turkish"
-  [languages.tt]
-    languageCode = 'tt-RU'
-    title = 'Weebi: Privacy Policy (Tatar)'
-    contentDir = 'content/tt'
-    disabled = false
-    languageName = 'Tatar'
-    [languages.tt.params]
-      Description = "Weebi privacy policy in Tatar"
   [languages.ug]
     languageCode = 'ug-CN'
     title = 'Weebi: Privacy Policy (Uyghur)'
@@ -540,36 +508,3 @@ defaultContentLanguageInSubdir = true
     languageName = 'Uyghur'
     [languages.ug.params]
       Description = "Weebi privacy policy in Uyghur"
-  [languages.uk]
-    languageCode = 'uk-UA'
-    title = 'Weebi: Privacy Policy (Ukrainian)'
-    contentDir = 'content/uk'
-    disabled = false
-    languageName = 'Ukrainian'
-    [languages.uk.params]
-      Description = "Weebi privacy policy in Ukrainian"
-  [languages.ur]
-    languageCode = 'ur-PK'
-    title = 'Weebi: Privacy Policy (Urdu)'
-    contentDir = 'content/ur'
-    disabled = false
-    languageDirection = 'rtl'
-    languageName = 'Urdu'
-    [languages.ur.params]
-      Description = "Weebi privacy policy in Urdu"
-  [languages.uz]
-    languageCode = 'uz-UZ'
-    title = 'Weebi: Privacy Policy (Uzbek)'
-    contentDir = 'content/uz'
-    disabled = false
-    languageName = 'Uzbek'
-    [languages.uz.params]
-      Description = "Weebi privacy policy in Uzbek"
-  [languages.vi]
-    languageCode = 'vi-VN'
-    title = 'Weebi: Privacy Policy (Vietnamese)'
-    contentDir = 'content/vi'
-    disabled = false
-    languageName = 'Vietnamese'
-    [languages.vi.params]
-      Description = "Weebi privacy policy in Vietnamese"
