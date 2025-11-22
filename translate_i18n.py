@@ -27,12 +27,13 @@ except ImportError:
     from googletrans import Translator
 
 # Languages to translate (excluding 'en' and 'fr' which already exist)
+# Removed: iu, nb, tk, tt, uk, ur, uz, vi (translation service failures)
 LANGUAGES_TO_TRANSLATE = [
     'af', 'am', 'ar', 'az', 'bg', 'bn', 'bs', 'ca', 'cs', 'da', 'de', 'el', 'es', 'et',
-    'fa', 'fi', 'gl', 'ha', 'he', 'hi', 'hr', 'ht', 'hu', 'hy', 'id', 'is', 'it', 'iu',
-    'ja', 'ka', 'kk', 'km', 'ko', 'ku', 'ky', 'lt', 'lv', 'mk', 'ml', 'ms', 'my', 'nb',
+    'fa', 'fi', 'gl', 'ha', 'he', 'hi', 'hr', 'ht', 'hu', 'hy', 'id', 'is', 'it',
+    'ja', 'ka', 'kk', 'km', 'ko', 'ku', 'ky', 'lt', 'lv', 'mk', 'ml', 'ms', 'my',
     'ne', 'nl', 'no', 'pl', 'ps', 'pt', 'ro', 'ru', 'sd', 'sk', 'sl', 'so', 'sq', 'sr',
-    'sv', 'ta', 'th', 'tk', 'tr', 'tt', 'ug', 'uk', 'ur', 'uz', 'vi'
+    'sv', 'ta', 'th', 'tr', 'ug'
 ]
 
 # Language code mapping for googletrans (some codes need adjustment)
@@ -40,6 +41,10 @@ LANG_CODE_MAP = {
     'iw': 'he',  # Hebrew
     'jw': 'id',  # Indonesian
     'in': 'id',  # Indonesian (old code)
+    'nb': 'no',  # Norwegian Bokmål -> Norwegian
+    'iu': 'iu',  # Inuktitut (may not be supported)
+    'tk': 'tk',  # Turkmen
+    'tt': 'tt',  # Tatar
 }
 
 def parse_toml_file(file_path: Path) -> List[Tuple[str, str, str]]:
@@ -69,22 +74,41 @@ def parse_toml_file(file_path: Path) -> List[Tuple[str, str, str]]:
     
     return entries
 
-def translate_text(text: str, target_lang: str, translator: Translator, max_retries: int = 3) -> str:
+def translate_text(text: str, target_lang: str, translator: Translator, max_retries: int = 5) -> str:
     """Translate text to target language with retry logic."""
+    # Map language code if needed
+    lang_code = LANG_CODE_MAP.get(target_lang, target_lang)
+    
     for attempt in range(max_retries):
         try:
-            # Map language code if needed
-            lang_code = LANG_CODE_MAP.get(target_lang, target_lang)
+            # Add longer delay for certain problematic languages
+            if target_lang in ['iu', 'tk', 'tt']:
+                time.sleep(3)
             
             result = translator.translate(text, dest=lang_code, src='en')
-            return result.text
-        except Exception as e:
-            if attempt < max_retries - 1:
-                print(f"  Retry {attempt + 1}/{max_retries} for: {text[:50]}...")
-                time.sleep(2 ** attempt)  # Exponential backoff
+            if result and result.text and result.text != text:
+                return result.text
             else:
-                print(f"  Failed to translate after {max_retries} attempts: {text[:50]}...")
-                return text  # Return original if translation fails
+                # If translation returned same text, might be an issue
+                if attempt < max_retries - 1:
+                    time.sleep(5)
+                    continue
+        except Exception as e:
+            error_msg = str(e)
+            if attempt < max_retries - 1:
+                wait_time = min(5 * (attempt + 1), 30)  # Cap at 30 seconds
+                print(f"  Retry {attempt + 1}/{max_retries} (waiting {wait_time}s) for: {text[:50]}...")
+                time.sleep(wait_time)
+            else:
+                print(f"  Failed to translate after {max_retries} attempts: {text[:50]}... Error: {error_msg[:100]}")
+                # Try with 'auto' detection as fallback
+                try:
+                    result = translator.translate(text, dest=lang_code)
+                    if result and result.text:
+                        return result.text
+                except:
+                    pass
+                return text  # Return original if all attempts fail
     
     return text
 
@@ -124,13 +148,47 @@ def create_translation_file(
     
     print(f"  [OK] Created {output_path}")
 
+def is_file_translated(file_path: Path) -> bool:
+    """Check if a translation file is actually translated (not just English)."""
+    if not file_path.exists():
+        return False
+    
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+            # Check if it contains the English source text (indicating it wasn't translated)
+            # We check for a few key English phrases that should be translated
+            english_indicators = [
+                'site_title = "Your cash register application"',
+                'videos = "Videos"',
+                'price = "Price"',
+                'our_customers = "Our customers"'
+            ]
+            # If all indicators are present, it's likely still in English
+            matches = sum(1 for indicator in english_indicators if indicator in content)
+            # If 3+ indicators match, consider it untranslated
+            return matches < 3
+    except Exception:
+        return False
+
 def get_remaining_languages(i18n_dir: Path) -> List[str]:
     """Get list of languages that still need translation."""
-    # Get all existing .toml files (excluding en.toml and fr.toml)
-    existing_files = {f.stem for f in i18n_dir.glob('*.toml') if f.stem not in ['en', 'fr']}
-    # Return only languages that don't have files yet
-    remaining = [lang for lang in LANGUAGES_TO_TRANSLATE if lang not in existing_files]
-    return remaining, existing_files
+    remaining = []
+    existing_translated = set()
+    
+    for lang in LANGUAGES_TO_TRANSLATE:
+        file_path = i18n_dir / f'{lang}.toml'
+        if file_path.exists():
+            if is_file_translated(file_path):
+                existing_translated.add(lang)
+            else:
+                # File exists but is not translated, add to remaining
+                remaining.append(lang)
+        else:
+            # File doesn't exist, add to remaining
+            remaining.append(lang)
+    
+    return remaining, existing_translated
 
 def main():
     """Main function to translate i18n files."""
