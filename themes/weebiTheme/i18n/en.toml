@@ -13,6 +13,7 @@ site_title = "Your cash register application"
 site_description = "Weebi is a cash register application designed in Dakar to track sales, stock, and customer accounts."
 
 web_demo = "Online demo"
+web_demo_description = "Try Weebi directly in your browser - no download required"
 # atouts
 atous_title = "A simple and effective app"
 atous_description = "The Weebi app provides all the tools necessary for the modern manager: Stock tracking, customer balance management, invoicing, and much more!"
@@ -115,4 +116,11 @@ telechargement_description_2 = "Free without trial period."
 
 # footer
 
+privacy_policy = "Privacy Policy"
 build_with_love = "Made with"
+
+# 404 page
+page_not_found_title = "Page Not Found"
+page_not_found_description = "Sorry, the page you are looking for is not available. It may have been moved or deleted."
+go_to_home = "Go to Home"
+popular_pages = "Popular Pages"

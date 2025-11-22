@@ -1,0 +1,87 @@
+# header
+videos = "วิดีโอ"
+price = "ราคา"
+our_customers = "ลูกค้าของเรา"
+contact = "ติดต่อ"
+blog = "บล็อก"
+download = "ดาวน์โหลด"
+# home
+site_title = "ใบสมัครลงทะเบียนเงินสดของคุณ"
+site_description = "Weebi เป็นแอปพลิเคชันเครื่องบันทึกเงินสดที่ออกแบบในดาการ์เพื่อติดตามยอดขาย สต็อก และบัญชีลูกค้า"
+web_demo = "การสาธิตออนไลน์"
+web_demo_description = "ลองใช้ Weebi โดยตรงในเบราว์เซอร์ของคุณ - ไม่จำเป็นต้องดาวน์โหลด"
+# atouts
+atous_title = "แอพที่เรียบง่ายและมีประสิทธิภาพ"
+atous_description = "แอป Weebi มอบเครื่องมือทั้งหมดที่จำเป็นสำหรับผู้จัดการยุคใหม่: การติดตามสต็อก การจัดการยอดคงเหลือของลูกค้า การออกใบแจ้งหนี้ และอีกมากมาย!"
+atouts_1_subtitle = "ยอดขายดีขึ้น"
+atouts_1_description = "แอพพลิเคชั่นอำนวยความสะดวกในการติดตามการชำระเงินและใบเสร็จรับเงิน"
+atouts_2_subtitle = "ข้อมูลอ้างอิงนับพันรายการ"
+atouts_2_description = "แค็ตตาล็อกผลิตภัณฑ์สามารถมีข้อมูลอ้างอิงผลิตภัณฑ์ได้มากกว่าหนึ่งหมื่นรายการโดยไม่ทำให้ช้าลง"
+atouts_3_subtitle = "ความภักดีของลูกค้า"
+atouts_3_description = "ให้เครดิตลูกค้าได้ในคลิกเดียว"
+# utilisations
+utilisations_title = "Weebi ใช้งานอย่างไร?"
+utilisations_exemple_1 = "Binta จากกลุ่ม Sell Sellal"
+utilisations_exemple_2 = "สมาชิกอีกคนของกลุ่ม Sell Sellal"
+utilisations_1_subtitle = "ในสนาม"
+utilisations_1_description = "บนมือถือหรือบนพีซี/mac แอปพลิเคชันจะปรับให้เหมาะกับความต้องการของคุณ"
+utilisations_2_subtitle = "ในร้าน"
+utilisations_2_description = "Weebi ยังใช้โดยธุรกิจในท้องถิ่น เช่น ร้านเบเกอรี่ เครื่องสำอาง และร้านซักรีด..."
+utilisations_text_image_1 = "การตั้งค่าชุด Weebi ที่ร้านเบเกอรี่ 'Chez Matisse' ในดาการ์ - Bourguiba"
+utilisations_text_image_2 = "การทดสอบครั้งแรกในร้านของ Dian & Thierno ใน Fenetre Mermoz Dakar"
+utilisations_text_image_3 = "การใช้ Weebi ครั้งแรกในร้านค้าในอาบีจาน"
+# apercu
+apercu_title = "ดูตัวอย่าง"
+apercu_description = "บนมือถือหรือบนพีซี/mac แอปพลิเคชันจะปรับให้เหมาะกับความต้องการของคุณ"
+# fonctionnalites
+fonctionnalites_title = "การออกแบบที่เรียบง่าย"
+fonctionnalites_description = "ไม่มีการกำหนดค่าให้ปรับ"
+fonctionnalites_maj_title = "การปรับปรุงปกติ"
+fonctionnalites_maj_description = "แอปพลิเคชัน Weebi เต็มไปด้วยคุณสมบัติใหม่ๆ อย่างต่อเนื่องคุณมีความจำเป็นหรือไม่?ถามเราสิ จัดส่งให้!"
+fonctionnalites_rg_title = "รายงานแบบกราฟิก"
+fonctionnalites_rg_description = "แอปนี้มีคอลเลกชันกราฟและเมตริกมากมายเพื่อติดตามผลการดำเนินงานทางธุรกิจของคุณ"
+fonctionnalites_cp_wtsp_title = "เข้ากันได้กับ WhatsApp"
+fonctionnalites_cp_wtsp_description = "แอป Weebi ผสานรวมเข้ากับ WhatsApp โดยตรง ทำให้ง่ายต่อการแชร์ราคา/ใบแจ้งหนี้ในช่องทางที่ลูกค้าต้องการ"
+# telechargement
+telechargement_title = "ดาวน์โหลดฟรีโดยไม่ต้องมีช่วงทดลองใช้งาน"
+telechargement_description = "แอป Weebi ฟรีและทำงานแบบออฟไลน์เร็วๆ นี้เราจะเสนอข้อเสนอการสมัครสมาชิกสำหรับการซิงโครไนซ์ข้อมูลช่วยให้คุณติดตามกิจกรรมของร้านค้าจากระยะไกลและ/หรือจัดการจุดขายหลายจุด"
+# demo
+demo_title = "การสาธิตและบทช่วยสอน"
+demo_do_a_cash_sale = "ทำการขายเงินสด"
+demo_new_stock = "บันทึกการเข้าสต๊อก"
+demo_see_a_video = "ดูวิดีโอ"
+# reportages
+reportages_title = "รายงานทางทีวี"
+# pressesetradio
+pressesetradio_title = "สื่อมวลชนและวิทยุ"
+pressesetradio_read_article = "อ่านบทความ"
+# temoignages
+temoignages_title = "ลูกค้าของเราพูด"
+temoignages_1_description = "Nyara เป็นร้านเครื่องสำอางที่มีข้อมูลอ้างอิงผลิตภัณฑ์ 3,000 รายการทีม Weebi ร่วมกับเราในการกำหนดค่าแค็ตตาล็อกและตั้งค่าแดชบอร์ดเฉพาะ"
+temoignages_2_description = "เราต้องการเครื่องมือเครื่องบันทึกเงินสดเพื่อเริ่มต้นธุรกิจจัดเลี้ยงระยะไกลได้อย่างรวดเร็วทีมงานของเราเข้าใช้งาน Weebi ในเวลาไม่นาน ทำให้เรามุ่งเน้นไปที่ธุรกิจหลักของเราได้"
+temoignages_3_description = "Weebi ช่วยให้เราสามารถเพิ่มยอดขายได้ด้วยการใช้เครดิตลูกค้าใน 1 คลิก"
+# foireauquestions
+foireauquestions_title = "คำถามที่พบบ่อย"
+foireauquestions_description = "นี่คือคำตอบสำหรับคำถามที่เราถูกถามบ่อยที่สุด"
+foireauquestions_1_title = "ฉันสามารถใช้ WEEBI ได้ฟรีนานแค่ไหน?"
+foireauquestions_1_description = "เสมอ.คุณจะต้องสมัครสมาชิกหากคุณต้องการซิงโครไนซ์ข้อมูลของคุณ"
+foireauquestions_2_title = "ฉันสามารถใช้มันกับจุดขายหลายจุดได้หรือไม่"
+foireauquestions_2_description = "ใช่ เป็นไปได้ แต่ต้องมีการซิงโครไนซ์ข้อมูล ซึ่งต้องมีการสมัครสมาชิก"
+foireauquestions_3_title = "อุปกรณ์เสริมใดบ้างที่เข้ากันได้?"
+foireauquestions_3_description = "แอปพลิเคชันมือถือ Weebi สามารถเชื่อมต่อกับเครื่องพิมพ์เทอร์มอล Bluetooth ทุกประเภทนอกจากนี้ยังสามารถเชื่อมโยงกับเครื่องชั่งดิจิตอลผ่าน Bluetooth เพื่อเร่งความเร็วในการชั่งน้ำหนักผลิตภัณฑ์บนมือถือ กล้องของโทรศัพท์ทำหน้าที่เป็นเครื่องอ่านบาร์โค้ด และสามารถรวมเข้ากับเครื่องอ่านที่มีอยู่ใน PC/Mac ได้"
+foireauquestions_4_title = "ฉันจะกำหนดค่าแค็ตตาล็อกผลิตภัณฑ์ได้อย่างไร"
+foireauquestions_4_description = "การสร้าง/อัปเดต/ลบผลิตภัณฑ์ทำได้โดยตรงจากแอปพลิเคชันสามารถนำเข้าแค็ตตาล็อกผลิตภัณฑ์จากไฟล์ Excel ได้มีโมเดลของไฟล์และบทช่วยสอนอยู่ในแอปพลิเคชันนอกจากนี้ยังสามารถโหลดแคตตาล็อกผลิตภัณฑ์ Weebi เก่าได้ใน 1 คลิก"
+foireauquestions_5_title = "WEEBI อนุญาตให้มีการติดตามระดับสต็อกหรือไม่"
+foireauquestions_5_description = "ใช่ Weebi อนุญาตให้คุณติดตามสต็อกและจัดเตรียมเครื่องมือการจัดการ เช่น รายการเข้าและออกหุ้น"
+# telechargement
+telechargement_title_2 = "ดาวน์โหลดเลย"
+telechargement_description_2 = "ฟรีโดยไม่มีช่วงทดลองใช้งาน"
+# footer
+privacy_policy = "นโยบายความเป็นส่วนตัว"
+build_with_love = "ทำด้วย"
+# 404 page
+page_not_found_title = "ไม่พบเพจ"
+page_not_found_description = "ขออภัย หน้าที่คุณกำลังค้นหาไม่มีอยู่อาจถูกย้ายหรือลบออกไป"
+go_to_home = "ไปที่หน้าแรก"
+popular_pages = "หน้ายอดนิยม"
+

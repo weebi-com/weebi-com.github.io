@@ -27,8 +27,9 @@
         <!--<button class="btn btn-weebi rounded-pill">{{ T "download" }}</button> -->
         <div class="mx-2">
           <select class="form-select" onchange="window.location.href=this.value;" name="languages">
-            <option value="{{ .Site.BaseURL }}/fr"{{ if eq .Site.Language.Lang "fr" }} selected{{ end }}>FR</option>
-            <option value="{{ .Site.BaseURL }}/en"{{ if eq .Site.Language.Lang "en" }} selected{{ end }}>EN</option>
+            {{ range .Site.Languages }}
+              <option value="{{ $.Site.BaseURL }}/{{ .Lang }}"{{ if eq $.Site.Language.Lang .Lang }} selected{{ end }}>{{ .LanguageName }}</option>
+            {{ end }}
           </select>
         </div>
       </div>
