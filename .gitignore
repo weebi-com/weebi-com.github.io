@@ -36,3 +36,4 @@ partials/structure/stylesheet.html
 /__pycache__
 optimize_image.py
 optimize_images.py
+update_privacy_policies.py

@@ -9,8 +9,42 @@ Personal data collected by weebi.com will only be used according to the purpose 
 
 ## What sensitive information do we collect ?
 
-None today.
-Weebi will provide automatic backup but it is not yet available.
+None by default.
+Weebi only collects data if you signup. Then the automatic cloud backup will store information such as :
+
+
+### User
+- firstname
+- surname
+- email
+- encrypted password
+
+### Boutique
+- name
+- email
+- phone
+- address
+- country
+
+### Articles (Products)
+- designation
+- price
+- cost
+- photos
+- categories
+
+### Contacts
+- firstname
+- surname
+- email
+- phone
+- country
+
+### Tickets
+- Date
+- BoutiqueId
+- Items
+- Contact
 
 ## How do we protect information ?
 
@@ -20,4 +54,15 @@ This information will be contained behind secured networks and will only accessi
 
 We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. Additionally, we do not include or offer third party products or services on our website and blog.
 
-If there are any question regarding this privacy policy, please contact us at : hello@weebi.com
+## Use of Data
+We may use certain information from your business activity to calculate a confidential and anonymized creditworthiness score.
+For example, your turnover and an approximate location (neighborhood) to place your business in its economic context.
+This score is an essential criterion for financial institutions and can speed up the process of obtaining a credit offer tailored to your business.
+If a financial institution wishes to make you an offer, we will request your consent before sharing any additional information
+
+## Contact
+If there are any question regarding this privacy policy, please contact us at : hello[at]weebi.com
+
+---
+
+**Last update:** November 24, 2025

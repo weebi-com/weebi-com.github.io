@@ -1,23 +1,67 @@
 ---
 title: "Politika privatnosti"
-Description: "Weebijeva politika privatnosti"
+Description: "Politika privatnosti de Weebi"
 layout: "privacy"
 date: 2024-04-01T08:30:00-07:00
 ---
 
-Osobni podaci prikupljeni od strane weebi.com koristit će se samo u skladu sa svrhom s kojom ste ih ostavili i u skladu su sa Zakonom o općoj uredbi o zaštiti podataka Evropske unije.
-Ova politika privatnosti određuje kako prikupljamo i obrađujemo lične podatke.
+Osobni podaci koje prikuplja weebi.com koristit će se samo u skladu sa svrhom u koju ste ih ostavili iu skladu sa Zakonom o zaštiti podataka Senegala.Ova politika privatnosti utvrđuje kako prikupljamo i obrađujemo lične podatke.
+
 ## Koje osjetljive informacije prikupljamo?
-Nijedan po defaultu.
-Weebi pohranjuje informacije samo ako ste se registrovali na jednu od ponuda u oblaku.
-Informacije spremljene na weebi oblaku su: 
-- Butici: ime, e-mail, broj telefona, adresa i država
-- Članci : oznaka, cijena, cijena, fotografije, kategorije
-- Kontakti : ime, prezime, e-mail, broj telefona, adresa i država
-- Invoice Tickets: datum, boutiqueId, artikli, kontakt detalji, vrsta karte, vrsta plaćanja
-- Weebi aplikacija Korisnici: ime, prezime, e-mail, broj telefona, šifrirana lozinka
-## Kako da zaštitimo informacije?
-Ove informacije su sadržane iza sigurnih mreža i dostupne su samo ograničenom broju osoba sa posebnim pravima pristupa sistemima i od njih se traži da informacije budu povjerljive.
-## Da li delimo podatke sa bilo kojim trećim stranama?
-Mi ne prodajemo, ne trgujemo ili na drugi način prenosimo vanjskim stranama vaše lične podatke. Osim toga, ne uključujemo niti nudimo proizvode ili usluge trećih strana na našoj web stranici i blogu.
-Ako postoje bilo kakva pitanja u vezi sa ovom politikom privatnosti, molimo vas da nas kontaktirate na: hello@weebi.com
+
+Nema po defaultu.
+Weebi prikuplja podatke samo ako se prijavite.Tada će automatska sigurnosna kopija u oblaku pohraniti informacije kao što su:
+
+
+### Korisnik
+- ime
+- prezime
+- email
+- šifrovana lozinka
+
+### Butik
+- ime
+- email
+- telefon
+- adresa
+- zemlja
+
+### Članci (proizvodi)
+- oznaka
+- cijena
+- trošak
+- fotografije
+- kategorije
+
+### Kontakti
+- ime
+- prezime
+- email
+- telefon
+- zemlja
+
+### Ulaznice
+- Datum
+- BoutiqueId
+- Predmeti
+- Kontakt
+
+## Kako štitimo informacije?
+
+Ove informacije će biti sadržane iza zaštićenih mreža i biće dostupne samo ograničenom broju osoba koje imaju posebna prava pristupa takvim sistemima i od kojih se traži da informacije čuvaju povjerljivo.
+
+## Da li dijelimo podatke sa trećim licima?
+
+Ne prodajemo, ne trgujemo ili na bilo koji drugi način prenosimo vanjskim stranama vaše lične podatke.Osim toga, ne uključujemo niti nudimo proizvode ili usluge trećih strana na našoj web stranici i blogu.
+
+## Upotreba podataka
+Možemo koristiti određene informacije iz vaše poslovne aktivnosti za izračunavanje povjerljive i anonimne ocjene kreditne sposobnosti.
+Na primjer, vaš promet i približna lokacija (susjedstvo) za stavljanje vašeg poslovanja u njegov ekonomski kontekst.
+Ovaj rezultat je bitan kriterijum za finansijske institucije i može ubrzati proces dobijanja kreditne ponude prilagođene vašem poslovanju.
+Ako vam neka finansijska institucija želi dati ponudu, zatražit ćemo vaš pristanak prije nego što podijelimo bilo kakve dodatne informacije
+
+## Kontakt
+Ako imate bilo kakvih pitanja u vezi sa ovom politikom privatnosti, kontaktirajte nas na: hello[at]weebi.com
+---
+
+**Posljednja ažuriranja:** 24. novembar 2025.

@@ -1,23 +1,67 @@
 ---
-title: "Gizlinlik Syýasaty"
-Description: "Weebiniň gizlinlik syýasaty"
+title: "Privacy Policy"
+Description: "Privacy Policy de Weebi"
 layout: "privacy"
 date: 2024-04-01T08:30:00-07:00
 ---
 
-weebi.com tarapyndan toplanan şahsy maglumatlar diňe siziň olary goýup giden maksadyňyza görä ulanylyp, Ýewropa Bileleşiginiň Umumy Maglumatlary Goramagy Düzgünleşdiriş Hakyndaky Kanunyny berjaý edersiňiz.
-Bu gizlinlik syýasaty şahsy maglumatlary nädip ýygnaýandygymyzy we işläp düzýändigimizi kesgitleýär.
-## Haýsy has duýgur maglumatlary ýygnaýarys ?
-Hiç kim öňünden bellenilip alynmaz.
-Weebi maglumaty diňe bulut teklipleriniň birine hasaba alynsaňyz saklaýar.
-Weebi bulutda saklanylýan maglumatlar: 
-- butikler : ady, e-poçta, telefon belgisi, adresi we ýurdy
-- Makalalar : atlandyrma, nyrhy, bahasy, suratlary, kategoriýalary
-- Aragatnaşyklar : ady, familiýasy, e-poçta, telefon belgisi, adresi we ýurdy
-- Wesýetnama Biletleri : sene, butikId, zatlar, aragatnaşyk detallary, biletiň hili, tölegiň hili
-- Weebi programma Ulanyjylar : ady, familiýasy, e-poçta, telefon belgisi, şifrlenen parol
-## Maglumaty nädip gorarys ?
-Bu maglumat howpsuz ulgamlaryň arkasynda ýerleşýär we sistemalara ýörite girmäge hukugy bolan çäkli sanly adamlar tarapyndan elýeterlidir we maglumaty gizlin saklamak talap edilýär.
-## Maglumatlary islendik üçünji şahslar bilen paýlaşýarysmy ?
-Biz siziň şahsy anyklaýyş maglumatyňyzy daşarky taraplara satmaýarys, satmaýarys ýa-da başga hili geçirmeýäris. Mundan başga-da, biz websaýtymyzda we blogymyzda üçünji taraplaryň önümlerini ýa-da hyzmatlaryny goşmaýarys ýa-da teklip etmeýäris.
-Eger bu gizlinlik düzgüni bilen bagly sorag ýüze çyksa, şu ýerden biziň bilen şu ýerden habarlaşyp bilersiňiz : hello@weebi.com
+Personal data collected by weebi.com will only be used according to the purpose with which you have left them and complies with the Senegalese Data Protection Act. This privacy policy sets out how we collect and process personal information.
+
+## What sensitive information do we collect ?
+
+None by default.
+Weebi only collects data if you signup. Then the automatic cloud backup will store information such as :
+
+
+### User
+- firstname
+- surname
+- email
+- encrypted password
+
+### Boutique
+- name
+- email
+- phone
+- address
+- country
+
+### Articles (Products)
+- designation
+- price
+- cost
+- photos
+- categories
+
+### Contacts
+- firstname
+- surname
+- email
+- phone
+- country
+
+### Tickets
+- Date
+- BoutiqueId
+- Items
+- Contact
+
+## How do we protect information ?
+
+This information will be contained behind secured networks and will only accessible by a limited number of persons who have special access rights to such systems and are required to keep the information confidential.
+
+## Do we share data with any third parties ?
+
+We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. Additionally, we do not include or offer third party products or services on our website and blog.
+
+## Use of Data
+We may use certain information from your business activity to calculate a confidential and anonymized creditworthiness score.
+For example, your turnover and an approximate location (neighborhood) to place your business in its economic context.
+This score is an essential criterion for financial institutions and can speed up the process of obtaining a credit offer tailored to your business.
+If a financial institution wishes to make you an offer, we will request your consent before sharing any additional information
+
+## Contact
+If there are any question regarding this privacy policy, please contact us at : hello[at]weebi.com
+---
+
+**Last update:** 2025-11-24

@@ -1,23 +1,67 @@
 ---
-title: "Tsarin Persacewa"
-Description: "Tsarin cin hanci da"
+title: "Manufofin Sirri"
+Description: "Manufofin Sirri de Weebi"
 layout: "privacy"
 date: 2024-04-01T08:30:00-07:00
 ---
 
-Za a yi amfani da bayani na mutum da weebi.com ta tara bisa ga manufar da ka bar su kuma ka bi Dokar Shari'a ta Kāriya ta Cikakken Bayani na Ƙungiyar Turai.
-Wannan tsarin ya bayyana yadda muke tara da kuma yin amfani da bayaninmu.
-## Wane bayani ne muke tattara?
-Babu wani da aka fara.
-Weebi yana ajiye bayani kawai idan ka rubuta zuwa ɗaya daga cikin girgije.
-Bayanin da aka adana a kan girgije na weebi su ne: 
-- Boutiques: sunan, imel, lambar waya, adireshin da ƙasa
-- Articles: sunan, farashin, farashin, hotuna, categories
-- Lambobin sadarwa: sunan farko, sunan karshe, imel, lambar waya, adireshin da ƙasa
-- Bita tikiti: kwanan wata, boutiqueId, abubuwa, contact details, tikiti type, biya type
-- Weebi app Masu amfani: firstname, lastname, email, lambar waya, bayanan sirri
-## Ta yaya za mu kāre bayani?
-An ƙunshi wannan bayanin bayan dandalin da aka kāre kuma mutane ƙalilan ne kawai za su iya samunsa da ' yancin samun na'urar kuma ana bukatar su riƙe bayanin asiri.
-## Muna raba bayanai da kowane ɓangare na uku?
-Ba ma sayar da, kasuwanci, ko kuma mu ƙaura zuwa waɗanda ba sa cikin ƙasashen waje bayanin da za ka iya ganewa. Ƙari ga haka, ba ma haɗa ko kuma ba da kayan aiki ko kuma aikin wani mutum na uku a dandalinmu da kuma dandalinmu.
-Idan akwai wata tambaya game da wannan tsarin pera, ka yi mana wa'azi a: hello@weebi.com
+Bayanan sirri da aka tattara ta Weebi.com za'a yi amfani da shi ne bisa ga dalilin da kuka bar su kuma ya ba su kuma sun hada kai da aikin kare bayanan Senegal.Wannan manufar sirri tana fitar da yadda muke tattarawa da aiwatar da bayanan mutum.
+
+## Wane bayani mai mahimmanci muke tattarawa?
+
+Babu da tsoho.
+Weebi kawai yana tattara bayanai idan kun yi rajista.Sannan madadin girgije na atomatik zai adana bayanai kamar:
+
+
+### Wadda take amfani
+- sunan rana
+- sunan uba
+- imel
+- kalmar sirri
+
+### Na otal
+- suna
+- imel
+- waya
+- yi jawabi
+- ƙasa
+
+### Labarai (kayayyakin)
+- ƙera
+- farashi
+- kuɗi
+- hot
+- Kungiyoyi
+
+### Lambobin sadarwa
+- sunan rana
+- sunan uba
+- imel
+- waya
+- ƙasa
+
+### Giaba
+- Rana
+- Wasan boutsid
+- Abubuwa
+- Hulɗa
+
+## Ta yaya muke kiyaye bayani?
+
+Za'a iya samun wannan bayanin a bayan hanyoyin sadarwar da aka tsare kuma zai sami damar samun haƙƙin samun dama ta musamman ga irin wannan tsarin kuma ana buƙatar su kiyaye bayanan sirri.
+
+## Shin muna raba bayanai tare da kowane ɓangare na uku?
+
+Ba mu sayar ba, kasuwanci, ko kuma in ba haka ba canja wurin ɓangarorin da kanka tushen bayanin da kanka.Bugu da ƙari, ba mu haɗa ko ba samfuran samfuran ɓangare na uku ko sabis akan shafin yanar gizon mu ba.
+
+## Amfani da bayanai
+Muna iya amfani da takamaiman bayani daga ayyukan kasuwancin ku don ƙididdige wata hanyar sirri da aka sani da aka sani.
+Misali, juya kai da kusanci (unguwa) don sanya kasuwancinku a cikin yanayin tattalin arzikinta.
+Wannan ci yana da mahimmancin mahimmancin cibiyoyin hada-hadar kudi kuma yana iya hanzarta aiwatar da bayar da bashi da kudadenku.
+Idan cibiyar kudi tana so don ba ku tayin, za mu buƙaci yardar ku kafin musayar kowane ƙarin bayani
+
+## Hulɗa
+Idan akwai wata tambaya game da wannan manufar sirri, tuntuɓi mu a: Sannu@weibi.com
+---
+
+**Sabuntawa na karshe:** Nuwamba 24, 2025

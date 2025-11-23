@@ -1,23 +1,67 @@
 ---
-title: "سیاسەتی تایبەتێتی"
-Description: "سیاسەتی تایبەتێتی Weebi"
+title: "Polîtîkaya Têkoşîna"
+Description: "Polîtîkaya Têkoşîna de Weebi"
 layout: "privacy"
 date: 2024-04-01T08:30:00-07:00
 ---
 
-داتا کەسییەکانی کۆکراوەی weebi.com تەنها بەپێی ئەو مەبەستە بەکاردەهێنرێن کە تۆ بەجێت هێشتووە و لەگەڵ یاسای یاسای پاراستنی داتای گشتی یەکێتی ئەوروپا دەگونجێت.
-ئەم سیاسەتی تایبەتیێتی چۆنیەتی کۆکردنەوە و چارەسەرکردنی زانیارییە کەسییەکان دیاری دەکات.
-## چ زانیارییەکی هەستیار کۆدەکەینەوە؟
-هیچیان بە گریمانە.
-Weebi تەنها کاتێک زانیاری هەڵدەگرێت کە خۆت تۆمار کردبێت لە یەکێک لە ئۆفەرەکانی هەور.
-ئەو زانیاریانەی لەسەر weebi cloud هەڵگیراون بریتین لە: 
-- بوتیک : ناو، ئیمەیل، ژمارەی تەلەفۆن، ناونیشان و وڵات
-- وتارەکان : دیاریکردن، نرخ، تێچوو، وێنە، هاوپۆلەکان
-- پەیوەندیەکان : ناوی یەکەم، ناوی کۆتایی، ئیمەیل، ژمارەی تەلەفۆن، ناونیشان و وڵات
-- بلیتەکانی لیستەکە: بەروار، ناسنامەی بوتیک، بڕگەکان، وردەکارییەکانی پەیوەندی، جۆری بلیت، جۆری پارەدان
-- بەکارهێنەرانی کاربەرنامەی Weebi : ناوی یەکەم، ناوی کۆتایی، ئیمەیل، ژمارەی تەلەفۆن، نهێنوشەی نهێنی
-## چۆن زانیاری بپارێزین؟
-ئەم زانیاریانە لە پشت تۆڕە پارێزراوەکانەوە دانراون و تەنها ژمارەیەکی دیاریکراو لە کەسانی خاوەن مافی دەستگەیشتنی تایبەت بە سیستەمەکان دەستیان پێدەگات و پێویستە زانیارییەکان بە نهێنی بهێڵنەوە.
-## ئایا ئێمە داتا هاوبەش دەکەین لەگەڵ هیچ لایەنێکی سێیەم؟
-ئێمە زانیارییە کەسییەکانت نافرۆشین، بازرگانی ناکەین، یان بە شێوەیەکی تر ناگوازینەوە بۆ لایەنە دەرەکییەکان. سەرەڕای ئەوەش، ئێمە بەرهەم و خزمەتگوزاری لایەنی سێیەم ناخەینە ناو ماڵپەڕ و بلۆگەکەمان.
-ئەگەر هەر پرسیارێک هەیە سەبارەت بەم سیاسەتی تایبەتییەتی، تکایە پەیوەندیمان پێوە بکە لە hello@weebi.com
+Daneyên kesane yên ku ji hêla weebi.com ve têne berhev kirin dê tenê li gorî armanca ku we ji wan hiştiye were bikar anîn û li gorî Qanûna Parastina Daneyên Senegalê tevdigere.Ev polîtîkaya nepenîtiyê destnîşan dike ka em çawa agahdariya kesane berhev dikin û pêve dikin.
+
+## Em çi agahdariya hesas berhev dikin?
+
+Ji hêla xwerû ve tune.
+Weebi tenê heke hûn qeyd bikin daneyan berhev dike.Dûv re vegerandina cloudê ya otomatîkî dê agahdariya wekî:
+
+
+### Bikaranîvan
+- nav
+- paşnav
+- email
+- şîfreya şîfrekirî
+
+### Boutique
+- nav
+- email
+- telefonê
+- navnîşan
+- welat
+
+### Gotar (Berhem)
+- binavkirin
+- biha
+- nirx
+- photos
+- kategoriyan
+
+### Têkilî
+- nav
+- paşnav
+- email
+- telefonê
+- welat
+
+### Bilêtên
+- Rojek
+- BoutiqueId
+- Items
+- Têkelî
+
+## Em çawa agahdarî diparêzin?
+
+Dê ev agahdarî li pişt torên ewledar werin hilanîn û dê tenê ji hêla hejmarek sînordar ve bigihîje ku xwediyê mafên gihîştina taybetî yên pergalên weha ne û pêdivî ye ku agahdariya nehênî bihêlin.
+
+## Ma em daneyan bi aliyên sêyemîn re parve dikin?
+
+Em agahdariya weya kesane ya naskirî nafiroşin, bazirganî nakin, an wekî din naguhezînin aliyên derveyî.Wekî din, em hilber an karûbarên partiya sêyemîn li ser malper û bloga xwe nagirin an pêşkêşî nakin.
+
+## Bikaranîna Daneyên
+Dibe ku em hin agahdariya ji çalakiya karsaziya we bikar bînin da ku jimareyek pêbaweriya krediyê ya nepenî û nenaskirî hesab bikin.
+Mînakî, danûstendina we û cîhek nêzîk (tax) da ku karsaziya we di çarçoweya wê ya aborî de bi cîh bike.
+Ev xal ji bo saziyên darayî pîvanek bingehîn e û dikare pêvajoya wergirtina pêşnûmeyek krediyê ya ku li gorî karsaziya we hatî xweş kirin bilez bike.
+Ger saziyek darayî bixwaze pêşniyarek ji we re bike, em ê razîbûna we bixwazin berî ku agahdariya zêde parve bikin
+
+## Têkelî
+If there are any question regarding this privacy policy, please contact us at : hello[at]weebi.com
+---
+
+**Nûvekirina dawî:** 24 Mijdar 2025

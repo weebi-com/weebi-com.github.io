@@ -1,23 +1,67 @@
 ---
-title: "Politika privatnosti"
-Description: "Politika privatnosti Weebi"
+title: "Политика приватности"
+Description: "Политика приватности de Weebi"
 layout: "privacy"
 date: 2024-04-01T08:30:00-07:00
 ---
 
-Lični podaci prikupljeni od strane weebi.com će se koristiti samo u skladu sa svrhom sa kojom ste ih ostavili i u skladu je sa Zakonom o opštoj uredbi o zaštiti podataka Evropske unije.
-Ova politika privatnosti određuje kako prikupljamo i obrađujemo lične podatke.
-## Koje osetljive informacije prikupljamo?
-Nijedan po defaultu.
-Veebi čuva informacije samo ako ste se registrovali na neku od ponuda u oblaku.
-Informacije sačuvane na veebi oblaku su: 
-- Butici: ime, e-mail, broj telefona, adresa i država
-- Članci : oznaka , cena , cena , fotografije , kategorije
-- Kontakti : ime, prezime, e-mail, broj telefona, adresa i zemlja
-- Faktura Ulaznice: datum, butikuId, stavke, kontakt detalji, vrsta karte, način plaćanja
-- Veebi aplikacija Korisnici: ime, prezime, e-mail, broj telefona, šifrovana lozinka
-## Kako štitimo informacije?
-Ove informacije se nalaze iza sigurnih mreža i dostupne su samo ograničenom broju osoba sa posebnim pravima pristupa sistemima i od njih se traži da informacije čuvaju poverljive.
-## Da li delimo podatke sa trećim stranama?
-Mi ne prodajemo, trgujemo ili na drugi način prenosimo spoljnim stranama vaše lične podatke. Pored toga, ne uključujemo niti nudimo proizvode ili usluge trećih strana na našoj veb stranici i blogu.
-Ako imate bilo kakvih pitanja u vezi sa ovom politikom privatnosti, molimo vas da nas kontaktirate na: hello@weebi.com
+Лични подаци које прикупља вееби.цом биће коришћени само у складу са сврхом у коју сте их оставили иу складу са Законом о заштити података Сенегала.Ова политика приватности утврђује како прикупљамо и обрађујемо личне податке.
+
+## Које осетљиве информације прикупљамо?
+
+Подразумевано ништа.
+Вееби прикупља податке само ако се региструјете.Тада ће аутоматска резервна копија у облаку чувати информације као што су:
+
+
+### Корисник
+- име
+- презимена
+- емаил
+- шифрована лозинка
+
+### Бутик
+- име
+- емаил
+- телефон
+- адреса
+- земља
+
+### Чланци (производи)
+- ознака
+- цена
+- трошак
+- фотографије
+- категорије
+
+### Контакти
+- име
+- презимена
+- емаил
+- телефон
+- земља
+
+### Улазнице
+- Датум
+- БоутикуеИд
+- Предмети
+- Контакт
+
+## Како штитимо информације?
+
+Ове информације ће бити садржане иза заштићених мрежа и биће доступне само ограниченом броју особа које имају посебна права приступа таквим системима и од којих се тражи да чувају поверљивост информација.
+
+## Да ли делимо податке са трећим лицима?
+
+Не продајемо, не тргујемо нити на други начин преносимо спољним лицима ваше личне податке.Поред тога, не укључујемо нити нудимо производе или услуге трећих страна на нашој веб страници и блогу.
+
+## Коришћење података
+Можемо користити одређене информације из ваше пословне активности да бисмо израчунали поверљиву и анонимну оцену кредитне способности.
+На пример, ваш промет и приближна локација (комшилук) за стављање вашег пословања у његов економски контекст.
+Овај резултат је суштински критеријум за финансијске институције и може убрзати процес добијања кредитне понуде прилагођене вашем пословању.
+Ако финансијска институција жели да вам понуди понуду, тражићемо вашу сагласност пре него што поделимо било какве додатне информације
+
+## Контакт
+Ако имате било каквих питања у вези са овом политиком приватности, контактирајте нас на: хелло@вееби.цом
+---
+
+**Последња ажурирање:** 24. новембар 2025.

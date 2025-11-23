@@ -261,6 +261,11 @@ body {
   height: 400
 }
 
+.utilisations img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* ========================================== */
 /* End */
 /* ========================================== */
@@ -529,6 +534,11 @@ body {
 
   .telechargement .col-12.col-md-5 img {
     margin: auto;
+  }
+
+  .utilisations img {
+    max-width: 100%;
+    height: auto;
   }
 
 }

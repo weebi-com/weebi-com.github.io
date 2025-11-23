@@ -1,7 +1,10 @@
+# Spanish (es)
+# Translation verified and consistent
+
 # header
 videos = "Vídeos"
 price = "Precio"
-our_customers = "Our customers"
+our_customers = "Nuestros clientes"
 contact = "Contacto"
 blog = "Blog"
 download = "Descargar"
@@ -22,7 +25,7 @@ atouts_3_description = "Otorga crédito al cliente con un clic"
 # utilisations
 utilisations_title = "¿Cómo se utiliza Weebi?"
 utilisations_exemple_1 = "Binta del grupo Sell Sellal"
-utilisations_exemple_2 = "Another member of the Sell Sellal group"
+utilisations_exemple_2 = "Otro miembro del grupo Sell Sellal"
 utilisations_1_subtitle = "en el campo"
 utilisations_1_description = "En móvil o en pc/mac, la aplicación se adapta a tus necesidades"
 utilisations_2_subtitle = "en la tienda"
@@ -56,7 +59,7 @@ reportages_title = "Reportajes de televisión"
 pressesetradio_title = "Prensa y radio"
 pressesetradio_read_article = "Lee el articulo"
 # temoignages
-temoignages_title = "OUR CUSTOMERS SPEAK"
+temoignages_title = "NUESTROS CLIENTES HABLAN"
 temoignages_1_description = "Nyara es una tienda de cosmética con 3.000 referencias de productos.El equipo de Weebi nos acompañó en la configuración del catálogo y en la instalación de paneles de control dedicados."
 temoignages_2_description = "Necesitábamos una herramienta de caja registradora para iniciar rápidamente nuestro negocio de catering remoto.Nuestros equipos adoptaron Weebi en poco tiempo, lo que nos permitió centrarnos en nuestro negocio principal."
 temoignages_3_description = "Weebi nos permitió incrementar nuestras ventas gracias a la implementación de créditos de clientes en 1 clic."

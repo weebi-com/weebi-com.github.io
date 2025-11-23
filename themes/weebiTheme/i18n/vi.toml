@@ -1,1 +1,58 @@
- 
+# Vietnamese (vi)
+# Translation verified and consistent
+
+# header
+videos = "Video"
+price = "Giá"
+our_customers = "Khách hàng của chúng tôi"
+contact = "Liên hệ"
+blog = "Blog"
+download = "Tải xuống"
+# home
+site_title = "Ứng dụng đăng ký tiền mặt của bạn"
+site_description = "Weebi là một ứng dụng máy tính tiền được thiết kế ở Dakar để theo dõi doanh số bán hàng, hàng tồn kho và tài khoản khách hàng."
+web_demo = "Bản demo trực tuyến"
+web_demo_description = "Dùng thử Weebi trực tiếp trong trình duyệt của bạn - không cần tải xuống"
+# atouts
+atous_title = "Một ứng dụng đơn giản và hiệu quả"
+atous_description = "Ứng dụng Weebi cung cấp tất cả các công cụ cần thiết cho người quản lý hiện đại: theo dõi hàng tồn kho, quản lý số dư khách hàng, lập hóa đơn và hơn thế nữa!"
+# utilisations
+utilisations_title = "Weebi được sử dụng như thế nào?"
+# apercu
+apercu_title = "Xem trước"
+apercu_description = "Trên thiết bị di động hoặc trên pc/mac, ứng dụng sẽ điều chỉnh theo nhu cầu của bạn"
+# fonctionnalites
+fonctionnalites_title = "Thiết kế đơn giản"
+fonctionnalites_description = "Không có cấu hình để điều chỉnh"
+fonctionnalites_maj_title = "CẬP NHẬT THƯỜNG XUYÊN"
+fonctionnalites_maj_description = "Ứng dụng Weebi không ngừng được bổ sung thêm các tính năng mới.Bạn có nhu cầu không?Hãy hỏi chúng tôi, nó sẽ được giao!"
+fonctionnalites_rg_title = "Báo cáo đồ họa"
+fonctionnalites_rg_description = "Ứng dụng này cung cấp một bộ sưu tập lớn các biểu đồ và số liệu để theo dõi hiệu quả kinh doanh của bạn"
+fonctionnalites_cp_wtsp_title = "TƯƠNG THÍCH WHATSAPP"
+fonctionnalites_cp_wtsp_description = "Được tích hợp trực tiếp với WhatsApp, ứng dụng Weebi giúp bạn dễ dàng chia sẻ báo giá/hóa đơn trên kênh ưa thích của khách hàng"
+# telechargement
+telechargement_title = "Tải xuống miễn phí không có thời gian dùng thử"
+telechargement_description = "Ứng dụng Weebi miễn phí và hoạt động ngoại tuyến.Chúng tôi sẽ sớm cung cấp ưu đãi đăng ký để đồng bộ hóa dữ liệu.Cho phép bạn theo dõi từ xa hoạt động của cửa hàng và/hoặc quản lý nhiều điểm bán hàng."
+# demo
+demo_title = "Demo và hướng dẫn"
+demo_do_a_cash_sale = "Thực hiện bán hàng bằng tiền mặt"
+demo_new_stock = "Ghi lại nhập kho"
+demo_see_a_video = "Xem video"
+# reportages
+reportages_title = "Báo cáo truyền hình"
+# pressesetradio
+pressesetradio_title = "Báo chí và Đài phát thanh"
+pressesetradio_read_article = "Đọc bài viết"
+# temoignages
+temoignages_title = "KHÁCH HÀNG CỦA CHÚNG TÔI NÓI"
+# foireauquestions
+foireauquestions_title = "Câu hỏi thường gặp"
+foireauquestions_description = "Dưới đây là câu trả lời cho những câu hỏi chúng tôi thường gặp nhất."
+# footer
+privacy_policy = "Chính sách bảo mật"
+build_with_love = "Được làm bằng"
+# 404 page
+page_not_found_title = "Không tìm thấy trang"
+page_not_found_description = "Xin lỗi, trang bạn đang tìm kiếm không tồn tại.Nó có thể đã được di chuyển hoặc bị xóa."
+go_to_home = "Về Nhà"
+popular_pages = "Trang phổ biến"

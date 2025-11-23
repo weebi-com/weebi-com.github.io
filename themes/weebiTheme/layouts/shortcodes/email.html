@@ -1,0 +1,19 @@
+{{- $email := .Get 0 | default "hello@weebi.com" -}}
+{{- $parts := split $email "@" -}}
+{{- $user := index $parts 0 -}}
+{{- $domain := index $parts 1 -}}
+<span class="email-obfuscated" data-user="{{ $user }}" data-domain="{{ $domain }}">
+  {{ $user }}[at]{{ $domain }}
+</span>
+<script>
+  (function() {
+    const emails = document.querySelectorAll('.email-obfuscated');
+    emails.forEach(function(el) {
+      const user = el.getAttribute('data-user');
+      const domain = el.getAttribute('data-domain');
+      const email = user + '@' + domain;
+      el.innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
+    });
+  })();
+</script>
+
