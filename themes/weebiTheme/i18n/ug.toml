@@ -1,3 +1,6 @@
+# Uyghur (ug)
+# Translation verified and consistent
+
 # header
 videos = "سىنلار"
 price = "باھاسى"
@@ -53,34 +56,34 @@ demo_see_a_video = "سىننى كۆرۈڭ"
 # reportages
 reportages_title = "تېلېۋىزىيە دوكلاتى"
 # pressesetradio
-pressesetradio_title = "Press and Radio"
-pressesetradio_read_article = "Read the article"
+pressesetradio_title = "ئاخبارات ۋە رادىئو"
+pressesetradio_read_article = "ماقالىنى ئوقۇڭ"
 # temoignages
-temoignages_title = "OUR CUSTOMERS SPEAK"
-temoignages_1_description = "Nyara is a cosmetics shop with 3,000 product references. The Weebi team accompanied us in configuring the catalog and setting up dedicated dashboards."
-temoignages_2_description = "We needed a cash register tool to quickly start our remote catering business. Our teams took to Weebi in no time, allowing us to focus on our core business."
-temoignages_3_description = "Weebi allowed us to increase our sales thanks to the implementation of customer credits in 1 click."
+temoignages_title = "خېرىدارلىرىمىز سۆزلەيدۇ"
+temoignages_1_description = "Nyara 3000 مەھسۇلات پايدىلىنىش ماتېرىيالى بار گىرىم بۇيۇملىرى دۇكىنى.ۋېبسى كوماندىسى بىزنى بىر مۇندەرىجىنى تەڭشەش ۋە بېغىشلانغان باشقۇرۇش تاختىسىنى تەڭشەشكە ھەمراھ بولدى."
+temoignages_2_description = "بىز دەرھال نەق پۇل تىزىملاش قورالىغا ئازار بېرىپ, يىراقتىكى يېمەك-ئىچمەك سودىمىزنى تېزرەك باشلاڭ.گۇرۇپپىمىزدا بىز ئۈچۈن ۋېي بابىگە ئېلىپ باردى, بىزگە يادرولۇق سودىسىغا ئەھمىيەت بېرىشىمىز كېرەك."
+temoignages_3_description = "Geseb ئەزاسى خېرىدارلارنىڭ ئىناۋىتىنى 1-چېكىشتە خېرىدارلار ئىناۋىتىنى يولغا قويۇشىغا رەھمەت."
 # foireauquestions
 foireauquestions_title = "FAQ"
-foireauquestions_description = "Here are the answers to the questions we are most frequently asked."
+foireauquestions_description = "بۇ يەردە بىز دائىم سورايدىغان سوئاللارنىڭ جاۋابى."
 foireauquestions_1_title = "HOW LONG CAN I USE WEEBI FOR FREE?"
-foireauquestions_1_description = "Always. You only need to subscribe if you want to synchronize your data."
+foireauquestions_1_description = "ھەمىشە.سانلىق مەلۇماتلىرىڭىزنى ماسقەدەملىمەكچى بولسىڭىز, پەقەت مۇشتەرى بولۇشىڭىز كېرەك."
 foireauquestions_2_title = "CAN I USE IT ON MULTIPLE POINTS OF SALE?"
-foireauquestions_2_description = "Yes, it is possible, but it requires data synchronization, which requires a subscription."
+foireauquestions_2_description = "شۇنداق, بۇ مۇمكىن, ئەمما ئۇ مۇشتەرى بولۇشنى تەلەپ قىلىدۇ."
 foireauquestions_3_title = "WHICH ACCESSORIES ARE COMPATIBLE?"
-foireauquestions_3_description = "The Weebi mobile application can connect to all types of Bluetooth thermal printers. It can also be linked to a digital scale via Bluetooth to speed up product weighing. On mobile, the phone's camera serves as a barcode reader, and it is possible to integrate with an existing reader on PC/Mac."
+foireauquestions_3_description = "WeebE MOBILE ئىلتىماسى كۆك چىش چوتكىلاش پرىنتېرغا ئۇلىنالايدۇ.ئۇ كۆك چىش ئارقىلىق مەھسۇلاتنىڭ ئېغىرلىقىنى تېزلىتىشىگە ماس كېلىدۇ.كۆچمە تېلېفوندا تاياقچەنىڭ كامېراسى تايلاندنىڭ كامېراسى بولسا, PC / Mac ئاچ ئوقۇغۇچ بىلەن ئۇستىرانى بىلەن بىرلەشتۈرۈش مۇمكىن."
 foireauquestions_4_title = "HOW CAN I CONFIGURE THE PRODUCT CATALOG?"
-foireauquestions_4_description = "Creating/updating/deleting a product is done directly from the application. It is possible to import a product catalog from an Excel file. A model of the file and a tutorial are available in the application. It is also possible to load an old Weebi product catalog in 1 click."
+foireauquestions_4_description = "مەھسۇلات قۇرۇش / يېڭىلاش / ئۆچۈرۈش / ئۆچۈرۈش بىۋاسىتە ئىلتىماس قىلىنىدۇ.Excel ھۆججىتىدىن مەھسۇلات مۇندەرىجىسىنى ئەكىرىش مۇمكىن.ھۆججەتنىڭ مودېلى ۋە پروگراممىدا دەرسلىكنىڭ مودېلى بار.1 نى چېكىپ, 1 نى چېكىپ 1 نى چېكىڭ."
 foireauquestions_5_title = "DOES WEEBI ALLOW STOCK LEVEL TRACKING?"
-foireauquestions_5_description = "Yes, Weebi allows you to track stock and provides management tools such as stock entries and exits."
+foireauquestions_5_description = "شۇنداق, ۋېسبى سىزنى پاي چېكى ۋە زاپاس قاتارلىقلارنى ئىز قوغلاشتۇرىدۇ ۋە تەمىنلەيدۇ."
 # telechargement
-telechargement_title_2 = "Download now"
-telechargement_description_2 = "Free without trial period."
+telechargement_title_2 = "ھازىر چۈشۈرۈڭ"
+telechargement_description_2 = "سىناق مۇددىتى توشمايدۇ."
 # footer
-privacy_policy = "Privacy Policy"
-build_with_love = "Made with"
+privacy_policy = "مەخپىيەتلىك تۈزۈمى"
+build_with_love = "With with"
 # 404 page
-page_not_found_title = "Page Not Found"
-page_not_found_description = "Sorry, the page you are looking for is not available. It may have been moved or deleted."
-go_to_home = "Go to Home"
-popular_pages = "Popular Pages"
+page_not_found_title = "بەت تېپىلمىدى"
+page_not_found_description = "كەچۈرۈڭ, سىز ئىزدەۋاتقان بەتنى ئىشلەتكىلى بولمايدۇ.ئۇ يۆتكەلگەن ياكى ئۆچۈرۈلگەن بولۇشى مۇمكىن."
+go_to_home = "ئۆيگە بېرىڭ"
+popular_pages = "ئاۋات بەتلەر"

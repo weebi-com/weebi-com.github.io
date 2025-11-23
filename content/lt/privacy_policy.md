@@ -1,23 +1,67 @@
 ---
 title: "Privatumo politika"
-Description: "Weebi privatumo politika"
+Description: "Privatumo politika de Weebi"
 layout: "privacy"
 date: 2024-04-01T08:30:00-07:00
 ---
 
-weebi.com surinkti asmens duomenys bus naudojami tik pagal tikslą, kuriuo juos palikote, ir laikantis Europos Sąjungos Bendrojo duomenų apsaugos reglamento įstatymo.
-Ši privatumo politika nustato, kaip mes renkame ir tvarkome asmeninę informaciją.
+Weebi.com surinkti asmens duomenys bus naudojami tik tuo tikslu, kuriuo juos palikote, ir atitinka Senegalo duomenų apsaugos įstatymą.Ši privatumo politika nustato, kaip renkame ir apdorojame asmeninę informaciją.
+
 ## Kokią neskelbtiną informaciją renkame?
-Nėra pagal numatytuosius nustatymus.
-"Weebi" saugo informaciją tik tuo atveju, jei užsiregistravote viename iš debesies pasiūlymų.
-"Weebi Cloud" išsaugota informacija yra: 
-- Butikai – pavadinimas, el. paštas, telefono numeris, adresas ir šalis
-- Straipsniai : pavadinimas, kaina, kaina, nuotraukos, kategorijos
-- Kontaktai : vardas, pavardė, el. paštas, telefono numeris, adresas ir šalis
-- Sąskaitos bilietai : data, butiqueId, prekės, kontaktiniai duomenys, bilieto tipas, mokėjimo tipas
-- Weebi programėlė Vartotojai : vardas, pavardė, el. paštas, telefono numeris, užšifruotas slaptažodis
+
+Pagal numatytuosius nustatymus nėra.
+„Weebi“ renka duomenis tik prisiregistravus.Tada automatinė debesies atsarginė kopija išsaugos tokią informaciją kaip:
+
+
+### Vartotojas
+- vardas
+- pavardė
+- paštu
+- užšifruotas slaptažodis
+
+### Boutique
+- pavadinimas
+- paštu
+- telefonas
+- adresu
+- šalis
+
+### Straipsniai (produktai)
+- paskirtis
+- kaina
+- kaina
+- nuotraukos
+- kategorijas
+
+### Kontaktai
+- vardas
+- pavardė
+- paštu
+- telefonas
+- šalis
+
+### Bilietai
+- Data
+- BoutiqueId
+- Daiktai
+- Susisiekite
+
 ## Kaip mes saugome informaciją?
-Ši informacija yra už saugių tinklų ir yra prieinama tik ribotam skaičiui asmenų, turinčių specialias prieigos prie sistemų teises ir privalantiems išlaikyti informacijos konfidencialumą.
-## Ar dalijamės duomenimis su trečiosiomis šalimis?
-Mes neparduodame, neprekiaujame ir kitaip neperduodame jūsų asmeniškai identifikuojamos informacijos išorės šalims. Be to, mes neįtraukiame ir nesiūlome trečiųjų šalių produktų ar paslaugų savo svetainėje ir tinklaraštyje.
-Jei turite klausimų dėl šios privatumo politikos, susisiekite su mumis adresu: hello@weebi.com
+
+Ši informacija bus saugoma už saugių tinklų ir ją galės pasiekti tik ribotas skaičius asmenų, turinčių specialias prieigos prie tokių sistemų teises ir turinčių informacijos konfidencialumą.
+
+## Ar dalinamės duomenimis su kokiomis nors trečiosiomis šalimis?
+
+Mes neparduodame, neprekiaujame ar kitaip neperduodame išorinėms šalims jūsų asmenį identifikuojančios informacijos.Be to, į savo svetainę ir tinklaraštį neįtraukiame ir nesiūlome trečiųjų šalių produktų ar paslaugų.
+
+## Duomenų naudojimas
+Konfidencialiam ir anoniminiam kreditingumo balui apskaičiuoti galime naudoti tam tikrą informaciją iš jūsų verslo veiklos.
+Pavyzdžiui, jūsų apyvarta ir apytikslė vieta (kaimynystė), kad jūsų verslas būtų įtrauktas į ekonominį kontekstą.
+Šis balas yra esminis kriterijus finansų įstaigoms ir gali pagreitinti jūsų verslui pritaikyto kredito pasiūlymo gavimo procesą.
+Jei finansų įstaiga nori pateikti jums pasiūlymą, prieš dalindamiesi papildoma informacija paprašysime jūsų sutikimo
+
+## Susisiekite
+Jei turite klausimų dėl šios privatumo politikos, susisiekite su mumis adresu hello[at]weebi.com
+---
+
+**Paskutinis atnaujinimas:** 2025 m. lapkričio 24 d.

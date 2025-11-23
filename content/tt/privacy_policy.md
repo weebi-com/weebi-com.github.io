@@ -1,23 +1,67 @@
 ---
-title: "Конфиденциальлек сәясәте"
-Description: "Weebi конфиденциальлек сәясәте"
+title: "Privacy Policy"
+Description: "Privacy Policy de Weebi"
 layout: "privacy"
 date: 2024-04-01T08:30:00-07:00
 ---
 
-weebi.com тарафыннан җыелган шәхси мәгълүматлар бары тик сез калдырган максат буенча гына кулланылачак һәм Ауропа берлегенең Гомуми мәгълүматны саклау регламенты турындагы законына туры килә.
-Бу конфиденциальлек сәясәте шәхси мәгълүматны ничек җыюыбызны һәм эшкәртүебезне күрсәтә.
-## Нинди четерекле мәгълүмат җыябыз?
-Алдан ук юк.
-Weebi мәгълүматны болыт тәкъдимнәренең берсенә теркәлгән очракта гына саклый.
-Weebi болытында сакланган мәгълүматлар түбәндәгеләр: 
-- Бутиклар : исем, электрон почта, телефон номеры, адресы һәм иле
-- Мәкаләләр : билгеләү, бәя, бәя, фотолар, төркемнәр
-- Контактлар : исем, фамилия, электрон почта, телефон номеры, адрес һәм ил
-- Счет-фактура билетлары: дата, бутикId, әйберләр, контакт мәгълүматлары, билет төре, түләү төре
-- Weebi кушымтасын кулланучылар: исем, фамилия, электрон почта, телефон номеры, шифрланган пароль
-## Мәгълүматны ничек саклыйбыз?
-Бу мәгълүмат куркынычсыз челтәрләр артында саклана һәм системага махсус керү хокукы булган чикләнгән сандагы кешеләр генә керә һәм мәгълүматны сер итеп сакларга тиеш.
-## Без мәгълүматларны өченче яклар белән уртаклашабызмы ?
-Без шәхси мәгълүматларыгызны сатмыйбыз, сатмыйбыз. Моннан тыш, без үзебезнең веб-сайтка һәм блогка өченче як продуктларын яки хезмәтләрен кертмибез һәм тәкъдим итмибез.
-Бу конфиденциальлек сәясәтенә кагылышлы сораулар булса, безгә түбәндәге адрес буенча мөрәҗәгать итегез: hello@weebi.com
+Personal data collected by weebi.com will only be used according to the purpose with which you have left them and complies with the Senegalese Data Protection Act. This privacy policy sets out how we collect and process personal information.
+
+## What sensitive information do we collect ?
+
+None by default.
+Weebi only collects data if you signup. Then the automatic cloud backup will store information such as :
+
+
+### User
+- firstname
+- surname
+- email
+- encrypted password
+
+### Boutique
+- name
+- email
+- phone
+- address
+- country
+
+### Articles (Products)
+- designation
+- price
+- cost
+- photos
+- categories
+
+### Contacts
+- firstname
+- surname
+- email
+- phone
+- country
+
+### Tickets
+- Date
+- BoutiqueId
+- Items
+- Contact
+
+## How do we protect information ?
+
+This information will be contained behind secured networks and will only accessible by a limited number of persons who have special access rights to such systems and are required to keep the information confidential.
+
+## Do we share data with any third parties ?
+
+We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. Additionally, we do not include or offer third party products or services on our website and blog.
+
+## Use of Data
+We may use certain information from your business activity to calculate a confidential and anonymized creditworthiness score.
+For example, your turnover and an approximate location (neighborhood) to place your business in its economic context.
+This score is an essential criterion for financial institutions and can speed up the process of obtaining a credit offer tailored to your business.
+If a financial institution wishes to make you an offer, we will request your consent before sharing any additional information
+
+## Contact
+If there are any question regarding this privacy policy, please contact us at : hello[at]weebi.com
+---
+
+**Last update:** 2025-11-24

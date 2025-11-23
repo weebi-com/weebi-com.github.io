@@ -1,23 +1,67 @@
 ---
 title: "Privaatsuspoliitika"
-Description: "Weebi privaatsuspoliitika"
+Description: "Privaatsuspoliitika de Weebi"
 layout: "privacy"
 date: 2024-04-01T08:30:00-07:00
 ---
 
-weebi.com kogutud isikuandmeid kasutatakse ainult vastavalt eesmärgile, milleks olete need jätnud, ja need on kooskõlas Euroopa Liidu isikuandmete kaitse üldmääruse seadusega.
-See privaatsuspoliitika sätestab, kuidas me isikuandmeid kogume ja töötleme.
+Weebi.com-i kogutud isikuandmeid kasutatakse ainult eesmärgil, milleks olete need jätnud, ja need vastavad Senegali andmekaitseseadusele.See privaatsuspoliitika sätestab, kuidas me isikuandmeid kogume ja töötleme.
+
 ## Millist tundlikku teavet me kogume?
-Vaikimisi puudub.
-Weebi salvestab teavet ainult siis, kui olete registreerunud mõne pilvepakkumise kasutajaks.
-Weebi pilve salvestatud teave on järgmine: 
-- Butiigid : nimi, e-posti aadress, telefoninumber, aadress ja riik
-- Artiklid : nimetus, hind, maksumus, fotod, kategooriad
-- Kontaktid : eesnimi, perekonnanimi, e-posti aadress, telefoninumber, aadress ja riik
-- Arve Piletid : kuupäev, butiik, esemed, kontaktandmed, pileti tüüp, makse tüüp
-- Weebi rakendus Kasutajad : eesnimi, perekonnanimi, e-posti aadress, telefoninumber, krüpteeritud parool
+
+Vaikimisi mitte ühtegi.
+Weebi kogub andmeid ainult siis, kui registreerute.Seejärel salvestab automaatne pilvevarukoopia järgmist teavet:
+
+
+### Kasutaja
+- eesnimi
+- perekonnanimi
+- meili
+- krüpteeritud parool
+
+### Butiik
+- nimi
+- meili
+- telefon
+- aadress
+- riik
+
+### Artiklid (tooted)
+- määramine
+- hind
+- kulu
+- fotod
+- kategooriad
+
+### Kontaktid
+- eesnimi
+- perekonnanimi
+- meili
+- telefon
+- riik
+
+### Piletid
+- Kuupäev
+- BoutiqueId
+- Üksused
+- Võtke ühendust
+
 ## Kuidas me teavet kaitseme?
-See teave asub turvalistes võrkudes ja sellele on juurdepääs ainult piiratud arvul isikutel, kellel on süsteemidele juurdepääsu eriõigused ja kes peavad hoidma teavet konfidentsiaalsena.
-## Kas jagame andmeid kolmandate osapooltega?
-Me ei müü, vaheta ega edasta muul viisil kolmandatele isikutele teie isikut tuvastavat teavet. Lisaks ei lisa ega paku me oma veebisaidile ja blogisse kolmandate osapoolte tooteid ega teenuseid.
-Kui teil on selle privaatsuspoliitika kohta küsimusi, võtke meiega ühendust aadressil : hello@weebi.com
+
+See teave asub turvaliste võrkude taga ja sellele pääseb juurde ainult piiratud arv inimesi, kellel on sellistele süsteemidele erilised juurdepääsuõigused ja kes on kohustatud hoidma teavet konfidentsiaalsena.
+
+## Kas me jagame andmeid kolmandate osapooltega?
+
+Me ei müü, ei vaheta ega edasta muul viisil välistele isikutele teie isikuandmeid.Lisaks ei lisa ega paku me oma veebisaidile ja ajaveebi kolmandate osapoolte tooteid ega teenuseid.
+
+## Andmete kasutamine
+Võime kasutada teatud teavet teie äritegevusest, et arvutada konfidentsiaalne ja anonüümne krediidivõime skoor.
+Näiteks teie käive ja ligikaudne asukoht (naabruskond), et paigutada teie ettevõte selle majanduslikku konteksti.
+See skoor on finantsasutuste jaoks oluline kriteerium ja võib kiirendada teie ettevõttele kohandatud krediidipakkumise saamist.
+Kui finantsasutus soovib teile pakkumist teha, küsime enne täiendava teabe jagamist teie nõusolekut
+
+## Võtke ühendust
+Kui teil on selle privaatsuspoliitika kohta küsimusi, võtke meiega ühendust aadressil hello[at]weebi.com
+---
+
+**Viimati uuendatud:** 24. november 2025

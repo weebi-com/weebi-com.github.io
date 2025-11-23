@@ -1,1 +1,89 @@
- 
+# Ukrainian (uk)
+# Translation verified and consistent
+
+# header
+videos = "Відео"
+price = "Ціна"
+our_customers = "Наші клієнти"
+contact = "контакт"
+blog = "Блог"
+download = "Завантажити"
+# home
+site_title = "Ваша заявка на касовий апарат"
+site_description = "Weebi – це касовий додаток, розроблений у Дакарі для відстеження продажів, запасів і рахунків клієнтів."
+web_demo = "Онлайн демо"
+web_demo_description = "Спробуйте Weebi безпосередньо у своєму браузері – завантажувати не потрібно"
+# atouts
+atous_title = "Простий і ефективний додаток"
+atous_description = "Додаток Weebi надає всі інструменти, необхідні сучасному менеджеру: відстеження запасів, керування балансом клієнтів, виставлення рахунків та багато іншого!"
+atouts_1_subtitle = "Поліпшення продажів"
+atouts_1_description = "Додаток полегшує відстеження оплати та отримання"
+atouts_2_subtitle = "Тисячі посилань"
+atouts_2_description = "Каталог товарів може містити понад десять тисяч посилань на товари без уповільнення"
+atouts_3_subtitle = "Лояльність клієнтів"
+atouts_3_description = "Надайте кредит клієнту в один клік"
+# utilisations
+utilisations_title = "Як використовується Weebi?"
+utilisations_exemple_1 = "Бінта з групи Sell Sellal"
+utilisations_exemple_2 = "Ще один учасник групи Sell Sellal"
+utilisations_1_subtitle = "У полі"
+utilisations_1_description = "На мобільному телефоні або на ПК/mac програма адаптується до ваших потреб"
+utilisations_2_subtitle = "В магазині"
+utilisations_2_description = "Weebi також використовується місцевими підприємствами, такими як пекарні, косметичні та пральні..."
+utilisations_text_image_1 = "Конфігурація комплекту Weebi у пекарні \"Chez Matisse\" в Дакарі - Бургіба"
+utilisations_text_image_2 = "Перший тест у магазині Dian & Thierno у Фенетре Мермоз у Дакарі"
+utilisations_text_image_3 = "Перше використання Weebi в магазині в Абіджані"
+# apercu
+apercu_title = "Попередній перегляд"
+apercu_description = "На мобільному телефоні або на ПК/mac програма адаптується до ваших потреб"
+# fonctionnalites
+fonctionnalites_title = "Простий дизайн"
+fonctionnalites_description = "Немає конфігурації для налаштування"
+fonctionnalites_maj_title = "РЕГУЛЯРНІ ОНОВЛЕННЯ"
+fonctionnalites_maj_description = "Додаток Weebi постійно збагачується новими функціями.У вас є потреба?Запитуйте, доставимо!"
+fonctionnalites_rg_title = "Графічний звіт"
+fonctionnalites_rg_description = "Додаток надає широкий набір графіків і показників для відстеження ефективності вашого бізнесу"
+fonctionnalites_cp_wtsp_title = "СУМІСНІСТЬ З WHATSAPP"
+fonctionnalites_cp_wtsp_description = "Додаток Weebi, інтегрований безпосередньо з WhatsApp, дозволяє легко ділитися пропозиціями/рахунками-фактурами на бажаному каналі ваших клієнтів"
+# telechargement
+telechargement_title = "Безкоштовне завантаження без пробного періоду"
+telechargement_description = "Додаток Weebi безкоштовний і працює в автономному режимі.Незабаром ми запропонуємо підписку на синхронізацію даних.Дозволяє віддалено відстежувати діяльність магазину та/або керувати декількома точками продажу."
+# demo
+demo_title = "Демонстрації та навчальні посібники"
+demo_do_a_cash_sale = "Зробіть продаж за готівку"
+demo_new_stock = "Записати запис запасів"
+demo_see_a_video = "Подивіться відео"
+# reportages
+reportages_title = "Телерепортажі"
+# pressesetradio
+pressesetradio_title = "Преса і радіо"
+pressesetradio_read_article = "Прочитайте статтю"
+# temoignages
+temoignages_title = "НАШІ КЛІЄНТИ ГОВОРЯТЬ"
+temoignages_1_description = "Nyara — магазин косметики з 3000 посиланнями на товари.Команда Weebi супроводжувала нас у налаштуванні каталогу та налаштування спеціальних інформаційних панелей."
+temoignages_2_description = "Нам потрібен був касовий апарат, щоб швидко розпочати бізнес дистанційного харчування.Наші команди миттєво перейшли до Weebi, що дозволило нам зосередитися на нашому основному бізнесі."
+temoignages_3_description = "Weebi дозволив нам збільшити продажі завдяки реалізації клієнтських кредитів в 1 клік."
+# foireauquestions
+foireauquestions_title = "FAQ"
+foireauquestions_description = "Ось відповіді на запитання, які нам задають найчастіше."
+foireauquestions_1_title = "ЯК ДОВГО Я МОЖУ КОРИСТУВАТИСЯ WEEBI БЕЗКОШТОВНО?"
+foireauquestions_1_description = "Завжди.Вам потрібно лише підписатися, якщо ви хочете синхронізувати свої дані."
+foireauquestions_2_title = "ЧИ МОЖУ Я ВИКОРИСТОВУВАТИ ЙОГО В КІЛЬКОХ ТОЧКАХ ПРОДАЖУ?"
+foireauquestions_2_description = "Так, це можливо, але для цього потрібна синхронізація даних, для чого потрібна підписка."
+foireauquestions_3_title = "ЯКІ АКСЕСУАРИ СУМІСНІ?"
+foireauquestions_3_description = "Мобільний додаток Weebi може підключатися до всіх типів термопринтерів Bluetooth.Його також можна підключити до цифрових ваг через Bluetooth, щоб прискорити зважування продукту.На мобільному телефоні камера телефону служить зчитувачем штрих-кодів, і її можна інтегрувати з існуючим зчитувачем на ПК/Mac."
+foireauquestions_4_title = "ЯК Я МОЖУ НАЛАШТУВАТИ КАТАЛОГ ПРОДУКЦІЇ?"
+foireauquestions_4_description = "Створення/оновлення/видалення продукту здійснюється безпосередньо з програми.Є можливість імпортувати каталог продукції з файлу Excel.У додатку доступна модель файлу та підручник.Також є можливість завантажити старий каталог продукції Weebi в 1 клік."
+foireauquestions_5_title = "ЧИ ДОЗВОЛЯЄ WEEBI ВІДСТЕЖУВАТИ РІВЕНЬ АКЦІЙ?"
+foireauquestions_5_description = "Так, Weebi дозволяє відстежувати акції та надає такі інструменти керування, як записи та виходи з акції."
+# telechargement
+telechargement_title_2 = "Завантажте зараз"
+telechargement_description_2 = "Безкоштовно без пробного періоду."
+# footer
+privacy_policy = "Політика конфіденційності"
+build_with_love = "Зроблено з"
+# 404 page
+page_not_found_title = "Сторінка не знайдена"
+page_not_found_description = "На жаль, сторінка, яку ви шукаєте, недоступна.Можливо, його було переміщено або видалено."
+go_to_home = "Перейдіть на головну сторінку"
+popular_pages = "Популярні сторінки"

@@ -1,23 +1,67 @@
 ---
-title: "Politika zasebnosti"
-Description: "Pravilnik o zasebnosti podjetja Weebi"
+title: "Pravilnik o zasebnosti"
+Description: "Pravilnik o zasebnosti de Weebi"
 layout: "privacy"
 date: 2024-04-01T08:30:00-07:00
 ---
 
-Osebni podatki, ki jih zbere weebi.com, bodo uporabljeni samo v skladu z namenom, s katerim ste jih zapustili, in v skladu z Zakonom Evropske unije o splošni uredbi o varstvu podatkov.
-Ta pravilnik o zasebnosti določa, kako zbiramo in obdelujemo osebne podatke.
+Osebni podatki, ki jih zbira weebi.com, bodo uporabljeni samo v skladu z namenom, za katerega ste jih pustili, in v skladu s senegalskim zakonom o varstvu podatkov.Ta pravilnik o zasebnosti določa, kako zbiramo in obdelujemo osebne podatke.
+
 ## Katere občutljive podatke zbiramo?
-Privzeto nobene.
-Weebi shranjuje podatke le, če ste se registrirali za eno od ponudb v oblaku.
-Informacije, shranjene v oblaku weebi, so: 
-- Butiki: ime, e-pošta, telefonska številka, naslov in država
-- Članki: oznaka, cena, stroški, fotografije, kategorije
-- Kontakti: ime, priimek, e-pošta, telefonska številka, naslov in država
-- Vstopnice za račun: datum, boutiqueId, predmeti, kontaktni podatki, vrsta vstopnice, način plačila
-- Uporabniki aplikacije Weebi : ime, priimek, e-pošta, telefonska številka, šifrirano geslo
-## Kako varujemo podatke?
-Te informacije so shranjene v zavarovanih omrežjih in so dostopne le omejenemu številu oseb s posebnimi pravicami dostopa do sistemov in morajo ohraniti zaupnost informacij.
-## Ali podatke delimo s tretjimi osebami?
-Vaših osebnih podatkov ne prodajamo, ne trgujemo ali kako drugače prenašamo zunanjim osebam. Poleg tega na naši spletni strani in blogu ne vključujemo ali ponujamo izdelkov ali storitev tretjih oseb.
-Če imate kakršna koli vprašanja v zvezi s tem pravilnikom o zasebnosti, nas kontaktirajte na: hello@weebi.com
+
+Privzeto nič.
+Weebi zbira podatke le, če se prijavite.Nato samodejno varnostno kopiranje v oblak shrani informacije, kot so:
+
+
+### Uporabnik
+- ime
+- priimek
+- e-pošta
+- šifrirano geslo
+
+### Butik
+- ime
+- e-pošta
+- telefon
+- naslov
+- država
+
+### Članki (izdelki)
+- imenovanje
+- cena
+- stroški
+- fotografije
+- kategorije
+
+### Kontakti
+- ime
+- priimek
+- e-pošta
+- telefon
+- država
+
+### Vstopnice
+- Datum
+- BoutiqueId
+- Predmeti
+- Kontakt
+
+## Kako zaščitimo podatke?
+
+Te informacije bodo shranjene za varovanimi omrežji in bodo dostopne samo omejenemu številu oseb, ki imajo posebne pravice dostopa do takih sistemov in morajo ohraniti zaupnost informacij.
+
+## Ali delimo podatke s tretjimi osebami?
+
+Vaših osebnih podatkov ne prodajamo, trgujemo ali kako drugače prenašamo zunanjim osebam.Poleg tega na naše spletno mesto in blog ne vključujemo ali ponujamo izdelkov ali storitev tretjih oseb.
+
+## Uporaba podatkov
+Nekatere podatke iz vaše poslovne dejavnosti lahko uporabimo za izračun zaupne in anonimizirane ocene kreditne sposobnosti.
+Na primer vaš promet in približna lokacija (soseska) za umestitev vašega podjetja v njegov gospodarski kontekst.
+Ta ocena je bistveno merilo za finančne institucije in lahko pospeši postopek pridobitve kreditne ponudbe, prilagojene vašemu podjetju.
+Če vam bo finančna institucija želela ponuditi ponudbo, bomo pred posredovanjem kakršnih koli dodatnih informacij zahtevali vaše soglasje
+
+## Kontakt
+Če imate kakršna koli vprašanja v zvezi s tem pravilnikom o zasebnosti, nas kontaktirajte na: hello[at]weebi.com
+---
+
+**Zadnja posodobitev:** 24. november 2025
