@@ -37,3 +37,5 @@ partials/structure/stylesheet.html
 optimize_image.py
 optimize_images.py
 update_privacy_policies.py
+AUDIT_REPORT.md
+DEPLOYMENT_VERIFICATION.md
