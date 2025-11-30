@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 body {
@@ -27,8 +28,21 @@ body {
   margin-top: 3rem;
 }
 
+/* Consistent button width on wide screens */
+@media (min-width: 768px) {
+  .download-cta .btn {
+    flex: 0 0 auto;
+    min-width: 160px;
+  }
+}
+
 .inner-section-title {
   font-size: 3rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Quicksand", sans-serif;
 }
 
 .atouts .vstack {
@@ -81,6 +95,12 @@ body {
   gap: 5rem;
 }
 
+.features-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 .feature-list-title {
   font-weight: 600;
   margin-top: 10px;
@@ -105,6 +125,16 @@ body {
 
 .weebi-text-primary-color {
   color: #046DB5;
+}
+
+.weebi-logo-text {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hero-title {
+  font-family: "Quicksand", sans-serif;
 }
 
 .weebi-bg-color {
@@ -165,10 +195,16 @@ body {
   display: flex;
   align-items: center;
   flex-direction: row;
+  justify-content: flex-start;
 }
 
 .centered-btn .bi {
   margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.centered-btn img {
+  flex-shrink: 0;
 }
 
 .web-demo-card {
@@ -558,6 +594,302 @@ body {
     right: 0;
     padding-top: 2rem;
   }
+
+.pricing-table {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  width: 800px !important;
+  min-width: 800px !important;
+  margin-bottom: 0 !important;
+  table-layout: fixed !important;
+  display: table !important;
+}
+
+/* Force borders to show - override any Bootstrap or browser defaults */
+.pricing-table,
+.pricing-table * {
+  box-sizing: border-box !important;
+}
+
+/* Use wrapper div for outer border to ensure it shows - override Bootstrap table-responsive */
+.table-responsive.pricing-table-wrapper,
+div.table-responsive.pricing-table-wrapper {
+  border: 3px solid rgba(255, 255, 255, 0.7) !important;
+  border-width: 3px !important;
+  border-style: solid !important;
+  border-color: rgba(255, 255, 255, 0.7) !important;
+  border-radius: 16px !important;
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 
+              0 0 0 1px rgba(255, 255, 255, 0.2) inset,
+              0 2px 8px rgba(255, 255, 255, 0.15) inset !important;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.1) 100%) !important;
+  backdrop-filter: blur(10px) !important;
+  padding: 0 !important;
+  display: block !important;
+  position: relative !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+@media (min-width: 768px) {
+  .table-responsive.pricing-table-wrapper,
+  div.table-responsive.pricing-table-wrapper {
+    border: 4px solid rgba(255, 255, 255, 0.8) !important;
+    border-width: 4px !important;
+    border-style: solid !important;
+    border-color: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 20px !important;
+    overflow-x: visible !important;
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.5), 
+                0 0 0 2px rgba(255, 255, 255, 0.25) inset,
+                0 4px 12px rgba(255, 255, 255, 0.2) inset !important;
+  }
+}
+
+/* Completely override Bootstrap table styles - must come after .pricing-table definition */
+.pricing-table.table,
+.pricing-table.table-bordered {
+  border: 3px solid rgba(255, 255, 255, 0.7) !important;
+}
+
+.pricing-table.table-bordered > :not(caption) > * > *,
+.pricing-table.table > :not(caption) > * > * {
+  border-width: 0 !important;
+  border-style: none !important;
+}
+
+.pricing-table thead th {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 100%) !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.6) !important;
+  border-bottom-width: 3px !important;
+  border-bottom-style: solid !important;
+  border-bottom-color: rgba(255, 255, 255, 0.6) !important;
+  font-weight: 600 !important;
+  padding: 1.75rem 1.25rem !important;
+  vertical-align: middle !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
+  color: #fff !important;
+}
+
+.pricing-plan-header {
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px !important;
+}
+
+.pricing-price-row {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.18) 100%) !important;
+  border-top: 3px solid rgba(255, 255, 255, 0.6) !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+.pricing-price-cell {
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
+}
+
+.pricing-feature-col {
+  width: 220px !important;
+  min-width: 220px !important;
+  max-width: 220px !important;
+}
+
+.pricing-plan-col {
+  width: 193px !important;
+  min-width: 193px !important;
+  max-width: 193px !important;
+}
+
+.pricing-table tbody td {
+  border-left: none !important;
+  border-top: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.3) !important;
+  border-bottom-width: 1px !important;
+  border-right-width: 1px !important;
+  border-bottom-style: solid !important;
+  border-right-style: solid !important;
+  border-bottom-color: rgba(255, 255, 255, 0.3) !important;
+  border-right-color: rgba(255, 255, 255, 0.3) !important;
+  padding: 1.5rem 1.25rem !important;
+  vertical-align: middle !important;
+  transition: background-color 0.2s ease !important;
+  color: #fff !important;
+}
+
+.pricing-table tbody td:last-child {
+  border-right: none !important;
+}
+
+.pricing-table tbody tr:last-child td {
+  border-bottom: none !important;
+}
+
+.pricing-feature-cell {
+  font-weight: 500 !important;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.06) 100%) !important;
+}
+
+.pricing-plan-cell {
+  font-size: 1rem !important;
+}
+
+.pricing-table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.pricing-table tbody tr:hover .pricing-feature-cell {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.12) 100%) !important;
+}
+
+.pricing-license-note {
+  font-size: 1.1rem !important;
+  color: rgba(255, 255, 255, 0.95) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
+  letter-spacing: 0.3px !important;
+}
+
+/* Desktop/wide screen - same table structure, just better spacing */
+@media (min-width: 768px) {
+  .pricing-table-wrapper {
+    overflow-x: visible !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .pricing-table {
+    width: 800px !important;
+    min-width: 800px !important;
+  }
+
+  .pricing-table thead th {
+    padding: 2rem 1.5rem !important;
+    font-size: 1.1rem !important;
+  }
+
+  .pricing-plan-header {
+    font-size: 1.2rem !important;
+  }
+
+  .pricing-price-cell {
+    font-size: 1.2rem !important;
+  }
+
+  .pricing-table tbody td {
+    padding: 1.5rem 1.5rem !important;
+    font-size: 1rem !important;
+  }
+
+  .pricing-feature-cell {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+  }
+
+  .pricing-plan-cell {
+    font-size: 1rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .pricing-table thead th {
+    padding: 2.5rem 2rem !important;
+    font-size: 1.15rem !important;
+  }
+
+  .pricing-plan-header {
+    font-size: 1.3rem !important;
+  }
+
+  .pricing-price-cell {
+    font-size: 1.3rem !important;
+  }
+
+  .pricing-table tbody td {
+    padding: 2rem 2rem !important;
+    font-size: 1.05rem !important;
+  }
+}
+
+/* Mobile - ensure scrolling works and columns don't mix */
+@media (max-width: 767.98px) {
+  .table-responsive.pricing-table-wrapper {
+    overflow-x: scroll !important;
+    overflow-y: visible !important;
+    -webkit-overflow-scrolling: touch !important;
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    -ms-overflow-style: -ms-autohiding-scrollbar !important;
+    scrollbar-width: thin !important;
+  }
+
+  .pricing-table {
+    min-width: 800px !important;
+    width: 800px !important;
+    display: table !important;
+    table-layout: fixed !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+  }
+
+  .pricing-feature-col {
+    width: 220px !important;
+    min-width: 220px !important;
+    max-width: 220px !important;
+  }
+
+  .pricing-plan-col {
+    width: 193px !important;
+    min-width: 193px !important;
+    max-width: 193px !important;
+  }
+
+  .pricing-table thead th {
+    padding: 1.25rem 0.75rem !important;
+    font-size: 0.9rem !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    hyphens: auto !important;
+  }
+
+  .pricing-plan-header {
+    font-size: 0.95rem !important;
+    line-height: 1.4 !important;
+    padding: 0.25rem 0 !important;
+  }
+
+  .pricing-table tbody td {
+    padding: 1rem 0.75rem !important;
+    font-size: 0.85rem !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    hyphens: auto !important;
+  }
+
+  .pricing-price-cell {
+    font-size: 0.95rem !important;
+    font-weight: 700 !important;
+  }
+
+  .pricing-feature-cell {
+    font-size: 0.85rem !important;
+    font-weight: 500 !important;
+  }
+
+  .pricing-plan-cell {
+    font-size: 0.85rem !important;
+  }
+}
 
   .telechargement .col-12.col-md-5 img {
     margin: auto;

@@ -4,31 +4,9 @@
   <div class="container intro-wrapper py-5">
     <div class="row align-items-center g-5">
       <div class="col-md-12 col-lg-12">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-sm mb-3"><span
-            class="weebi-text-primary-color fw-bold animate__animated animate__bounceInDown ">Weebi</span>, {{ T "site_title" }}</h1>
+        <h1 class="display-5 fw-bold text-body-emphasis lh-sm mb-3 hero-title animate__animated animate__bounceInDown">{{ T "site_title" }}</h1>
         <p class="lead animate__animated animate__bounceInDown">{{ T "site_description" }}</p>
-        <div class="d-grid gap-2 d-md-flex col-md-12 justify-content-md-start download-cta">
-          <a target="_blank" id="download_playstore" class="btn btn-black-weebi btn-lg btn-sm px-4 centered-btn"
-            href="https://play.google.com/store/apps/details?id=com.weebi.weebiapp">
-            <i class="bi  bi-google-play"></i>
-            Google Play
-          </a>
-          <a target="_blank" id="download_apple_store" class="btn btn-black-weebi btn-lg btn-sm px-4 centered-btn"
-            href="https://apps.apple.com/us/app/weebi/id1602769796">
-            <i class="bi bi-apple"></i>
-            Apple Store
-          </a>
-          <a target="_blank" id="download_microsoft_store" class="btn btn-black-weebi btn-lg px-4 centered-btn"
-            href="https://apps.microsoft.com/store/detail/weebi/9N89B761JRRT?hl=fr-fr&amp;gl=fr">
-            <i class="bi bi-microsoft"></i>
-            Microsoft
-          </a>
-          <a target="_blank" id="open_web_demo" class="btn btn-black-weebi btn-lg px-4 centered-btn"
-            href="https://articles-demo-web.web.app/">
-            <i class="bi bi-globe"></i>
-            {{ T "web_demo" }}
-          </a>
-        </div>
+        {{ partial "store-links.html" (dict "variant" "full" "class" "col-md-12") }}
       </div>
     </div>
   </div>
@@ -165,40 +143,62 @@
 
 <div class="fonctionnalites py-5" id="fonctionnalites">
   <div class="container py-5">
-    <div class="row bg-feature d-flex align-items-center rounded p-5">
+    <div class="row mb-5">
+      <div class="col-md-12 text-center">
+        <h2 class="h2 fw-bold inner-section-title">{{ T "fonctionnalites_section_title" }}</h2>
+        <p>{{ T "fonctionnalites_section_description" }}</p>
+      </div>
+    </div>
+    <div class="row bg-feature rounded p-5">
       <div class="col-md-4 features-col">
-        <div class="vstack gap-1">
-          <div class="square-icon-group">
-            <i class="bi bi-gear-fill"></i>
+        <div class="vstack gap-4">
+          <div class="vstack gap-2">
+            <div class="square-icon-group">
+              <i class="bi bi-gear-fill"></i>
+            </div>
+            <span class="feature-list-title">{{ T "fonctionnalites_title" }}</span>
+            <span class="feature-list-description">{{ T "fonctionnalites_description" }}</span>
           </div>
-          <span class="feature-list-title">{{ T "fonctionnalites_title" }}</span>
-          <span class="feature-list-description">{{ T "fonctionnalites_description" }}</span>
-        </div>
 
-        <div class="vstack gap-1">
-          <div class="square-icon-group">
-            <i class="bi bi-arrow-repeat"></i>
+          <div class="vstack gap-2">
+            <div class="square-icon-group">
+              <i class="bi bi-arrow-repeat"></i>
+            </div>
+            <span class="feature-list-title">{{ T "fonctionnalites_maj_title" }}</span>
+            <span class="feature-list-description">{{ T "fonctionnalites_maj_description" }}</span>
           </div>
-          <span class="feature-list-title">{{ T "fonctionnalites_maj_title" }}</span>
-          <span class="feature-list-description">{{ T "fonctionnalites_maj_description" }}</span>
         </div>
       </div>
 
       <div class="col-md-4 features-col">
-        <div class="vstack gap-1">
-          <div class="square-icon-group">
-            <i class="bi bi-pie-chart-fill"></i>
+        <div class="vstack gap-4">
+          <div class="vstack gap-2">
+            <div class="square-icon-group">
+              <i class="bi bi-pie-chart-fill"></i>
+            </div>
+            <span class="feature-list-title">{{ T "fonctionnalites_rg_title" }}</span>
+            <span class="feature-list-description">{{ T "fonctionnalites_rg_description" }}</span>
           </div>
-          <span class="feature-list-title">{{ T "fonctionnalites_rg_title" }}</span>
-          <span class="feature-list-description">{{ T "fonctionnalites_rg_description" }}</span>
-        </div>
 
-        <div class="vstack gap-1">
-          <div class="square-icon-group">
-            <i class="bi bi-whatsapp"></i>
+          <div class="vstack gap-2">
+            <div class="square-icon-group">
+              <i class="bi bi-whatsapp"></i>
+            </div>
+            <span class="feature-list-title">{{ T "fonctionnalites_cp_wtsp_title" }}</span>
+            <span class="feature-list-description">{{ T "fonctionnalites_cp_wtsp_description" }}</span>
           </div>
-          <span class="feature-list-title">{{ T "fonctionnalites_cp_wtsp_title" }}</span>
-          <span class="feature-list-description">{{ T "fonctionnalites_cp_wtsp_description" }}</span>
+        </div>
+      </div>
+
+      <div class="col-md-4 features-col">
+        <div class="vstack gap-4">
+          <div class="vstack gap-2">
+            <div class="square-icon-group">
+              <i class="bi bi-wifi-off"></i>
+            </div>
+            <span class="feature-list-title">{{ T "fonctionnalites_offline_title" }}</span>
+            <span class="feature-list-description">{{ T "fonctionnalites_offline_description" }}</span>
+          </div>
         </div>
       </div>
 
@@ -208,31 +208,74 @@
 
 <div class="telechargement bg-weebi text-white section-py-4 dwl-banner-img" id="telechargement-prix">
   <div class="container px-4 py-5 ">
-    <div class="row align-items-center g-5 ">
-      <div class="col-md-7">
+    <div class="row mb-5">
+      <div class="col-md-12 text-center">
         <h2 class="fw-bold mb-3 inner-section-title">{{T "telechargement_title" }}</h2>
         <p>{{ T "telechargement_description" }}</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start download-cta">
-          <a target="_blank" class="btn btn-black-weebi btn-lg px-4"
-            href="https://play.google.com/store/apps/details?id=com.weebi.weebiapp">
-            <i class="bi  bi-google-play"></i>
-            Google Play
-          </a>
-          <a target="_blank" class="btn btn-black-weebi btn-lg px-4"
-            href="https://apps.apple.com/us/app/weebi/id1602769796">
-            <i class="bi bi-apple"></i>
-            Apple Store
-          </a>
-          <a target="_blank" class="btn btn-black-weebi btn-lg px-4"
-            href="https://apps.microsoft.com/store/detail/weebi/9N89B761JRRT?hl=fr-fr&amp;gl=fr">
-            <i class="bi bi-microsoft"></i>
-            Microsoft
-          </a>
-        </div>
       </div>
-      <div class="col-12 col-md-5 ">
-        <img src="/images/apercu/screenshot2.png" class="d-block mx-lg-auto download-img" alt="Bootstrap Themes"
-          loading="lazy">
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-8">
+        <div class="table-responsive pricing-table-wrapper">
+          <table class="pricing-table text-white">
+            <thead>
+              <tr>
+                <th scope="col" class="text-start pricing-feature-col">{{ T "pricing_table_feature" }}</th>
+                <th scope="col" class="text-center pricing-plan-col">
+                  <div class="pricing-plan-header">{{ T "pricing_table_solo_conf" }}</div>
+                </th>
+                <th scope="col" class="text-center pricing-plan-col">
+                  <div class="pricing-plan-header">{{ T "pricing_table_solo_cloud" }}</div>
+                </th>
+                <th scope="col" class="text-center pricing-plan-col">
+                  <div class="pricing-plan-header">{{ T "pricing_table_team_cloud" }}</div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="pricing-price-row">
+                <td class="text-start pricing-feature-cell fw-bold">{{ T "pricing_feature_price" }}</td>
+                <td class="text-center pricing-plan-cell pricing-price-cell fw-bold">{{ T "pricing_solo_conf_price" }}</td>
+                <td class="text-center pricing-plan-cell pricing-price-cell fw-bold">{{ T "pricing_solo_cloud_price" }}</td>
+                <td class="text-center pricing-plan-cell pricing-price-cell fw-bold">{{ T "pricing_team_cloud_price" }}</td>
+              </tr>
+              <tr>
+                <td class="text-start pricing-feature-cell">{{ T "pricing_feature_users" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_conf_users" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_cloud_users" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_team_cloud_users" }}</td>
+              </tr>
+              <tr>
+                <td class="text-start pricing-feature-cell">{{ T "pricing_feature_backup" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_conf_backup" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_cloud_backup" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_team_cloud_backup" }}</td>
+              </tr>
+
+              <tr>
+                <td class="text-start pricing-feature-cell">{{ T "pricing_feature_remote" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_conf_remote" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_cloud_remote" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_team_cloud_remote" }}</td>
+              </tr>
+              <tr>
+                <td class="text-start pricing-feature-cell">{{ T "pricing_feature_multi" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_conf_multi" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_cloud_multi" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_team_cloud_multi" }}</td>
+              </tr>
+              <tr>
+                <td class="text-start pricing-feature-cell">{{ T "pricing_feature_support" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_conf_support" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_cloud_support" }}</td>
+                <td class="text-center pricing-plan-cell">{{ T "pricing_team_cloud_support" }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="text-center mt-4">
+          {{ partial "store-links.html" (dict "variant" "stores") }}
+        </div>
       </div>
     </div>
   </div>
@@ -615,34 +658,6 @@
       </div>
     </div>
 
-  </div>
-</div>
-
-<div class="telechargement"  id="telechargement">
-  <div class="container px-4 py-5 utilisations rounded-4">
-    <div class="row align-items-center g-5">
-      <div class="col-md-7">
-        <h2 class="mb-3 inner-section-title fw-bold">{{ T "telechargement_title_2" }}</h2>
-        <p>{{ T "telechargement_description_2" }}</p>
-        <div class="d-grid gap-2 mt-4 d-md-flex justify-content-md-start download-cta">
-          <a target="_blank" class="btn btn-black-weebi btn-lg px-4"
-            href="https://play.google.com/store/apps/details?id=com.weebi.weebiapp">
-            <i class="bi  bi-google-play"></i>
-            Google Play
-          </a>
-          <a target="_blank" class="btn btn-black-weebi btn-lg px-4"
-            href="https://apps.apple.com/us/app/weebi/id1602769796">
-            <i class="bi bi-apple"></i>
-            Apple Store
-          </a>
-          <a target="_blank" class="btn btn-black-weebi btn-lg px-4"
-            href="https://apps.microsoft.com/store/detail/weebi/9N89B761JRRT?hl=fr-fr&amp;gl=fr">
-            <i class="bi bi-microsoft"></i>
-            Microsoft
-          </a>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 {{ end }}

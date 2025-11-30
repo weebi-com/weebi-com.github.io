@@ -12,7 +12,7 @@ download = "Download"
 
 # home
 
-site_title = "Your cash register application"
+site_title = "Your Point of Sale"
 site_description = "Weebi is a cash register application designed in Dakar to track sales, stock, and customer accounts."
 
 web_demo = "Online demo"
@@ -52,6 +52,9 @@ apercu_description = "On mobile or on pc/mac, the application adapts to your nee
 
 # fonctionnalites
 
+fonctionnalites_section_title = "Features"
+fonctionnalites_section_description = "Discover the features that make Weebi the ideal tool for your business"
+
 fonctionnalites_title = "Simple design"
 fonctionnalites_description = "No configuration to adjust"
 
@@ -64,10 +67,48 @@ fonctionnalites_rg_description = "The app provides a wide collection of graphs a
 fonctionnalites_cp_wtsp_title = "WHATSAPP COMPATIBLE"
 fonctionnalites_cp_wtsp_description = "Integrated directly with WhatsApp, the Weebi app makes it easy to share quotes/invoices on your clients' preferred channel"
 
-# telechargement
+fonctionnalites_offline_title = "OFFLINE WORKING"
+fonctionnalites_offline_description = "Work offline seamlessly from any device"
 
-telechargement_title = "Free download without trial period"
-telechargement_description = "The Weebi app is free and works offline. We will soon offer a subscription offer for data synchronization. Allowing you to remotely track store activity and/or manage multiple points of sale."
+# telechargement / pricing
+
+telechargement_title = "Pricing Plans"
+telechargement_description = "Choose the plan that fits your needs"
+
+pricing_table_feature = "Included"
+pricing_table_solo_conf = "Solo confidential"
+pricing_table_solo_cloud = "Solo cloud"
+pricing_table_team_cloud = "Enterprise"
+
+pricing_feature_price = "Price"
+pricing_solo_conf_price = "Free"
+pricing_solo_cloud_price = "Free"
+pricing_team_cloud_price = "9k FCFA per user"
+
+pricing_feature_users = "Users"
+pricing_solo_conf_users = "1"
+pricing_solo_cloud_users = "1"
+pricing_team_cloud_users = "Unlimited"
+
+pricing_feature_backup = "Data backup"
+pricing_solo_conf_backup = "❌"
+pricing_solo_cloud_backup = "✅"
+pricing_team_cloud_backup = "✅"
+
+pricing_feature_support = "Support"
+pricing_solo_conf_support = "Documentation"
+pricing_solo_cloud_support = "Documentation"
+pricing_team_cloud_support = "Direct (email/chat)"
+
+pricing_feature_remote = "Remote tracking"
+pricing_solo_conf_remote = "❌"
+pricing_solo_cloud_remote = "❌"
+pricing_team_cloud_remote = "✅"
+
+pricing_feature_multi = "Multi-store management"
+pricing_solo_conf_multi = "❌"
+pricing_solo_cloud_multi = "❌"
+pricing_team_cloud_multi = "✅"
 
 # demo
 

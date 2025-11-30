@@ -1,0 +1,70 @@
+{{- /*
+  Renders store download links (Google Play, Apple Store, Microsoft Store, Linux, Web Demo)
+  
+  @param {string} variant - Optional: "full" (default, includes web demo) or "stores" (only app stores)
+  @param {string} class - Optional: Additional CSS classes for the container div
+  @param {bool} includeWebDemo - Optional: Include web demo link (default: true for "full", false for "stores")
+*/ -}}
+
+{{- $variant := .variant | default "full" -}}
+{{- $includeWebDemo := .includeWebDemo -}}
+{{- if eq $variant "stores" -}}
+  {{- $includeWebDemo = false -}}
+{{- else if not (isset . "includeWebDemo") -}}
+  {{- $includeWebDemo = true -}}
+{{- end -}}
+{{- $containerClass := .class | default "" -}}
+
+{{- $stores := site.Params.stores -}}
+<div class="d-grid gap-2 d-md-flex justify-content-md-start download-cta {{ $containerClass }}">
+  {{- if $stores.googlePlay -}}
+    <a target="_blank" 
+       id="download_playstore" 
+       class="btn btn-black-weebi btn-lg px-4 centered-btn"
+       href="{{ $stores.googlePlay }}">
+      <i class="bi bi-google-play"></i>
+      Google Play
+    </a>
+  {{- end -}}
+  
+  {{- if $stores.appleStore -}}
+    <a target="_blank" 
+       id="download_apple_store" 
+       class="btn btn-black-weebi btn-lg px-4 centered-btn"
+       href="{{ $stores.appleStore }}">
+      <i class="bi bi-apple"></i>
+      Apple Store
+    </a>
+  {{- end -}}
+  
+  {{- if $stores.microsoftStore -}}
+    <a target="_blank" 
+       id="download_microsoft_store" 
+       class="btn btn-black-weebi btn-lg px-4 centered-btn"
+       href="{{ $stores.microsoftStore }}">
+      <i class="bi bi-microsoft"></i>
+      Windows
+    </a>
+  {{- end -}}
+  
+  {{- if $stores.linux -}}
+    <a target="_blank" 
+       id="download_linux" 
+       class="btn btn-black-weebi btn-lg px-4 centered-btn"
+       href="{{ $stores.linux }}">
+      <img src="/images/linux-icon.svg" alt="Linux" style="width: 2rem; height: 2rem; display: inline-block; vertical-align: middle; margin-right: 10px; filter: brightness(0) invert(1);" />
+      Linux
+    </a>
+  {{- end -}}
+  
+  {{- if and $includeWebDemo $stores.webDemo -}}
+    <a target="_blank" 
+       id="open_web_demo" 
+       class="btn btn-black-weebi btn-lg px-4 centered-btn"
+       href="{{ $stores.webDemo }}">
+      <i class="bi bi-globe"></i>
+      {{ T "web_demo" }}
+    </a>
+  {{- end -}}
+</div>
+

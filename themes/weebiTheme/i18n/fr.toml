@@ -12,8 +12,8 @@ download = "Télécharger"
 
 # home
 
-site_title = "votre application de caisse"
-site_description = "Weebi est une application de caisse conçue à Dakar pour suivre les ventes, le stock et les comptes clients."
+site_title = "Votre application de caisse"
+site_description = "Weebi est une application de gestion conçue à Dakar pour suivre les ventes, le stock et les comptes clients."
 
 web_demo = "Demo web"
 web_demo_description = "Essayez Weebi directement dans votre navigateur - aucun téléchargement requis"
@@ -34,7 +34,7 @@ atouts_3_description = "Accordez un acompte client en un clic "
 utilisations_title = "Comment Weebi est utilisée ?"
 
 utilisations_exemple_1 = "Binta du groupement Sell Sellal"
-utilisations_exemple_2 = "Une autre membre du groupement Sell Sellal"
+utilisations_exemple_2 = "Mari du groupement Sell Sellal"
 
 utilisations_1_subtitle = "Sur le terrain"
 utilisations_1_description = "Sur mobile ou sur pc/mac l'application s'adapte à votre besoin"
@@ -54,6 +54,9 @@ apercu_description = "Sur mobile ou sur pc/mac l'application s'adapte à votre b
 
 # fonctionnalites
 
+fonctionnalites_section_title = "Fonctionnalités"
+fonctionnalites_section_description = "Découvrez les fonctionnalités qui font de Weebi l'outil idéal pour votre commerce"
+
 fonctionnalites_title = "Design simple"
 fonctionnalites_description = "Pas de configuration à ajuster"
 
@@ -61,15 +64,53 @@ fonctionnalites_maj_title = "DES MISES À JOUR RÉGULIÈRES"
 fonctionnalites_maj_description = "L'application Weebi est constamment enrichie de nouvelles fonctionnalités. Vous avez un besoin ? Demandez-nous, il sera livré !"
 
 fonctionnalites_rg_title = "Rapport graphique"
-fonctionnalites_rg_description = " L'appli fournit une vaste collection de graphiques et de métriques pour suivre les performances de votre activité"
+fonctionnalites_rg_description = " L'appli fournit une collection de graphiques et de métriques pour suivre votre activité"
 
 fonctionnalites_cp_wtsp_title = "COMPATIBLE AVEC WHATSAPP"
-fonctionnalites_cp_wtsp_description = "Intégrée directement avec whatsapp, l'appli weebi facilite le partage de devis/facture sur le canal préféré de vos clients"
+fonctionnalites_cp_wtsp_description = "L'appli weebi s'intègre avec whatsapp pour partager les devis/factures avec vos clients"
 
-# telechargement
+fonctionnalites_offline_title = "TRAVAIL HORS-LIGNE"
+fonctionnalites_offline_description = "Travailler hors-ligne de façon fluide depuis n'importe quel appareil"
 
-telechargement_title = "Téléchargement gratuit sans période d'essai"
-telechargement_description = "L'appli weebi est gratuite et fonctionne hors-ligne. Nous proposerons bientôt une offre d'abonnement pour la synchronisation des données. Permettant de suivre à distance l'activité de la boutique et/ou de gérer plusieurs points de vente."
+# telechargement / pricing
+
+telechargement_title = "Les Offres"
+telechargement_description = "Choisissez l'offre qui correspond à vos besoins"
+
+pricing_table_feature = "Inclus"
+pricing_table_solo_conf = "Solo confidentiel"
+pricing_table_solo_cloud = "Solo cloud"
+pricing_table_team_cloud = "Entreprise"
+
+pricing_feature_price = "Prix"
+pricing_solo_conf_price = "Gratuit"
+pricing_solo_cloud_price = "Gratuit"
+pricing_team_cloud_price = "9k FCFA par utilisateur"
+
+pricing_feature_users = "Utilisateurs"
+pricing_solo_conf_users = "1"
+pricing_solo_cloud_users = "1"
+pricing_team_cloud_users = "Illimité"
+
+pricing_feature_backup = "Sauvegarde des données"
+pricing_solo_conf_backup = "❌"
+pricing_solo_cloud_backup = "✅"
+pricing_team_cloud_backup = "✅"
+
+pricing_feature_support = "Support"
+pricing_solo_conf_support = "Documentation"
+pricing_solo_cloud_support = "Documentation"
+pricing_team_cloud_support = "Direct (email/chat)"
+
+pricing_feature_remote = "Suivi à distance"
+pricing_solo_conf_remote = "❌"
+pricing_solo_cloud_remote = "❌"
+pricing_team_cloud_remote = "✅"
+
+pricing_feature_multi = "Gestion multi-boutiques"
+pricing_solo_conf_multi = "❌"
+pricing_solo_cloud_multi = "❌"
+pricing_team_cloud_multi = "✅"
 
 # demo
 
@@ -103,16 +144,16 @@ foireauquestions_1_title = "COMBIEN DE TEMPS PUIS-JE UTILISER WEEBI GRATUITEMENT
 foireauquestions_1_description = "Toujours. Vous n'aurez besoin de vous abonnez que si vous souhaitez synchroniser vos données."
 
 foireauquestions_2_title = "PUIS-JE L'UTILISER SUR PLUSIEURS POINTS DE VENTE?"
-foireauquestions_2_description = "Oui c'est possible, mais cela exige de synchroniser des données, ce qui requiert un abonnement."
+foireauquestions_2_description = "Oui c'est possible, mais cela exige de synchroniser des données, ce qui nécessite une license."
 
 foireauquestions_3_title = "QUELS ACCESSOIRES SONT COMPATIBLES ?"
-foireauquestions_3_description = "L'application mobile weebi peut se connecter à tous les types d'imprimantes thermiques Bluetooth. Elle peut aussi être lié à une balance digitale via bluettoth pour accélérer la pesée des produits. Sur mobile la caméro du téléphone fait office de lecteur de code barre, et il est possible de s'intégrer à un lecteur existant sur pc/macos."
+foireauquestions_3_description = "L'application mobile weebi peut se connecter à tous les types d'imprimantes thermiques Bluetooth. Elle peut aussi être lié à une balance digitale via bluetooth pour accélérer la pesée des produits. La caméra de votre appareil permet de détecter des code-barres."
 
 foireauquestions_4_title = "COMMENT PEUT-ON CONFIGURER LE CATALOGUE PRODUIT ?"
 foireauquestions_4_description = "La création/mise à jour/suppression d'un produit se fait directement depuis l'application. Il est possible d'importer un catalogue produit depuis un fichier excel. Un modèle du fichier et un tutoriel sont disponibles dans l'application. Il est aussi possible de charger un ancien catalogue de produits weebi en 1 clic."
 
 foireauquestions_5_title = "EST-CE QUE WEEBI PERMET DE SUIVRE LE NIVEAU DE STOCK ?"
-foireauquestions_5_description = "Oui, weebi permet de suivre le stock et fournit des outils de gestion comme les entrées et les sorties de stock."
+foireauquestions_5_description = "Oui, weebi permet de suivre le stock et permet de saisir des entrées et des sorties de stock et même de réaliser des inventaires."
 
 # telechargement
 

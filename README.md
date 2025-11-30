@@ -51,10 +51,9 @@ hugo version
 
 # Run Hugo server (explicitly specify config if needed)
 hugo server -D --navigateToChanged --config hugo.toml
-
-# Or if the above doesn't work, try:
-hugo server -D --navigateToChanged --configFile hugo.toml
+hugo server -D --disableFastRender --config hugo.toml
 ```
+
 then go to http://localhost:1313/
 
 **Note:** If you get "Unable to locate config file" error:

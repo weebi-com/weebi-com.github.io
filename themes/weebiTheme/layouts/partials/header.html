@@ -30,7 +30,7 @@
         <!--<button class="btn btn-weebi rounded-pill">{{ T "download" }}</button> -->
         <div class="mx-2">
           <select class="form-select" onchange="window.location.href=this.value;" name="languages">
-            {{ range .Site.Languages }}
+            {{ range sort .Site.Languages "LanguageName" }}
               <option value="{{ $.Site.BaseURL }}/{{ .Lang }}"{{ if eq $.Site.Language.Lang .Lang }} selected{{ end }}>{{ .LanguageName }}</option>
             {{ end }}
           </select>
