@@ -10,6 +10,12 @@ defaultContentLanguageInSubdir = true
     microsoftStore = 'https://apps.microsoft.com/store/detail/weebi/9N89B761JRRT?hl=fr-fr&gl=fr'
     linux = 'https://weebi-my.sharepoint.com/:u:/p/pierre/EcMfPMn9sitJoYNN9k6IhXEB9AyCeBWzufSKmkF1VaUL0g?e=WL6tiE'
     webDemo = 'https://articles-demo-web.web.app/'
+  # Newsletter API configuration
+  # Development: use https://express.dev.weebi.com
+  # Production: use https://express.prd.weebi.com (or express.dev.weebi.com if same)
+  newsletterAPIBaseURL = 'https://express.dev.weebi.com'
+  # Newsletter category (default: 'general')
+  newsletterCategory = 'general'
 [languages]
   [languages.fr]
     languageCode = 'fr-FR'

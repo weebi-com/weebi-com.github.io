@@ -35,6 +35,7 @@ utilisations_title = "Comment Weebi est utilisée ?"
 
 utilisations_exemple_1 = "Binta du groupement Sell Sellal"
 utilisations_exemple_2 = "Mari du groupement Sell Sellal"
+utilisations_exemple_3 = "Sabrina sur le terrain"
 
 utilisations_1_subtitle = "Sur le terrain"
 utilisations_1_description = "Sur mobile ou sur pc/mac l'application s'adapte à votre besoin"
@@ -170,3 +171,15 @@ page_not_found_title = "Page non trouvée"
 page_not_found_description = "Désolé, la page que vous recherchez n'est pas disponible. Elle a peut-être été déplacée ou supprimée."
 go_to_home = "Retour à l'accueil"
 popular_pages = "Pages populaires"
+
+# newsletter
+newsletter_title = "Restez informé"
+newsletter_description = "Abonnez-vous à notre newsletter pour recevoir les dernières actualités et mises à jour de Weebi."
+newsletter_email_placeholder = "Votre adresse email"
+newsletter_subscribe_button = "S'abonner"
+newsletter_success = "Merci ! Vous êtes maintenant abonné à notre newsletter."
+newsletter_error_email_required = "Veuillez saisir votre adresse email."
+newsletter_error_email_invalid = "Veuillez saisir une adresse email valide."
+newsletter_error_already_subscribed = "Cette adresse email est déjà abonnée à notre newsletter."
+newsletter_error_generic = "Une erreur s'est produite. Veuillez réessayer plus tard."
+newsletter_error_network = "Erreur de connexion. Veuillez vérifier votre connexion internet et réessayer."

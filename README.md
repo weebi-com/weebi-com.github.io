@@ -65,6 +65,9 @@ then go to http://localhost:1313/
 hugo server --environment production
 ```
 
+**Newsletter API Configuration:**
+- The newsletter subscription form uses `https://express.prd.weebi.com` (hardcoded for production/GitHub Pages)
+
 ## translations trad
 run python translate_i18n.py --all
 

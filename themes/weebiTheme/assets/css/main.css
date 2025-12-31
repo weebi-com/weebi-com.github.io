@@ -329,6 +329,22 @@ h2, h3, h4, h5, h6 {
   height: auto;
 }
 
+/* Ensure images in "Sur le terrain" section have consistent height */
+.utilisations .row.py-3 .col-md-4 img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Ensure images in "En magasin" section have consistent height */
+.utilisations-en-magasin .row.g-5 .col-md-4 img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
 /* ========================================== */
 /* End */
 /* ========================================== */
@@ -898,6 +914,16 @@ div.table-responsive.pricing-table-wrapper {
   .utilisations img {
     max-width: 100%;
     height: auto;
+  }
+
+  /* Ensure images in "Sur le terrain" section have consistent height on mobile */
+  .utilisations .row.py-3 .col-md-4 img {
+    height: 300px;
+  }
+
+  /* Ensure images in "En magasin" section have consistent height on mobile */
+  .utilisations-en-magasin .row.g-5 .col-md-4 img {
+    height: 300px;
   }
 
   .web-demo-card {
