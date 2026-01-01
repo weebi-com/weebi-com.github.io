@@ -951,6 +951,55 @@ div.table-responsive.pricing-table-wrapper {
   }
 }
 
+/* Pricing unavailable styling */
+.pricing-unavailable-cell {
+  opacity: 0.85 !important;
+}
+
+.pricing-unavailable-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.pricing-unavailable-text {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 1rem !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+.pricing-unavailable-reason {
+  color: rgba(255, 255, 255, 0.75) !important;
+  font-size: 0.85rem !important;
+  line-height: 1.4 !important;
+  max-width: 200px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+}
+
+@media (min-width: 768px) {
+  .pricing-unavailable-text {
+    font-size: 1.1rem !important;
+  }
+  
+  .pricing-unavailable-reason {
+    font-size: 0.9rem !important;
+    max-width: 250px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pricing-unavailable-text {
+    font-size: 1.15rem !important;
+  }
+  
+  .pricing-unavailable-reason {
+    font-size: 0.95rem !important;
+    max-width: 280px;
+  }
+}
+
   .telechargement .col-12.col-md-5 img {
     margin: auto;
   }

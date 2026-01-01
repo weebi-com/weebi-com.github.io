@@ -90,6 +90,8 @@ pricing_team_cloud_price = "9k FCFA par utilisateur"
 pricing_team_cloud_price_value = "9k"
 pricing_team_cloud_price_currency = "FCFA"
 pricing_team_cloud_price_per_user = "par utilisateur"
+pricing_team_cloud_unavailable = "Non disponible"
+pricing_team_cloud_unavailable_reason = "Les licences logicielles sont classées comme services imposables dans votre pays. Nous travaillons à rendre ce plan disponible."
 
 pricing_feature_users = "Utilisateurs"
 pricing_solo_conf_users = "1"
