@@ -68,9 +68,13 @@ hugo server --environment production
 **Newsletter API Configuration:**
 - The newsletter subscription form uses `https://express.prd.weebi.com` (hardcoded for production/GitHub Pages)
 
+## pricing
+To add more countries or adjust prices, edit themes/weebiTheme/assets/js/pricing-geo.js:
+
 ## translations trad
 run python translate_i18n.py --all
 
 ## improve
 - lighthouse - perf & SEO
 	- https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=fr&pli=1
+

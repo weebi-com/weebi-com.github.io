@@ -1,5 +1,6 @@
 baseURL = '/'
 theme = 'weebiTheme'
+publishDir = 'docs'
 defaultContentLanguage = 'fr'
 defaultContentLanguageInSubdir = true
 

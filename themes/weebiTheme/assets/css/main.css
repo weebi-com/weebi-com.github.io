@@ -679,25 +679,40 @@ div.table-responsive.pricing-table-wrapper {
 }
 
 .pricing-table thead th {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 100%) !important;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.35) 100%) !important;
   border-left: none !important;
   border-right: none !important;
   border-top: none !important;
-  border-bottom: 3px solid rgba(255, 255, 255, 0.6) !important;
-  border-bottom-width: 3px !important;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.85) !important;
+  border-bottom-width: 4px !important;
   border-bottom-style: solid !important;
-  border-bottom-color: rgba(255, 255, 255, 0.6) !important;
-  font-weight: 600 !important;
-  padding: 1.75rem 1.25rem !important;
+  border-bottom-color: rgba(255, 255, 255, 0.85) !important;
+  font-weight: 700 !important;
+  padding: 2rem 1.25rem !important;
   vertical-align: middle !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) !important;
   color: #fff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) inset !important;
+  position: relative !important;
+}
+
+.pricing-table thead th::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: -4px !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 1px !important;
+  background: rgba(255, 255, 255, 0.5) !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
 }
 
 .pricing-plan-header {
-  font-size: 1.15rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.5px !important;
+  font-size: 1.25rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.8px !important;
+  text-transform: uppercase !important;
+  font-family: "Quicksand", sans-serif !important;
 }
 
 .pricing-price-row {
@@ -728,18 +743,19 @@ div.table-responsive.pricing-table-wrapper {
 .pricing-table tbody td {
   border-left: none !important;
   border-top: none !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
-  border-right: 1px solid rgba(255, 255, 255, 0.3) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.25) !important;
   border-bottom-width: 1px !important;
   border-right-width: 1px !important;
   border-bottom-style: solid !important;
   border-right-style: solid !important;
-  border-bottom-color: rgba(255, 255, 255, 0.3) !important;
-  border-right-color: rgba(255, 255, 255, 0.3) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.25) !important;
+  border-right-color: rgba(255, 255, 255, 0.25) !important;
   padding: 1.5rem 1.25rem !important;
   vertical-align: middle !important;
   transition: background-color 0.2s ease !important;
-  color: #fff !important;
+  color: rgba(255, 255, 255, 0.95) !important;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
 }
 
 .pricing-table tbody td:last-child {
@@ -788,12 +804,21 @@ div.table-responsive.pricing-table-wrapper {
   }
 
   .pricing-table thead th {
-    padding: 2rem 1.5rem !important;
-    font-size: 1.1rem !important;
+    padding: 2.25rem 1.5rem !important;
+    font-size: 1.15rem !important;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.35) 100%) !important;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.85) !important;
+    font-weight: 700 !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) inset !important;
   }
 
   .pricing-plan-header {
-    font-size: 1.2rem !important;
+    font-size: 1.3rem !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.8px !important;
+    text-transform: uppercase !important;
+    font-family: "Quicksand", sans-serif !important;
   }
 
   .pricing-price-cell {
@@ -803,6 +828,10 @@ div.table-responsive.pricing-table-wrapper {
   .pricing-table tbody td {
     padding: 1.5rem 1.5rem !important;
     font-size: 1rem !important;
+    color: rgba(255, 255, 255, 0.95) !important;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.25) !important;
   }
 
   .pricing-feature-cell {
@@ -817,12 +846,21 @@ div.table-responsive.pricing-table-wrapper {
 
 @media (min-width: 992px) {
   .pricing-table thead th {
-    padding: 2.5rem 2rem !important;
-    font-size: 1.15rem !important;
+    padding: 2.75rem 2rem !important;
+    font-size: 1.2rem !important;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.35) 100%) !important;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.85) !important;
+    font-weight: 700 !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) inset !important;
   }
 
   .pricing-plan-header {
-    font-size: 1.3rem !important;
+    font-size: 1.4rem !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.8px !important;
+    text-transform: uppercase !important;
+    font-family: "Quicksand", sans-serif !important;
   }
 
   .pricing-price-cell {
@@ -832,6 +870,10 @@ div.table-responsive.pricing-table-wrapper {
   .pricing-table tbody td {
     padding: 2rem 2rem !important;
     font-size: 1.05rem !important;
+    color: rgba(255, 255, 255, 0.95) !important;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.25) !important;
   }
 }
 
@@ -870,17 +912,19 @@ div.table-responsive.pricing-table-wrapper {
   }
 
   .pricing-table thead th {
-    padding: 1.25rem 0.75rem !important;
-    font-size: 0.9rem !important;
+    padding: 1.5rem 0.75rem !important;
+    font-size: 0.95rem !important;
     white-space: normal !important;
     word-wrap: break-word !important;
     hyphens: auto !important;
+    border-bottom-width: 3px !important;
   }
 
   .pricing-plan-header {
-    font-size: 0.95rem !important;
+    font-size: 1rem !important;
     line-height: 1.4 !important;
     padding: 0.25rem 0 !important;
+    font-weight: 800 !important;
   }
 
   .pricing-table tbody td {
