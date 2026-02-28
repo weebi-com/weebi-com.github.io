@@ -11,8 +11,8 @@ download = "Pobierać"
 # home
 site_title = "Twoja aplikacja kasowa"
 site_description = "Weebi to aplikacja kasowa zaprojektowana w Dakarze do śledzenia sprzedaży, zapasów i kont klientów."
-web_demo = "Demo online"
-web_demo_description = "Wypróbuj Weebi bezpośrednio w przeglądarce – nie jest wymagane pobieranie"
+web_console = "Konsola web"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Prosta i skuteczna aplikacja"
 atous_description = "Aplikacja Weebi zapewnia wszystkie narzędzia niezbędne współczesnemu menedżerowi: śledzenie zapasów, zarządzanie saldem klientów, fakturowanie i wiele więcej!"
@@ -23,11 +23,8 @@ atouts_2_description = "Katalog produktów może bez spowalniania zawierać pona
 atouts_3_subtitle = "Lojalność klienta"
 atouts_3_description = "Przyznaj klientowi kredyt jednym kliknięciem"
 # utilisations
-utilisations_title = "Jak używa się Weebi?"
 utilisations_exemple_1 = "Binta z grupy Sprzedaj Sprzedaj"
 utilisations_exemple_2 = "Kolejny członek grupy Sell Sellal"
-utilisations_1_subtitle = "W polu"
-utilisations_1_description = "Na urządzeniu mobilnym lub na komputerze PC/Mac aplikacja dostosowuje się do Twoich potrzeb"
 utilisations_2_subtitle = "W sklepie"
 utilisations_2_description = "Weebi jest również wykorzystywane przez lokalne firmy, takie jak piekarnie, kosmetyki i pralnie..."
 utilisations_text_image_1 = "Konfiguracja zestawu Weebi w piekarni „Chez Matisse” w Dakarze – Bourguiba"

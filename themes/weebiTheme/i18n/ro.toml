@@ -11,8 +11,8 @@ download = "Descărcați"
 # home
 site_title = "Aplicația dvs. pentru casa de marcat"
 site_description = "Weebi este o aplicație de casă de marcat concepută în Dakar pentru a urmări vânzările, stocurile și conturile clienților."
-web_demo = "Demo online"
-web_demo_description = "Încercați Weebi direct în browser - nu este necesară descărcarea"
+web_console = "Consolă web"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "O aplicație simplă și eficientă"
 atous_description = "Aplicația Weebi oferă toate instrumentele necesare managerului modern: urmărirea stocurilor, gestionarea soldului clienților, facturare și multe altele!"
@@ -23,11 +23,8 @@ atouts_2_description = "Catalogul de produse poate conține peste zece mii de re
 atouts_3_subtitle = "Fidelizarea clienților"
 atouts_3_description = "Acordați credit clienților cu un singur clic"
 # utilisations
-utilisations_title = "Cum se utilizează Weebi?"
 utilisations_exemple_1 = "Binta din grupul Sell Sellal"
 utilisations_exemple_2 = "Un alt membru al grupului Sell Sellal"
-utilisations_1_subtitle = "În câmp"
-utilisations_1_description = "Pe mobil sau pe pc/mac, aplicația se adaptează nevoilor dumneavoastră"
 utilisations_2_subtitle = "În magazin"
 utilisations_2_description = "Weebi este folosit și de întreprinderile locale, cum ar fi brutării, cosmetice și spălătorii..."
 utilisations_text_image_1 = "Configurare kit Weebi la brutăria „Chez Matisse” din Dakar - Bourguiba"

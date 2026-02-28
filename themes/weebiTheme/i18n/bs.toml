@@ -11,8 +11,8 @@ download = "Preuzmi"
 # home
 site_title = "Vaša aplikacija za kasu"
 site_description = "Weebi je aplikacija za kase dizajnirana u Dakaru za praćenje prodaje, zaliha i računa kupaca."
-web_demo = "Online demo"
-web_demo_description = "Isprobajte Weebi direktno u svom pretraživaču - nije potrebno preuzimanje"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Jednostavna i efikasna aplikacija"
 atous_description = "Aplikacija Weebi pruža sve alate neophodne za modernog menadžera: praćenje zaliha, upravljanje stanjem kupaca, fakturisanje i još mnogo toga!"
@@ -23,11 +23,8 @@ atouts_2_description = "Katalog proizvoda može sadržavati preko deset hiljada 
 atouts_3_subtitle = "Lojalnost kupaca"
 atouts_3_description = "Dajte klijentu kredit jednim klikom"
 # utilisations
-utilisations_title = "Kako se koristi Weebi?"
 utilisations_exemple_1 = "Binta iz grupe Sell Sellal"
 utilisations_exemple_2 = "Još jedan član grupe Sell Sellal"
-utilisations_1_subtitle = "Na terenu"
-utilisations_1_description = "Na mobilnom uređaju ili na pc/mac, aplikacija se prilagođava vašim potrebama"
 utilisations_2_subtitle = "U prodavnici"
 utilisations_2_description = "Weebi koriste i lokalne kompanije kao što su pekare, kozmetika i praonice..."
 utilisations_text_image_1 = "Weebi komplet konfiguracija u pekari 'Chez Matisse' u Dakaru - Bourguiba"

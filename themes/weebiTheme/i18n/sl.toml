@@ -11,8 +11,8 @@ download = "Prenos"
 # home
 site_title = "Vaša aplikacija za blagajno"
 site_description = "Weebi je aplikacija za blagajno, zasnovana v Dakarju za sledenje prodaji, zalogam in računom strank."
-web_demo = "Spletna predstavitev"
-web_demo_description = "Preizkusite Weebi neposredno v brskalniku – prenos ni potreben"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Preprosta in učinkovita aplikacija"
 atous_description = "Aplikacija Weebi ponuja vsa orodja, potrebna za sodobnega upravitelja: sledenje zalog, upravljanje stanja strank, fakturiranje in še veliko več!"
@@ -23,11 +23,8 @@ atouts_2_description = "Katalog izdelkov lahko vsebuje več kot deset tisoč ref
 atouts_3_subtitle = "Zvestoba strank"
 atouts_3_description = "Z enim klikom odobrite kredit stranki"
 # utilisations
-utilisations_title = "Kako se uporablja Weebi?"
 utilisations_exemple_1 = "Binta iz skupine Sell Sellal"
 utilisations_exemple_2 = "Še en član skupine Sell Sellal"
-utilisations_1_subtitle = "Na terenu"
-utilisations_1_description = "Na mobilniku ali na pc/mac se aplikacija prilagodi vašim potrebam"
 utilisations_2_subtitle = "V trgovini"
 utilisations_2_description = "Weebi uporabljajo tudi lokalna podjetja, kot so pekarne, kozmetika in pralnice ..."
 utilisations_text_image_1 = "Konfiguracija kompleta Weebi v pekarni 'Chez Matisse' v Dakarju - Bourguiba"

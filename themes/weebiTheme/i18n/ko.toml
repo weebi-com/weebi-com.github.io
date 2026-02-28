@@ -11,8 +11,8 @@ download = "다운로드"
 # home
 site_title = "금전등록기 신청서"
 site_description = "Weebi는 판매, 재고 및 고객 계정을 추적하기 위해 다카르에서 설계된 금전 등록기 애플리케이션입니다."
-web_demo = "온라인 데모"
-web_demo_description = "브라우저에서 직접 Weebi를 사용해 보세요. 다운로드가 필요하지 않습니다."
+web_console = "웹 콘솔"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "간단하고 효과적인 앱"
 atous_description = "Weebi 앱은 재고 추적, 고객 잔액 관리, 송장 발행 등 현대 관리자에게 필요한 모든 도구를 제공합니다!"
@@ -23,11 +23,8 @@ atouts_2_description = "제품 카탈로그에는 속도 저하 없이 1만 개 
 atouts_3_subtitle = "고객 충성도"
 atouts_3_description = "한 번의 클릭으로 고객에게 신용을 부여하세요"
 # utilisations
-utilisations_title = "Weebi는 어떻게 사용되나요?"
 utilisations_exemple_1 = "Sell ​​Sellal 그룹의 빈타"
 utilisations_exemple_2 = "Sell ​​Sellal 그룹의 또 다른 구성원"
-utilisations_1_subtitle = "현장에서"
-utilisations_1_description = "모바일이나 PC/Mac에서 애플리케이션이 귀하의 요구에 맞게 조정됩니다."
 utilisations_2_subtitle = "매장 내"
 utilisations_2_description = "Weebi는 빵집, 화장품, 세탁소 등 지역 기업에서도 사용되고 있습니다."
 utilisations_text_image_1 = "다카르 - 부르기바의 'Chez Matisse' 베이커리에서 Weebi 키트 구성"

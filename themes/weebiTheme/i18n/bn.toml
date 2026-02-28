@@ -11,8 +11,8 @@ download = "ডাউনলোড করুন"
 # home
 site_title = "আপনার নগদ নিবন্ধন আবেদন"
 site_description = "Weebi হল একটি ক্যাশ রেজিস্টার অ্যাপ্লিকেশন যা ডাকারে বিক্রয়, স্টক এবং গ্রাহকের অ্যাকাউন্ট ট্র্যাক করার জন্য ডিজাইন করা হয়েছে।"
-web_demo = "অনলাইন ডেমো"
-web_demo_description = "আপনার ব্রাউজারে সরাসরি Weebi ব্যবহার করে দেখুন - কোন ডাউনলোডের প্রয়োজন নেই"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "একটি সহজ এবং কার্যকর অ্যাপ"
 atous_description = "Weebi অ্যাপটি আধুনিক ম্যানেজারের জন্য প্রয়োজনীয় সমস্ত সরঞ্জাম সরবরাহ করে: স্টক ট্র্যাকিং, গ্রাহক ব্যালেন্স ম্যানেজমেন্ট, ইনভয়েসিং এবং আরও অনেক কিছু!"
@@ -23,11 +23,8 @@ atouts_2_description = "পণ্যের ক্যাটালগটি ধী
 atouts_3_subtitle = "গ্রাহক আনুগত্য"
 atouts_3_description = "এক ক্লিকে গ্রাহকের ক্রেডিট প্রদান করুন"
 # utilisations
-utilisations_title = "কিভাবে Weebi ব্যবহার করা হয়?"
 utilisations_exemple_1 = "সেল সেলাল গ্রুপের বিনতা"
 utilisations_exemple_2 = "সেল সেল গ্রুপের আরেক সদস্য মো"
-utilisations_1_subtitle = "মাঠে"
-utilisations_1_description = "মোবাইলে বা পিসি/ম্যাকে, অ্যাপ্লিকেশনটি আপনার প্রয়োজনের সাথে খাপ খায়"
 utilisations_2_subtitle = "দোকানে"
 utilisations_2_description = "Weebi এছাড়াও স্থানীয় ব্যবসা যেমন বেকারি, প্রসাধনী, এবং লন্ড্রি দ্বারা ব্যবহৃত হয়..."
 utilisations_text_image_1 = "ডাকারের 'চেজ ম্যাটিস' বেকারিতে উইবি কিট কনফিগারেশন - বোরগুইবা"

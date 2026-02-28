@@ -11,8 +11,8 @@ download = "Λήψη"
 # home
 site_title = "Η αίτηση ταμειακής μηχανής σας"
 site_description = "Το Weebi είναι μια εφαρμογή ταμειακής μηχανής που έχει σχεδιαστεί στο Ντακάρ για την παρακολούθηση πωλήσεων, αποθεμάτων και λογαριασμών πελατών."
-web_demo = "Online demo"
-web_demo_description = "Δοκιμάστε το Weebi απευθείας στο πρόγραμμα περιήγησής σας - δεν απαιτείται λήψη"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Μια απλή και αποτελεσματική εφαρμογή"
 atous_description = "Η εφαρμογή Weebi παρέχει όλα τα απαραίτητα εργαλεία για τον σύγχρονο διαχειριστή: παρακολούθηση αποθεμάτων, διαχείριση υπολοίπου πελατών, τιμολόγηση και πολλά άλλα!"
@@ -23,11 +23,8 @@ atouts_2_description = "Ο κατάλογος προϊόντων μπορεί ν
 atouts_3_subtitle = "Πιστότητα πελατών"
 atouts_3_description = "Χορηγήστε πίστωση πελάτη με ένα κλικ"
 # utilisations
-utilisations_title = "Πώς χρησιμοποιείται το Weebi;"
 utilisations_exemple_1 = "Binta από τον όμιλο Sell Sellal"
 utilisations_exemple_2 = "Ένα άλλο μέλος του ομίλου Sell Sellal"
-utilisations_1_subtitle = "Στο χωράφι"
-utilisations_1_description = "Σε κινητό ή σε pc/mac, η εφαρμογή προσαρμόζεται στις ανάγκες σας"
 utilisations_2_subtitle = "Στο κατάστημα"
 utilisations_2_description = "Το Weebi χρησιμοποιείται επίσης από τοπικές επιχειρήσεις, όπως αρτοποιεία, καλλυντικά και πλυντήρια..."
 utilisations_text_image_1 = "Διαμόρφωση κιτ Weebi στο αρτοποιείο «Chez Matisse» στο Ντακάρ - Bourguiba"

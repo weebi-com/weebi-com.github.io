@@ -11,8 +11,8 @@ download = "Stáhnout"
 # home
 site_title = "Vaše pokladní aplikace"
 site_description = "Weebi je pokladní aplikace navržená v Dakaru ke sledování prodeje, zásob a zákaznických účtů."
-web_demo = "Online demo"
-web_demo_description = "Vyzkoušejte Weebi přímo ve svém prohlížeči – není třeba stahovat"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Jednoduchá a efektivní aplikace"
 atous_description = "Aplikace Weebi poskytuje všechny nástroje potřebné pro moderního manažera: Sledování zásob, správa zůstatku zákazníků, fakturace a mnoho dalšího!"
@@ -23,11 +23,8 @@ atouts_2_description = "Produktový katalog může obsahovat přes deset tisíc 
 atouts_3_subtitle = "Věrnost zákazníků"
 atouts_3_description = "Poskytněte zákaznický kredit jedním kliknutím"
 # utilisations
-utilisations_title = "Jak se přípravek Weebi používá?"
 utilisations_exemple_1 = "Binta ze skupiny Sell Sellal"
 utilisations_exemple_2 = "Další člen skupiny Sell Sellal"
-utilisations_1_subtitle = "V terénu"
-utilisations_1_description = "Na mobilu nebo na PC/mac se aplikace přizpůsobí vašim potřebám"
 utilisations_2_subtitle = "V obchodě"
 utilisations_2_description = "Weebi také využívají místní podniky, jako jsou pekárny, kosmetika a prádelny..."
 utilisations_text_image_1 = "Konfigurace sady Weebi v pekárně 'Chez Matisse' v Dakaru - Bourguiba"

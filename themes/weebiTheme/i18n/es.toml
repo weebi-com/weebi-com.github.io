@@ -11,8 +11,8 @@ download = "Descargar"
 # home
 site_title = "Su aplicación de caja registradora"
 site_description = "Weebi es una aplicación de caja registradora diseñada en Dakar para realizar un seguimiento de las ventas, el stock y las cuentas de los clientes."
-web_demo = "Demostración en línea"
-web_demo_description = "Pruebe Weebi directamente en su navegador: no requiere descarga"
+web_console = "Consola web"
+web_console_description = "Regístrese o inicie sesión para gestionar su negocio en línea"
 # atouts
 atous_title = "Una aplicación sencilla y eficaz"
 atous_description = "La aplicación Weebi proporciona todas las herramientas necesarias para el administrador moderno: seguimiento de existencias, gestión del saldo de los clientes, facturación y mucho más."
@@ -23,11 +23,8 @@ atouts_2_description = "El catálogo de productos puede contener más de diez mi
 atouts_3_subtitle = "Fidelización del cliente"
 atouts_3_description = "Otorga crédito al cliente con un clic"
 # utilisations
-utilisations_title = "¿Cómo se utiliza Weebi?"
 utilisations_exemple_1 = "Binta del grupo Sell Sellal"
 utilisations_exemple_2 = "Otro miembro del grupo Sell Sellal"
-utilisations_1_subtitle = "en el campo"
-utilisations_1_description = "En móvil o en pc/mac, la aplicación se adapta a tus necesidades"
 utilisations_2_subtitle = "en la tienda"
 utilisations_2_description = "Weebi también es utilizado por empresas locales como panaderías, cosméticas y lavanderías..."
 utilisations_text_image_1 = "Configuración del kit Weebi en la panadería 'Chez Matisse' de Dakar - Bourguiba"

@@ -11,8 +11,8 @@ download = "Shkarkoni"
 # home
 site_title = "Aplikimi juaj i arkës"
 site_description = "Weebi është një aplikacion i arkës i krijuar në Dakar për të gjurmuar shitjet, aksionet dhe llogaritë e klientëve."
-web_demo = "Demo online"
-web_demo_description = "Provoni Weebi direkt në shfletuesin tuaj - nuk kërkohet shkarkim"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Një aplikacion i thjeshtë dhe efektiv"
 atous_description = "Aplikacioni Weebi ofron të gjitha mjetet e nevojshme për menaxherin modern: gjurmimin e aksioneve, menaxhimin e bilancit të klientit, faturimin dhe shumë më tepër!"
@@ -23,11 +23,8 @@ atouts_2_description = "Katalogu i produkteve mund të përmbajë mbi dhjetë mi
 atouts_3_subtitle = "Besnikëria e klientit"
 atouts_3_description = "Jepni kredi klientit me një klik"
 # utilisations
-utilisations_title = "Si përdoret Weebi?"
 utilisations_exemple_1 = "Binta nga grupi Sell Sellal"
 utilisations_exemple_2 = "Një tjetër anëtar i grupit Sell Sellal"
-utilisations_1_subtitle = "Në fushë"
-utilisations_1_description = "Në celular ose në pc/mac, aplikacioni përshtatet me nevojat tuaja"
 utilisations_2_subtitle = "Në dyqan"
 utilisations_2_description = "Weebi përdoret gjithashtu nga bizneset lokale si furrat e bukës, kozmetika dhe lavanderi..."
 utilisations_text_image_1 = "Konfigurimi i kompletit Weebi në furrën \"Chez Matisse\" në Dakar - Bourguiba"

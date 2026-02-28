@@ -11,8 +11,8 @@ download = "Lejupielādēt"
 # home
 site_title = "Jūsu kases aparāta pieteikums"
 site_description = "Weebi ir kases lietojumprogramma, kas izstrādāta Dakārā, lai izsekotu pārdošanas apjomu, krājumus un klientu kontus."
-web_demo = "Tiešsaistes demonstrācija"
-web_demo_description = "Izmēģiniet Weebi tieši savā pārlūkprogrammā — lejupielāde nav nepieciešama"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Vienkārša un efektīva lietotne"
 atous_description = "Weebi lietotne nodrošina visus mūsdienu pārvaldniekam nepieciešamos rīkus: krājumu izsekošanu, klientu bilances pārvaldību, rēķinu izrakstīšanu un daudz ko citu!"
@@ -23,11 +23,8 @@ atouts_2_description = "Produktu katalogā bez palēnināšanās var būt vairā
 atouts_3_subtitle = "Klientu lojalitāte"
 atouts_3_description = "Piešķiriet klienta kredītu ar vienu klikšķi"
 # utilisations
-utilisations_title = "Kā lieto Weebi?"
 utilisations_exemple_1 = "Binta no Sell Sellal grupas"
 utilisations_exemple_2 = "Vēl viens Sell Sellal grupas dalībnieks"
-utilisations_1_subtitle = "Laukā"
-utilisations_1_description = "Mobilajā vai pc/mac lietojumprogramma pielāgojas jūsu vajadzībām"
 utilisations_2_subtitle = "Veikalā"
 utilisations_2_description = "Weebi izmanto arī vietējie uzņēmumi, piemēram, maizes ceptuves, kosmētika un veļas mazgātavas..."
 utilisations_text_image_1 = "Weebi komplekta konfigurācija 'Chez Matisse' maiznīcā Dakarā - Bourguiba"

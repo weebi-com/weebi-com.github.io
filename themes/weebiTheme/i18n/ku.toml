@@ -11,8 +11,8 @@ download = "Download"
 # home
 site_title = "Serlêdana kasa dravê we"
 site_description = "Weebi serîlêdanek kasê ye ku li Dakarê hatî çêkirin ku firotan, stok û hesabên xerîdar bişopîne."
-web_demo = "Demo online"
-web_demo_description = "Weebi rasterast di geroka xwe de biceribînin - dakêşandin hewce nake"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "A app sade û bi bandor"
 atous_description = "Serlêdana Weebi hemî amûrên ku ji bo rêveberê nûjen hewce dike peyda dike: Şopandina stock, rêveberiya balansa xerîdar, fatûrekirin, û hêj bêtir!"
@@ -23,11 +23,8 @@ atouts_2_description = "Kataloga hilber dikare zêdetirî deh hezar referansên 
 atouts_3_subtitle = "dilsoziya Mişterî"
 atouts_3_description = "Bi yek klîk krediya xerîdar bidin"
 # utilisations
-utilisations_title = "Weebi çawa tê bikar anîn?"
 utilisations_exemple_1 = "Binta ji koma Sell Sellal"
 utilisations_exemple_2 = "Endamekî din ê koma Sell Sellal"
-utilisations_1_subtitle = "Li qadê"
-utilisations_1_description = "Li ser mobîl an li ser pc/mac-ê, serîlêdan li gorî hewcedariyên we diguncîne"
 utilisations_2_subtitle = "Li dikanê"
 utilisations_2_description = "Weebi di heman demê de ji hêla karsaziyên herêmî yên wekî nanpêj, kozmetîk, û cilşûştinê ve tê bikar anîn ..."
 utilisations_text_image_1 = "Veavakirina kîtê Weebi li nanpêjgeha 'Chez Matisse' li Dakar - Bourguiba"

@@ -11,8 +11,8 @@ download = "Преузми"
 # home
 site_title = "Ваша апликација за касу"
 site_description = "Вееби је апликација за касе дизајнирана у Дакару да прати продају, залихе и рачуне купаца."
-web_demo = "Онлине демо"
-web_demo_description = "Испробајте Вееби директно у свом претраживачу - није потребно преузимање"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Једноставна и ефикасна апликација"
 atous_description = "Апликација Вееби пружа све алате неопходне за модерног менаџера: праћење залиха, управљање стањем купаца, фактурисање и још много тога!"
@@ -23,11 +23,8 @@ atouts_2_description = "Каталог производа може да садр
 atouts_3_subtitle = "Лојалност купаца"
 atouts_3_description = "Дајте кредит клијенту једним кликом"
 # utilisations
-utilisations_title = "Како се Вееби користи?"
 utilisations_exemple_1 = "Бинта из групе Селл Селлал"
 utilisations_exemple_2 = "Још један члан групе Селл Селлал"
-utilisations_1_subtitle = "На терену"
-utilisations_1_description = "На мобилном уређају или на пц/мац, апликација се прилагођава вашим потребама"
 utilisations_2_subtitle = "У продавници"
 utilisations_2_description = "Вееби користе и локалне компаније као што су пекаре, козметика и перионице ..."
 utilisations_text_image_1 = "Вееби комплет конфигурација у пекари 'Цхез Матиссе' у Дакару - Боургуиба"

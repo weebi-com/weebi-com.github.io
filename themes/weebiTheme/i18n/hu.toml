@@ -11,8 +11,8 @@ download = "Letöltés"
 # home
 site_title = "A pénztárgép alkalmazás"
 site_description = "A Weebi egy pénztárgép-alkalmazás, amelyet Dakarban terveztek az eladások, a készletek és az ügyfelek számláinak nyomon követésére."
-web_demo = "Online demo"
-web_demo_description = "Próbálja ki a Weebi-t közvetlenül a böngészőjében – nincs szükség letöltésre"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Egy egyszerű és hatékony alkalmazás"
 atous_description = "A Weebi alkalmazás minden eszközt biztosít a modern menedzser számára: készletkövetés, ügyfélegyenleg-kezelés, számlázás és még sok más!"
@@ -23,11 +23,8 @@ atouts_2_description = "A termékkatalógus több mint tízezer termékreferenci
 atouts_3_subtitle = "Ügyfélhűség"
 atouts_3_description = "Nyújtson jóváírást az ügyfélnek egyetlen kattintással"
 # utilisations
-utilisations_title = "Hogyan kell alkalmazni a Weebit?"
 utilisations_exemple_1 = "Binta a Sell Sellal csoportból"
 utilisations_exemple_2 = "A Sell Sellal csoport másik tagja"
-utilisations_1_subtitle = "A mezőn"
-utilisations_1_description = "Mobilon vagy pc/mac-en az alkalmazás az Ön igényeihez igazodik"
 utilisations_2_subtitle = "Az üzletben"
 utilisations_2_description = "A Weebit olyan helyi vállalkozások is használják, mint a pékségek, kozmetikumok és mosodák..."
 utilisations_text_image_1 = "Weebi készlet konfigurációja a \"Chez Matisse\" pékségben Dakarban - Bourguiba"

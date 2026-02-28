@@ -11,8 +11,8 @@ download = "Atsisiųsti"
 # home
 site_title = "Jūsų kasos paraiška"
 site_description = "„Weebi“ yra kasos aparato programa, sukurta Dakare, skirta stebėti pardavimus, atsargas ir klientų sąskaitas."
-web_demo = "Demonstracija internete"
-web_demo_description = "Išbandykite „Weebi“ tiesiogiai savo naršyklėje – atsisiųsti nereikia"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Paprasta ir efektyvi programėlė"
 atous_description = "„Weebi“ programėlė suteikia visus šiuolaikiniam vadovui būtinus įrankius: atsargų sekimą, klientų balanso valdymą, sąskaitų faktūrų išrašymą ir dar daugiau!"
@@ -23,11 +23,8 @@ atouts_2_description = "Produktų kataloge gali būti daugiau nei dešimt tūkst
 atouts_3_subtitle = "Klientų lojalumas"
 atouts_3_description = "Suteikite kliento kreditą vienu paspaudimu"
 # utilisations
-utilisations_title = "Kaip vartoti Weebi?"
 utilisations_exemple_1 = "Binta iš „Sell Sellal“ grupės"
 utilisations_exemple_2 = "Kitas „Sell Sellal“ grupės narys"
-utilisations_1_subtitle = "Lauke"
-utilisations_1_description = "Mobiliajame arba asmeniniame/mac kompiuteryje programa prisitaiko prie jūsų poreikių"
 utilisations_2_subtitle = "Parduotuvėje"
 utilisations_2_description = "„Weebi“ taip pat naudoja vietinės įmonės, tokios kaip kepyklos, kosmetika ir skalbyklos..."
 utilisations_text_image_1 = "„Weebi“ rinkinio konfigūracija „Chez Matisse“ kepyklėlėje Dakare – Bourguiba"

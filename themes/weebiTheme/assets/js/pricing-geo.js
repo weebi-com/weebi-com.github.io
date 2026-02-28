@@ -72,7 +72,7 @@ const CURRENCY_MAP = {
 // Countries where Enterprise plan is not available due to tax/regulatory reasons
 // Software licenses are classified as taxable services in these countries
 const UNAVAILABLE_COUNTRIES = {
-  'NG': 'Nigeria',
+//  'NG': 'Nigeria', // Possible with specific constraints, let's keep it for now
   'KE': 'Kenya',
   'MZ': 'Mozambique'
 };

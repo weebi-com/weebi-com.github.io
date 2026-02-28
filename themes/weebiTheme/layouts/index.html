@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class=" main-hero">
-  <div class="container intro-wrapper py-5">
+  <div class="container intro-wrapper py-4">
     <div class="row align-items-center g-5">
       <div class="col-md-12 col-lg-12">
         <h1 class="display-5 fw-bold text-body-emphasis lh-sm mb-3 hero-title animate__animated animate__bounceInDown">{{ T "site_title" }}</h1>
@@ -12,91 +12,34 @@
   </div>
 </div>
 
-<div class="atouts section-py-8" id="atouts">
-  <div class="container overflow-hidden">
-    <div class="row gx-5 py-6">
-      <div class="col-lg-6 col-md-12">
-        <img src="/images/weebi-thierno-boutique.jpg" class="img-fluid rounded h-100" alt="Facile" />
+<div class="utilisations section-py-3" id="utilisations">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <img src="/images/binta_sell_sellal_dakar_weebi.jpeg" class="img-fluid rounded" alt="Binta du groupement Sell Sellal" />
+        <p class="py-2 fst-italic">{{ T "utilisations_exemple_1" }}</p>
       </div>
-      <div class="col-lg-6 col-md-12 d-flex align-items-center">
-        <div>
-          <h2 class="h2 fw-bold inner-section-title">{{ T "atous_title" }}</h2>
-          <p>{{ T "atous_description" }}</p>
-          <div class="vstack gap-4">
-            <div class="hstack gap-3 ">
-              <div class="square-icon-group">
-                <i class="bi bi-cart-fill"></i>
-              </div>
-              <div class="icon-group-content-wrapper">
-                <h6 class="h6 fw-bold">{{ T "atouts_1_subtitle" }}</h6>
-                <p>{{ T "atouts_1_description" }}</p>
-              </div>
-            </div>
-            <div class="hstack gap-3 ">
-              <div class="square-icon-group">
-                <i class="bi bi-tag-fill"></i>
-              </div>
-              <div class="icon-group-content-wrapper">
-                <h6 class="h6 fw-bold">{{ T "atouts_2_subtitle" }}</h6>
-                <p>{{ T "atouts_2_description" }}</p>
-              </div>
-            </div>
-            <div class="hstack gap-3">
-              <div class="square-icon-group">
-                <i class="bi bi-person-add"></i>
-              </div>
-              <div class="icon-group-content-wrapper">
-                <h6 class="h6 fw-bold">{{ T "atouts_3_subtitle" }}</h6>
-                <p>{{ T "atouts_3_description" }}</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="col-md-4">
+        <img src="/images/sell_sellal_dakar_weebi.jpg" class="img-fluid rounded" alt="Mari du groupement Sell Sellal" />
+        <p class="py-2 fst-italic">{{ T "utilisations_exemple_2" }}</p>
+      </div>
+      <div class="col-md-4">
+        <img src="/images/sabrina_socle_weebi.jpg" class="img-fluid rounded" alt="Sabrina sur le terrain" />
+        <p class="py-2 fst-italic">{{ T "utilisations_exemple_3" }}</p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="utilisations section-py-8" id="utilisations">
+<div class="utilisations-en-magasin bg-weebi text-white section-py-4">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h2 class="h2 fw-bold text-center weebi-text-primary-color inner-section-title">{{ T "utilisations_title" }}
-        </h2>
-      </div>
-    </div>
     <div class="row py-3">
-      <div class="col-md-12">
-        <h3 class="h2 fw-bold">{{ T "utilisations_1_subtitle" }}</h3>
-        <p>{{ T "utilisations_1_description" }}</p>
-      </div>
-    </div>
-    <div class="row py-3">
-      <div class="col-md-4">
-        <img src="/images/binta_sell_sellal_dakar_weebi.jpeg" class="img-fluid rounded" alt="Facile" />
-        <p class="py-3 fst-italic">{{ T "utilisations_exemple_1" }}</p>
-      </div>
-      <div class="col-md-4">
-        <img src="/images/sell_sellal_dakar_weebi.jpg" class="img-fluid rounded" alt="Facile" />
-        <p class="py-3 fst-italic">{{ T "utilisations_exemple_2" }}</p>
-      </div>
-      <div class="col-md-4">
-        <img src="/images/sabrina_socle_weebi.jpg" class="img-fluid rounded" alt="Sur le terrain" />
-        <p class="py-3 fst-italic">{{ T "utilisations_exemple_3" }}</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="utilisations-en-magasin bg-weebi text-white section-py-6">
-  <div class="container">
-    <div class="row py-5">
       <div class="col-md-12">
         <h3 class="h2 fw-bold">{{ T "utilisations_2_subtitle" }}</h3>
         <p class="">{{ T "utilisations_2_description" }}</p>
       </div>
     </div>
-    <div class="row g-5 pb-5">
+    <div class="row g-4 pb-4">
       <div class="col-md-4 col-sm-12">
         <img src="/images/boulangerie_matisse_dakar_weebi.jpg" class="img-fluid rounded" alt="Facile" />
         <p class="p-2 fst-italic">{{ T "utilisations_text_image_1" }}</p>
@@ -169,6 +112,14 @@
             <span class="feature-list-title">{{ T "fonctionnalites_maj_title" }}</span>
             <span class="feature-list-description">{{ T "fonctionnalites_maj_description" }}</span>
           </div>
+
+          <div class="vstack gap-2">
+            <div class="square-icon-group">
+              <i class="bi bi-cart-fill"></i>
+            </div>
+            <span class="feature-list-title">{{ T "atouts_1_subtitle" }}</span>
+            <span class="feature-list-description">{{ T "atouts_1_description" }}</span>
+          </div>
         </div>
       </div>
 
@@ -189,6 +140,14 @@
             <span class="feature-list-title">{{ T "fonctionnalites_cp_wtsp_title" }}</span>
             <span class="feature-list-description">{{ T "fonctionnalites_cp_wtsp_description" }}</span>
           </div>
+
+          <div class="vstack gap-2">
+            <div class="square-icon-group">
+              <i class="bi bi-tag-fill"></i>
+            </div>
+            <span class="feature-list-title">{{ T "atouts_2_subtitle" }}</span>
+            <span class="feature-list-description">{{ T "atouts_2_description" }}</span>
+          </div>
         </div>
       </div>
 
@@ -200,6 +159,22 @@
             </div>
             <span class="feature-list-title">{{ T "fonctionnalites_offline_title" }}</span>
             <span class="feature-list-description">{{ T "fonctionnalites_offline_description" }}</span>
+          </div>
+
+          <div class="vstack gap-2">
+            <div class="square-icon-group">
+              <i class="bi bi-person-add"></i>
+            </div>
+            <span class="feature-list-title">{{ T "atouts_3_subtitle" }}</span>
+            <span class="feature-list-description">{{ T "atouts_3_description" }}</span>
+          </div>
+
+          <div class="vstack gap-2">
+            <div class="square-icon-group">
+              <i class="bi bi-printer-fill"></i>
+            </div>
+            <span class="feature-list-title">{{ T "fonctionnalites_thermal_title" }}</span>
+            <span class="feature-list-description">{{ T "fonctionnalites_thermal_description" }}</span>
           </div>
         </div>
       </div>
@@ -278,7 +253,7 @@
           </table>
         </div>
         <div class="text-center mt-4">
-          {{ partial "store-links.html" (dict "variant" "stores") }}
+          {{ partial "store-links.html" (dict "variant" "stores" "includeWebConsole" true) }}
         </div>
       </div>
     </div>

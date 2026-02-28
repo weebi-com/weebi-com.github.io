@@ -11,8 +11,8 @@ download = "İndirmek"
 # home
 site_title = "Yazar kasa başvurunuz"
 site_description = "Weebi, Dakar'da satış, stok ve müşteri hesaplarını takip etmek için tasarlanmış bir yazarkasa uygulamasıdır."
-web_demo = "Çevrimiçi demo"
-web_demo_description = "Weebi'yi doğrudan tarayıcınızda deneyin; indirmeye gerek yok"
+web_console = "Web Konsolu"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Basit ve etkili bir uygulama"
 atous_description = "Weebi uygulaması modern bir yönetici için gerekli tüm araçları sağlar: Stok takibi, müşteri bakiyesi yönetimi, faturalandırma ve çok daha fazlası!"
@@ -23,11 +23,8 @@ atouts_2_description = "Ürün kataloğu hız kesmeden on binin üzerinde ürün
 atouts_3_subtitle = "Müşteri sadakati"
 atouts_3_description = "Tek tıklamayla müşteri kredisi verin"
 # utilisations
-utilisations_title = "Weebi nasıl kullanılır?"
 utilisations_exemple_1 = "Sell ​​Sellal grubundan Binta"
 utilisations_exemple_2 = "Sell ​​Sellal grubunun bir başka üyesi"
-utilisations_1_subtitle = "sahada"
-utilisations_1_description = "Mobil cihazlarda veya PC/Mac'te uygulama ihtiyaçlarınıza uyum sağlar"
 utilisations_2_subtitle = "Mağazada"
 utilisations_2_description = "Weebi ayrıca fırınlar, kozmetik ürünleri ve çamaşırhaneler gibi yerel işletmeler tarafından da kullanılıyor..."
 utilisations_text_image_1 = "Dakar - Bourguiba'daki 'Chez Matisse' fırınında Weebi kiti konfigürasyonu"

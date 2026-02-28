@@ -11,8 +11,8 @@ download = "הורד"
 # home
 site_title = "בקשת הקופה הרושמת שלך"
 site_description = "Weebi היא אפליקציית קופה רושמת שתוכננה בדקר למעקב אחר מכירות, מלאי וחשבונות לקוחות."
-web_demo = "הדגמה מקוונת"
-web_demo_description = "נסה את Weebi ישירות בדפדפן שלך - אין צורך בהורדה"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "אפליקציה פשוטה ויעילה"
 atous_description = "אפליקציית Weebi מספקת את כל הכלים הדרושים למנהל המודרני: מעקב אחר מלאי, ניהול יתרת לקוחות, חשבוניות ועוד הרבה יותר!"
@@ -23,11 +23,8 @@ atouts_2_description = "קטלוג המוצרים יכול להכיל למעלה
 atouts_3_subtitle = "נאמנות לקוחות"
 atouts_3_description = "הענק אשראי ללקוח בקליק אחד"
 # utilisations
-utilisations_title = "כיצד משתמשים ב-Weebi?"
 utilisations_exemple_1 = "Binta מקבוצת Sell Sellal"
 utilisations_exemple_2 = "חבר נוסף בקבוצת Sell Sellal"
-utilisations_1_subtitle = "בשטח"
-utilisations_1_description = "בנייד או ב-pc/mac, האפליקציה מתאימה לצרכים שלך"
 utilisations_2_subtitle = "בחנות"
 utilisations_2_description = "Weebi משמש גם עסקים מקומיים כמו מאפיות, קוסמטיקה ומכבסות..."
 utilisations_text_image_1 = "תצורת ערכת Weebi במאפיית 'Chez Matisse' בדקר - בורגיבה"

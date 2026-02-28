@@ -11,8 +11,8 @@ download = "Жүктөө"
 # home
 site_title = "Сиздин касап-Катталыңыз"
 site_description = "Webi - бул Дакарда, сатууну, акцияларды жана кардарлардын эсептерин көзөмөлдөө үчүн, Даккада иштелип чыккан кассалык өтүнмө."
-web_demo = "Онлайн демо"
-web_demo_description = "Weedi түздөн-түз браузериңизде аракет кылып көрүңүз - жок жүктөө талап кылынбайт"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Жөнөкөй жана натыйжалуу колдонмо"
 atous_description = "Weebi колдонмосу заманбап менеджер үчүн зарыл болгон бардык куралдарды камсыз кылат: Сток-индекционерди көзөмөлдөө, кардарлардын балансын башкаруу, эсеп-фактураны жана андан көп!"
@@ -23,11 +23,8 @@ atouts_2_description = "Продукциянын каталогу жайлаба
 atouts_3_subtitle = "Кардарлардын берилгендиги"
 atouts_3_description = "Кардарлардын насыясын бир чыкылдатуу менен"
 # utilisations
-utilisations_title = "Weebi кандайча колдонулат?"
 utilisations_exemple_1 = "Binta Sellal Group сатуу"
 utilisations_exemple_2 = "САТЫП АЛМАШУУ МҮЧӨЛҮК МҮЧӨЛҮК"
-utilisations_1_subtitle = "Талаада"
-utilisations_1_description = "Мобилдик же PC / MACто, колдонмо сиздин муктаждыктарыңызга ылайыкташтырат"
 utilisations_2_subtitle = "Дүкөндө"
 utilisations_2_description = "Weibi нан бышыруучу, косметика жана кир жуугуч сыяктуу жергиликтүү ишкерлер тарабынан колдонулат ..."
 utilisations_text_image_1 = "Weebi Kit конфигурациясы 'Чез Matisse' Нан бышыруучусу - Дакар - Бургуба"

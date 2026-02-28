@@ -11,8 +11,8 @@ download = "Sauke"
 # home
 site_title = "Aikace-aikacen Rajista"
 site_description = "Weebi Aikace-aikacen Rajista ne wanda aka tsara a Dakar don bin salla, stock, da asusun abokin ciniki."
-web_demo = "Kan layi demo"
-web_demo_description = "Gwada sauro kai tsaye a cikin bincikenka - babu sauke da ake buƙata"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Mai sauki da ingantaccen app"
 atous_description = "Waleki app yana ba da duk kayan aikin da ya zama dole don Manajan zamani: Binciken jari, Gudanar da Abokin Ciniki, Gudanar da Bala'i, Moreicing, da ƙari!"
@@ -23,11 +23,8 @@ atouts_2_description = "Catalog na iya ƙunsar nassoshi dubu goma ba tare da rag
 atouts_3_subtitle = "Abokin ciniki da aminci"
 atouts_3_description = "Bayar da abokin ciniki tare da danna daya"
 # utilisations
-utilisations_title = "Yaya aka yi amfani da Weepi?"
 utilisations_exemple_1 = "Binta daga Sellanal Group"
 utilisations_exemple_2 = "Wani memba na sayar da Sellal"
-utilisations_1_subtitle = "A cikin filin"
-utilisations_1_description = "A kan wayar hannu ko akan PC / Mac, adaftar aikace-aikacen zuwa bukatunku"
 utilisations_2_subtitle = "A cikin shagon"
 utilisations_2_description = "Hakanan ana amfani da kasuwancin gida kamar gidaje kamar gasa, kayan kwaskwarimawa, da katako ..."
 utilisations_text_image_1 = "Kanfigareshan KEDEBIGIGHS AT 'Matisse' Bakiny in Dakar - Bourguiba"

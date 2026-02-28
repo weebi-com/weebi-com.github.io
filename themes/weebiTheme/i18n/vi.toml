@@ -11,13 +11,12 @@ download = "Tải xuống"
 # home
 site_title = "Ứng dụng đăng ký tiền mặt của bạn"
 site_description = "Weebi là một ứng dụng máy tính tiền được thiết kế ở Dakar để theo dõi doanh số bán hàng, hàng tồn kho và tài khoản khách hàng."
-web_demo = "Bản demo trực tuyến"
-web_demo_description = "Dùng thử Weebi trực tiếp trong trình duyệt của bạn - không cần tải xuống"
+web_console = "Bảng điều khiển web"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Một ứng dụng đơn giản và hiệu quả"
 atous_description = "Ứng dụng Weebi cung cấp tất cả các công cụ cần thiết cho người quản lý hiện đại: theo dõi hàng tồn kho, quản lý số dư khách hàng, lập hóa đơn và hơn thế nữa!"
 # utilisations
-utilisations_title = "Weebi được sử dụng như thế nào?"
 # apercu
 apercu_title = "Xem trước"
 apercu_description = "Trên thiết bị di động hoặc trên pc/mac, ứng dụng sẽ điều chỉnh theo nhu cầu của bạn"

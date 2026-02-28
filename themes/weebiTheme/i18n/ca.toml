@@ -11,8 +11,8 @@ download = "Descarregar"
 # home
 site_title = "La vostra sol·licitud de caixa registradora"
 site_description = "Weebi és una aplicació de caixa registradora dissenyada a Dakar per fer un seguiment de vendes, estoc i comptes de clients."
-web_demo = "Demo en línia"
-web_demo_description = "Proveu Weebi directament al vostre navegador; no cal descarregar-lo"
+web_console = "Consola web"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Una aplicació senzilla i eficaç"
 atous_description = "L'aplicació Weebi ofereix totes les eines necessàries per al gestor modern: seguiment d'estocs, gestió del saldo dels clients, facturació i molt més!"
@@ -23,11 +23,8 @@ atouts_2_description = "El catàleg de productes pot contenir més de deu mil re
 atouts_3_subtitle = "Fidelització del client"
 atouts_3_description = "Concedeix crèdit al client amb un sol clic"
 # utilisations
-utilisations_title = "Com s'utilitza Weebi?"
 utilisations_exemple_1 = "Binta del grup Sell Sellal"
 utilisations_exemple_2 = "Un altre membre del grup Sell Sellal"
-utilisations_1_subtitle = "Al camp"
-utilisations_1_description = "Al mòbil o al PC/Mac, l'aplicació s'adapta a les teves necessitats"
 utilisations_2_subtitle = "A la botiga"
 utilisations_2_description = "Weebi també és utilitzat per empreses locals com fleques, cosmètics i bugaderies..."
 utilisations_text_image_1 = "Configuració del kit Weebi a la fleca 'Chez Matisse' de Dakar - Bourguiba"

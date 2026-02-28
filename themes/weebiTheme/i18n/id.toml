@@ -11,8 +11,8 @@ download = "Unduh"
 # home
 site_title = "Aplikasi mesin kasir Anda"
 site_description = "Weebi adalah aplikasi mesin kasir yang dirancang di Dakar untuk melacak penjualan, stok, dan akun pelanggan."
-web_demo = "Demo daring"
-web_demo_description = "Coba Weebi langsung di browser Anda - tidak perlu mengunduh"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Sebuah aplikasi sederhana dan efektif"
 atous_description = "Aplikasi Weebi menyediakan semua alat yang diperlukan untuk manajer modern: Pelacakan stok, manajemen saldo pelanggan, pembuatan faktur, dan banyak lagi!"
@@ -23,11 +23,8 @@ atouts_2_description = "Katalog produk dapat berisi lebih dari sepuluh ribu refe
 atouts_3_subtitle = "Loyalitas pelanggan"
 atouts_3_description = "Berikan kredit pelanggan dengan satu klik"
 # utilisations
-utilisations_title = "Bagaimana Weebi digunakan?"
 utilisations_exemple_1 = "Binta dari grup Jual Sellal"
 utilisations_exemple_2 = "Anggota lain dari grup Sell Sellal"
-utilisations_1_subtitle = "Di lapangan"
-utilisations_1_description = "Di ponsel atau di pc/mac, aplikasi menyesuaikan dengan kebutuhan Anda"
 utilisations_2_subtitle = "Di toko"
 utilisations_2_description = "Weebi juga digunakan oleh bisnis lokal seperti toko roti, kosmetik, dan binatu..."
 utilisations_text_image_1 = "Konfigurasi kit Weebi di toko roti 'Chez Matisse' di Dakar - Bourguiba"

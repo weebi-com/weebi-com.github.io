@@ -11,8 +11,8 @@ download = "ჩამოტვირთვა"
 # home
 site_title = "თქვენი სალარო აპარატის აპლიკაცია"
 site_description = "Weebi არის სალარო აპარატის აპლიკაცია, რომელიც შექმნილია დაკარში გაყიდვების, მარაგების და მომხმარებელთა ანგარიშების თვალყურის დევნებისთვის."
-web_demo = "ონლაინ დემო"
-web_demo_description = "სცადეთ Weebi პირდაპირ თქვენს ბრაუზერში - ჩამოტვირთვა არ არის საჭირო"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "მარტივი და ეფექტური აპლიკაცია"
 atous_description = "Weebi აპი გთავაზობთ ყველა იმ ინსტრუმენტს, რაც აუცილებელია თანამედროვე მენეჯერისთვის: მარაგის თვალყურის დევნება, მომხმარებელთა ბალანსის მართვა, ინვოისირება და მრავალი სხვა!"
@@ -23,11 +23,8 @@ atouts_2_description = "პროდუქტის კატალოგი შ
 atouts_3_subtitle = "მომხმარებელთა ლოიალობა"
 atouts_3_description = "მიეცით კლიენტის კრედიტი ერთი დაწკაპუნებით"
 # utilisations
-utilisations_title = "როგორ გამოიყენება Weebi?"
 utilisations_exemple_1 = "Binta Sell Sellal ჯგუფიდან"
 utilisations_exemple_2 = "Sell ​​Sellal ჯგუფის კიდევ ერთი წევრი"
-utilisations_1_subtitle = "მინდორში"
-utilisations_1_description = "მობილურზე ან კომპიუტერზე/მაკზე, აპლიკაცია ადაპტირდება თქვენს საჭიროებებზე"
 utilisations_2_subtitle = "მაღაზიაში"
 utilisations_2_description = "Weebi ასევე გამოიყენება ადგილობრივი ბიზნესებისთვის, როგორიცაა თონეები, კოსმეტიკა და სამრეცხაოები..."
 utilisations_text_image_1 = "Weebi ნაკრების კონფიგურაცია \"Chez Matisse\" საცხობში დაკარში - Bourguiba"

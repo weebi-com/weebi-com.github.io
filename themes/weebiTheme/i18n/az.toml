@@ -11,8 +11,8 @@ download = "Download"
 # home
 site_title = "Kassa proqramınızın tətbiqi"
 site_description = "Weebi, satış, fond və müştəri hesablarını izləmək üçün Dakarda hazırlanmış bir kassa tətbiqidir."
-web_demo = "Onlayn demo"
-web_demo_description = "Weebi birbaşa brauzerinizdə sınayın - yükləmə tələb olunmur"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Sadə və effektiv bir tətbiq"
 atous_description = "Weebi tətbiqi müasir menecer üçün lazım olan bütün vasitələr təqdim edir: Birja izləmə, müştəri balansının idarə edilməsi, hesab-fakturası və daha çox!"
@@ -23,11 +23,8 @@ atouts_2_description = "Məhsul kataloqu yavaşlamadan on min məhsul istinadın
 atouts_3_subtitle = "Müştəri sədaqəti"
 atouts_3_description = "Bir kliklə müştəri krediti verin"
 # utilisations
-utilisations_title = "Weebi necə istifadə olunur?"
 utilisations_exemple_1 = "Satış Sellal Qrupundan Binta"
 utilisations_exemple_2 = "Satış Sellal Qrupunun başqa bir üzvü"
-utilisations_1_subtitle = "Sahədə"
-utilisations_1_description = "Mobil və ya PC / Mac-də, tətbiq ehtiyaclarınıza uyğunlaşır"
 utilisations_2_subtitle = "Mağazada"
 utilisations_2_description = "Weebi də çörək, kosmetika və camaşırxana kimi yerli müəssisələr tərəfindən də istifadə olunur ..."
 utilisations_text_image_1 = "Weebi Kit konfiqurasiyası Dakardakı 'Chez Matisse' çörək - Bourguiba"

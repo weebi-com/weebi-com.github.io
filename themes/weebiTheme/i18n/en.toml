@@ -15,8 +15,8 @@ download = "Download"
 site_title = "Your Point of Sale"
 site_description = "Weebi is a cash register application designed in Dakar to track sales, stock, and customer accounts."
 
-web_demo = "Online demo"
-web_demo_description = "Try Weebi directly in your browser - no download required"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "A simple and effective app"
 atous_description = "The Weebi app provides all the tools necessary for the modern manager: Stock tracking, customer balance management, invoicing, and much more!"
@@ -30,14 +30,9 @@ atouts_3_description = "Grant customer credit with one click"
 
 # utilisations
 
-utilisations_title = "How is Weebi used?"
-
 utilisations_exemple_1 = "Binta from the Sell Sellal group"
 utilisations_exemple_2 = "Another member of the Sell Sellal group"
 utilisations_exemple_3 = "Sabrina in the field"
-
-utilisations_1_subtitle = "In the field"
-utilisations_1_description = "On mobile or on pc/mac, the application adapts to your needs"
 
 utilisations_2_subtitle = "In store"
 utilisations_2_description = "Weebi is also used by local businesses such as bakeries, cosmetics, and laundries..."

@@ -11,8 +11,8 @@ download = "Изтегляне"
 # home
 site_title = "Вашето приложение за касов апарат"
 site_description = "Weebi е приложение за касов апарат, създадено в Дакар, за проследяване на продажби, запаси и клиентски сметки."
-web_demo = "Онлайн демо"
-web_demo_description = "Изпробвайте Weebi директно в браузъра си - не е необходимо изтегляне"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Просто и ефективно приложение"
 atous_description = "Приложението Weebi предоставя всички необходими инструменти за съвременния мениджър: проследяване на наличности, управление на клиентски баланс, фактуриране и много повече!"
@@ -23,11 +23,8 @@ atouts_2_description = "Продуктовият каталог може да с
 atouts_3_subtitle = "Лоялност на клиентите"
 atouts_3_description = "Предоставете клиентски кредит с едно кликване"
 # utilisations
-utilisations_title = "Как се използва Weebi?"
 utilisations_exemple_1 = "Бинта от групата Sell Sellal"
 utilisations_exemple_2 = "Друг член на групата Sell Sellal"
-utilisations_1_subtitle = "В полето"
-utilisations_1_description = "На мобилно устройство или на компютър/mac приложението се адаптира към вашите нужди"
 utilisations_2_subtitle = "В магазина"
 utilisations_2_description = "Weebi се използва и от местни фирми като пекарни, козметика и перални..."
 utilisations_text_image_1 = "Конфигурация на комплект Weebi в пекарна „Chez Matisse“ в Дакар – Бургиба"

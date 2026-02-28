@@ -11,8 +11,8 @@ download = "Telechaje"
 # home
 site_title = "Aplikasyon kach enskri ou a"
 site_description = "Weebi se yon aplikasyon kach ki fèt nan Dakar pou swiv lavant, stock, ak kont kliyan."
-web_demo = "Demo sou entènèt"
-web_demo_description = "Eseye Weebi dirèkteman nan navigatè ou a - pa gen okenn download obligatwa"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Yon aplikasyon ki senp epi efikas"
 atous_description = "Aplikasyon Weebi bay tout zouti ki nesesè pou manadjè modèn lan: Suivi Stock, jesyon balans kliyan, fakti, ak plis ankò!"
@@ -23,11 +23,8 @@ atouts_2_description = "Katalòg pwodwi a ka gen plis pase dis mil referans pwod
 atouts_3_subtitle = "Lwayote kliyan"
 atouts_3_description = "Bay kredi kliyan ak yon sèl klike sou"
 # utilisations
-utilisations_title = "Ki jan yo itilize Weebi?"
 utilisations_exemple_1 = "Binta soti nan gwoup la Sell Sellal"
 utilisations_exemple_2 = "Yon lòt manm nan gwoup la Sell Sellal"
-utilisations_1_subtitle = "Nan jaden an"
-utilisations_1_description = "Sou mobil oswa sou PC/Mac, aplikasyon an adapte ak bezwen ou yo"
 utilisations_2_subtitle = "Nan magazen"
 utilisations_2_description = "Weebi tou itilize pa biznis lokal tankou boulanjri, pwodui kosmetik, ak lesiv ..."
 utilisations_text_image_1 = "Konfigirasyon twous Weebi nan boulanje 'Chez Matisse' nan Dakar - Bourguiba"

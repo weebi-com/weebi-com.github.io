@@ -11,8 +11,8 @@ download = "Downloaden"
 # home
 site_title = "Uw kassatoepassing"
 site_description = "Weebi is een kassatoepassing die in Dakar is ontworpen om verkopen, voorraad en klantrekeningen bij te houden."
-web_demo = "Onlinedemonstratie"
-web_demo_description = "Probeer Weebi rechtstreeks in uw browser - geen download vereist"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Een eenvoudige en effectieve app"
 atous_description = "De Weebi-app biedt alle tools die nodig zijn voor de moderne manager: voorraadbeheer, klantensaldobeheer, facturering en nog veel meer!"
@@ -23,11 +23,8 @@ atouts_2_description = "De productcatalogus kan zonder vertraging meer dan tiend
 atouts_3_subtitle = "Klantenloyaliteit"
 atouts_3_description = "Geef klantenkrediet met één klik"
 # utilisations
-utilisations_title = "Hoe wordt Weebi gebruikt?"
 utilisations_exemple_1 = "Binta van de Sell Sellal-groep"
 utilisations_exemple_2 = "Nog een lid van de Sell Sellal-groep"
-utilisations_1_subtitle = "In het veld"
-utilisations_1_description = "Op mobiel of op pc/mac, de applicatie past zich aan uw behoeften aan"
 utilisations_2_subtitle = "In de winkel"
 utilisations_2_description = "Weebi wordt ook gebruikt door lokale bedrijven zoals bakkerijen, cosmetica en wasserijen..."
 utilisations_text_image_1 = "Weebi-kitconfiguratie bij bakkerij 'Chez Matisse' in Dakar - Bourguiba"

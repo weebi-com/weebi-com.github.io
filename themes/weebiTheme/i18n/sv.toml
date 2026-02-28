@@ -11,8 +11,8 @@ download = "Ladda ner"
 # home
 site_title = "Din kassaansökan"
 site_description = "Weebi är en kassaapplikation designad i Dakar för att spåra försäljning, lager och kundkonton."
-web_demo = "Online demo"
-web_demo_description = "Prova Weebi direkt i din webbläsare - ingen nedladdning krävs"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "En enkel och effektiv app"
 atous_description = "Weebi-appen tillhandahåller alla verktyg som behövs för den moderna chefen: Lagerspårning, kundbalanshantering, fakturering och mycket mer!"
@@ -23,11 +23,8 @@ atouts_2_description = "Produktkatalogen kan innehålla över tiotusen produktre
 atouts_3_subtitle = "Kundlojalitet"
 atouts_3_description = "Ge kundkredit med ett klick"
 # utilisations
-utilisations_title = "Hur används Weebi?"
 utilisations_exemple_1 = "Binta från Sell Sellal-gruppen"
 utilisations_exemple_2 = "Ytterligare en medlem i Sell Sellal-gruppen"
-utilisations_1_subtitle = "På fältet"
-utilisations_1_description = "På mobil eller på pc/mac anpassar applikationen sig efter dina behov"
 utilisations_2_subtitle = "I butik"
 utilisations_2_description = "Weebi används också av lokala företag som bagerier, kosmetika och tvätterier..."
 utilisations_text_image_1 = "Weebi-satskonfiguration på bageriet \"Chez Matisse\" i Dakar - Bourguiba"

@@ -11,8 +11,8 @@ download = "Muat turun"
 # home
 site_title = "Permohonan daftar tunai anda"
 site_description = "Weebi adalah aplikasi daftar tunai yang direka di Dakar untuk menjejaki jualan, stok, dan akaun pelanggan."
-web_demo = "Demo dalam talian"
-web_demo_description = "Cuba weeebi terus di penyemak imbas anda - tidak diperlukan muat turun"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Aplikasi yang sederhana dan berkesan"
 atous_description = "Aplikasi Weebi menyediakan semua alat yang diperlukan untuk pengurus moden: penjejakan saham, pengurusan keseimbangan pelanggan, invois, dan banyak lagi!"
@@ -23,11 +23,8 @@ atouts_2_description = "Katalog produk boleh mengandungi lebih dari sepuluh ribu
 atouts_3_subtitle = "Kesetiaan pelanggan"
 atouts_3_description = "Memberi kredit pelanggan dengan satu klik"
 # utilisations
-utilisations_title = "Bagaimana Weebi digunakan?"
 utilisations_exemple_1 = "Binta dari Kumpulan Sell Sell"
 utilisations_exemple_2 = "Seorang ahli kumpulan Sell Sell Sell"
-utilisations_1_subtitle = "Di lapangan"
-utilisations_1_description = "Di telefon bimbit atau di PC/Mac, aplikasi ini menyesuaikan diri dengan keperluan anda"
 utilisations_2_subtitle = "Di kedai"
 utilisations_2_description = "Weebi juga digunakan oleh perniagaan tempatan seperti kedai roti, kosmetik, dan laundri ..."
 utilisations_text_image_1 = "Konfigurasi Kit Weebi di Bakery 'Chez Matisse' di Dakar - Bourguiba"

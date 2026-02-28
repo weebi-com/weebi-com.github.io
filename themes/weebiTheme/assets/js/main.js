@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let downloadPlayStore = document.getElementById('download_playstore');
   let downloadAppleStore = document.getElementById('download_apple_store');
   let downloadMicrosoftStore = document.getElementById('download_microsoft_store');
-  let openWebDemo = document.getElementById('open_web_demo');
+  let openWebConsoleBtns = document.querySelectorAll('.web-console-cta');
 
   downloadPlayStore.addEventListener('click', function(event) {
     trackEvent('open_playstore');
@@ -43,7 +43,9 @@ document.addEventListener('DOMContentLoaded', function() {
   downloadMicrosoftStore.addEventListener('click', function(event) {
     trackEvent('open_microsoftstore');
   });
-  openWebDemo.addEventListener('click', function(event) {
-    trackEvent('open_web_demo');
+  openWebConsoleBtns.forEach(function(btn) {
+    btn.addEventListener('click', function(event) {
+      trackEvent('open_web_console');
+    });
   });
 });

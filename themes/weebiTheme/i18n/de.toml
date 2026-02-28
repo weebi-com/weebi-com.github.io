@@ -11,8 +11,8 @@ download = "Herunterladen"
 # home
 site_title = "Ihre Kassenanwendung"
 site_description = "Weebi ist eine in Dakar entwickelte Registrierkassenanwendung zur Verfolgung von Verkäufen, Lagerbeständen und Kundenkonten."
-web_demo = "Online-Demo"
-web_demo_description = "Testen Sie Weebi direkt in Ihrem Browser – kein Download erforderlich"
+web_console = "Web-Konsole"
+web_console_description = "Registrieren Sie sich oder melden Sie sich an, um Ihr Geschäft online zu verwalten"
 # atouts
 atous_title = "Eine einfache und effektive App"
 atous_description = "Die Weebi-App bietet alle notwendigen Tools für den modernen Manager: Bestandsverfolgung, Verwaltung des Kundenbestands, Rechnungsstellung und vieles mehr!"
@@ -23,11 +23,8 @@ atouts_2_description = "Der Produktkatalog kann ohne Verzögerung über zehntaus
 atouts_3_subtitle = "Kundenbindung"
 atouts_3_description = "Gewähren Sie Kundenguthaben mit einem Klick"
 # utilisations
-utilisations_title = "Wie wird Weebi verwendet?"
 utilisations_exemple_1 = "Binta von der Sell Sellal-Gruppe"
 utilisations_exemple_2 = "Ein weiteres Mitglied der Sell Sellal-Gruppe"
-utilisations_1_subtitle = "Auf dem Feld"
-utilisations_1_description = "Auf Mobilgeräten oder auf PC/Mac passt sich die Anwendung Ihren Bedürfnissen an"
 utilisations_2_subtitle = "Im Laden"
 utilisations_2_description = "Weebi wird auch von lokalen Unternehmen wie Bäckereien, Kosmetika und Wäschereien genutzt ..."
 utilisations_text_image_1 = "Weebi-Kit-Konfiguration in der Bäckerei „Chez Matisse“ in Dakar – Bourguiba"

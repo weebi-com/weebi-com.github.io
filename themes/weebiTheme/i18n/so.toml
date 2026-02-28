@@ -11,8 +11,8 @@ download = "Degis deg deg"
 # home
 site_title = "Codsigaaga Diiwaangelinta Lacagtaada"
 site_description = "Weebi waa codsi diiwaangelin ah oo loogu talagalay Dakar si ay ula socdaan iibka, saamiyada, iyo xisaabaadka macaamiisha."
-web_demo = "Demo internetka"
-web_demo_description = "Isku day Weebi si toos ah biraawsarkaaga - lama soo dejin"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "App fudud oo wax ku ool ah"
 atous_description = "Barnaamijka Weebi wuxuu bixiyaa dhammaan aaladaha lagama maarmaanka u ah maareeyaha casriga ah: raadraaca saamiyada, maareynta dheelitirka macaamiisha, qaan-sheegashada, iyo waxyaabo kaloo badan!"
@@ -23,11 +23,8 @@ atouts_2_description = "Kaatalogga sheyga wuxuu ka koobnaan karaa in ka badan to
 atouts_3_subtitle = "Daacadnimada macaamilka"
 atouts_3_description = "Gunno amaahda macaamiisha oo hal guji"
 # utilisations
-utilisations_title = "Sidee Weebi loo isticmaalaa?"
 utilisations_exemple_1 = "Binta oo ka socota kooxda iibinta iibiyaha"
 utilisations_exemple_2 = "Xubin kale oo ka mid ah kooxda iibka iibiyaha"
-utilisations_1_subtitle = "Duurka dhexdiisa"
-utilisations_1_description = "On mobilada ama kombuyutarka PC / MAC, Codsigu wuxuu ku habboon yahay baahiyahaaga"
 utilisations_2_subtitle = "Dukaan"
 utilisations_2_description = "Weebi sidoo kale waxaa adeegsada ganacsiyada maxalliga ah sida wax lagu dubto, waxyaabaha la isku qurxiyo, iyo dharka lagu dhaqo ..."
 utilisations_text_image_1 = "Qaabeynta Xidhmada Weebi ee 'Chez roisse' ee Bakar - Bourguiba"

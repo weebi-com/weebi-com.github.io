@@ -11,8 +11,8 @@ download = "Download"
 # home
 site_title = "Din ansøgning om kasseapparat"
 site_description = "Weebi er en kasseapparatapplikation designet i Dakar til at spore salg, lager og kundekonti."
-web_demo = "Online demo"
-web_demo_description = "Prøv Weebi direkte i din browser - ingen download påkrævet"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "En enkel og effektiv app"
 atous_description = "Weebi-appen giver alle de nødvendige værktøjer til den moderne leder: Lagersporing, kundebalancestyring, fakturering og meget mere!"
@@ -23,11 +23,8 @@ atouts_2_description = "Produktkataloget kan indeholde over ti tusinde produktre
 atouts_3_subtitle = "Kundeloyalitet"
 atouts_3_description = "Giv kundekredit med et enkelt klik"
 # utilisations
-utilisations_title = "Hvordan bruges Weebi?"
 utilisations_exemple_1 = "Binta fra Sell Sellal-gruppen"
 utilisations_exemple_2 = "Endnu et medlem af Sell Sellal-gruppen"
-utilisations_1_subtitle = "I marken"
-utilisations_1_description = "På mobil eller på pc/mac tilpasser applikationen sig til dine behov"
 utilisations_2_subtitle = "I butik"
 utilisations_2_description = "Weebi bruges også af lokale virksomheder såsom bagerier, kosmetik og vaskerier..."
 utilisations_text_image_1 = "Weebi kit konfiguration hos 'Chez Matisse' bageri i Dakar - Bourguiba"

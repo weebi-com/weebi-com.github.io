@@ -11,8 +11,8 @@ download = "Բեռնել"
 # home
 site_title = "Ձեր ՀԴՄ-ի դիմումը"
 site_description = "Weebi-ն դրամարկղային հավելված է, որը նախատեսված է Դաքարում՝ վաճառքի, բաժնետոմսերի և հաճախորդների հաշիվները հետևելու համար:"
-web_demo = "Առցանց ցուցադրություն"
-web_demo_description = "Փորձեք Weebi-ն անմիջապես ձեր բրաուզերում. ներբեռնում չի պահանջվում"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Պարզ և արդյունավետ հավելված"
 atous_description = "Weebi հավելվածը տրամադրում է ժամանակակից մենեջերի համար անհրաժեշտ բոլոր գործիքները՝ բաժնետոմսերի հետևում, հաճախորդների հաշվեկշռի կառավարում, հաշիվ-ապրանքագրեր և շատ ավելին:"
@@ -23,11 +23,8 @@ atouts_2_description = "Ապրանքների կատալոգը կարող է պա
 atouts_3_subtitle = "Հաճախորդների հավատարմություն"
 atouts_3_description = "Հաճախորդին վարկ տրամադրեք մեկ սեղմումով"
 # utilisations
-utilisations_title = "Ինչպե՞ս է օգտագործվում Weebi-ն:"
 utilisations_exemple_1 = "Բինտան Sell Sellal խմբից"
 utilisations_exemple_2 = "Sell ​​Sellal խմբի մեկ այլ անդամ"
-utilisations_1_subtitle = "Դաշտում"
-utilisations_1_description = "Բջջային կամ pc/mac-ի վրա հավելվածը հարմարվում է ձեր կարիքներին"
 utilisations_2_subtitle = "Խանութում"
 utilisations_2_description = "Weebi-ն օգտագործվում է նաև տեղական ձեռնարկությունների կողմից, ինչպիսիք են հացաբուլկեղենները, կոսմետիկան և լվացքատունը..."
 utilisations_text_image_1 = "Weebi հավաքածուի կոնֆիգուրացիա «Chez Matisse» հացաբուլկեղեն Դաքարում - Բուրգիբա"

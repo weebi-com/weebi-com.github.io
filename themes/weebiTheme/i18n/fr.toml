@@ -15,8 +15,8 @@ download = "Télécharger"
 site_title = "Votre application de caisse"
 site_description = "Weebi est une application de gestion conçue à Dakar pour suivre les ventes, le stock et les comptes clients."
 
-web_demo = "Demo web"
-web_demo_description = "Essayez Weebi directement dans votre navigateur - aucun téléchargement requis"
+web_console = "Console Web"
+web_console_description = "Créez un compte ou connectez-vous pour gérer votre activité en ligne"
 
 # atouts
 atous_title = "Une appli simple et efficace"
@@ -31,14 +31,9 @@ atouts_3_description = "Accordez un acompte client en un clic "
 
 # utilisations
 
-utilisations_title = "Comment Weebi est utilisée ?"
-
 utilisations_exemple_1 = "Binta du groupement Sell Sellal"
 utilisations_exemple_2 = "Mari du groupement Sell Sellal"
 utilisations_exemple_3 = "Sabrina sur le terrain"
-
-utilisations_1_subtitle = "Sur le terrain"
-utilisations_1_description = "Sur mobile ou sur pc/mac l'application s'adapte à votre besoin"
 
 utilisations_2_subtitle = "En magasin"
 utilisations_2_description = "Weebi est aussi utilisé par des commerces de proximité comme des boulangeries, des cosmétiques, des blanchisseries..."

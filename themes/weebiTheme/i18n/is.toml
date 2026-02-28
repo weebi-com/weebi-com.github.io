@@ -11,8 +11,8 @@ download = "Sækja"
 # home
 site_title = "Umsókn um peningakassa"
 site_description = "Weebi er peningakassaforrit hannað í Dakar til að fylgjast með sölu, lager og viðskiptareikningum."
-web_demo = "Demo á netinu"
-web_demo_description = "Prófaðu Weebi beint í vafranum þínum - engin niðurhal þarf"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "Einfalt og áhrifaríkt app"
 atous_description = "Weebi appið býður upp á öll þau tæki sem nauðsynleg eru fyrir nútíma stjórnanda: Birgðaeftirlit, stjórnun viðskiptajöfnuðar, reikningagerð og margt fleira!"
@@ -23,11 +23,8 @@ atouts_2_description = "Vöruskráin getur innihaldið yfir tíu þúsund vörut
 atouts_3_subtitle = "Tryggð viðskiptavina"
 atouts_3_description = "Veittu viðskiptavinum inneign með einum smelli"
 # utilisations
-utilisations_title = "Hvernig er Weebi notað?"
 utilisations_exemple_1 = "Binta frá Sell Sellal hópnum"
 utilisations_exemple_2 = "Annar meðlimur í Sell Sellal hópnum"
-utilisations_1_subtitle = "Á sviði"
-utilisations_1_description = "Í farsímum eða á PC/Mac, lagar forritið sig að þínum þörfum"
 utilisations_2_subtitle = "Í verslun"
 utilisations_2_description = "Weebi er einnig notað af staðbundnum fyrirtækjum eins og bakaríum, snyrtivörum og þvottahúsum ..."
 utilisations_text_image_1 = "Weebi kit stillingar í 'Chez Matisse' bakaríi í Dakar - Bourguiba"

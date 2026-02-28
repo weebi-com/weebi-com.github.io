@@ -11,8 +11,8 @@ download = "ڊائون لوڊ ڪريو"
 # home
 site_title = "توهان جي نقد رجسٽري جي درخواست"
 site_description = "Weebi هڪ ڪيش رجسٽر ايپليڪيشن آهي جيڪو ڊڪر ۾ سيلز، اسٽاڪ ۽ ڪسٽمر اڪائونٽس کي ٽريڪ ڪرڻ لاءِ ٺهيل آهي."
-web_demo = "آن لائين ڊيمو"
-web_demo_description = "ڪوشش ڪريو Weebi سڌو توھان جي برائوزر ۾ - ڪابه ڊائون لوڊ جي ضرورت نه آھي"
+web_console = "Web Console"
+web_console_description = "Sign up or log in to manage your business online"
 # atouts
 atous_title = "هڪ سادي ۽ موثر ايپ"
 atous_description = "Weebi ايپ جديد مئنيجر لاءِ تمام ضروري اوزار مهيا ڪري ٿي: اسٽاڪ ٽريڪنگ، ڪسٽمر بيلنس مينيجمينٽ، انوائسنگ، ۽ گهڻو ڪجهه!"
@@ -23,11 +23,8 @@ atouts_2_description = "پراڊڪٽ جي فهرست ۾ ڏهه هزار پراڊ
 atouts_3_subtitle = "ڪسٽمر جي وفاداري"
 atouts_3_description = "گرانٽ گراهڪ ڪريڊٽ هڪ ڪلڪ سان"
 # utilisations
-utilisations_title = "Weebi ڪيئن استعمال ٿيندو آهي؟"
 utilisations_exemple_1 = "سيل سيل گروپ مان بنتا"
 utilisations_exemple_2 = "سيل سيلل گروپ جو ٻيو ميمبر"
-utilisations_1_subtitle = "ميدان ۾"
-utilisations_1_description = "موبائيل تي يا پي سي / ميڪ تي، ايپليڪيشن توهان جي ضرورتن کي ترتيب ڏئي ٿي"
 utilisations_2_subtitle = "اسٽور ۾"
 utilisations_2_description = "Weebi پڻ استعمال ڪيو ويندو آهي مقامي ڪاروبار جهڙوڪ بيڪريون، کاسمیٹکس، ۽ ڌوٻي ..."
 utilisations_text_image_1 = "ڊاڪر ۾ 'چيز مٽيسي' بيڪري تي ويبي کٽ جي ترتيب - بورگيبا"
