@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Eerste gebruik van Weebi in een winkel in Abidjan"
 apercu_title = "Voorbeeld"
 apercu_description = "Op mobiel of op pc/mac, de applicatie past zich aan uw behoeften aan"
 # fonctionnalites
+fonctionnalites_section_title = "Functies"
+fonctionnalites_section_description = "Ontdek de functies die Weebi het ideale hulpmiddel voor uw bedrijf maken"
 fonctionnalites_title = "Eenvoudig ontwerp"
 fonctionnalites_description = "Geen configuratie om aan te passen"
 fonctionnalites_maj_title = "REGELMATIGE UPDATES"

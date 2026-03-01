@@ -34,6 +34,8 @@ utilisations_text_image_3 = "आबिदजान की एक दुकान
 apercu_title = "पूर्व दर्शन"
 apercu_description = "मोबाइल या पीसी/मैक पर, एप्लिकेशन आपकी आवश्यकताओं के अनुरूप ढल जाता है"
 # fonctionnalites
+fonctionnalites_section_title = "सुविधाएँ"
+fonctionnalites_section_description = "उन सुविधाओं की खोज करें जो Weebi को आपके व्यवसाय के लिए आदर्श उपकरण बनाती हैं"
 fonctionnalites_title = "सरल डिज़ाइन"
 fonctionnalites_description = "समायोजित करने के लिए कोई कॉन्फ़िगरेशन नहीं"
 fonctionnalites_maj_title = "नियमित अपडेट"

@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Πρώτη χρήση του Weebi σε ένα κα
 apercu_title = "Πρεμιέρα"
 apercu_description = "Σε κινητό ή σε pc/mac, η εφαρμογή προσαρμόζεται στις ανάγκες σας"
 # fonctionnalites
+fonctionnalites_section_title = "Λειτουργίες"
+fonctionnalites_section_description = "Ανακαλύψτε τις λειτουργίες που κάνουν το Weebi το ιδανικό εργαλείο για την επιχείρησή σας"
 fonctionnalites_title = "Απλός σχεδιασμός"
 fonctionnalites_description = "Δεν υπάρχει ρύθμιση παραμέτρων για προσαρμογή"
 fonctionnalites_maj_title = "ΤΑΚΤΙΚΕΣ ΕΝΗΜΕΡΩΣΕΙΣ"
@@ -84,3 +86,4 @@ page_not_found_title = "Η σελίδα δεν βρέθηκε"
 page_not_found_description = "Λυπούμαστε, η σελίδα που αναζητάτε δεν είναι διαθέσιμη.Μπορεί να έχει μετακινηθεί ή διαγραφεί."
 go_to_home = "Μεταβείτε στο σπίτι"
 popular_pages = "Δημοφιλείς σελίδες"
+user_guide_available_in = "User Guide (Guide de prise en main) only available in"

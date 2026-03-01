@@ -3,10 +3,14 @@
 
 # header
 
-videos = "Vidéos"
+videos = "Démo vidéos"
 price = "Le prix"
 our_customers = "Nos clients"
+faq = "Guide de prise en main"
 contact = "Contact"
+contact_email = "Envoyer un email"
+contact_whatsapp = "WhatsApp"
+contact_view_all = "Voir toutes les coordonnées"
 blog = "Blog"
 download = "Télécharger"
 
@@ -70,7 +74,7 @@ fonctionnalites_offline_description = "Travailler hors-ligne de façon fluide de
 
 # telechargement / pricing
 
-telechargement_title = "Les Offres"
+telechargement_title = "Le prix"
 telechargement_description = "Choisissez l'offre qui correspond à vos besoins"
 
 pricing_table_feature = "Inclus"
@@ -99,9 +103,9 @@ pricing_solo_cloud_backup = "✅"
 pricing_team_cloud_backup = "✅"
 
 pricing_feature_support = "Support"
-pricing_solo_conf_support = "Documentation"
-pricing_solo_cloud_support = "Documentation"
-pricing_team_cloud_support = "Direct (email/chat)"
+pricing_solo_conf_support = "❌"
+pricing_solo_cloud_support = "❌"
+pricing_team_cloud_support = "Direct"
 
 pricing_feature_remote = "Suivi à distance"
 pricing_solo_conf_remote = "❌"
@@ -115,7 +119,7 @@ pricing_team_cloud_multi = "✅"
 
 # demo
 
-demo_title = "Démos et Tutoriels"
+demo_title = "Démo vidéos"
 demo_do_a_cash_sale = "Faire une vente cash"
 demo_new_stock = "Noter une entrée de stock"
 demo_see_a_video = "Voir la vidéo"
@@ -156,6 +160,108 @@ foireauquestions_4_description = "La création/mise à jour/suppression d'un pro
 foireauquestions_5_title = "EST-CE QUE WEEBI PERMET DE SUIVRE LE NIVEAU DE STOCK ?"
 foireauquestions_5_description = "Oui, weebi permet de suivre le stock et permet de saisir des entrées et des sorties de stock et même de réaliser des inventaires."
 
+# FAQ page (contenu détaillé depuis l'app mobile)
+articles = "Articles"
+stock = "Stock"
+ventes = "Ventes"
+ticketsUpper = "Tickets"
+contactsUpper = "Contacts"
+lesAccessoires = "Les accessoires"
+synchronisation = "Synchronisation"
+menu = "Menu"
+importerDesDonnees = "Importer des données"
+exporterDesDonnees = "Exporter des données"
+
+faq_page_sommaire = "Sommaire"
+faq_page_intro_title = "Introduction"
+faq_page_intro_content = """Commençons par présenter les activités principales :
+
+- L'activité **Articles** permet de configurer le catalogue des articles vendus et achetés et de suivre le stock.
+- L'activité **Contacts** permet de configurer les clients et les fournisseurs. Elle permet d'enregistrer un versement sur compte et de suivre le solde.
+- Vous pouvez saisir les ventes et les achats dans les activités du même nom.
+- Dès qu'une vente est validée, l'application génère un ticket avec tous les détails : le montant total, la monnaie rendue, le nom du client.
+- Tous les reçus sont dans l'activité **Tickets** qui regroupe : ventes, achats, mouvements de stock (entrées, sorties et inventaire) et versements sur compte."""
+
+faq_page_articles_catalogue = """Depuis l'activité **Articles** vous pouvez créer, modifier et supprimer les articles.
+
+Pour importer plusieurs articles avec un fichier excel / csv / json aller dans : **Menu** → **Importer des données**."""
+faq_page_articles_creer = """Vidéos de démonstration :
+
+- [Créer un article (vidéo français)](https://youtu.be/3qmF9trudBI)
+- [Créer un calibre d'article (vidéo français)](https://youtu.be/PJwbEkuRowU)
+- [Créer un article (vidéo wolof)](https://youtu.be/Ng8LgFdHAY)"""
+faq_page_articles_panier = """Un panier d'articles permet de regrouper plusieurs articles dans un seul item.
+
+Exemple : un panier café très sucré composé de une dose de café et x3 sucres de x25g.
+
+Il est possible d'appliquer une réduction sur le prix total d'un panier."""
+
+faq_page_stock_suivre = """Prenons l'exemple de la noix de cola. Imaginons 300 colas en boutique.
+
+Pour les vendre plus facilement, proposez des prix au détail différents : à l'unité, par lot de 6, par lot de 100.
+
+Pour réconcilier le stock dans l'application : créez un article noix de cola à l'unité, puis dans cet article créez des sous-articles. Lors de la vente, sélectionnez le bon conditionnement (unité, x6, x100).
+
+L'application calculera automatiquement le stock total restant."""
+faq_page_stock_entree = """Vidéo de démonstration :"""
+faq_page_stock_config = """Pour configurer le stock initial ou corriger un niveau de stock, allez dans les vues **Inventaire**, **Entrées de stock** ou **Sorties de stock**.
+
+Un achat enregistre une dépense et une entrée de stock. Une vente enregistre une recette et une sortie de stock."""
+faq_page_stock_inventaire = """Le tableau de bord **Stock** affiche les mouvements par jour, par mois et sur une période donnée.
+
+Il est possible de filtrer ces statistiques sur une plage horaire (ex. entre 12h et 18h)."""
+
+faq_page_ventes_faire = """Vidéo de démonstration (wolof) :"""
+faq_page_ventes_ajouter = """Pour saisir une vente, ajoutez au moins un article dans le panier.
+
+- Un appui bref ajoute x1 unité.
+- Un appui long ajoute une grande quantité (ex. 100) ou avec une virgule (ex. 1,5).
+- Appuyez ensuite sur la flèche en bas à droite pour passer à l'écran suivant."""
+faq_page_ventes_panier = """La vue cabas permet de modifier la quantité des articles mis au cabas.
+
+- Glisser l'article horizontalement pour le retirer du panier
+- Modifier la quantité avec un appui long
+- Appuyer sur le bouton enlever pour vider tout le panier"""
+faq_page_ventes_client = """Sélectionner un client permet de lui proposer de payer à crédit et de garder une trace de ses achats.
+
+Pour accéder au détail du client sélectionné, utilisez l'appui long.
+
+Si aucun contact n'est sélectionné, la vente sera enregistrée sur un client de passage."""
+faq_page_ventes_paiement = """**Cash** : Choisissez le mode de paiement 'cash' et validez. Saisissez le montant reçu, l'application calcule la monnaie à rendre.
+
+**Électronique** : La transaction se fait hors de Weebi mais sera dissociée des encaissements cash.
+
+**À crédit** : Par défaut la vente à crédit est illimitée. Il est possible de régler un découvert maximum par client."""
+
+faq_page_tickets_effacer = """En cas d'erreur, il est possible de désactiver un ticket plutôt que de le supprimer."""
+
+faq_page_contacts_video = """Vidéo de démonstration (créer un contact) :"""
+faq_page_contacts_config = """Vous pouvez créer, modifier et supprimer les contacts depuis l'activité **Contacts**.
+
+Pour importer plusieurs contacts avec un fichier excel / csv / json aller dans : **Menu** → **Importer des données**."""
+faq_page_contacts_soldes = """Si le solde client est insuffisant, le client ne peut acheter à crédit.
+
+Pour augmenter le solde du client, effectuez un versement depuis la fiche contact. Une vente à crédit enregistrée diminue son solde.
+
+Pour limiter les dettes, vous pouvez configurer un découvert autorisé maximum.
+
+**Solde** = dépôts - ventes à crédit + découvert autorisé"""
+
+faq_page_imprimante = """L'application Weebi peut se connecter avec une imprimante thermique Bluetooth sur iOS et Android.
+
+Les accents et caractères spéciaux ne sont pas pris en charge par les imprimantes thermiques — évitez-les lorsque vous nommez les articles du catalogue."""
+faq_page_barcode = """Sur mobile, la caméra du téléphone agit comme un laser et détecte automatiquement les codes-barres."""
+
+faq_page_synchro_sauvegarde = """Weebi fonctionne hors-ligne mais vous permettra bientôt de sauvegarder vos données en ligne.
+
+En attendant, nous recommandons de faire régulièrement des sauvegardes depuis : **Menu** → **Exporter des données**."""
+faq_page_synchro_multipdv = """Une fois la solution de synchronisation disponible, vous pourrez utiliser plusieurs points de vente."""
+
+faq_page_console_title = "Console Web et paiement des licences"
+faq_page_console_content = """La **console web** Weebi vous permet d'administrer votre firme et de gérer le paiement des licences.
+
+Connectez-vous sur [webapp.prd.weebi.com](https://webapp.prd.weebi.com/) pour créer un compte, gérer vos boutiques, les utilisateurs et souscrire aux offres cloud."""
+
 # telechargement
 
 telechargement_title_2 = "Téléchargez dès maintenant"
@@ -171,6 +277,7 @@ page_not_found_title = "Page non trouvée"
 page_not_found_description = "Désolé, la page que vous recherchez n'est pas disponible. Elle a peut-être été déplacée ou supprimée."
 go_to_home = "Retour à l'accueil"
 popular_pages = "Pages populaires"
+user_guide_available_in = "Guide de prise en main (User Guide) : disponible en"
 
 # newsletter
 newsletter_title = "Restez informé"

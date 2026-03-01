@@ -34,6 +34,8 @@ utilisations_text_image_3 = "ئالدى بىلەن abidjan دىكى دۇكاند
 apercu_title = "ئالدىن كۆرۈش"
 apercu_description = "كۆچمە ياكى PC / Mac دا, بۇ پروگرامما سىزنىڭ ئېھتىياجىڭىزغا ماسلىشىدۇ"
 # fonctionnalites
+fonctionnalites_section_title = "ئىقتىدارlar"
+fonctionnalites_section_description = "Weebi نى سودىڭىز ئۈچۈن ئىدېئال قورال قىلىدىغان ئىقتىدارلارنى بايقاڭ"
 fonctionnalites_title = "ئاددىي لايىھە"
 fonctionnalites_description = "تەڭشەشنىڭ سەپلىمىسى يوق"
 fonctionnalites_maj_title = "دائىملىق يېڭىلاش"

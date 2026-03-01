@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Første bruk av Weebi i en butikk i Abidjan"
 apercu_title = "Forhåndsvisning"
 apercu_description = "På mobil eller på pc/mac tilpasser applikasjonen seg etter dine behov"
 # fonctionnalites
+fonctionnalites_section_title = "Funksjoner"
+fonctionnalites_section_description = "Oppdag funksjonene som gjør Weebi til det ideelle verktøyet for din virksomhet"
 fonctionnalites_title = "Enkelt design"
 fonctionnalites_description = "Ingen konfigurasjon å justere"
 fonctionnalites_maj_title = "VANLIGE OPPDATERINGER"

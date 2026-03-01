@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="container py-5">
+  <div class="row">
+    <div class="col-lg-8 mx-auto text-center">
+      <h1 class="h2 fw-bold mb-4">{{ .Title }}</h1>
+      {{ $msg := T "user_guide_available_in" }}
+      <p class="lead mb-4">{{ if eq $msg "user_guide_available_in" }}User Guide (Guide de prise en main): available in{{ else }}{{ $msg }}{{ end }}</p>
+      <div class="d-flex gap-3 justify-content-center flex-wrap">
+        <a href="{{ .Site.BaseURL }}/fr/user-guide/" class="btn btn-weebi btn-lg">Français</a>
+        <a href="{{ .Site.BaseURL }}/en/user-guide/" class="btn btn-outline-secondary btn-lg">English</a>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

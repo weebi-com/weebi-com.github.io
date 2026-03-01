@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Prvé použitie Weebi v obchode v Abidjane"
 apercu_title = "Ukážka"
 apercu_description = "Na mobile alebo na pc/mac sa aplikácia prispôsobí vašim potrebám"
 # fonctionnalites
+fonctionnalites_section_title = "Funkcie"
+fonctionnalites_section_description = "Objavte funkcie, ktoré robia z Weebi ideálny nástroj pre vaše podnikanie"
 fonctionnalites_title = "Jednoduchý dizajn"
 fonctionnalites_description = "Žiadna konfigurácia na úpravu"
 fonctionnalites_maj_title = "PRAVIDELNÉ AKTUALIZÁCIE"

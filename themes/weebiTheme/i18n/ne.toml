@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Abidjan मा एक पसल मा Weebi को
 apercu_title = "पूर्वावलोकन"
 apercu_description = "मोबाइलमा वा पीसी/म्याकमा, एप्लिकेसनले तपाइँको आवश्यकतालाई अनुकूल बनाउँछ"
 # fonctionnalites
+fonctionnalites_section_title = "विशेषताहरू"
+fonctionnalites_section_description = "ती विशेषताहरू पत्ता लगाउनुहोस् जसले Weebi लाई तपाईंको व्यवसायको लागि आदर्श उपकरण बनाउँछ"
 fonctionnalites_title = "सरल डिजाइन"
 fonctionnalites_description = "समायोजन गर्न कुनै कन्फिगरेसन छैन"
 fonctionnalites_maj_title = "नियमित अपडेटहरू"

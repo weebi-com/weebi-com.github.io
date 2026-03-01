@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Përdorimi i parë i Weebi në një dyqan në Abidj
 apercu_title = "Parapamje"
 apercu_description = "Në celular ose në pc/mac, aplikacioni përshtatet me nevojat tuaja"
 # fonctionnalites
+fonctionnalites_section_title = "Funksionet"
+fonctionnalites_section_description = "Zbuloni funksionet që e bëjnë Weebi mjetin ideal për biznesin tuaj"
 fonctionnalites_title = "Dizajn i thjeshtë"
 fonctionnalites_description = "Nuk ka konfigurim për t'u rregulluar"
 fonctionnalites_maj_title = "PËRDITËSIM TË RREGULLT"

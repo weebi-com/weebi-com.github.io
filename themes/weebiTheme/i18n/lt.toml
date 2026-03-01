@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Pirmasis Weebi panaudojimas parduotuvėje Abidžane
 apercu_title = "Peržiūra"
 apercu_description = "Mobiliajame arba asmeniniame/mac kompiuteryje programa prisitaiko prie jūsų poreikių"
 # fonctionnalites
+fonctionnalites_section_title = "Funkcijos"
+fonctionnalites_section_description = "Atraskite funkcijas, kurios daro Weebi idealiu įrankiu jūsų verslui"
 fonctionnalites_title = "Paprastas dizainas"
 fonctionnalites_description = "Nereikia koreguoti konfigūracijos"
 fonctionnalites_maj_title = "NUOLATINIAI ATNAUJINIAI"

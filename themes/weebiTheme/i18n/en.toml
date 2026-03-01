@@ -3,10 +3,14 @@
 
 # header
 
-videos = "Videos"
+videos = "Demo videos"
 price = "Price"
 our_customers = "Our customers"
+faq = "User Guide"
 contact = "Contact"
+contact_email = "Send email"
+contact_whatsapp = "WhatsApp"
+contact_view_all = "View all contact info"
 blog = "Blog"
 download = "Download"
 
@@ -68,7 +72,7 @@ fonctionnalites_offline_description = "Work offline seamlessly from any device"
 
 # telechargement / pricing
 
-telechargement_title = "Pricing Plans"
+telechargement_title = "Pricing"
 telechargement_description = "Choose the plan that fits your needs"
 
 pricing_table_feature = "Included"
@@ -97,9 +101,9 @@ pricing_solo_cloud_backup = "✅"
 pricing_team_cloud_backup = "✅"
 
 pricing_feature_support = "Support"
-pricing_solo_conf_support = "Documentation"
-pricing_solo_cloud_support = "Documentation"
-pricing_team_cloud_support = "Direct (email/chat)"
+pricing_solo_conf_support = "❌"
+pricing_solo_cloud_support = "❌"
+pricing_team_cloud_support = "Direct"
 
 pricing_feature_remote = "Remote tracking"
 pricing_solo_conf_remote = "❌"
@@ -113,7 +117,7 @@ pricing_team_cloud_multi = "✅"
 
 # demo
 
-demo_title = "Demos and Tutorials"
+demo_title = "Demo videos"
 demo_do_a_cash_sale = "Make a cash sale"
 demo_new_stock = "Record a stock entry"
 demo_see_a_video = "Watch the video"
@@ -154,6 +158,108 @@ foireauquestions_4_description = "Creating/updating/deleting a product is done d
 foireauquestions_5_title = "DOES WEEBI ALLOW STOCK LEVEL TRACKING?"
 foireauquestions_5_description = "Yes, Weebi allows you to track stock and provides management tools such as stock entries and exits."
 
+# FAQ page (content from mobile app)
+articles = "Articles"
+stock = "Stock"
+ventes = "Sales"
+ticketsUpper = "Tickets"
+contactsUpper = "Contacts"
+lesAccessoires = "Accessories"
+synchronisation = "Synchronization"
+menu = "Menu"
+importerDesDonnees = "Import data"
+exporterDesDonnees = "Export data"
+
+faq_page_sommaire = "Table of contents"
+faq_page_intro_title = "Introduction"
+faq_page_intro_content = """Let's start by presenting the main activities:
+
+- The **Articles** activity allows you to set up the catalog of sold and purchased items and to track inventory.
+- The **Contacts** activity allows you to set up customers and vendors. It allows you to record a deposit and track the balance.
+- You can enter sales and purchases in the activities of the same name.
+- As soon as a sale is validated, the application generates a ticket with all the details: the total amount, the change given, the customer name.
+- All receipts are in the **Tickets** activity, which includes: sales, purchases, stock movements (inputs, outputs and inventory) and account payments."""
+
+faq_page_articles_catalogue = """From the **Articles** activity you can create, edit and delete articles.
+
+To import multiple articles with an excel/csv/json file, go to: **Menu** → **Import data**."""
+faq_page_articles_creer = """Demo videos:
+
+- [Create an article (French video)](https://youtu.be/3qmF9trudBI)
+- [Create an article size (French video)](https://youtu.be/PJwbEkuRowU)
+- [Create an article (Wolof video)](https://youtu.be/Ng8LgFdHAY)"""
+faq_page_articles_panier = """A basket of goods allows you to group multiple items into a single item.
+
+Example: a very sweet coffee basket composed of one dose of coffee and x3 sugars of x25g.
+
+It is possible to apply a discount on the total price of a basket."""
+
+faq_page_stock_suivre = """Let's take kola nuts for example. Imagine you have 300 colas in the store.
+
+To sell them more easily, offer different retail prices: per unit, per set of 6, per set of 100.
+
+To reconcile inventory in the application: create a single kola nut item, then create sub-articles in this item. During the sale, select the right packaging (unit, x6, x100).
+
+The app will automatically calculate the total remaining stock."""
+faq_page_stock_entree = """Demo video:"""
+faq_page_stock_config = """To set up initial inventory or correct a stock level, go to the **Inventory**, **Stock input** or **Stock output** views.
+
+A purchase records an expense and a stock input. A sale records a receipt and a stock output."""
+faq_page_stock_inventaire = """The **Stock** dashboard displays movements by day, month and over a given period.
+
+It is possible to filter these statistics over a time slot (e.g. between 12 noon and 6 pm)."""
+
+faq_page_ventes_faire = """Demo video (Wolof):"""
+faq_page_ventes_ajouter = """To enter a sale, add at least one item to the cart.
+
+- A short press adds x1 unit.
+- A long press adds a large amount (e.g. 100) or with a comma (e.g. 1.5).
+- Then press the arrow at the bottom right to move to the next screen."""
+faq_page_ventes_panier = """The cart view allows you to change the quantity of items put in the cart.
+
+- Slide the item horizontally to remove it from the cart
+- Change the quantity with a long press
+- Press the remove button to empty the entire cart"""
+faq_page_ventes_client = """Selecting a customer allows you to offer them to pay on credit and to keep track of their purchases.
+
+To access the selected customer's details, use the long press.
+
+If no contact is selected, the sale will be recorded on a passing customer."""
+faq_page_ventes_paiement = """**Cash**: Choose the 'cash' payment method and validate. Enter the amount received, the application calculates the change to return.
+
+**Electronic**: The transaction is made outside of Weebi but will be dissociated from cash receipts.
+
+**On credit**: By default, credit sales are unlimited. It is possible to set a maximum overdraft per customer."""
+
+faq_page_tickets_effacer = """In case of error, it is possible to deactivate a ticket rather than delete it."""
+
+faq_page_contacts_video = """Demo video (create a contact):"""
+faq_page_contacts_config = """You can create, edit and delete contacts from the **Contacts** activity.
+
+To import multiple contacts with an excel/csv/json file, go to: **Menu** → **Import data**."""
+faq_page_contacts_soldes = """If the customer balance is insufficient, the customer cannot buy on credit.
+
+To increase the customer's balance, make a payment from the contact file. A recorded credit sale decreases their balance.
+
+To limit debts, you can set up a maximum allowable overdraft per customer.
+
+**Balance** = deposits - credit sales + overdraft allowed"""
+
+faq_page_imprimante = """The Weebi app can connect with a Bluetooth thermal printer on iOS and Android.
+
+Accents and special characters are not supported by thermal printers — avoid using them when naming items in the catalog."""
+faq_page_barcode = """On mobile, the phone's camera acts like a laser and automatically detects barcodes."""
+
+faq_page_synchro_sauvegarde = """Weebi works offline but will soon allow you to back up your data online.
+
+In the meantime, we recommend making regular backups from: **Menu** → **Export data**."""
+faq_page_synchro_multipdv = """Once the synchronization solution is available, you will be able to use multiple points of sale."""
+
+faq_page_console_title = "Web Console and license payment"
+faq_page_console_content = """The Weebi **web console** allows you to administer your firm and manage license payment.
+
+Log in at [webapp.prd.weebi.com](https://webapp.prd.weebi.com/) to create an account, manage your stores, users and subscribe to cloud plans."""
+
 # telechargement
 
 telechargement_title_2 = "Download now"
@@ -169,6 +275,7 @@ page_not_found_title = "Page Not Found"
 page_not_found_description = "Sorry, the page you are looking for is not available. It may have been moved or deleted."
 go_to_home = "Go to Home"
 popular_pages = "Popular Pages"
+user_guide_available_in = "User Guide (Guide de prise en main) only available in"
 
 # newsletter
 newsletter_title = "Stay Informed"

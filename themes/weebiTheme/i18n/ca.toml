@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Primer ús de Weebi en una botiga d'Abidjan"
 apercu_title = "Vista prèvia"
 apercu_description = "Al mòbil o al PC/Mac, l'aplicació s'adapta a les teves necessitats"
 # fonctionnalites
+fonctionnalites_section_title = "Funcionalitats"
+fonctionnalites_section_description = "Descobriu les funcionalitats que fan de Weebi l'eina ideal per al vostre negoci"
 fonctionnalites_title = "Disseny senzill"
 fonctionnalites_description = "No hi ha configuració per ajustar"
 fonctionnalites_maj_title = "ACTUALITZACIONS PERIÒDIQUES"

@@ -34,6 +34,8 @@ utilisations_text_image_3 = "د عابدجان په یوه هټۍ کې د ویب
 apercu_title = "مخکتنه"
 apercu_description = "په ګرځنده یا کمپیوټر/ماک کې، غوښتنلیک ستاسو اړتیاوو سره سمون لري"
 # fonctionnalites
+fonctionnalites_section_title = "ځانګړنې"
+fonctionnalites_section_description = "هغه ځانګړنې ومومئ چې Weebi ستاسو سوداګرۍ لپاره مثالي وسیله جوړوي"
 fonctionnalites_title = "ساده ډیزاین"
 fonctionnalites_description = "د تنظیم کولو لپاره هیڅ ترتیب نشته"
 fonctionnalites_maj_title = "منظم تازه کول"

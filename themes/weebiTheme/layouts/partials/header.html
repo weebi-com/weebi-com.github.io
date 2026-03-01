@@ -19,13 +19,14 @@
           <a class="nav-link" href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}#telechargement-prix">{{ T "price" }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}#utilisations">{{ T "our_customers" }}</a>
+          <a class="nav-link" href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}/user-guide/">{{ T "faq" }}</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}#footer">{{ T "contact" }}</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}/privacy_policy/">{{ T "privacy_policy" }}</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ T "contact" }}</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="mailto:{{ site.Params.contact.email }}"><i class="bi bi-envelope me-2" style="color: #0d6efd;"></i>{{ T "contact_email" }}</a></li>
+            <li><a class="dropdown-item" href="{{ site.Params.contact.whatsapp }}" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2" style="color: #25D366;"></i>{{ T "contact_whatsapp" }}</a></li>
+          </ul>
         </li>
       </ul>
       <div class="d-flex">

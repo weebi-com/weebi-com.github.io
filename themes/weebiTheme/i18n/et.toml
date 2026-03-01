@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Weebi esmakordne kasutamine Abidjani poes"
 apercu_title = "Eelvaade"
 apercu_description = "Mobiilis või arvutis/macis kohandub rakendus teie vajadustega"
 # fonctionnalites
+fonctionnalites_section_title = "Funktsioonid"
+fonctionnalites_section_description = "Avasta funktsioonid, mis muudavad Weebi ideaalseks tööriistaks teie äri jaoks"
 fonctionnalites_title = "Lihtne disain"
 fonctionnalites_description = "Konfiguratsiooni pole kohandatav"
 fonctionnalites_maj_title = "REGULAARSED VÄRSKENDUSED"

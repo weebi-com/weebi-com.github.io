@@ -34,6 +34,8 @@ utilisations_text_image_3 = "በአቢዲጃን ሱቅ ውስጥ የመጀመሪ
 apercu_title = "ቅድመ-እይታ"
 apercu_description = "በሞባይል ወይም በፒሲ / ማክ, ትግበራው ፍላጎቶችዎ ላይ ያስተካክላል"
 # fonctionnalites
+fonctionnalites_section_title = "ባህሪያት"
+fonctionnalites_section_description = "Weebi ለንግድዎ ተስማሚ መሣሪያ የሚያደርጉትን ባህሪያት ያግኙ"
 fonctionnalites_title = "ቀላል ንድፍ"
 fonctionnalites_description = "ለማስተካከል ምንም ውቅር የለም"
 fonctionnalites_maj_title = "መደበኛ ዝመናዎች"

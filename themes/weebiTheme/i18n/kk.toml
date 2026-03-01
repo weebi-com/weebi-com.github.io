@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Вебиді бірінші рет Абиджанд
 apercu_title = "Алдын-ала қарау"
 apercu_description = "Ұялы немесе PC / Mac-та, бағдарлама сіздің қажеттіліктеріңізге бейімделеді"
 # fonctionnalites
+fonctionnalites_section_title = "Мүмкіндіктер"
+fonctionnalites_section_description = "Weebi сіздің бизнесіңіз үшін идеалды құрал етіп жатқан мүмкіндіктерді ашыңыз"
 fonctionnalites_title = "Қарапайым дизайн"
 fonctionnalites_description = "Реттеуге конфигурация жоқ"
 fonctionnalites_maj_title = "Үнемі жаңартулар"

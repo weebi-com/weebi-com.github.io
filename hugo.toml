@@ -5,6 +5,9 @@ defaultContentLanguage = 'fr'
 defaultContentLanguageInSubdir = true
 
 [params]
+  [params.contact]
+    email = 'hello@weebi.com'
+    whatsapp = 'https://wa.me/33767989661'
   [params.stores]
     googlePlay = 'https://play.google.com/store/apps/details?id=com.weebi.weebiapp'
     appleStore = 'https://apps.apple.com/us/app/weebi/id1602769796'

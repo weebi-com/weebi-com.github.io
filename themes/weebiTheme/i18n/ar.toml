@@ -34,6 +34,8 @@ utilisations_text_image_3 = "أول استخدام لـ Weebi في متجر في
 apercu_title = "معاينة"
 apercu_description = "على الهاتف المحمول أو على جهاز الكمبيوتر/جهاز Mac، يتكيف التطبيق مع احتياجاتك"
 # fonctionnalites
+fonctionnalites_section_title = "الميزات"
+fonctionnalites_section_description = "اكتشف الميزات التي تجعل Weebi الأداة المثالية لعملك"
 fonctionnalites_title = "تصميم بسيط"
 fonctionnalites_description = "لا يوجد تكوين لضبط"
 fonctionnalites_maj_title = "تحديثات منتظمة"

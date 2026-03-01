@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Pirmā Weebi izmantošana veikalā Abidžanā"
 apercu_title = "Priekšskatījums"
 apercu_description = "Mobilajā vai pc/mac lietojumprogramma pielāgojas jūsu vajadzībām"
 # fonctionnalites
+fonctionnalites_section_title = "Funkcijas"
+fonctionnalites_section_description = "Iepazīstieties ar funkcijām, kas padara Weebi par ideālu rīku jūsu biznesam"
 fonctionnalites_title = "Vienkāršs dizains"
 fonctionnalites_description = "Nav konfigurācijas, ko pielāgot"
 fonctionnalites_maj_title = "REGULĀRI ATJAUNINĀJUMI"

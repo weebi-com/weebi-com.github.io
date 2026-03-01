@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Ensimmäinen Weebin käyttö Abidjanin kaupassa"
 apercu_title = "Esikatselu"
 apercu_description = "Mobiili- tai pc/mac-tietokoneella sovellus mukautuu tarpeisiisi"
 # fonctionnalites
+fonctionnalites_section_title = "Ominaisuudet"
+fonctionnalites_section_description = "Tutustu ominaisuuksiin, jotka tekevät Weebistä ihanteellisen työkalun yrityksellesi"
 fonctionnalites_title = "Yksinkertainen muotoilu"
 fonctionnalites_description = "Ei säädettävää konfiguraatiota"
 fonctionnalites_maj_title = "Säännölliset PÄIVITYKSET"

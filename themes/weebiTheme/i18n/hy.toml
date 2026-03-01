@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Weebi-ի առաջին օգտագործումը Աբ
 apercu_title = "Նախադիտում"
 apercu_description = "Բջջային կամ pc/mac-ի վրա հավելվածը հարմարվում է ձեր կարիքներին"
 # fonctionnalites
+fonctionnalites_section_title = "Հնարավորություններ"
+fonctionnalites_section_description = "Բացահայտեք այն հնարավորությունները, որոնք Weebi-ն դարձնում են ձեր բիզնեսի համար իդեալական գործիք"
 fonctionnalites_title = "Պարզ դիզայն"
 fonctionnalites_description = "Կարգավորելու կոնֆիգուրացիա չկա"
 fonctionnalites_maj_title = "ՀԵՐԹԱԿԱՆ ԹԱՐՄԱՑՈՒՄՆԵՐ"

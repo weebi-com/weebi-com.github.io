@@ -34,6 +34,8 @@ utilisations_text_image_3 = "A Weebi első használata egy Abidjan-i boltban"
 apercu_title = "Előnézet"
 apercu_description = "Mobilon vagy pc/mac-en az alkalmazás az Ön igényeihez igazodik"
 # fonctionnalites
+fonctionnalites_section_title = "Funkciók"
+fonctionnalites_section_description = "Fedezze fel a Weebi vállalkozása ideálissá tévő funkciókat"
 fonctionnalites_title = "Egyszerű kialakítás"
 fonctionnalites_description = "Nincs módosítható konfiguráció"
 fonctionnalites_maj_title = "RENDSZERES FRISSÍTÉSEK"

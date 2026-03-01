@@ -34,6 +34,8 @@ utilisations_text_image_3 = "اولین استفاده از ویبی در مغا
 apercu_title = "پیش نمایش"
 apercu_description = "در تلفن همراه یا رایانه شخصی / مک، برنامه با نیازهای شما سازگار است"
 # fonctionnalites
+fonctionnalites_section_title = "ویژگی‌ها"
+fonctionnalites_section_description = "ویژگی‌هایی را کشف کنید که Weebi را به ابزار ایده‌آل برای کسب‌وکار شما تبدیل می‌کنند"
 fonctionnalites_title = "طراحی ساده"
 fonctionnalites_description = "هیچ پیکربندی برای تنظیم وجود ندارد"
 fonctionnalites_maj_title = "به روز رسانی های منظم"

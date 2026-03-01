@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Fyrsta notkun á Weebi í verslun í Abidjan"
 apercu_title = "Forskoðun"
 apercu_description = "Í farsímum eða á PC/Mac, lagar forritið sig að þínum þörfum"
 # fonctionnalites
+fonctionnalites_section_title = "Eiginleikar"
+fonctionnalites_section_description = "Kynntu þér eiginleika sem gera Weebi að fullkomnu tóli fyrir fyrirtækið þitt"
 fonctionnalites_title = "Einföld hönnun"
 fonctionnalites_description = "Engin stilling til að stilla"
 fonctionnalites_maj_title = "REGLUGERÐ UPPFÆRSLA"

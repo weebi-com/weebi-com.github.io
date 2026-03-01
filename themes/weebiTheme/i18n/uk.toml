@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Перше використання Weebi в маг
 apercu_title = "Попередній перегляд"
 apercu_description = "На мобільному телефоні або на ПК/mac програма адаптується до ваших потреб"
 # fonctionnalites
+fonctionnalites_section_title = "Функції"
+fonctionnalites_section_description = "Відкрийте для себе функції, які роблять Weebi ідеальним інструментом для вашого бізнесу"
 fonctionnalites_title = "Простий дизайн"
 fonctionnalites_description = "Немає конфігурації для налаштування"
 fonctionnalites_maj_title = "РЕГУЛЯРНІ ОНОВЛЕННЯ"

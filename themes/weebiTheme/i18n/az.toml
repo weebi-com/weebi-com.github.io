@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Abidjandakı bir mağazada Weebi'nin ilk istifadəs
 apercu_title = "Önizləmə"
 apercu_description = "Mobil və ya PC / Mac-də, tətbiq ehtiyaclarınıza uyğunlaşır"
 # fonctionnalites
+fonctionnalites_section_title = "Xüsusiyyətlər"
+fonctionnalites_section_description = "Weebi-ni biznesiniz üçün ideal alət edən xüsusiyyətləri kəşf edin"
 fonctionnalites_title = "Sadə dizayn"
 fonctionnalites_description = "Tənzimləmək üçün konfiqurasiya yoxdur"
 fonctionnalites_maj_title = "Daimi yeniləmələr"

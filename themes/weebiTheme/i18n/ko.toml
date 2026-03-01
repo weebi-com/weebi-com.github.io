@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Abidjan 매장에서 Weebi를 처음 사용함"
 apercu_title = "시사"
 apercu_description = "모바일이나 PC/Mac에서 애플리케이션이 귀하의 요구에 맞게 조정됩니다."
 # fonctionnalites
+fonctionnalites_section_title = "기능"
+fonctionnalites_section_description = "Weebi를 비즈니스에 이상적인 도구로 만드는 기능을 알아보세요"
 fonctionnalites_title = "심플한 디자인"
 fonctionnalites_description = "조정할 구성이 없습니다."
 fonctionnalites_maj_title = "정기 업데이트"

@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Prva uporaba Weebija v trgovini v Abidžanu"
 apercu_title = "Predogled"
 apercu_description = "Na mobilniku ali na pc/mac se aplikacija prilagodi vašim potrebam"
 # fonctionnalites
+fonctionnalites_section_title = "Funkcije"
+fonctionnalites_section_description = "Odkrijte funkcije, ki Weebi naredijo za idealno orodje za vaše podjetje"
 fonctionnalites_title = "Preprost dizajn"
 fonctionnalites_description = "Ni konfiguracije za prilagajanje"
 fonctionnalites_maj_title = "REDNE POSODOBITVE"

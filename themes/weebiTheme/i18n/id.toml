@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Penggunaan pertama Weebi di sebuah toko di Abidjan"
 apercu_title = "Pratinjau"
 apercu_description = "Di ponsel atau di pc/mac, aplikasi menyesuaikan dengan kebutuhan Anda"
 # fonctionnalites
+fonctionnalites_section_title = "Fitur"
+fonctionnalites_section_description = "Temukan fitur yang membuat Weebi menjadi alat ideal untuk bisnis Anda"
 fonctionnalites_title = "Desain sederhana"
 fonctionnalites_description = "Tidak ada konfigurasi untuk disesuaikan"
 fonctionnalites_maj_title = "PEMBARUAN REGULER"

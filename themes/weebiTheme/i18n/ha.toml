@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Farkon amfani da weebi a cikin shago a Abidjan"
 apercu_title = "Duba na farko"
 apercu_description = "A kan wayar hannu ko akan PC / Mac, adaftar aikace-aikacen zuwa bukatunku"
 # fonctionnalites
+fonctionnalites_section_title = "Siffofi"
+fonctionnalites_section_description = "Gano siffofin da ke sa Weebi ya zama kayan aiki na musamman don kasuwancin ku"
 fonctionnalites_title = "Tsarin sauki"
 fonctionnalites_description = "Babu tsarin aiki don daidaitawa"
 fonctionnalites_maj_title = "Sabuntawa na yau da kullun"

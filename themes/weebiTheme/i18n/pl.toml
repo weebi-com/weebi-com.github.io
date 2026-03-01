@@ -34,6 +34,8 @@ utilisations_text_image_3 = "Pierwsze użycie Weebi w sklepie w Abidżanie"
 apercu_title = "Zapowiedź"
 apercu_description = "Na urządzeniu mobilnym lub na komputerze PC/Mac aplikacja dostosowuje się do Twoich potrzeb"
 # fonctionnalites
+fonctionnalites_section_title = "Funkcje"
+fonctionnalites_section_description = "Odkryj funkcje, które czynią Weebi idealnym narzędziem dla Twojej firmy"
 fonctionnalites_title = "Prosty projekt"
 fonctionnalites_description = "Brak konfiguracji do dostosowania"
 fonctionnalites_maj_title = "REGULARNE AKTUALIZACJE"
