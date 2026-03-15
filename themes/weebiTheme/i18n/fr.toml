@@ -260,7 +260,7 @@ faq_page_synchro_multipdv = """Une fois la solution de synchronisation disponibl
 faq_page_console_title = "Console Web et paiement des licences"
 faq_page_console_content = """La **console web** Weebi vous permet d'administrer votre firme et de gérer le paiement des licences.
 
-Connectez-vous sur [webapp.prd.weebi.com](https://webapp.prd.weebi.com/) pour créer un compte, gérer vos boutiques, les utilisateurs et souscrire aux offres cloud."""
+Connectez-vous sur [webapp.prd.weebi.com](https://cloud.weebi.com/) pour créer un compte, gérer vos boutiques, les utilisateurs et souscrire aux offres cloud."""
 
 # telechargement
 
