@@ -76,8 +76,8 @@ telechargement_title = "Pricing"
 telechargement_description = "Choose the plan that fits your needs"
 
 pricing_table_feature = "Included"
-pricing_table_solo_conf = "Solo confidential"
-pricing_table_solo_cloud = "Solo cloud"
+pricing_table_solo_conf = "Confidential"
+pricing_table_solo_cloud = "Solo"
 pricing_table_team_cloud = "Enterprise"
 
 pricing_feature_price = "Price"

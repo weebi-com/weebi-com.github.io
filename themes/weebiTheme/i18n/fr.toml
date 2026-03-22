@@ -78,8 +78,8 @@ telechargement_title = "Le prix"
 telechargement_description = "Choisissez l'offre qui correspond à vos besoins"
 
 pricing_table_feature = "Inclus"
-pricing_table_solo_conf = "Solo confidentiel"
-pricing_table_solo_cloud = "Solo cloud"
+pricing_table_solo_conf = "Confidentiel"
+pricing_table_solo_cloud = "Solo"
 pricing_table_team_cloud = "Entreprise"
 
 pricing_feature_price = "Prix"
