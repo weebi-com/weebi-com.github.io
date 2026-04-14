@@ -8,10 +8,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link fw-bold" target="_blank" href="{{ site.Params.stores.webConsole }}">{{ T "web_console" }}</a>
-        </li>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
         <li class="nav-item">
           <a class="nav-link" href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}#demo">{{ T "videos" }}</a>
         </li>
@@ -28,11 +25,14 @@
             <li><a class="dropdown-item" href="{{ site.Params.contact.whatsapp }}" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2" style="color: #25D366;"></i>{{ T "contact_whatsapp" }}</a></li>
           </ul>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ "posts" }}">{{ T "blog" }}</a>
+        </li>
       </ul>
-      <div class="d-flex">
-        <a class="btn btn-link text-decoration-none text-dark" href="{{ "posts" }}">{{ T "blog" }}</a>
-        <!--<button class="btn btn-weebi rounded-pill">{{ T "download" }}</button> -->
-        <div class="mx-2">
+      <div class="d-flex align-items-center">
+        <a class="btn btn-link text-decoration-none text-dark me-2" target="_blank" href="{{ site.Params.stores.webConsoleLogin }}"><i class="bi bi-person-check me-1"></i>{{ T "login" }}</a>
+        <a class="btn btn-weebi rounded-pill px-4 me-3" target="_blank" href="{{ site.Params.stores.webConsoleSignup }}"><i class="bi bi-person-plus me-1"></i>{{ T "signup" }}</a>
+        <div class="ms-2">
           <select class="form-select" onchange="window.location.href=this.value;" name="languages">
             {{ range sort .Site.Languages "LanguageName" }}
               <option value="{{ $.Site.BaseURL }}/{{ .Lang }}"{{ if eq $.Site.Language.Lang .Lang }} selected{{ end }}>{{ .LanguageName }}</option>

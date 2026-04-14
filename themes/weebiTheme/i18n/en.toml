@@ -6,7 +6,7 @@
 videos = "Demo videos"
 price = "Price"
 our_customers = "Our customers"
-faq = "User Guide"
+faq = "Guide"
 contact = "Contact"
 contact_email = "Send email"
 contact_whatsapp = "WhatsApp"
@@ -19,6 +19,16 @@ download = "Download"
 site_title = "Your Point of Sale"
 site_description = "Weebi is a cash register application designed in Dakar to track sales, stock, and customer accounts."
 
+open_source = "Open Source"
+open_source_description = "Weebi is mostly open source. Check our organization and server on GitHub."
+
+apps_title = "Mobile and Desktop Apps"
+apps_description = "Works offline first. Download for your device."
+web_access_title = "Web Console"
+web_access_description = "Manage your business online"
+
+login = "Login"
+signup = "Signup"
 web_console = "Web Console"
 web_console_description = "Sign up or log in to manage your business online"
 # atouts
@@ -69,6 +79,9 @@ fonctionnalites_cp_wtsp_description = "Integrated directly with WhatsApp, the We
 
 fonctionnalites_offline_title = "OFFLINE WORKING"
 fonctionnalites_offline_description = "Work offline seamlessly from any device"
+
+fonctionnalites_thermal_title = "Receipt printing"
+fonctionnalites_thermal_description = "Print your receipts on thermal printers"
 
 # telechargement / pricing
 

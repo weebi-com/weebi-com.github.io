@@ -18,53 +18,51 @@
 {{- $containerClass := .class | default "" -}}
 
 {{- $stores := site.Params.stores -}}
-<div class="d-grid gap-2 d-md-flex justify-content-md-start download-cta {{ $containerClass }}">
-  {{- if and $includeWebConsole $stores.webConsole -}}
-    <a target="_blank" 
-       class="btn {{ if eq $variant "stores" }}btn-black-weebi{{ else }}btn-weebi{{ end }} btn-lg px-4 centered-btn web-console-cta"
-       href="{{ $stores.webConsole }}">
-      <i class="bi bi-box-arrow-up-right"></i>
-      {{ T "web_console" }}
-    </a>
-  {{- end -}}
-  {{- if $stores.googlePlay -}}
-    <a target="_blank" 
-       id="download_playstore" 
-       class="btn btn-black-weebi btn-lg px-4 centered-btn"
-       href="{{ $stores.googlePlay }}">
-      <i class="bi bi-google-play"></i>
-      Google Play
-    </a>
-  {{- end -}}
-  
-  {{- if $stores.appleStore -}}
-    <a target="_blank" 
-       id="download_apple_store" 
-       class="btn btn-black-weebi btn-lg px-4 centered-btn"
-       href="{{ $stores.appleStore }}">
-      <i class="bi bi-apple"></i>
-      Apple Store
-    </a>
-  {{- end -}}
-  
-  {{- if $stores.microsoftStore -}}
-    <a target="_blank" 
-       id="download_microsoft_store" 
-       class="btn btn-black-weebi btn-lg px-4 centered-btn"
-       href="{{ $stores.microsoftStore }}">
-      <i class="bi bi-microsoft"></i>
-      Windows
-    </a>
-  {{- end -}}
-  
-  {{- if $stores.linux -}}
-    <a target="_blank" 
-       id="download_linux" 
-       class="btn btn-black-weebi btn-lg px-4 centered-btn"
-       href="{{ $stores.linux }}">
-      <img src="/images/linux-icon.svg" alt="Linux" style="width: 2rem; height: 2rem; display: inline-block; vertical-align: middle; margin-right: 10px; filter: brightness(0) invert(1);" />
-      Linux
-    </a>
-  {{- end -}}
+<div class="download-cta {{ $containerClass }}">
+  <!-- Apps Section (Prioritized) -->
+  <div class="apps-section">
+    <h6 class="fw-bold mb-1 text-uppercase small text-muted">{{ T "apps_title" }}</h6>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+      {{- if $stores.googlePlay -}}
+        <a target="_blank" 
+           id="download_playstore" 
+           class="btn btn-black-weebi btn-lg px-4 centered-btn"
+           href="{{ $stores.googlePlay }}">
+          <i class="bi bi-google-play"></i>
+          Google Play
+        </a>
+      {{- end -}}
+      
+      {{- if $stores.appleStore -}}
+        <a target="_blank" 
+           id="download_apple_store" 
+           class="btn btn-black-weebi btn-lg px-4 centered-btn"
+           href="{{ $stores.appleStore }}">
+          <i class="bi bi-apple"></i>
+          Apple Store
+        </a>
+      {{- end -}}
+      
+      {{- if $stores.microsoftStore -}}
+        <a target="_blank" 
+           id="download_microsoft_store" 
+           class="btn btn-black-weebi btn-lg px-4 centered-btn"
+           href="{{ $stores.microsoftStore }}">
+          <i class="bi bi-microsoft"></i>
+          Windows
+        </a>
+      {{- end -}}
+      
+      {{- if $stores.linux -}}
+        <a target="_blank" 
+           id="download_linux" 
+           class="btn btn-black-weebi btn-lg px-4 centered-btn"
+           href="{{ $stores.linux }}">
+          <img src="/images/linux-icon.svg" alt="Linux" style="width: 2rem; height: 2rem; display: inline-block; vertical-align: middle; margin-right: 10px; filter: brightness(0) invert(1);" />
+          Linux
+        </a>
+      {{- end -}}
+    </div>
+  </div>
 </div>
 

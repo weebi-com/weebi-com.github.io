@@ -6,7 +6,7 @@
 videos = "Démo vidéos"
 price = "Le prix"
 our_customers = "Nos clients"
-faq = "Guide de prise en main"
+faq = "Guide"
 contact = "Contact"
 contact_email = "Envoyer un email"
 contact_whatsapp = "WhatsApp"
@@ -19,6 +19,16 @@ download = "Télécharger"
 site_title = "Votre application de caisse"
 site_description = "Weebi est une application de gestion conçue à Dakar pour suivre les ventes, le stock et les comptes clients."
 
+open_source = "Open Source"
+open_source_description = "Weebi est principalement en code ouvert (open source). Retrouvez notre organisation et le code du serveur sur GitHub."
+
+apps_title = "Applications mobiles et pc"
+apps_description = "Fonctionne d'abord hors-ligne (offline-first). Téléchargez pour votre appareil."
+web_access_title = "Console Web"
+web_access_description = "Gérez votre activité en ligne"
+
+login = "Se connecter"
+signup = "S'inscrire"
 web_console = "Console Web"
 web_console_description = "Créez un compte ou connectez-vous pour gérer votre activité en ligne"
 
@@ -71,6 +81,9 @@ fonctionnalites_cp_wtsp_description = "L'appli weebi s'intègre avec whatsapp po
 
 fonctionnalites_offline_title = "TRAVAIL HORS-LIGNE"
 fonctionnalites_offline_description = "Travailler hors-ligne de façon fluide depuis n'importe quel appareil"
+
+fonctionnalites_thermal_title = "Impression de ticket de caisse"
+fonctionnalites_thermal_description = "Imprimez vos tickets sur des imprimantes thermiques"
 
 # telechargement / pricing
 
