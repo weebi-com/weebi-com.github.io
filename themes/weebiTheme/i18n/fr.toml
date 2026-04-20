@@ -3,7 +3,7 @@
 
 # header
 
-videos = "Démo vidéos"
+videos = "Démos"
 price = "Le prix"
 our_customers = "Nos clients"
 faq = "Guide"
@@ -132,7 +132,7 @@ pricing_team_cloud_multi = "✅"
 
 # demo
 
-demo_title = "Démo vidéos"
+demo_title = "Démos"
 demo_do_a_cash_sale = "Faire une vente cash"
 demo_new_stock = "Noter une entrée de stock"
 demo_see_a_video = "Voir la vidéo"
