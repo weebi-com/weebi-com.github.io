@@ -56,35 +56,69 @@
   </div>
 </div>
 
-<div class="apercu bg-feature section-py-6" id="apercu">
+<div class="reportages section-py-6" id="reportages">
   <div class="container">
-    <div class="row mb-5">
+
+    <div class="row py-4">
       <div class="col-md-12 text-center">
-        <h2 class="h2 fw-bold inner-section-title">{{ T "apercu_title" }}</h2>
-        <p>{{ T "apercu_description" }}</p>
+        <h2 class="h2 fw-bold inner-section-title">{{ T "reportages_title" }}</h2>
       </div>
     </div>
 
-    <div class="row py-3 preview-img-wrapper">
-      <div class="col">
-        <img src="/images/apercu/screenshot1.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+
+
+    <div class="row g-4 justify-content-center">
+      <!-- Main Reportage: Canal+ Réussite -->
+      <div class="col-md-10 col-lg-8 mb-4">
+        <div class="reportage-item clay-bg p-3">
+          <div class="ratio ratio-16x9 mb-3">
+            <iframe src="https://www.youtube.com/embed/6beAKixRRpQ?si=5Fvnb1uW5hIiXRD1" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+              allowfullscreen class="rounded" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="content-wrapper text-center">
+            <h4 class="fw-bold">Canal+ Réussite</h4>
+            <p class="lead mb-0">Un reportage de Canal+ pour l'émission Réussite</p>
+          </div>
+        </div>
       </div>
-      <div class="col">
-        <img src="/images/apercu/screenshot2.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+
+      <!-- Secondary Reportages -->
+      <div class="col-md-5">
+        <div class="reportage-item clay-bg h-100 p-3">
+          <div class="ratio ratio-16x9 mb-3">
+            <iframe src="https://www.youtube-nocookie.com/embed/uEG2nONvjTU?si=ycJK37iWO_obB3w2" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+              allowfullscreen class="rounded" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="content-wrapper">
+            <h5 class="fw-bold">France5 TV</h5>
+            <p class="mb-0">Un reportage de L'agence France Presse pour France5 TV</p>
+          </div>
+        </div>
       </div>
-      <div class="col">
-        <img src="/images/apercu/screenshot3.png" class="img-fluid rounded app-preview-img" alt="Facile" />
-      </div>
-      <div class="col">
-        <img src="/images/apercu/screenshot4.png" class="img-fluid rounded app-preview-img" alt="Facile" />
-      </div>
-      <div class="col">
-        <img src="/images/apercu/screenshot5.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+
+      <div class="col-md-5">
+        <div class="reportage-item clay-bg h-100 p-3">
+          <div class="ratio ratio-16x9 mb-3">
+            <iframe src="https://www.youtube-nocookie.com/embed/pI9kpiOJvHo?si=s0f-InAa69IJQDKd" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+              allowfullscreen class="rounded" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="content-wrapper">
+            <h5 class="fw-bold">Medi1 TV</h5>
+            <p class="mb-0">Un reportage de Medi1 TV</p>
+          </div>
+        </div>
       </div>
     </div>
-
   </div>
 </div>
+
+
 
 <div class="fonctionnalites py-5" id="fonctionnalites">
   <div class="container py-5">
@@ -183,227 +217,121 @@
   </div>
 </div>
 
-<div class="telechargement bg-weebi text-white section-py-4 dwl-banner-img" id="telechargement-prix">
-  <div class="container px-4 py-5 ">
+
+<div class="apercu bg-feature section-py-6" id="apercu">
+  <div class="container">
     <div class="row mb-5">
       <div class="col-md-12 text-center">
-        <h2 class="fw-bold mb-3 inner-section-title">{{T "telechargement_title" }}</h2>
-        <p>{{ T "telechargement_description" }}</p>
+        <h2 class="h2 fw-bold inner-section-title">{{ T "apercu_title" }}</h2>
+        <p>{{ T "apercu_description" }}</p>
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-md-10 col-lg-8">
-        <div class="table-responsive pricing-table-wrapper">
-          <table class="pricing-table text-white">
-            <thead>
-              <tr>
-                <th scope="col" class="text-start pricing-feature-col">{{ T "pricing_table_feature" }}</th>
-                <th scope="col" class="text-center pricing-plan-col">
-                  <div class="pricing-plan-header">{{ T "pricing_table_solo_conf" }}</div>
-                </th>
-                <th scope="col" class="text-center pricing-plan-col">
-                  <div class="pricing-plan-header">{{ T "pricing_table_solo_cloud" }}</div>
-                </th>
-                <th scope="col" class="text-center pricing-plan-col">
-                  <div class="pricing-plan-header">{{ T "pricing_table_team_cloud" }}</div>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="pricing-price-row">
-                <td class="text-start pricing-feature-cell fw-bold">{{ T "pricing_feature_price" }}</td>
-                <td class="text-center pricing-plan-cell pricing-price-cell fw-bold">{{ T "pricing_solo_conf_price" }}</td>
-                <td class="text-center pricing-plan-cell pricing-price-cell fw-bold">{{ T "pricing_solo_cloud_price" }}</td>
-                <td class="text-center pricing-plan-cell pricing-price-cell fw-bold" id="pricing-team-cloud-price" data-default-value="{{ T "pricing_team_cloud_price_value" }}" data-default-currency="{{ T "pricing_team_cloud_price_currency" }}" data-per-user="{{ T "pricing_team_cloud_price_per_user" }}" data-unavailable="{{ T "pricing_team_cloud_unavailable" }}" data-unavailable-reason="{{ T "pricing_team_cloud_unavailable_reason" }}">
-                  <span class="price-value">{{ T "pricing_team_cloud_price_value" }}</span> <span class="price-currency">{{ T "pricing_team_cloud_price_currency" }}</span> <span class="price-per-user">{{ T "pricing_team_cloud_price_per_user" }}</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="text-start pricing-feature-cell">{{ T "pricing_feature_users" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_conf_users" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_cloud_users" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_team_cloud_users" }}</td>
-              </tr>
-              <tr>
-                <td class="text-start pricing-feature-cell">{{ T "pricing_feature_backup" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_conf_backup" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_cloud_backup" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_team_cloud_backup" }}</td>
-              </tr>
 
-              <tr>
-                <td class="text-start pricing-feature-cell">{{ T "pricing_feature_remote" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_conf_remote" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_cloud_remote" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_team_cloud_remote" }}</td>
-              </tr>
-              <tr>
-                <td class="text-start pricing-feature-cell">{{ T "pricing_feature_multi" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_conf_multi" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_cloud_multi" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_team_cloud_multi" }}</td>
-              </tr>
-              <tr>
-                <td class="text-start pricing-feature-cell">{{ T "pricing_feature_support" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_conf_support" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_solo_cloud_support" }}</td>
-                <td class="text-center pricing-plan-cell">{{ T "pricing_team_cloud_support" }}</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="text-center mt-4">
-          {{ partial "store-links.html" (dict "variant" "stores" "includeWebConsole" true) }}
-        </div>
+    <div class="row py-3 preview-img-wrapper">
+      <div class="col">
+        <img src="/images/apercu/screenshot1.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+      </div>
+      <div class="col">
+        <img src="/images/apercu/screenshot2.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+      </div>
+      <div class="col">
+        <img src="/images/apercu/screenshot3.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+      </div>
+      <div class="col">
+        <img src="/images/apercu/screenshot4.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+      </div>
+      <div class="col">
+        <img src="/images/apercu/screenshot5.png" class="img-fluid rounded app-preview-img" alt="Facile" />
       </div>
     </div>
+
   </div>
 </div>
 
-<div class="demo py-5 section-py-6" id="demo">
-  <div class="container">
-
-    <div class="row py-4">
-      <div class="col-md-12 text-center">
-        <h2 class="h2 fw-bold inner-section-title">{{T "demo_title" }}</h2>
+<div class="pricing bg-weebi text-white section-py-4 dwl-banner-img" id="pricing">
+  <div class="telechargement bg-weebi text-white section-py-4 dwl-banner-img" id="telechargement-prix">
+    <div class="container px-4 py-5 ">
+      <div class="row mb-5">
+        <div class="col-md-12 text-center">
+          <h2 class="fw-bold mb-3 inner-section-title">{{T "telechargement_title" }}</h2>
+          <p>{{ T "telechargement_description" }}</p>
+        </div>
       </div>
-    </div>
+    <div class="row justify-content-center g-4">
+      <!-- Solo -->
+      <div class="col-md-5">
+        <div class="pricing-card h-100 p-4 rounded-4 bg-white text-dark shadow-sm border border-primary border-2 position-relative">
+          <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-primary px-3">Local & Cloud</span>
+          <div class="pricing-card-header text-center mb-4">
+            <h3 class="h4 fw-bold mb-2">{{ T "pricing_table_solo_cloud" }}</h3>
+            <div class="display-6 fw-bold text-primary">{{ T "pricing_solo_cloud_price" }}</div>
+            <p class="text-muted small mt-2">Utilisation locale (confidentielle) ou synchronisée</p>
+          </div>
+          <ul class="list-unstyled mb-4">
+            <li class="mb-3 d-flex align-items-center">
+              <i class="bi bi-person-fill me-2 text-primary"></i>
+              <span>{{ T "pricing_solo_cloud_users" }} {{ if eq (T "pricing_solo_cloud_users") "1" }}{{ T "utilisateur_singular" }}{{ else }}{{ T "pricing_feature_users" | lower }}{{ end }}</span>
+            </li>
+            <li class="mb-3 d-flex align-items-center">
+              <i class="bi bi-shield-check me-2 text-success"></i>
+              <span>Utilisation 100% locale possible (confidentiel)</span>
+            </li>
+            <li class="mb-3 d-flex align-items-center">
+              <i class="bi bi-cloud-check me-2 text-success"></i>
+              <span>Sauvegarde Cloud optionnelle</span>
+            </li>
+            <li class="mb-3 d-flex align-items-center opacity-50">
+              <i class="bi bi-x-circle me-2 text-danger"></i>
+              <span>{{ T "pricing_feature_remote" }}</span>
+            </li>
+            <li class="mb-3 d-flex align-items-center opacity-50">
+              <i class="bi bi-x-circle me-2 text-danger"></i>
+              <span>{{ T "pricing_feature_multi" }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-    <div class="row">
-      <div class="col-md-12">
-        <div class="swiper">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides 1 -->
-            <div class="swiper-slide">
-              <div class="container utilisations rounded py-5">
-                <div class="row py-5 tuto-content-wrapper">
-                  <div class="col-md-6">
-                    <h3 class="fw-bold h3">{{ T "demo_do_a_cash_sale" }}</h3>
-                    <button class="btn btn-black-weebi">
-                      {{ T "demo_see_a_video" }}
-                    </button>
-                  </div>
-                  <div class="col-md-6 col-sm-12">
-                    <div class="ratio ratio-16x9">
-                      <iframe
-                        src="https://www.youtube-nocookie.com/embed/zilrWrkgdOw?si=wDPS78bMQW0q2mn1"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-                        allowfullscreen width="300" height="400" class="rounded" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      <!-- Entreprise -->
+      <div class="col-md-5">
+        <div class="pricing-card h-100 p-4 rounded-4 bg-white text-dark shadow-sm">
+          <div class="pricing-card-header text-center mb-4">
+            <h3 class="h4 fw-bold mb-2">{{ T "pricing_table_team_cloud" }}</h3>
+            <div class="h4 fw-bold text-primary" id="pricing-team-cloud-price" data-default-value="{{ T "pricing_team_cloud_price_value" }}" data-default-currency="{{ T "pricing_team_cloud_price_currency" }}" data-per-user="{{ T "pricing_team_cloud_price_per_user" }}" data-unavailable="{{ T "pricing_team_cloud_unavailable" }}" data-unavailable-reason="{{ T "pricing_team_cloud_unavailable_reason" }}">
+              <span class="price-value">{{ T "pricing_team_cloud_price_value" }}</span> <span class="price-currency">{{ T "pricing_team_cloud_price_currency" }}</span>
+              <div class="small fw-normal text-muted">{{ T "pricing_team_cloud_price_per_user" }}</div>
             </div>
-
-            <!-- Slides 2 -->
-            <div class="swiper-slide">
-              <div class="container utilisations rounded py-5">
-                <div class="row py-5 tuto-content-wrapper">
-                  <div class="col-md-6">
-                    <h3 class="fw-bold h3">{{ T "demo_new_stock" }}</h3>
-                    <button class="btn btn-black-weebi">
-                      {{ T "demo_see_a_video" }}
-                    </button>
-                  </div>
-                  <div class="col-md-6 col-sm-12">
-                    <div class="ratio ratio-16x9">
-                      <iframe src="https://www.youtube-nocookie.com/embed/7ZLZt6gn8PY?si=gyjLGrdpwADn_N5I"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
-                        allowfullscreen width="300" height="400" class="rounded" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
           </div>
-          <div class="swiper-pagination"></div>
+          <ul class="list-unstyled mb-4">
+            <li class="mb-3 d-flex align-items-center">
+              <i class="bi bi-people-fill me-2 text-primary"></i>
+              <span>{{ T "utilisateur_plural" }} {{ T "pricing_team_cloud_users" | lower }}</span>
+            </li>
+            <li class="mb-3 d-flex align-items-center">
+              <i class="bi bi-check-circle-fill me-2 text-success"></i>
+              <span>{{ T "pricing_feature_backup" }} & Synchronisation</span>
+            </li>
+            <li class="mb-3 d-flex align-items-center">
+              <i class="bi bi-check-circle-fill me-2 text-success"></i>
+              <span>{{ T "pricing_feature_remote" }}</span>
+            </li>
+            <li class="mb-3 d-flex align-items-center">
+              <i class="bi bi-check-circle-fill me-2 text-success"></i>
+              <span>{{ T "pricing_feature_multi" }}</span>
+            </li>
+            <li class="mb-3 d-flex align-items-center">
+              <i class="bi bi-check-circle-fill me-2 text-success"></i>
+              <span>{{ T "pricing_feature_support" }}: {{ T "pricing_team_cloud_support" }}</span>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-<div class="reportages section-py-6" id="reportages">
-  <div class="container">
-
-    <div class="row py-4">
-      <div class="col-md-12 text-center">
-        <h2 class="h2 fw-bold inner-section-title">{{ T "reportages_title" }}</h2>
-      </div>
-    </div>
-
-    <div class="row row-cols-1 row-cols-md-3 g-3">
-      <div class="col-md-4 card border-0 p-2">
-        <div class="reportage-item clay-bg">
-          <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube-nocookie.com/embed/uEG2nONvjTU?si=ycJK37iWO_obB3w2" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
-              allowfullscreen width="300" height="300" class="rounded" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <div class="content-wrapper">
-            <h5 class="card-title">France5 TV</h5>
-            <p class="card-text">Un reportage de L'agence France Presse pour France5 TV</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 card border-0 p-2">
-        <div class="reportage-item clay-bg">
-          <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube-nocookie.com/embed/jWmpoPAyM1A?si=qGu4MJkMdrurR6mX" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
-              allowfullscreen width="300" height="300" class="rounded" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <div class="content-wrapper">
-            <h5 class="card-title">Canal+ Réussite</h5>
-            <p class="card-text">Un reportage de Canal+ pour l'émission Réussite</p>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 card border-0 p-2">
-        <div class="reportage-item clay-bg">
-          <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube-nocookie.com/embed/jAQIVGfgAZg?si=KEE691ib1NvXJ58C" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
-              allowfullscreen width="300" height="300" class="rounded" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <div class="content-wrapper">
-            <h5 class="card-title">Animated pitch</h5>
-            <p class="card-text">Animation around weebi by Joseph Darosa</p>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 card border-0 p-2">
-        <div class="reportage-item clay-bg">
-          <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube-nocookie.com/embed/pI9kpiOJvHo?si=s0f-InAa69IJQDKd" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
-              allowfullscreen width="300" height="300" class="rounded" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <div class="content-wrapper">
-            <h5 class="card-title">Medi1 TV</h5>
-            <p class="card-text">Un reportage de Medi1 TV</p>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-
     </div>
   </div>
 </div>
+
 
 <div class="pressesetradio mb-5" id="pressesetradio">
   <div class="container">
@@ -568,6 +496,76 @@
     </div>
   </div>
 </div>
+
+
+<div class="demo py-5 section-py-6" id="demo">
+  <div class="container">
+
+    <div class="row py-4">
+      <div class="col-md-12 text-center">
+        <h2 class="h2 fw-bold inner-section-title">{{T "demo_title" }}</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides 1 -->
+            <div class="swiper-slide">
+              <div class="container utilisations rounded py-5">
+                <div class="row py-5 tuto-content-wrapper">
+                  <div class="col-md-6">
+                    <h3 class="fw-bold h3">{{ T "demo_do_a_cash_sale" }}</h3>
+                    <button class="btn btn-black-weebi">
+                      {{ T "demo_see_a_video" }}
+                    </button>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <div class="ratio ratio-16x9">
+                      <iframe
+                        src="https://www.youtube-nocookie.com/embed/zilrWrkgdOw?si=wDPS78bMQW0q2mn1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                        allowfullscreen width="300" height="400" class="rounded" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slides 2 -->
+            <div class="swiper-slide">
+              <div class="container utilisations rounded py-5">
+                <div class="row py-5 tuto-content-wrapper">
+                  <div class="col-md-6">
+                    <h3 class="fw-bold h3">{{ T "demo_new_stock" }}</h3>
+                    <button class="btn btn-black-weebi">
+                      {{ T "demo_see_a_video" }}
+                    </button>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <div class="ratio ratio-16x9">
+                      <iframe src="https://www.youtube-nocookie.com/embed/7ZLZt6gn8PY?si=gyjLGrdpwADn_N5I"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+                        allowfullscreen width="300" height="400" class="rounded" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div class="foireauquestions section-py-6" id="foireauquestions">
   <div class="container">

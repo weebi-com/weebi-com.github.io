@@ -106,6 +106,8 @@ pricing_team_cloud_unavailable = "Non disponible"
 pricing_team_cloud_unavailable_reason = "Les licences logicielles sont classées comme services imposables dans votre pays. Nous travaillons à rendre ce plan disponible."
 
 pricing_feature_users = "Utilisateurs"
+utilisateur_singular = "utilisateur"
+utilisateur_plural = "Utilisateurs"
 pricing_solo_conf_users = "1"
 pricing_solo_cloud_users = "1"
 pricing_team_cloud_users = "Illimité"
