@@ -805,6 +805,14 @@ div.table-responsive.pricing-table-wrapper {
   letter-spacing: 0.3px !important;
 }
 
+.pricing-card--payg.pricing-card--soon {
+  opacity: 0.92;
+}
+
+.pricing-card--payg .pricing-card-header {
+  min-height: 7.5rem;
+}
+
 /* Desktop/wide screen - same table structure, just better spacing */
 @media (min-width: 768px) {
   .pricing-table-wrapper {

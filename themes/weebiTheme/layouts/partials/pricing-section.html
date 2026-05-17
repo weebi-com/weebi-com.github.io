@@ -1,0 +1,119 @@
+{{- $paygEnabled := site.Params.pricing.paygEnabled | default false -}}
+{{- $paygComingSoon := site.Params.pricing.paygComingSoon | default true -}}
+{{- $colClass := cond $paygEnabled "col-md-6 col-lg-4" "col-md-5" -}}
+
+<div class="pricing bg-weebi text-white section-py-4 dwl-banner-img" id="pricing">
+  <div class="telechargement bg-weebi text-white section-py-4 dwl-banner-img" id="prix">
+    <div class="container px-4 py-5">
+      <div class="row mb-5">
+        <div class="col-md-12 text-center">
+          <h2 class="fw-bold mb-3 inner-section-title">{{ T "telechargement_title" }}</h2>
+          <p>{{ T "telechargement_description" }}</p>
+        </div>
+      </div>
+      <div class="row justify-content-center g-4">
+        <!-- Solo -->
+        <div class="{{ $colClass }}">
+          <div class="pricing-card h-100 p-4 rounded-4 bg-white text-dark shadow-sm border border-primary border-2 position-relative">
+            <div class="pricing-card-header text-center mb-4 pt-2">
+              <h3 class="h4 fw-bold mb-2">{{ T "pricing_table_solo_cloud" }}</h3>
+              <div class="display-6 fw-bold text-primary">{{ T "pricing_solo_cloud_price" }}</div>
+            </div>
+            <ul class="list-unstyled mb-4">
+              <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-person-fill me-2 text-primary"></i>
+                <span>{{ T "pricing_solo_cloud_users" }} {{ if eq (T "pricing_solo_cloud_users") "1" }}{{ T "utilisateur_singular" }}{{ else }}{{ T "pricing_feature_users" | lower }}{{ end }}</span>
+              </li>
+              <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-shield-check me-2 text-success"></i>
+                <span>{{ T "pricing_solo_local_feature" }}</span>
+              </li>
+              <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-cloud-check me-2 text-success"></i>
+                <span>{{ T "pricing_solo_cloud_backup_optional" }}</span>
+              </li>
+              <li class="mb-3 d-flex align-items-center opacity-50">
+                <i class="bi bi-x-circle me-2 text-danger"></i>
+                <span>{{ T "pricing_feature_remote" }}</span>
+              </li>
+              <li class="mb-3 d-flex align-items-center opacity-50">
+                <i class="bi bi-x-circle me-2 text-danger"></i>
+                <span>{{ T "pricing_feature_multi" }}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Entreprise -->
+        <div class="{{ $colClass }}">
+          <div class="pricing-card h-100 p-4 rounded-4 bg-white text-dark shadow-sm">
+            <div class="pricing-card-header text-center mb-4">
+              <h3 class="h4 fw-bold mb-2">{{ T "pricing_table_team_cloud" }}</h3>
+              <div class="h4 fw-bold text-primary" id="pricing-team-cloud-price" data-default-value="{{ T "pricing_team_cloud_price_value" }}" data-default-currency="{{ T "pricing_team_cloud_price_currency" }}" data-per-user="{{ T "pricing_team_cloud_price_per_user" }}" data-unavailable="{{ T "pricing_team_cloud_unavailable" }}" data-unavailable-reason="{{ T "pricing_team_cloud_unavailable_reason" }}">
+                <span class="price-value">{{ T "pricing_team_cloud_price_value" }}</span> <span class="price-currency">{{ T "pricing_team_cloud_price_currency" }}</span>
+                <div class="small fw-normal text-muted price-per-user">{{ T "pricing_team_cloud_price_per_user" }}</div>
+              </div>
+            </div>
+            <ul class="list-unstyled mb-4">
+              <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-people-fill me-2 text-primary"></i>
+                <span>{{ T "utilisateur_plural" }} {{ T "pricing_team_cloud_users" | lower }}</span>
+              </li>
+              <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-cloud-check me-2 text-success"></i>
+                <span>{{ T "pricing_sync_label" }}</span>
+              </li>
+              <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-check-circle-fill me-2 text-success"></i>
+                <span>{{ T "pricing_team_cloud_support_direct" }}</span>
+              </li>
+              <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-binoculars-fill me-2 text-success"></i>
+                <span>{{ T "pricing_feature_remote" }}</span>
+              </li>
+              <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-shop me-2 text-success"></i>
+                <span>{{ T "pricing_feature_multi" }}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {{- if $paygEnabled }}
+        <!-- Pay as you go -->
+        <div class="{{ $colClass }}">
+          <div class="pricing-card pricing-card--payg h-100 p-4 rounded-4 bg-white text-dark shadow-sm border border-secondary position-relative{{ if $paygComingSoon }} pricing-card--soon{{ end }}">
+            {{- if $paygComingSoon }}
+            <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-secondary px-3">{{ T "pricing_payg_badge_soon" }}</span>
+            {{- end }}
+            <div class="pricing-card-header text-center mb-4{{ if $paygComingSoon }} pt-2{{ end }}">
+              <h3 class="h4 fw-bold mb-2">{{ T "pricing_table_payg" }}</h3>
+            </div>
+            <ul class="list-unstyled mb-4">
+              <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-key-fill me-2 text-primary"></i>
+                <span>{{ T "pricing_payg_license_required" }}</span>
+              </li>
+              <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-graph-up-arrow me-2 text-success"></i>
+                <span>{{ T "pricing_payg_dashboard" }}</span>
+              </li>
+              <li class="mb-0 d-flex align-items-center">
+                <i class="bi bi-robot me-2 text-success"></i>
+                <span>{{ T "pricing_payg_ai" }}</span>
+              </li>
+            </ul>
+            {{- if not $paygComingSoon }}
+            <div class="text-center">
+              <a class="btn btn-weebi rounded-pill px-4" href="{{ site.Params.pricing.paygBuyCreditsURL | default site.Params.stores.webConsoleSignup }}" target="_blank" rel="noopener">{{ T "pricing_payg_cta" }}</a>
+            </div>
+            {{- end }}
+          </div>
+        </div>
+        {{- end }}
+      </div>
+
+      <p class="text-center mt-4 mb-0 small pricing-license-note">{{ T "pricing_license_note" }}</p>
+    </div>
+  </div>
+</div>

@@ -21,6 +21,11 @@ defaultContentLanguageInSubdir = true
   newsletterAPIBaseURL = 'https://express.dev.weebi.com'
   # Newsletter category (default: 'general')
   newsletterCategory = 'general'
+  [params.pricing]
+    paygEnabled = true
+    paygComingSoon = true
+    # URL to buy credits (console) when pay-as-you-go is live
+    paygBuyCreditsURL = 'https://cloud.weebi.com/#/register'
 [languages]
   [languages.fr]
     languageCode = 'fr-FR'
