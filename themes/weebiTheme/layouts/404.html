@@ -47,16 +47,16 @@
               <div class="mt-5">
                 <h3 class="h5 mb-3">{{ T "popular_pages" }}</h3>
                 <div class="d-flex flex-wrap justify-content-center gap-3">
-                  <a href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}#demo" class="text-decoration-none">
+                  <a href="{{ printf "/%s/#demo" .Site.Language.Lang }}" class="text-decoration-none">
                     <span class="badge bg-weebi text-white px-3 py-2">{{ T "videos" }}</span>
                   </a>
-                  <a href="{{ "prix" | relLangURL }}" class="text-decoration-none">
+                  <a href="{{ printf "/%s/prix/" .Site.Language.Lang }}" class="text-decoration-none">
                     <span class="badge bg-weebi text-white px-3 py-2">{{ T "price" }}</span>
                   </a>
-                  <a href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}#utilisations" class="text-decoration-none">
+                  <a href="{{ printf "/%s/#utilisations" .Site.Language.Lang }}" class="text-decoration-none">
                     <span class="badge bg-weebi text-white px-3 py-2">{{ T "our_customers" }}</span>
                   </a>
-                  <a href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}/posts/" class="text-decoration-none">
+                  <a href="{{ printf "/%s/posts/" .Site.Language.Lang }}" class="text-decoration-none">
                     <span class="badge bg-weebi text-white px-3 py-2">{{ T "blog" }}</span>
                   </a>
                 </div>

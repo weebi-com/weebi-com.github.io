@@ -10,13 +10,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
         <li class="nav-item">
-          <a class="nav-link" href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}#demo">{{ T "videos" }}</a>
+          <a class="nav-link" href="{{ printf "/%s/#demo" .Site.Language.Lang }}">{{ T "videos" }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ "prix" | relLangURL }}">{{ T "price" }}</a>
+          <a class="nav-link" href="{{ printf "/%s/prix/" .Site.Language.Lang }}">{{ T "price" }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}/user-guide/">{{ T "faq" }}</a>
+          <a class="nav-link" href="{{ printf "/%s/user-guide/" .Site.Language.Lang }}">{{ T "faq" }}</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ T "contact" }}</a>
@@ -26,7 +26,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ "posts" }}">{{ T "blog" }}</a>
+          <a class="nav-link" href="{{ printf "/%s/posts/" .Site.Language.Lang }}">{{ T "blog" }}</a>
         </li>
       </ul>
       <div class="d-flex align-items-center">
