@@ -8,13 +8,14 @@
 <link rel=stylesheet type=text/css href=/css/bootstrap.min.css>
 <link rel=stylesheet type=text/css href=/css/swiper-bundle.min.css>
 <link rel=icon type=image/x-icon href=/favicon.ico>
-<link rel=stylesheet href=/css/main.min.1097b652f2264ba85aeb5152910e70e6f8d031dbe2a11f8ab0b793ce0c1fb22e.css integrity="sha256-EJe2UvImS6ha61FSkQ5w5vjQMdvioR+KsLeTzgwfsi4=" crossorigin=anonymous>
+<link rel=stylesheet href=/css/main.min.1fefb49b82b699da22171ecb5095e1946be750bca619ae06ca9216fe8133bf36.css integrity="sha256-H++0m4K2mdoiFx7LUJXhlGvnULymGa4GypIW/oEzvzY=" crossorigin=anonymous>
 <script src=/js/swiper-bundle.min.js></script>
 <script src=/js/bootstrap.bundle.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js integrity=sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D crossorigin=anonymous async></script>
-<script src=/js/main.87b4e527073b8c47980af7109dfdfa2d1e17ed92f804c0ab40202908c473938b.js integrity="sha256-h7TlJwc7jEeYCvcQnf36LR4X7ZL4BMCrQCApCMRzk4s=" crossorigin=anonymous></script>
-<script src=/js/pricing-geo.86e6203467e67942466071c92619b523a1476f08b29736dd0dd0d96c40beb242.js integrity="sha256-huYgNGfmeUJGYHHJJhm1I6FHbwiylzbdDdDZbEC+skI=" crossorigin=anonymous></script>
+<script src=/js/main.127a69ea982f91ace8a0ec329651557dfb2acb7752921a27d111d34dfdb21bf5.js integrity="sha256-Enpp6pgvkazooOwyllFVffsqy3dSkhon0RHTTf2yG/U=" crossorigin=anonymous></script>
+<script src=/js/pricing-geo.e9e662fe5ff0c25401a5d3f00be95572fb6511f7d5b641e00432188dc6a5cf1e.js integrity="sha256-6eZi/l/wwlQBpdPwC+lVcvtlEffVtkHgBDIYjcalzx4=" crossorigin=anonymous></script>
 <script src=/js/pricing-hash.426e646bbcb54e3aaf4f2c32bdce5aa6cad4e2aacd5549b259936ea0f7d0fd56.js integrity="sha256-Qm5ka7y1TjqvTywyvc5apsrU4qrNVUmyWZNuoPfQ/VY=" crossorigin=anonymous></script>
+<script src=/js/pricing-scroll.cef4e6b6ef3ffebe80f5311e2ffc25b15f8dbdbfddc928606da81d0a68ed78e5.js integrity="sha256-zvTmtu8//r6A9TEeL/wlsV+Nvb/dyShgbagdCmjteOU=" crossorigin=anonymous></script>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css>
 </head>
 <body>
@@ -298,94 +299,204 @@ Linux
 <p>Weebi აპლიკაცია უფასოა და მუშაობს ოფლაინში.ჩვენ მალე შემოგთავაზებთ სააბონენტო შეთავაზებას მონაცემთა სინქრონიზაციისთვის.საშუალებას გაძლევთ დისტანციურად თვალყური ადევნოთ მაღაზიის აქტივობას და/ან მართოთ მრავალი გაყიდვის წერტილი.</p>
 </div>
 </div>
-<div class="row justify-content-center g-4">
-<div class="col-md-6 col-lg-4">
-<div class="pricing-card h-100 p-4 rounded-4 bg-white text-dark shadow-sm border border-primary border-2 position-relative">
-<div class="pricing-card-header text-center mb-4 pt-2">
-<h3 class="h4 fw-bold mb-2">Solo</h3>
-<div class="display-6 fw-bold text-primary">Free</div>
+<div class=pricing-table-scroll data-pricing-scroll>
+<button type=button class="pricing-scroll-btn pricing-scroll-btn--prev" aria-label="Scroll pricing table left" hidden>
+<i class="bi bi-chevron-left" aria-hidden=true></i>
+</button>
+<div class="table-responsive pricing-table-wrapper pricing-table-wrapper--3-plans" tabindex=0 role=region aria-label="Pricing plan comparison">
+<table class="table pricing-table mb-0">
+<thead>
+<tr>
+<th scope=col class="pricing-feature-col pricing-feature-col--corner" aria-hidden=true></th>
+<th scope=col class=pricing-plan-col>
+<div class=pricing-plan-header>Solo</div>
+</th>
+<th scope=col class="pricing-plan-col pricing-plan-col--entreprise">
+<div class=pricing-plan-header>Enterprise</div>
+</th>
+<th scope=col class="pricing-plan-col pricing-plan-col--premium">
+<div class=pricing-plan-header>Premium</div>
+</th>
+</tr>
+<tr class=pricing-price-row>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-tag-fill pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Price</span>
+</span>
+</th>
+<td class="pricing-plan-cell pricing-price-cell text-center">
+<span class="price-amount fw-bold">Free</span>
+</td>
+<td class="pricing-plan-cell pricing-price-cell text-center pricing-plan-cell--entreprise" id=pricing-entreprise-price data-default-value=14 data-default-currency=€ data-payment-terms="One-time payment, no subscription" data-unavailable="Not available" data-unavailable-reason="Software licenses are classified as taxable services in your country. We are working to make these plans available.">
+<div class="price-amount fw-bold">
+<span class=price-value>14</span><span class=price-currency> €</span><span class=price-license-suffix> / license</span>
 </div>
-<ul class="list-unstyled mb-4">
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-person-fill me-2 text-primary"></i>
-<span>1 user</span>
-</li>
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-shield-check me-2 text-success"></i>
-<span>100% local usage available (confidential)</span>
-</li>
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-cloud-check me-2 text-success"></i>
-<span>Optional cloud backup</span>
-</li>
-<li class="mb-3 d-flex align-items-center opacity-50">
-<i class="bi bi-x-circle me-2 text-danger"></i>
-<span>Remote tracking</span>
-</li>
-<li class="mb-3 d-flex align-items-center opacity-50">
-<i class="bi bi-x-circle me-2 text-danger"></i>
-<span>Multi-store management</span>
-</li>
-</ul>
+<div class="small fw-normal price-payment-terms">One-time payment, no subscription</div>
+</td>
+<td class="pricing-plan-cell pricing-price-cell text-center pricing-plan-cell--premium" id=pricing-premium-price data-default-value=29 data-default-currency=€ data-payment-terms="One-time payment, no subscription" data-unavailable="Not available" data-unavailable-reason="Software licenses are classified as taxable services in your country. We are working to make these plans available.">
+<div class="price-amount fw-bold">
+<span class=price-value>29</span><span class=price-currency> €</span><span class=price-license-suffix> / license</span>
 </div>
+<div class="small fw-normal price-payment-terms">One-time payment, no subscription</div>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-people-fill pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Users</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">1 user</td>
+<td class="pricing-plan-cell text-center">Unlimited</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">Unlimited</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-wifi-off pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>100% offline usage</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-cloud-check-fill pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Data backup</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-graph-up-arrow pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Dashboard and charts</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-binoculars-fill pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Remote tracking</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--no" aria-label="Not included">—</span>
+</td>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-shop pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Multi-store management</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--no" aria-label="Not included">—</span>
+</td>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-file-earmark-spreadsheet-fill pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Accounting exports</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--no" aria-label="Not included">—</span>
+</td>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--no" aria-label="Not included">—</span>
+</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-cpu-fill pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Advanced dashboard (ML & AI)</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--no" aria-label="Not included">—</span>
+</td>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--no" aria-label="Not included">—</span>
+</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
+</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-headset pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Assistance</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">Community + email</td>
+<td class="pricing-plan-cell text-center">Direct line</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">Priority handling</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div class="col-md-6 col-lg-4">
-<div class="pricing-card h-100 p-4 rounded-4 bg-white text-dark shadow-sm">
-<div class="pricing-card-header text-center mb-4">
-<h3 class="h4 fw-bold mb-2">Enterprise</h3>
-<div class="h4 fw-bold text-primary" id=pricing-team-cloud-price data-default-value=14 data-default-currency=€ data-per-user="per user, lifetime!" data-unavailable="Not available" data-unavailable-reason="Software licenses are classified as taxable services in your country. We are working to make this plan available.">
-<span class=price-value>14</span> <span class=price-currency>€</span>
-<div class="small fw-normal text-muted price-per-user">per user, lifetime!</div>
+<button type=button class="pricing-scroll-btn pricing-scroll-btn--next" aria-label="Scroll pricing table right" hidden>
+<i class="bi bi-chevron-right" aria-hidden=true></i>
+</button>
+<p class="pricing-scroll-hint text-center mb-0">Swipe or use the arrows to compare all plans</p>
 </div>
+<p class="text-center mt-4 mb-2 pricing-premium-note">Priority assistance, advanced dashboard (ML & AI) and accounting exports are included with Premium only.</p>
+<p class="text-center mb-3 small pricing-license-note">Remote tracking and multi-store management require an Enterprise or Premium license.</p>
+<div class="text-center pricing-cta">
+<a class="btn btn-light btn-lg rounded-pill px-5 fw-semibold" href=https://cloud.weebi.com/#/billing target=_blank rel=noopener>Buy a license</a>
 </div>
-<ul class="list-unstyled mb-4">
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-people-fill me-2 text-primary"></i>
-<span>Users unlimited</span>
-</li>
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-cloud-check me-2 text-success"></i>
-<span>Seamless data sync</span>
-</li>
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-check-circle-fill me-2 text-success"></i>
-<span>Direct support</span>
-</li>
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-binoculars-fill me-2 text-success"></i>
-<span>Remote tracking</span>
-</li>
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-shop me-2 text-success"></i>
-<span>Multi-store management</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-md-6 col-lg-4">
-<div class="pricing-card pricing-card--payg h-100 p-4 rounded-4 bg-white text-dark shadow-sm border border-secondary position-relative pricing-card--soon">
-<span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-secondary px-3">Coming soon</span>
-<div class="pricing-card-header text-center mb-4 pt-2">
-<h3 class="h4 fw-bold mb-2">Pay as you go</h3>
-</div>
-<ul class="list-unstyled mb-4">
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-key-fill me-2 text-primary"></i>
-<span>License required</span>
-</li>
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-graph-up-arrow me-2 text-success"></i>
-<span>Custom charts and dashboard</span>
-</li>
-<li class="mb-0 d-flex align-items-center">
-<i class="bi bi-robot me-2 text-success"></i>
-<span>Tailored AI analytics</span>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<p class="text-center mt-4 mb-0 small pricing-license-note">Cloud sync and multi-store features require a license.</p>
 </div>
 </div>
 </div>
@@ -539,45 +650,108 @@ micro-entrepreneurs
 </div>
 </div>
 <div class=row>
-<div class=col-md-12>
-<div class=swiper>
-<div class=swiper-wrapper>
-<div class=swiper-slide>
-<div class="container utilisations rounded py-5">
-<div class="row py-5 tuto-content-wrapper">
-<div class=col-md-6>
-<h3 class="fw-bold h3">განახორციელეთ ნაღდი ანგარიშსწორება</h3>
-<button class="btn btn-black-weebi">
-ნახეთ ვიდეო
+<div class=col-12>
+<div id=demoVideosCarousel class="carousel slide demo-videos-carousel" data-bs-interval=false data-bs-touch=true>
+<div class="carousel-indicators demo-videos-indicators"><button type=button data-bs-target=#demoVideosCarousel data-bs-slide-to=0 class=active aria-current=true aria-label="Create an article (Wolof)">
+1
+</button><button type=button data-bs-target=#demoVideosCarousel data-bs-slide-to=1 aria-label="Make a sale (Wolof)">
+2
+</button><button type=button data-bs-target=#demoVideosCarousel data-bs-slide-to=2 aria-label="Article management - creation and import">
+3
+</button><button type=button data-bs-target=#demoVideosCarousel data-bs-slide-to=3 aria-label="Article size management - rice by bag or retail">
+4
+</button><button type=button data-bs-target=#demoVideosCarousel data-bs-slide-to=4 aria-label="Stock and purchasing management">
+5
+</button><button type=button data-bs-target=#demoVideosCarousel data-bs-slide-to=5 aria-label="Credit sales">
+6
+</button></div>
+<div class=carousel-inner><div class="carousel-item active">
+<div class="demo-video-panel utilisations rounded-4">
+<div class="row g-4 align-items-center demo-video-panel__body">
+<div class=col-lg-5>
+<h3 class="h4 fw-bold mb-0">Create an article (Wolof)</h3>
+</div>
+<div class=col-lg-7>
+<div class="ratio ratio-16x9 demo-video-panel__embed">
+<iframe src=https://www.youtube-nocookie.com/embed/gNg8LgFdHAY title="Create an article (Wolof)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen loading=lazy referrerpolicy=no-referrer-when-downgrade></iframe>
+</div>
+</div>
+</div>
+</div>
+</div><div class=carousel-item>
+<div class="demo-video-panel utilisations rounded-4">
+<div class="row g-4 align-items-center demo-video-panel__body">
+<div class=col-lg-5>
+<h3 class="h4 fw-bold mb-0">Make a sale (Wolof)</h3>
+</div>
+<div class=col-lg-7>
+<div class="ratio ratio-16x9 demo-video-panel__embed">
+<iframe src=https://www.youtube-nocookie.com/embed/zilrWrkgdOw title="Make a sale (Wolof)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen loading=lazy referrerpolicy=no-referrer-when-downgrade></iframe>
+</div>
+</div>
+</div>
+</div>
+</div><div class=carousel-item>
+<div class="demo-video-panel utilisations rounded-4">
+<div class="row g-4 align-items-center demo-video-panel__body">
+<div class=col-lg-5>
+<h3 class="h4 fw-bold mb-0">Article management - creation and import</h3>
+</div>
+<div class=col-lg-7>
+<div class="ratio ratio-16x9 demo-video-panel__embed">
+<iframe src=https://www.youtube-nocookie.com/embed/3qmF9trudBI title="Article management - creation and import" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen loading=lazy referrerpolicy=no-referrer-when-downgrade></iframe>
+</div>
+</div>
+</div>
+</div>
+</div><div class=carousel-item>
+<div class="demo-video-panel utilisations rounded-4">
+<div class="row g-4 align-items-center demo-video-panel__body">
+<div class=col-lg-5>
+<h3 class="h4 fw-bold mb-0">Article size management - rice by bag or retail</h3>
+</div>
+<div class=col-lg-7>
+<div class="ratio ratio-16x9 demo-video-panel__embed">
+<iframe src=https://www.youtube-nocookie.com/embed/PJwbEkuRowU title="Article size management - rice by bag or retail" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen loading=lazy referrerpolicy=no-referrer-when-downgrade></iframe>
+</div>
+</div>
+</div>
+</div>
+</div><div class=carousel-item>
+<div class="demo-video-panel utilisations rounded-4">
+<div class="row g-4 align-items-center demo-video-panel__body">
+<div class=col-lg-5>
+<h3 class="h4 fw-bold mb-0">Stock and purchasing management</h3>
+</div>
+<div class=col-lg-7>
+<div class="ratio ratio-16x9 demo-video-panel__embed">
+<iframe src=https://www.youtube-nocookie.com/embed/5aem3EcL03I title="Stock and purchasing management" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen loading=lazy referrerpolicy=no-referrer-when-downgrade></iframe>
+</div>
+</div>
+</div>
+</div>
+</div><div class=carousel-item>
+<div class="demo-video-panel utilisations rounded-4">
+<div class="row g-4 align-items-center demo-video-panel__body">
+<div class=col-lg-5>
+<h3 class="h4 fw-bold mb-0">Credit sales</h3>
+</div>
+<div class=col-lg-7>
+<div class="ratio ratio-16x9 demo-video-panel__embed">
+<iframe src=https://www.youtube-nocookie.com/embed/IRQRbS5VTVA title="Credit sales" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen loading=lazy referrerpolicy=no-referrer-when-downgrade></iframe>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<button class="carousel-control-prev demo-videos-control" type=button data-bs-target=#demoVideosCarousel data-bs-slide=prev>
+<span class=carousel-control-prev-icon aria-hidden=true></span>
+<span class=visually-hidden>Previous</span>
 </button>
-</div>
-<div class="col-md-6 col-sm-12">
-<div class="ratio ratio-16x9">
-<iframe src="https://www.youtube-nocookie.com/embed/zilrWrkgdOw?si=wDPS78bMQW0q2mn1" title="YouTube video player" frameborder=0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen width=300 height=400 class=rounded loading=lazy referrerpolicy=no-referrer-when-downgrade></iframe>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class=swiper-slide>
-<div class="container utilisations rounded py-5">
-<div class="row py-5 tuto-content-wrapper">
-<div class=col-md-6>
-<h3 class="fw-bold h3">ჩაწერეთ საფონდო ჩანაწერი</h3>
-<button class="btn btn-black-weebi">
-ნახეთ ვიდეო
+<button class="carousel-control-next demo-videos-control" type=button data-bs-target=#demoVideosCarousel data-bs-slide=next>
+<span class=carousel-control-next-icon aria-hidden=true></span>
+<span class=visually-hidden>Next</span>
 </button>
-</div>
-<div class="col-md-6 col-sm-12">
-<div class="ratio ratio-16x9">
-<iframe src="https://www.youtube-nocookie.com/embed/7ZLZt6gn8PY?si=gyjLGrdpwADn_N5I" title="YouTube video player" frameborder=0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen width=300 height=400 class=rounded loading=lazy referrerpolicy=no-referrer-when-downgrade></iframe>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class=swiper-pagination></div>
 </div>
 </div>
 </div>

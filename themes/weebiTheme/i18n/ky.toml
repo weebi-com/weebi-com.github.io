@@ -49,8 +49,12 @@ telechargement_title = "Сыноо мөөнөтү жок акысыз жүктө
 telechargement_description = "Weebi колдонмосу акысыз жана иштөө офлайнда иштейт.Көп өтпөй биз маалыматтарды синхрондоштуруу үчүн жазылуу сунушу сунуштайбыз.Дүкөндүн ишмердүүлүгүн жана / же сатуунун бир нече пункттарын башкарууга уруксат берүү."
 # demo
 demo_title = "Демо жана окуу куралдары"
-demo_do_a_cash_sale = "Накталай акча табуу"
-demo_new_stock = "Биржалык кирүүнү жазыңыз"
+demo_wolof_create_article = "Create an article (Wolof)"
+demo_wolof_cash_sale = "Make a sale (Wolof)"
+demo_tuto_1_title = "Article management - creation and import"
+demo_tuto_2_title = "Article size management - rice by bag or retail"
+demo_tuto_3_title = "Stock and purchasing management"
+demo_tuto_4_title = "Credit sales"
 demo_see_a_video = "Видеону көрүңүз"
 # reportages
 reportages_title = "ТВ отчеттору"

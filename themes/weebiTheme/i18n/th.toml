@@ -49,8 +49,12 @@ telechargement_title = "ดาวน์โหลดฟรีโดยไม่�
 telechargement_description = "แอป Weebi ฟรีและทำงานแบบออฟไลน์เร็วๆ นี้เราจะเสนอข้อเสนอการสมัครสมาชิกสำหรับการซิงโครไนซ์ข้อมูลช่วยให้คุณติดตามกิจกรรมของร้านค้าจากระยะไกลและ/หรือจัดการจุดขายหลายจุด"
 # demo
 demo_title = "การสาธิตและบทช่วยสอน"
-demo_do_a_cash_sale = "ทำการขายเงินสด"
-demo_new_stock = "บันทึกการเข้าสต๊อก"
+demo_wolof_create_article = "Create an article (Wolof)"
+demo_wolof_cash_sale = "Make a sale (Wolof)"
+demo_tuto_1_title = "Article management - creation and import"
+demo_tuto_2_title = "Article size management - rice by bag or retail"
+demo_tuto_3_title = "Stock and purchasing management"
+demo_tuto_4_title = "Credit sales"
 demo_see_a_video = "ดูวิดีโอ"
 # reportages
 reportages_title = "รายงานทางทีวี"
@@ -86,4 +90,3 @@ page_not_found_title = "ไม่พบเพจ"
 page_not_found_description = "ขออภัย หน้าที่คุณกำลังค้นหาไม่มีอยู่อาจถูกย้ายหรือลบออกไป"
 go_to_home = "ไปที่หน้าแรก"
 popular_pages = "หน้ายอดนิยม"
-

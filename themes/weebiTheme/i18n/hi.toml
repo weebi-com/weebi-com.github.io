@@ -49,8 +49,12 @@ telechargement_title = "परीक्षण अवधि के बिना �
 telechargement_description = "वीबी ऐप मुफ़्त है और ऑफ़लाइन काम करता है।हम जल्द ही डेटा सिंक्रोनाइजेशन के लिए एक सब्सक्रिप्शन ऑफर पेश करेंगे।आपको स्टोर गतिविधि को दूर से ट्रैक करने और/या बिक्री के कई बिंदुओं को प्रबंधित करने की अनुमति देता है।"
 # demo
 demo_title = "डेमो और ट्यूटोरियल"
-demo_do_a_cash_sale = "नकद बिक्री करें"
-demo_new_stock = "स्टॉक प्रविष्टि रिकॉर्ड करें"
+demo_wolof_create_article = "Create an article (Wolof)"
+demo_wolof_cash_sale = "Make a sale (Wolof)"
+demo_tuto_1_title = "Article management - creation and import"
+demo_tuto_2_title = "Article size management - rice by bag or retail"
+demo_tuto_3_title = "Stock and purchasing management"
+demo_tuto_4_title = "Credit sales"
 demo_see_a_video = "वह वीडियो देखें"
 # reportages
 reportages_title = "टीवी रिपोर्ट"

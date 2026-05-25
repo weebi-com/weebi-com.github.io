@@ -49,8 +49,12 @@ telechargement_title = "ရုံးတင်စစ်ဆေးကာလမရ�
 telechargement_description = "Weebi app သည်အခမဲ့ဖြစ်ပြီးအော့ဖ်လိုင်းအလုပ်လုပ်သည်။ကျနော်တို့မကြာမီဒေတာထပ်တူပြုခြင်းအတွက် subscription ကမ်းလှမ်းမှုကိုကမ်းလှမ်းပါလိမ့်မယ်။စတိုးဆိုင်လှုပ်ရှားမှုများကိုအဝေးမှခြေရာခံရန်နှင့် / သို့မဟုတ်ရောင်းရန်မှတ်ကိုစီမံခန့်ခွဲရန်ခွင့်ပြုသည်။"
 # demo
 demo_title = "သရုပ်ပြနှင့်သင်ခန်းစာများ"
-demo_do_a_cash_sale = "ငွေသားရောင်းပါ"
-demo_new_stock = "စတော့ရှယ်ယာ entry ကိုမှတ်တမ်းတင်"
+demo_wolof_create_article = "Create an article (Wolof)"
+demo_wolof_cash_sale = "Make a sale (Wolof)"
+demo_tuto_1_title = "Article management - creation and import"
+demo_tuto_2_title = "Article size management - rice by bag or retail"
+demo_tuto_3_title = "Stock and purchasing management"
+demo_tuto_4_title = "Credit sales"
 demo_see_a_video = "ဗွီဒီယိုကြည့်ပါ"
 # reportages
 reportages_title = "တီဗီအစီရင်ခံစာများ"

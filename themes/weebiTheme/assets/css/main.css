@@ -261,6 +261,75 @@ h2, h3, h4, h5, h6 {
   height: 400px;
 }
 
+/* Demo videos — Bootstrap carousel (isolated from Swiper demo styles) */
+#demo .demo-videos-carousel {
+  position: relative;
+  width: 100%;
+  padding: 0 3rem 3.5rem;
+}
+
+#demo .demo-video-panel {
+  width: 100%;
+  margin: 0;
+}
+
+#demo .demo-video-panel__body {
+  padding: 2rem 2.5rem;
+}
+
+#demo .demo-video-panel__embed {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: #000;
+}
+
+#demo .demo-video-panel__embed iframe {
+  border: 0;
+}
+
+#demo .demo-videos-indicators {
+  position: relative;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#demo .demo-videos-indicators [data-bs-target] {
+  box-sizing: border-box;
+  width: 2.25rem;
+  height: 2.25rem;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.15);
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+  text-indent: 0;
+  opacity: 1;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#demo .demo-videos-indicators [data-bs-target].active {
+  background: #046DB5;
+  color: #fff;
+}
+
+#demo .demo-videos-control {
+  width: 2.5rem;
+  opacity: 0.85;
+}
+
+#demo .demo-videos-control .carousel-control-prev-icon,
+#demo .demo-videos-control .carousel-control-next-icon {
+  filter: invert(1) grayscale(100%);
+}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -609,6 +678,19 @@ h2, h3, h4, h5, h6 {
 
   .swiper .swiper-pagination {
     padding-left: 1.5rem;
+  }
+
+  #demo .demo-videos-carousel {
+    padding: 0 0.5rem 2.5rem;
+  }
+
+  #demo .demo-video-panel__body {
+    padding: 1.25rem 1rem;
+    text-align: center;
+  }
+
+  #demo .demo-videos-control {
+    display: none;
   }
 
   .section-py-4 {

@@ -49,8 +49,12 @@ telechargement_title = "ট্রায়াল সময় ছাড়া �
 telechargement_description = "Weebi অ্যাপটি বিনামূল্যে এবং অফলাইনে কাজ করে।আমরা শীঘ্রই ডেটা সিঙ্ক্রোনাইজেশনের জন্য একটি সাবস্ক্রিপশন অফার দেব৷আপনাকে দূরবর্তীভাবে স্টোরের কার্যকলাপ ট্র্যাক করতে এবং/অথবা বিক্রয়ের একাধিক পয়েন্ট পরিচালনা করার অনুমতি দেয়।"
 # demo
 demo_title = "ডেমো এবং টিউটোরিয়াল"
-demo_do_a_cash_sale = "একটি নগদ বিক্রয় করুন"
-demo_new_stock = "একটি স্টক এন্ট্রি রেকর্ড"
+demo_wolof_create_article = "Create an article (Wolof)"
+demo_wolof_cash_sale = "Make a sale (Wolof)"
+demo_tuto_1_title = "Article management - creation and import"
+demo_tuto_2_title = "Article size management - rice by bag or retail"
+demo_tuto_3_title = "Stock and purchasing management"
+demo_tuto_4_title = "Credit sales"
 demo_see_a_video = "ভিডিওটি দেখুন"
 # reportages
 reportages_title = "টিভি রিপোর্ট"

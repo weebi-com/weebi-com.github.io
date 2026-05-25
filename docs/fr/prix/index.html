@@ -7,13 +7,14 @@
 <link rel=stylesheet type=text/css href=/css/bootstrap.min.css>
 <link rel=stylesheet type=text/css href=/css/swiper-bundle.min.css>
 <link rel=icon type=image/x-icon href=/favicon.ico>
-<link rel=stylesheet href=/css/main.min.1097b652f2264ba85aeb5152910e70e6f8d031dbe2a11f8ab0b793ce0c1fb22e.css integrity="sha256-EJe2UvImS6ha61FSkQ5w5vjQMdvioR+KsLeTzgwfsi4=" crossorigin=anonymous>
+<link rel=stylesheet href=/css/main.min.1fefb49b82b699da22171ecb5095e1946be750bca619ae06ca9216fe8133bf36.css integrity="sha256-H++0m4K2mdoiFx7LUJXhlGvnULymGa4GypIW/oEzvzY=" crossorigin=anonymous>
 <script src=/js/swiper-bundle.min.js></script>
 <script src=/js/bootstrap.bundle.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js integrity=sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D crossorigin=anonymous async></script>
-<script src=/js/main.87b4e527073b8c47980af7109dfdfa2d1e17ed92f804c0ab40202908c473938b.js integrity="sha256-h7TlJwc7jEeYCvcQnf36LR4X7ZL4BMCrQCApCMRzk4s=" crossorigin=anonymous></script>
-<script src=/js/pricing-geo.86e6203467e67942466071c92619b523a1476f08b29736dd0dd0d96c40beb242.js integrity="sha256-huYgNGfmeUJGYHHJJhm1I6FHbwiylzbdDdDZbEC+skI=" crossorigin=anonymous></script>
+<script src=/js/main.127a69ea982f91ace8a0ec329651557dfb2acb7752921a27d111d34dfdb21bf5.js integrity="sha256-Enpp6pgvkazooOwyllFVffsqy3dSkhon0RHTTf2yG/U=" crossorigin=anonymous></script>
+<script src=/js/pricing-geo.e9e662fe5ff0c25401a5d3f00be95572fb6511f7d5b641e00432188dc6a5cf1e.js integrity="sha256-6eZi/l/wwlQBpdPwC+lVcvtlEffVtkHgBDIYjcalzx4=" crossorigin=anonymous></script>
 <script src=/js/pricing-hash.426e646bbcb54e3aaf4f2c32bdce5aa6cad4e2aacd5549b259936ea0f7d0fd56.js integrity="sha256-Qm5ka7y1TjqvTywyvc5apsrU4qrNVUmyWZNuoPfQ/VY=" crossorigin=anonymous></script>
+<script src=/js/pricing-scroll.cef4e6b6ef3ffebe80f5311e2ffc25b15f8dbdbfddc928606da81d0a68ed78e5.js integrity="sha256-zvTmtu8//r6A9TEeL/wlsV+Nvb/dyShgbagdCmjteOU=" crossorigin=anonymous></script>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css>
 </head>
 <body>
@@ -69,94 +70,204 @@
 <p>Choisissez l'offre qui correspond à vos besoins</p>
 </div>
 </div>
-<div class="row justify-content-center g-4">
-<div class="col-md-6 col-lg-4">
-<div class="pricing-card h-100 p-4 rounded-4 bg-white text-dark shadow-sm border border-primary border-2 position-relative">
-<div class="pricing-card-header text-center mb-4 pt-2">
-<h3 class="h4 fw-bold mb-2">Solo</h3>
-<div class="display-6 fw-bold text-primary">Gratuit</div>
+<div class=pricing-table-scroll data-pricing-scroll>
+<button type=button class="pricing-scroll-btn pricing-scroll-btn--prev" aria-label="Faire défiler le tableau des prix vers la gauche" hidden>
+<i class="bi bi-chevron-left" aria-hidden=true></i>
+</button>
+<div class="table-responsive pricing-table-wrapper pricing-table-wrapper--3-plans" tabindex=0 role=region aria-label="Comparatif des offres tarifaires">
+<table class="table pricing-table mb-0">
+<thead>
+<tr>
+<th scope=col class="pricing-feature-col pricing-feature-col--corner" aria-hidden=true></th>
+<th scope=col class=pricing-plan-col>
+<div class=pricing-plan-header>Solo</div>
+</th>
+<th scope=col class="pricing-plan-col pricing-plan-col--entreprise">
+<div class=pricing-plan-header>Entreprise</div>
+</th>
+<th scope=col class="pricing-plan-col pricing-plan-col--premium">
+<div class=pricing-plan-header>Premium</div>
+</th>
+</tr>
+<tr class=pricing-price-row>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-tag-fill pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Prix</span>
+</span>
+</th>
+<td class="pricing-plan-cell pricing-price-cell text-center">
+<span class="price-amount fw-bold">Gratuit</span>
+</td>
+<td class="pricing-plan-cell pricing-price-cell text-center pricing-plan-cell--entreprise" id=pricing-entreprise-price data-default-value=9k data-default-currency=FCFA data-payment-terms="Paiement unique, sans abonnement" data-unavailable="Non disponible" data-unavailable-reason="Les licences logicielles sont classées comme services imposables dans votre pays. Nous travaillons à rendre ces offres disponibles.">
+<div class="price-amount fw-bold">
+<span class=price-value>9k</span><span class=price-currency> FCFA</span><span class=price-license-suffix> / licence</span>
 </div>
-<ul class="list-unstyled mb-4">
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-person-fill me-2 text-primary"></i>
-<span>1 utilisateur</span>
-</li>
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-shield-check me-2 text-success"></i>
-<span>Utilisation 100% locale possible (confidentielle)</span>
-</li>
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-cloud-check me-2 text-success"></i>
-<span>Sauvegarde Cloud (optionnelle)</span>
-</li>
-<li class="mb-3 d-flex align-items-center opacity-50">
-<i class="bi bi-x-circle me-2 text-danger"></i>
-<span>Suivi à distance</span>
-</li>
-<li class="mb-3 d-flex align-items-center opacity-50">
-<i class="bi bi-x-circle me-2 text-danger"></i>
-<span>Gestion multi-boutiques</span>
-</li>
-</ul>
+<div class="small fw-normal price-payment-terms">Paiement unique, sans abonnement</div>
+</td>
+<td class="pricing-plan-cell pricing-price-cell text-center pricing-plan-cell--premium" id=pricing-premium-price data-default-value=29 data-default-currency=€ data-payment-terms="Paiement unique, sans abonnement" data-unavailable="Non disponible" data-unavailable-reason="Les licences logicielles sont classées comme services imposables dans votre pays. Nous travaillons à rendre ces offres disponibles.">
+<div class="price-amount fw-bold">
+<span class=price-value>29</span><span class=price-currency> €</span><span class=price-license-suffix> / licence</span>
 </div>
+<div class="small fw-normal price-payment-terms">Paiement unique, sans abonnement</div>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-people-fill pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Utilisateurs</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">1 utilisateur</td>
+<td class="pricing-plan-cell text-center">Illimités</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">Illimités</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-wifi-off pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Utilisation 100% hors-ligne</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-cloud-check-fill pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Sauvegarde des données</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-graph-up-arrow pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Tableau de bord et graphiques</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-binoculars-fill pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Suivi à distance</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--no" aria-label="Non inclus">—</span>
+</td>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-shop pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Gestion multi-boutiques</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--no" aria-label="Non inclus">—</span>
+</td>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-file-earmark-spreadsheet-fill pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Exports comptables</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--no" aria-label="Non inclus">—</span>
+</td>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--no" aria-label="Non inclus">—</span>
+</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-cpu-fill pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Tableau de bord avancé (ML & IA)</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--no" aria-label="Non inclus">—</span>
+</td>
+<td class="pricing-plan-cell text-center">
+<span class="pricing-cell-text pricing-cell-text--no" aria-label="Non inclus">—</span>
+</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">
+<span class="pricing-cell-text pricing-cell-text--yes" aria-label=Inclus>✓</span>
+</td>
+</tr>
+<tr>
+<th scope=row class=pricing-feature-cell>
+<span class=pricing-feature-label>
+<i class="bi bi-headset pricing-feature-icon" aria-hidden=true></i>
+<span class=pricing-feature-label-text>Assistance</span>
+</span>
+</th>
+<td class="pricing-plan-cell text-center">Communautaire + e-mail</td>
+<td class="pricing-plan-cell text-center">Ligne directe</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium">Traitement prioritaire</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div class="col-md-6 col-lg-4">
-<div class="pricing-card h-100 p-4 rounded-4 bg-white text-dark shadow-sm">
-<div class="pricing-card-header text-center mb-4">
-<h3 class="h4 fw-bold mb-2">Entreprise</h3>
-<div class="h4 fw-bold text-primary" id=pricing-team-cloud-price data-default-value=9k data-default-currency=FCFA data-per-user="par utilisateur à VIE !" data-unavailable="Non disponible" data-unavailable-reason="Les licences logicielles sont classées comme services imposables dans votre pays. Nous travaillons à rendre ce plan disponible.">
-<span class=price-value>9k</span> <span class=price-currency>FCFA</span>
-<div class="small fw-normal text-muted price-per-user">par utilisateur à VIE !</div>
+<button type=button class="pricing-scroll-btn pricing-scroll-btn--next" aria-label="Faire défiler le tableau des prix vers la droite" hidden>
+<i class="bi bi-chevron-right" aria-hidden=true></i>
+</button>
+<p class="pricing-scroll-hint text-center mb-0">Glissez ou utilisez les flèches pour comparer toutes les offres</p>
 </div>
+<p class="text-center mt-4 mb-2 pricing-premium-note">L'assistance prioritaire, le tableau de bord avancé (ML & IA) et les exports comptables sont inclus uniquement avec Premium.</p>
+<p class="text-center mb-3 small pricing-license-note">Le suivi à distance et le multi-boutiques nécessitent une licence Entreprise ou Premium.</p>
+<div class="text-center pricing-cta">
+<a class="btn btn-light btn-lg rounded-pill px-5 fw-semibold" href=https://cloud.weebi.com/#/billing target=_blank rel=noopener>Acheter une licence</a>
 </div>
-<ul class="list-unstyled mb-4">
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-people-fill me-2 text-primary"></i>
-<span>Utilisateurs illimités</span>
-</li>
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-cloud-check me-2 text-success"></i>
-<span>Synchronisation des données en temps réel</span>
-</li>
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-check-circle-fill me-2 text-success"></i>
-<span>Support direct</span>
-</li>
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-binoculars-fill me-2 text-success"></i>
-<span>Suivi à distance</span>
-</li>
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-shop me-2 text-success"></i>
-<span>Gestion multi-boutiques</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-md-6 col-lg-4">
-<div class="pricing-card pricing-card--payg h-100 p-4 rounded-4 bg-white text-dark shadow-sm border border-secondary position-relative pricing-card--soon">
-<span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-secondary px-3">Bientôt</span>
-<div class="pricing-card-header text-center mb-4 pt-2">
-<h3 class="h4 fw-bold mb-2">À l'usage</h3>
-</div>
-<ul class="list-unstyled mb-4">
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-key-fill me-2 text-primary"></i>
-<span>Licence requise</span>
-</li>
-<li class="mb-3 d-flex align-items-center">
-<i class="bi bi-graph-up-arrow me-2 text-success"></i>
-<span>Tableau de bord et graphiques</span>
-</li>
-<li class="mb-0 d-flex align-items-center">
-<i class="bi bi-robot me-2 text-success"></i>
-<span>Analyse IA sur mesure</span>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<p class="text-center mt-4 mb-0 small pricing-license-note">La synchronisation cloud et le multi-boutiques nécessitent une licence.</p>
 </div>
 </div>
 </div>

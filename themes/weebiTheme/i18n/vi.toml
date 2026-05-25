@@ -36,8 +36,12 @@ telechargement_title = "Tải xuống miễn phí không có thời gian dùng t
 telechargement_description = "Ứng dụng Weebi miễn phí và hoạt động ngoại tuyến.Chúng tôi sẽ sớm cung cấp ưu đãi đăng ký để đồng bộ hóa dữ liệu.Cho phép bạn theo dõi từ xa hoạt động của cửa hàng và/hoặc quản lý nhiều điểm bán hàng."
 # demo
 demo_title = "Demo và hướng dẫn"
-demo_do_a_cash_sale = "Thực hiện bán hàng bằng tiền mặt"
-demo_new_stock = "Ghi lại nhập kho"
+demo_wolof_create_article = "Create an article (Wolof)"
+demo_wolof_cash_sale = "Make a sale (Wolof)"
+demo_tuto_1_title = "Article management - creation and import"
+demo_tuto_2_title = "Article size management - rice by bag or retail"
+demo_tuto_3_title = "Stock and purchasing management"
+demo_tuto_4_title = "Credit sales"
 demo_see_a_video = "Xem video"
 # reportages
 reportages_title = "Báo cáo truyền hình"

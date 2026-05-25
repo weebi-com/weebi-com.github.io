@@ -49,8 +49,12 @@ telechargement_title = "دانلود رایگان بدون دوره آزمایش
 telechargement_description = "برنامه Weebi رایگان است و به صورت آفلاین کار می کند.ما به زودی یک پیشنهاد اشتراک برای همگام سازی داده ها ارائه خواهیم کرد.به شما امکان می دهد فعالیت فروشگاه را از راه دور پیگیری کنید و/یا چندین نقطه فروش را مدیریت کنید."
 # demo
 demo_title = "دمو و آموزش"
-demo_do_a_cash_sale = "فروش نقدی انجام دهید"
-demo_new_stock = "ثبت ورود سهام"
+demo_wolof_create_article = "Create an article (Wolof)"
+demo_wolof_cash_sale = "Make a sale (Wolof)"
+demo_tuto_1_title = "Article management - creation and import"
+demo_tuto_2_title = "Article size management - rice by bag or retail"
+demo_tuto_3_title = "Stock and purchasing management"
+demo_tuto_4_title = "Credit sales"
 demo_see_a_video = "ویدیو را تماشا کنید"
 # reportages
 reportages_title = "گزارش های تلویزیونی"

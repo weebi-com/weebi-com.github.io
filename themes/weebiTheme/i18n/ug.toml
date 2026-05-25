@@ -49,8 +49,12 @@ telechargement_title = "سىناق مۇددىتى توشماي ھەقسىز چۈ
 telechargement_description = "Weebi دېتالى ھەقسىز ۋە تور سىرتىدا.بىز پات يېقىندا سانلىق مەلۇمات ماسقەدەملەۋاتقان سانلىق مەلۇمات بىلەن مۇشتەرىلىك بىلەن تەمىنلەيمىز.دۇكان پائالىيىتىنى يىراقتىن ئىز قوغلىشىڭىزغا ۋە ياكى كۆپ خىل سېتىش نۇقتىلىرىنى باشقۇرۇشىڭىزغا يول قويىدۇ."
 # demo
 demo_title = "Demo ۋە Tutorials"
-demo_do_a_cash_sale = "نەق پۇل سېتىڭ"
-demo_new_stock = "پاي چېكىنى خاتىرىلەڭ"
+demo_wolof_create_article = "Create an article (Wolof)"
+demo_wolof_cash_sale = "Make a sale (Wolof)"
+demo_tuto_1_title = "Article management - creation and import"
+demo_tuto_2_title = "Article size management - rice by bag or retail"
+demo_tuto_3_title = "Stock and purchasing management"
+demo_tuto_4_title = "Credit sales"
 demo_see_a_video = "سىننى كۆرۈڭ"
 # reportages
 reportages_title = "تېلېۋىزىيە دوكلاتى"

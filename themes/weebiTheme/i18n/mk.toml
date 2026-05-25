@@ -49,8 +49,12 @@ telechargement_title = "Бесплатно преземање без пробе�
 telechargement_description = "Апликацијата Weebi е бесплатна и работи офлајн.Наскоро ќе понудиме понуда за претплата за синхронизација на податоци.Ви овозможува далечински да ја следите активноста на продавницата и/или да управувате со повеќе продажни места."
 # demo
 demo_title = "Демо снимки и упатства"
-demo_do_a_cash_sale = "Направете продажба во готовина"
-demo_new_stock = "Запишете запис на акции"
+demo_wolof_create_article = "Create an article (Wolof)"
+demo_wolof_cash_sale = "Make a sale (Wolof)"
+demo_tuto_1_title = "Article management - creation and import"
+demo_tuto_2_title = "Article size management - rice by bag or retail"
+demo_tuto_3_title = "Stock and purchasing management"
+demo_tuto_4_title = "Credit sales"
 demo_see_a_video = "Погледнете го видеото"
 # reportages
 reportages_title = "ТВ извештаи"

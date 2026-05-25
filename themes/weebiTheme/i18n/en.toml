@@ -167,8 +167,12 @@ pricing_premium_multi = "✅"
 # demo
 
 demo_title = "Demo videos"
-demo_do_a_cash_sale = "Make a cash sale"
-demo_new_stock = "Record a stock entry"
+demo_wolof_create_article = "Create an article (Wolof)"
+demo_wolof_cash_sale = "Make a sale (Wolof)"
+demo_tuto_1_title = "Article management - creation and import"
+demo_tuto_2_title = "Article size management - rice by bag or retail"
+demo_tuto_3_title = "Stock and purchasing management"
+demo_tuto_4_title = "Credit sales"
 demo_see_a_video = "Watch the video"
 
 # reportages

@@ -49,8 +49,12 @@ telechargement_title = "ട്രയൽ കാലയളവില്ലാതെ 
 telechargement_description = "വീബി ആപ്പ് സൗജന്യവും ഓഫ്‌ലൈനിൽ പ്രവർത്തിക്കുന്നതുമാണ്.ഡാറ്റ സിൻക്രൊണൈസേഷനായി ഞങ്ങൾ ഉടൻ തന്നെ ഒരു സബ്സ്ക്രിപ്ഷൻ ഓഫർ വാഗ്ദാനം ചെയ്യും.സ്റ്റോർ പ്രവർത്തനം വിദൂരമായി ട്രാക്ക് ചെയ്യാനും കൂടാതെ/അല്ലെങ്കിൽ ഒന്നിലധികം വിൽപ്പന പോയിൻ്റുകൾ നിയന്ത്രിക്കാനും നിങ്ങളെ അനുവദിക്കുന്നു."
 # demo
 demo_title = "ഡെമോകളും ട്യൂട്ടോറിയലുകളും"
-demo_do_a_cash_sale = "ഒരു പണ വിൽപ്പന നടത്തുക"
-demo_new_stock = "ഒരു സ്റ്റോക്ക് എൻട്രി രേഖപ്പെടുത്തുക"
+demo_wolof_create_article = "Create an article (Wolof)"
+demo_wolof_cash_sale = "Make a sale (Wolof)"
+demo_tuto_1_title = "Article management - creation and import"
+demo_tuto_2_title = "Article size management - rice by bag or retail"
+demo_tuto_3_title = "Stock and purchasing management"
+demo_tuto_4_title = "Credit sales"
 demo_see_a_video = "വീഡിയോ കാണുക"
 # reportages
 reportages_title = "ടിവി റിപ്പോർട്ടുകൾ"

@@ -49,8 +49,12 @@ telechargement_title = "परीक्षण अवधि बिना नि: 
 telechargement_description = "Weebi एप नि: शुल्क छ र अफलाइन काम गर्दछ।हामी चाँडै डाटा सिङ्क्रोनाइजेसनको लागि सदस्यता प्रस्ताव प्रस्ताव गर्नेछौं।तपाईंलाई टाढाबाट स्टोर गतिविधि ट्र्याक गर्न र/वा बिक्रीको धेरै बिन्दुहरू व्यवस्थापन गर्न अनुमति दिँदै।"
 # demo
 demo_title = "डेमो र ट्यूटोरियल"
-demo_do_a_cash_sale = "नगद बिक्री गर्नुहोस्"
-demo_new_stock = "स्टक प्रविष्टि रेकर्ड गर्नुहोस्"
+demo_wolof_create_article = "Create an article (Wolof)"
+demo_wolof_cash_sale = "Make a sale (Wolof)"
+demo_tuto_1_title = "Article management - creation and import"
+demo_tuto_2_title = "Article size management - rice by bag or retail"
+demo_tuto_3_title = "Stock and purchasing management"
+demo_tuto_4_title = "Credit sales"
 demo_see_a_video = "भिडियो हेर्नुहोस"
 # reportages
 reportages_title = "टिभी रिपोर्टहरू"

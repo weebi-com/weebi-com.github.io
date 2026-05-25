@@ -427,59 +427,8 @@
     </div>
 
     <div class="row">
-      <div class="col-md-12">
-        <div class="swiper">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides 1 -->
-            <div class="swiper-slide">
-              <div class="container utilisations rounded py-5">
-                <div class="row py-5 tuto-content-wrapper">
-                  <div class="col-md-6">
-                    <h3 class="fw-bold h3">{{ T "demo_do_a_cash_sale" }}</h3>
-                    <button class="btn btn-black-weebi">
-                      {{ T "demo_see_a_video" }}
-                    </button>
-                  </div>
-                  <div class="col-md-6 col-sm-12">
-                    <div class="ratio ratio-16x9">
-                      <iframe
-                        src="https://www.youtube-nocookie.com/embed/zilrWrkgdOw?si=wDPS78bMQW0q2mn1"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-                        allowfullscreen width="300" height="400" class="rounded" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Slides 2 -->
-            <div class="swiper-slide">
-              <div class="container utilisations rounded py-5">
-                <div class="row py-5 tuto-content-wrapper">
-                  <div class="col-md-6">
-                    <h3 class="fw-bold h3">{{ T "demo_new_stock" }}</h3>
-                    <button class="btn btn-black-weebi">
-                      {{ T "demo_see_a_video" }}
-                    </button>
-                  </div>
-                  <div class="col-md-6 col-sm-12">
-                    <div class="ratio ratio-16x9">
-                      <iframe src="https://www.youtube-nocookie.com/embed/7ZLZt6gn8PY?si=gyjLGrdpwADn_N5I"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
-                        allowfullscreen width="300" height="400" class="rounded" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
+      <div class="col-12">
+        {{ partial "demo-videos-section.html" . }}
       </div>
     </div>
   </div>

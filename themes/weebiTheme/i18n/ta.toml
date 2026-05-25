@@ -49,8 +49,12 @@ telechargement_title = "சோதனை காலம் இல்லாமல்
 telechargement_description = "Weebi பயன்பாடு இலவசம் மற்றும் ஆஃப்லைனில் வேலை செய்கிறது.தரவு ஒத்திசைவுக்கான சந்தா சலுகையை விரைவில் வழங்குவோம்.ஸ்டோர் செயல்பாட்டை தொலைவிலிருந்து கண்காணிக்க மற்றும்/அல்லது பல விற்பனை புள்ளிகளை நிர்வகிக்க உங்களை அனுமதிக்கிறது."
 # demo
 demo_title = "டெமோக்கள் மற்றும் பயிற்சிகள்"
-demo_do_a_cash_sale = "பண விற்பனை செய்யுங்கள்"
-demo_new_stock = "பங்கு உள்ளீட்டைப் பதிவு செய்யவும்"
+demo_wolof_create_article = "Create an article (Wolof)"
+demo_wolof_cash_sale = "Make a sale (Wolof)"
+demo_tuto_1_title = "Article management - creation and import"
+demo_tuto_2_title = "Article size management - rice by bag or retail"
+demo_tuto_3_title = "Stock and purchasing management"
+demo_tuto_4_title = "Credit sales"
 demo_see_a_video = "காணொளியை பாருங்கள்"
 # reportages
 reportages_title = "தொலைக்காட்சி அறிக்கைகள்"

@@ -1,0 +1,62 @@
+{{- $demoVideos := slice
+  (dict "id" "gNg8LgFdHAY" "title_key" "demo_wolof_create_article")
+  (dict "id" "zilrWrkgdOw" "title_key" "demo_wolof_cash_sale")
+  (dict "id" "3qmF9trudBI" "title_key" "demo_tuto_1_title")
+  (dict "id" "PJwbEkuRowU" "title_key" "demo_tuto_2_title")
+  (dict "id" "5aem3EcL03I" "title_key" "demo_tuto_3_title")
+  (dict "id" "IRQRbS5VTVA" "title_key" "demo_tuto_4_title")
+-}}
+{{- with site.Data.demo_videos -}}
+  {{- with .videos -}}
+    {{- $demoVideos = . -}}
+  {{- end -}}
+{{- end -}}
+
+<div id="demoVideosCarousel" class="carousel slide demo-videos-carousel" data-bs-interval="false" data-bs-touch="true">
+  <div class="carousel-indicators demo-videos-indicators">
+    {{- range $index, $video := $demoVideos -}}
+      <button
+        type="button"
+        data-bs-target="#demoVideosCarousel"
+        data-bs-slide-to="{{ $index }}"
+        {{- if eq $index 0 }} class="active" aria-current="true"{{- end }}
+        aria-label="{{ T $video.title_key }}">
+        {{ add $index 1 }}
+      </button>
+    {{- end -}}
+  </div>
+
+  <div class="carousel-inner">
+    {{- range $index, $video := $demoVideos -}}
+      <div class="carousel-item{{- if eq $index 0 }} active{{- end }}">
+        <div class="demo-video-panel utilisations rounded-4">
+          <div class="row g-4 align-items-center demo-video-panel__body">
+            <div class="col-lg-5">
+              <h3 class="h4 fw-bold mb-0">{{ T $video.title_key }}</h3>
+            </div>
+            <div class="col-lg-7">
+              <div class="ratio ratio-16x9 demo-video-panel__embed">
+                <iframe
+                  src="https://www.youtube-nocookie.com/embed/{{ $video.id }}"
+                  title="{{ T $video.title_key }}"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                  allowfullscreen
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{- end -}}
+  </div>
+
+  <button class="carousel-control-prev demo-videos-control" type="button" data-bs-target="#demoVideosCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next demo-videos-control" type="button" data-bs-target="#demoVideosCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>

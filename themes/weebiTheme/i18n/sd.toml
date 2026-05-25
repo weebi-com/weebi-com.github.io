@@ -49,8 +49,12 @@ telechargement_title = "آزمائشي مدت کان سواء مفت ڊائون 
 telechargement_description = "Weebi ايپ مفت آهي ۽ آف لائن ڪم ڪري ٿي.اسان جلد ئي ڊيٽا جي هم وقت سازي لاءِ سبسڪرپشن جي آڇ پيش ڪنداسين.توهان کي ريموٽ اسٽور جي سرگرمي کي ٽريڪ ڪرڻ ۽/يا وڪرو جي ڪيترن ئي پوائنٽن کي منظم ڪرڻ جي اجازت ڏئي ٿي."
 # demo
 demo_title = "Demos ۽ سبق"
-demo_do_a_cash_sale = "هڪ نقد وڪرو ٺاهيو"
-demo_new_stock = "اسٽاڪ داخلا رڪارڊ ڪريو"
+demo_wolof_create_article = "Create an article (Wolof)"
+demo_wolof_cash_sale = "Make a sale (Wolof)"
+demo_tuto_1_title = "Article management - creation and import"
+demo_tuto_2_title = "Article size management - rice by bag or retail"
+demo_tuto_3_title = "Stock and purchasing management"
+demo_tuto_4_title = "Credit sales"
 demo_see_a_video = "وڊيو ڏسو"
 # reportages
 reportages_title = "ٽي وي رپورٽون"

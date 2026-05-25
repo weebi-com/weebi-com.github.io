@@ -2,29 +2,16 @@ import { init, trackEvent } from '@aptabase/web';
 
 init('A-EU-6403105423');
 
-const swiper = new Swiper('.swiper', {
-  direction: 'horizontal',
-  loop: true,
-
-  slidesPerView: "auto",
-  spaceBetween: 30,
-
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-    renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + (index + 1) + "</span>";
-    },
-  },
-});
-
-const swiper2 = new Swiper('.swiper2', {
-  pagination: {
-    el: '.swiper-pagination2',
-  },
-});
-
 document.addEventListener('DOMContentLoaded', function() {
+  const swiper2El = document.querySelector('.swiper2');
+  if (swiper2El) {
+    new Swiper(swiper2El, {
+      pagination: {
+        el: '.swiper-pagination2',
+      },
+    });
+  }
+
   trackEvent('new_visitor');
 
   let downloadPlayStore = document.getElementById('download_playstore');
