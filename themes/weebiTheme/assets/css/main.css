@@ -633,6 +633,14 @@ h2, h3, h4, h5, h6 {
   --pricing-blue: #046db5;
   --pricing-blue-dark: #034d82;
   --pricing-blue-header: #025a94;
+  --pricing-solo: var(--pricing-blue);
+  --pricing-solo-hover: #057ec6;
+  --pricing-entreprise: #355882;
+  --pricing-entreprise-hover: #3f6590;
+  --pricing-premium: #0f2340;
+  --pricing-premium-hover: #152d4f;
+  --pricing-premium-gold: #e8c96a;
+  --pricing-premium-gold-muted: #dfc25a;
   --pricing-cell-border: rgba(255, 255, 255, 0.22);
   --pricing-feature-col-width: clamp(5.25rem, 26vw, 6.75rem);
   --pricing-plan-col-width: 7.25rem;
@@ -829,18 +837,25 @@ h2, h3, h4, h5, h6 {
   border-right: none !important;
 }
 
+.pricing .pricing-table thead th.pricing-plan-col {
+  text-align: center !important;
+}
+
 .pricing-plan-header {
   font-size: 1.25rem !important;
   font-weight: 800 !important;
-  letter-spacing: 0.8px !important;
-  text-transform: uppercase !important;
+  letter-spacing: 0.02em !important;
+  text-transform: none !important;
   font-family: "Quicksand", sans-serif !important;
+  text-align: center !important;
+  width: 100%;
 }
 
 .pricing .pricing-price-row th,
 .pricing .pricing-price-row td {
   background: var(--pricing-blue-dark) !important;
   border-bottom: 2px solid rgba(255, 255, 255, 0.35) !important;
+  vertical-align: middle !important;
 }
 
 .pricing-price-cell {
@@ -848,6 +863,7 @@ h2, h3, h4, h5, h6 {
   font-weight: 700 !important;
   color: #fff !important;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
+  text-align: center !important;
 }
 
 .pricing .price-amount {
@@ -889,9 +905,20 @@ h2, h3, h4, h5, h6 {
   background: var(--pricing-blue-header) !important;
 }
 
+.pricing .pricing-table thead th.pricing-feature-col--corner {
+  background: #023d6e !important;
+  text-align: left !important;
+  font-weight: 600 !important;
+}
+
+.pricing-feature-col-label {
+  display: block;
+  line-height: 1.35;
+}
+
 .pricing .pricing-table thead tr.pricing-price-row th.pricing-feature-cell {
   z-index: 9 !important;
-  background: var(--pricing-blue-dark) !important;
+  background: #023d6e !important;
 }
 
 .pricing .pricing-table tbody th.pricing-feature-cell {
@@ -958,6 +985,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .pricing-license-note {
+  margin-top: 1.25rem;
   font-size: 1.1rem !important;
   color: rgba(255, 255, 255, 0.95) !important;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
@@ -978,17 +1006,6 @@ h2, h3, h4, h5, h6 {
   background-color: #fff;
 }
 
-.pricing-premium-note {
-  font-size: 1.05rem !important;
-  font-weight: 600 !important;
-  color: rgba(255, 255, 255, 0.98) !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35) !important;
-  max-width: 42rem;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  line-height: 1.5 !important;
-}
-
 .pricing-plan-badge {
   display: inline-block;
   margin-top: 0.35rem;
@@ -1006,24 +1023,109 @@ h2, h3, h4, h5, h6 {
   opacity: 0.85;
 }
 
-.pricing-plan-col--premium .pricing-plan-header {
+/* Solo — azure, full column */
+.pricing .pricing-table thead th.pricing-plan-col--solo,
+.pricing .pricing-table tbody td.pricing-plan-cell--solo,
+.pricing .pricing-table thead tr.pricing-price-row td.pricing-plan-cell--solo {
+  background-color: var(--pricing-solo) !important;
+  color: #fff !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
+}
+
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--solo,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--solo .pricing-cell-text,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--solo .price-amount,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--solo .price-value,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--solo .price-currency,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--solo .price-license-suffix,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--solo .price-payment-terms,
+.pricing .pricing-table thead th.pricing-plan-col--solo .pricing-plan-header {
   color: #fff !important;
 }
 
-.pricing .pricing-plan-cell--premium {
-  background: rgba(3, 95, 155, 0.55) !important;
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--solo.pricing-price-cell {
+  background-color: var(--pricing-solo) !important;
 }
 
-.pricing .pricing-table thead th.pricing-plan-col--entreprise {
-  background: #0368a8 !important;
+.pricing .pricing-price-row td.pricing-plan-cell--solo {
+  height: 1px;
 }
 
-.pricing .pricing-plan-cell--entreprise {
-  background: rgba(3, 88, 145, 0.5) !important;
+.pricing .pricing-price-row td.pricing-plan-cell--solo .pricing-price-cell-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 100%;
 }
 
-.pricing .pricing-table thead th.pricing-plan-col--premium {
-  background: #0370b8 !important;
+.pricing .pricing-table tbody tr:hover td.pricing-plan-cell--solo {
+  background-color: var(--pricing-solo-hover) !important;
+}
+
+/* Entreprise — indigo / darker blue, full column */
+.pricing .pricing-table thead th.pricing-plan-col--entreprise,
+.pricing .pricing-table tbody td.pricing-plan-cell--entreprise,
+.pricing .pricing-table thead tr.pricing-price-row td.pricing-plan-cell--entreprise {
+  background-color: var(--pricing-entreprise) !important;
+  color: #fff !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
+}
+
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--entreprise,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--entreprise .pricing-cell-text,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--entreprise .price-amount,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--entreprise .price-value,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--entreprise .price-currency,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--entreprise .price-license-suffix,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--entreprise .price-payment-terms,
+.pricing .pricing-table thead th.pricing-plan-col--entreprise .pricing-plan-header {
+  color: #fff !important;
+}
+
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--entreprise.pricing-price-cell {
+  background-color: var(--pricing-entreprise) !important;
+}
+
+.pricing .pricing-table tbody tr:hover td.pricing-plan-cell--entreprise {
+  background-color: var(--pricing-entreprise-hover) !important;
+}
+
+/* Premium — full column: dark navy blue + gold typography */
+.pricing .pricing-table thead th.pricing-plan-col--premium,
+.pricing .pricing-table tbody td.pricing-plan-cell--premium,
+.pricing .pricing-table thead tr.pricing-price-row td.pricing-plan-cell--premium {
+  background-color: var(--pricing-premium) !important;
+  color: var(--pricing-premium-gold) !important;
+  text-shadow: none !important;
+}
+
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--premium,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--premium .pricing-cell-text:not(.pricing-cell-text--yes):not(.pricing-cell-text--no),
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--premium .pricing-plan-header,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--premium .price-amount,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--premium .price-value,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--premium .price-currency,
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--premium .price-license-suffix,
+.pricing .pricing-table thead th.pricing-plan-col--premium .pricing-plan-header {
+  color: var(--pricing-premium-gold) !important;
+  text-shadow: none !important;
+}
+
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--premium .price-payment-terms {
+  color: var(--pricing-premium-gold-muted) !important;
+}
+
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--premium.pricing-price-cell {
+  background-color: var(--pricing-premium) !important;
+}
+
+.pricing .pricing-table tbody tr:hover td.pricing-plan-cell--premium {
+  background-color: var(--pricing-premium-hover) !important;
+}
+
+.pricing .pricing-table.table > :not(caption) > * > td.pricing-plan-cell--premium .pricing-cell-text--yes {
+  color: var(--pricing-premium-gold) !important;
 }
 
 .pricing-icon-yes {
