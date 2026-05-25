@@ -1,0 +1,12 @@
+{{- $icon := .icon -}}
+{{- $key := .key -}}
+{{- $hint := .hint | default "" -}}
+<th scope="row" class="pricing-feature-cell">
+  <span class="pricing-feature-label">
+    <i class="bi bi-{{ $icon }} pricing-feature-icon" aria-hidden="true"></i>
+    <span class="pricing-feature-label-text">{{ T $key }}</span>
+  </span>
+  {{- with $hint }}
+  <div class="pricing-feature-hint">{{ T . }}</div>
+  {{- end }}
+</th>
