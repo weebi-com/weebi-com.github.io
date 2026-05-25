@@ -1,3 +1,3 @@
 {{- $text := .text -}}
 {{- $class := .class | default "" -}}
-<td class="pricing-plan-cell text-center{{ with $class }} {{ . }}{{ end }}">{{ $text }}</td>
+<td class="pricing-plan-cell text-center{{ with $class }} {{ . }}{{ end }}"><span class="pricing-cell-text">{{ $text }}</span></td>

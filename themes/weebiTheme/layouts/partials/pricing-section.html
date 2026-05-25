@@ -16,8 +16,10 @@
           <table class="table pricing-table mb-0">
             <thead>
               <tr>
-                <th scope="col" class="pricing-feature-col pricing-feature-col--corner" aria-hidden="true"></th>
-                <th scope="col" class="pricing-plan-col">
+                <th scope="col" class="pricing-feature-col pricing-feature-col--corner">
+                  <span class="pricing-feature-col-label">{{ T "pricing_table_feature" }}</span>
+                </th>
+                <th scope="col" class="pricing-plan-col pricing-plan-col--solo">
                   <div class="pricing-plan-header">{{ T "pricing_table_solo_cloud" }}</div>
                 </th>
                 <th scope="col" class="pricing-plan-col pricing-plan-col--entreprise">
@@ -29,8 +31,10 @@
               </tr>
               <tr class="pricing-price-row">
                 {{ partial "pricing/feature-label.html" (dict "icon" "tag-fill" "key" "pricing_feature_price") }}
-                <td class="pricing-plan-cell pricing-price-cell text-center">
-                  <span class="price-amount fw-bold">{{ T "pricing_solo_cloud_price" }}</span>
+                <td class="pricing-plan-cell pricing-price-cell text-center pricing-plan-cell--solo">
+                  <div class="pricing-price-cell-inner">
+                    <span class="price-amount fw-bold">{{ T "pricing_solo_cloud_price" }}</span>
+                  </div>
                 </td>
                 <td class="pricing-plan-cell pricing-price-cell text-center pricing-plan-cell--entreprise" id="pricing-entreprise-price" data-default-value="{{ T "pricing_entreprise_price_value" }}" data-default-currency="{{ T "pricing_entreprise_price_currency" }}" data-payment-terms="{{ T "pricing_payment_terms" }}" data-unavailable="{{ T "pricing_license_unavailable" }}" data-unavailable-reason="{{ T "pricing_license_unavailable_reason" }}">
                   <div class="price-amount fw-bold">
@@ -49,56 +53,56 @@
             <tbody>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "people-fill" "key" "pricing_feature_users") }}
-                {{ partial "pricing/cell-text.html" (dict "text" (printf "%s %s" (T "pricing_solo_cloud_users") (T "utilisateur_singular"))) }}
-                {{ partial "pricing/cell-text.html" (dict "text" (T "pricing_entreprise_users")) }}
+                {{ partial "pricing/cell-text.html" (dict "text" (printf "%s %s" (T "pricing_solo_cloud_users") (T "utilisateur_singular")) "class" "pricing-plan-cell--solo") }}
+                {{ partial "pricing/cell-text.html" (dict "text" (T "pricing_entreprise_users") "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-text.html" (dict "text" (T "pricing_premium_users") "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "wifi-off" "key" "pricing_feature_offline") }}
-                {{ partial "pricing/cell-yes.html" (dict) }}
-                {{ partial "pricing/cell-yes.html" (dict) }}
+                {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--solo") }}
+                {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "cloud-check-fill" "key" "pricing_feature_backup") }}
-                {{ partial "pricing/cell-yes.html" (dict) }}
-                {{ partial "pricing/cell-yes.html" (dict) }}
+                {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--solo") }}
+                {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "graph-up-arrow" "key" "pricing_feature_dashboard") }}
-                {{ partial "pricing/cell-yes.html" (dict) }}
-                {{ partial "pricing/cell-yes.html" (dict) }}
+                {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--solo") }}
+                {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "binoculars-fill" "key" "pricing_feature_remote") }}
-                {{ partial "pricing/cell-no.html" (dict) }}
-                {{ partial "pricing/cell-yes.html" (dict) }}
+                {{ partial "pricing/cell-no.html" (dict "class" "pricing-plan-cell--solo") }}
+                {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "shop" "key" "pricing_feature_multi") }}
-                {{ partial "pricing/cell-no.html" (dict) }}
-                {{ partial "pricing/cell-yes.html" (dict) }}
+                {{ partial "pricing/cell-no.html" (dict "class" "pricing-plan-cell--solo") }}
+                {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "file-earmark-spreadsheet-fill" "key" "pricing_feature_accounting_export") }}
-                {{ partial "pricing/cell-no.html" (dict) }}
-                {{ partial "pricing/cell-no.html" (dict) }}
+                {{ partial "pricing/cell-no.html" (dict "class" "pricing-plan-cell--solo") }}
+                {{ partial "pricing/cell-no.html" (dict "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "cpu-fill" "key" "pricing_feature_advanced_dashboard") }}
-                {{ partial "pricing/cell-no.html" (dict) }}
-                {{ partial "pricing/cell-no.html" (dict) }}
+                {{ partial "pricing/cell-no.html" (dict "class" "pricing-plan-cell--solo") }}
+                {{ partial "pricing/cell-no.html" (dict "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "headset" "key" "pricing_feature_assistance") }}
-                {{ partial "pricing/cell-text.html" (dict "text" (T "pricing_solo_assistance")) }}
-                {{ partial "pricing/cell-text.html" (dict "text" (T "pricing_entreprise_assistance")) }}
+                {{ partial "pricing/cell-text.html" (dict "text" (T "pricing_solo_assistance") "class" "pricing-plan-cell--solo") }}
+                {{ partial "pricing/cell-text.html" (dict "text" (T "pricing_entreprise_assistance") "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-text.html" (dict "text" (T "pricing_premium_assistance") "class" "pricing-plan-cell--premium") }}
               </tr>
             </tbody>
@@ -110,7 +114,6 @@
         <p class="pricing-scroll-hint text-center mb-0">{{ T "pricing_scroll_hint" }}</p>
       </div>
 
-      <p class="text-center mt-4 mb-2 pricing-premium-note">{{ T "pricing_premium_only_note" }}</p>
       <p class="text-center mb-3 small pricing-license-note">{{ T "pricing_license_note" }}</p>
       <div class="text-center pricing-cta">
         <a class="btn btn-light btn-lg rounded-pill px-5 fw-semibold" href="{{ site.Params.stores.webConsoleBilling | default "https://cloud.weebi.com/#/billing" }}" target="_blank" rel="noopener">{{ T "pricing_buy_license_cta" }}</a>
