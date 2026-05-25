@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>//localhost:1313/fr/sitemap.xml</loc>
-    
-      <lastmod>2024-01-01T08:30:00-07:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>//localhost:1313/en/sitemap.xml</loc>
-    
-      <lastmod>2024-01-01T08:30:00-07:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>/af/sitemap.xml</loc></sitemap><sitemap><loc>/am/sitemap.xml</loc></sitemap><sitemap><loc>/ar/sitemap.xml</loc></sitemap><sitemap><loc>/az/sitemap.xml</loc></sitemap><sitemap><loc>/bg/sitemap.xml</loc></sitemap><sitemap><loc>/bn/sitemap.xml</loc></sitemap><sitemap><loc>/bs/sitemap.xml</loc></sitemap><sitemap><loc>/ca/sitemap.xml</loc></sitemap><sitemap><loc>/cs/sitemap.xml</loc></sitemap><sitemap><loc>/da/sitemap.xml</loc></sitemap><sitemap><loc>/de/sitemap.xml</loc></sitemap><sitemap><loc>/el/sitemap.xml</loc></sitemap><sitemap><loc>/en/sitemap.xml</loc><lastmod>2024-01-01T08:30:00-07:00</lastmod></sitemap><sitemap><loc>/es/sitemap.xml</loc></sitemap><sitemap><loc>/et/sitemap.xml</loc></sitemap><sitemap><loc>/fa/sitemap.xml</loc></sitemap><sitemap><loc>/fi/sitemap.xml</loc></sitemap><sitemap><loc>/fr/sitemap.xml</loc><lastmod>2025-05-17T09:00:00+00:00</lastmod></sitemap><sitemap><loc>/gl/sitemap.xml</loc></sitemap><sitemap><loc>/ha/sitemap.xml</loc></sitemap><sitemap><loc>/he/sitemap.xml</loc></sitemap><sitemap><loc>/hi/sitemap.xml</loc></sitemap><sitemap><loc>/hr/sitemap.xml</loc></sitemap><sitemap><loc>/ht/sitemap.xml</loc></sitemap><sitemap><loc>/hu/sitemap.xml</loc></sitemap><sitemap><loc>/hy/sitemap.xml</loc></sitemap><sitemap><loc>/id/sitemap.xml</loc></sitemap><sitemap><loc>/is/sitemap.xml</loc></sitemap><sitemap><loc>/it/sitemap.xml</loc></sitemap><sitemap><loc>/ja/sitemap.xml</loc></sitemap><sitemap><loc>/ka/sitemap.xml</loc></sitemap><sitemap><loc>/kk/sitemap.xml</loc></sitemap><sitemap><loc>/km/sitemap.xml</loc></sitemap><sitemap><loc>/ko/sitemap.xml</loc></sitemap><sitemap><loc>/ku/sitemap.xml</loc></sitemap><sitemap><loc>/ky/sitemap.xml</loc></sitemap><sitemap><loc>/lt/sitemap.xml</loc></sitemap><sitemap><loc>/lv/sitemap.xml</loc></sitemap><sitemap><loc>/mk/sitemap.xml</loc></sitemap><sitemap><loc>/ml/sitemap.xml</loc></sitemap><sitemap><loc>/ms/sitemap.xml</loc></sitemap><sitemap><loc>/my/sitemap.xml</loc></sitemap><sitemap><loc>/ne/sitemap.xml</loc></sitemap><sitemap><loc>/nl/sitemap.xml</loc></sitemap><sitemap><loc>/no/sitemap.xml</loc></sitemap><sitemap><loc>/pl/sitemap.xml</loc></sitemap><sitemap><loc>/ps/sitemap.xml</loc></sitemap><sitemap><loc>/pt/sitemap.xml</loc></sitemap><sitemap><loc>/ro/sitemap.xml</loc></sitemap><sitemap><loc>/ru/sitemap.xml</loc></sitemap><sitemap><loc>/sd/sitemap.xml</loc></sitemap><sitemap><loc>/sk/sitemap.xml</loc></sitemap><sitemap><loc>/sl/sitemap.xml</loc></sitemap><sitemap><loc>/so/sitemap.xml</loc></sitemap><sitemap><loc>/sq/sitemap.xml</loc></sitemap><sitemap><loc>/sr/sitemap.xml</loc></sitemap><sitemap><loc>/sv/sitemap.xml</loc></sitemap><sitemap><loc>/ta/sitemap.xml</loc></sitemap><sitemap><loc>/th/sitemap.xml</loc></sitemap><sitemap><loc>/tr/sitemap.xml</loc></sitemap><sitemap><loc>/ug/sitemap.xml</loc></sitemap></sitemapindex>

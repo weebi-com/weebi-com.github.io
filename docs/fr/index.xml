@@ -1,26 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Weebi : Suivi des Ventes, Gestion de Stock et Comptes Clients à Dakar</title>
-    <link>//localhost:1313/fr/</link>
-    <description>Recent content on Weebi : Suivi des Ventes, Gestion de Stock et Comptes Clients à Dakar</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language>
-    <lastBuildDate>Sun, 14 May 2023 11:00:00 -0700</lastBuildDate>
-    <atom:link href="//localhost:1313/fr/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Démo de l’activité articles</title>
-      <link>//localhost:1313/fr/posts/demo-articles/</link>
-      <pubDate>Sun, 14 May 2023 11:00:00 -0700</pubDate>
-      <guid>//localhost:1313/fr/posts/demo-articles/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>On reprend !</title>
-      <link>//localhost:1313/fr/posts/on-reprend/</link>
-      <pubDate>Sun, 14 May 2023 11:00:00 -0700</pubDate>
-      <guid>//localhost:1313/fr/posts/on-reprend/</guid>
-      <description>26 June 2019. Dakar, Senegal. Binta is filling the vegetables she sells on her Weebi tablet. The application has helped her manage her stock and sales.&#xA;Après deux ans de pause, Sidy est heureux de vous annoncer que le service reprend ! L’application fait peau neuve avec une nouvelle version (la 3è) disponible sur :&#xA;– android weebi playstore – iOS weebi appstore – macOS lien sur weebi.com – windows lien sur weebi.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Weebi : Suivi des Ventes, Gestion de Stock et Comptes Clients à Dakar</title><link>/fr/</link><description>Recent content on Weebi : Suivi des Ventes, Gestion de Stock et Comptes Clients à Dakar</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Sat, 17 May 2025 09:00:00 +0000</lastBuildDate><atom:link href="/fr/index.xml" rel="self" type="application/rss+xml"/><item><title>Comptabilité OHADA simplifiée sans TVA : le guide du SMT</title><link>/fr/posts/comptabilite-ohada-smt/</link><pubDate>Sat, 17 May 2025 09:00:00 +0000</pubDate><guid>/fr/posts/comptabilite-ohada-smt/</guid><description>&lt;p>Tenir une comptabilité conforme sans se noyer dans la paperasse : c’est le défi de milliers de commerçants, artisans et TPE dans l’espace &lt;strong>OHADA&lt;/strong>. Lorsque le chiffre d’affaires reste modeste et que la &lt;strong>TVA&lt;/strong> ne s’applique pas, le cadre légal propose une voie plus légère : le &lt;strong>Système Minimal de Trésorerie (SMT)&lt;/strong>.&lt;/p>
+&lt;p>Ce guide reprend les principes essentiels, un plan comptable réduit, des modèles prêts à l’emploi et un &lt;strong>exemple mensuel complet&lt;/strong> (journal, hors bilan, tableau des recettes et dépenses, mini bilan). Les montants sont en &lt;strong>FCFA&lt;/strong>, comme dans la pratique courante en zone UEMOA et CEMAC.&lt;/p></description></item><item><title>Politique de confidentialité</title><link>/fr/privacy_policy/</link><pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate><guid>/fr/privacy_policy/</guid><description>Les données personnelles collectées par weebi.com ne seront utilisées que dans le cadre de la finalité pour laquelle vous les avez saisies et sont conformes à la loi européene sur la protection des données personnelles. Cette politique de confidentialité définit la manière dont nous recueillons et traitons les informations personnelles.
+Quelles informations sensibles collectons-nous ? Aucune par défaut. Weebi ne stocke des informations que si vous créez un compte. Ce compte permet de sauvegarder vos données sur le cloud weebi.</description></item><item><title>Guide de prise en main</title><link>/fr/user-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/fr/user-guide/</guid><description/></item><item><title>Le prix</title><link>/fr/prix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/fr/prix/</guid><description/></item></channel></rss>
