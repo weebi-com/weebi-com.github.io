@@ -8,7 +8,7 @@
 <link rel=stylesheet type=text/css href=/css/bootstrap.min.css>
 <link rel=stylesheet type=text/css href=/css/swiper-bundle.min.css>
 <link rel=icon type=image/x-icon href=/favicon.ico>
-<link rel=stylesheet href=/css/main.min.1fefb49b82b699da22171ecb5095e1946be750bca619ae06ca9216fe8133bf36.css integrity="sha256-H++0m4K2mdoiFx7LUJXhlGvnULymGa4GypIW/oEzvzY=" crossorigin=anonymous>
+<link rel=stylesheet href=/css/main.min.6030936cbbe4f6d70a8198b18b81c1d91a15e5a7fb79dfb29e7ddab5637ff062.css integrity="sha256-YDCTbLvk9tcKgZixi4HB2RoV5af7ed+ynn3atWN/8GI=" crossorigin=anonymous>
 <script src=/js/swiper-bundle.min.js></script>
 <script src=/js/bootstrap.bundle.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js integrity=sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D crossorigin=anonymous async></script>
@@ -307,8 +307,10 @@ Linux
 <table class="table pricing-table mb-0">
 <thead>
 <tr>
-<th scope=col class="pricing-feature-col pricing-feature-col--corner" aria-hidden=true></th>
-<th scope=col class=pricing-plan-col>
+<th scope=col class="pricing-feature-col pricing-feature-col--corner">
+<span class=pricing-feature-col-label>Offer</span>
+</th>
+<th scope=col class="pricing-plan-col pricing-plan-col--solo">
 <div class=pricing-plan-header>Solo</div>
 </th>
 <th scope=col class="pricing-plan-col pricing-plan-col--entreprise">
@@ -325,18 +327,20 @@ Linux
 <span class=pricing-feature-label-text>Price</span>
 </span>
 </th>
-<td class="pricing-plan-cell pricing-price-cell text-center">
+<td class="pricing-plan-cell pricing-price-cell text-center pricing-plan-cell--solo">
+<div class=pricing-price-cell-inner>
 <span class="price-amount fw-bold">Free</span>
+</div>
 </td>
 <td class="pricing-plan-cell pricing-price-cell text-center pricing-plan-cell--entreprise" id=pricing-entreprise-price data-default-value=14 data-default-currency=€ data-payment-terms="One-time payment, no subscription" data-unavailable="Not available" data-unavailable-reason="Software licenses are classified as taxable services in your country. We are working to make these plans available.">
 <div class="price-amount fw-bold">
-<span class=price-value>14</span><span class=price-currency> €</span><span class=price-license-suffix> / license</span>
+<span class=price-value>14</span><span class=price-currency> €</span><span class=price-license-suffix> / user</span>
 </div>
 <div class="small fw-normal price-payment-terms">One-time payment, no subscription</div>
 </td>
 <td class="pricing-plan-cell pricing-price-cell text-center pricing-plan-cell--premium" id=pricing-premium-price data-default-value=29 data-default-currency=€ data-payment-terms="One-time payment, no subscription" data-unavailable="Not available" data-unavailable-reason="Software licenses are classified as taxable services in your country. We are working to make these plans available.">
 <div class="price-amount fw-bold">
-<span class=price-value>29</span><span class=price-currency> €</span><span class=price-license-suffix> / license</span>
+<span class=price-value>29</span><span class=price-currency> €</span><span class=price-license-suffix> / user</span>
 </div>
 <div class="small fw-normal price-payment-terms">One-time payment, no subscription</div>
 </td>
@@ -350,9 +354,9 @@ Linux
 <span class=pricing-feature-label-text>Users</span>
 </span>
 </th>
-<td class="pricing-plan-cell text-center">1 user</td>
-<td class="pricing-plan-cell text-center">Unlimited</td>
-<td class="pricing-plan-cell text-center pricing-plan-cell--premium">Unlimited</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--solo"><span class=pricing-cell-text>1 user</span></td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--entreprise"><span class=pricing-cell-text>Unlimited</span></td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium"><span class=pricing-cell-text>Unlimited</span></td>
 </tr>
 <tr>
 <th scope=row class=pricing-feature-cell>
@@ -361,10 +365,10 @@ Linux
 <span class=pricing-feature-label-text>100% offline usage</span>
 </span>
 </th>
-<td class="pricing-plan-cell text-center">
+<td class="pricing-plan-cell text-center pricing-plan-cell--solo">
 <span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
 </td>
-<td class="pricing-plan-cell text-center">
+<td class="pricing-plan-cell text-center pricing-plan-cell--entreprise">
 <span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
 </td>
 <td class="pricing-plan-cell text-center pricing-plan-cell--premium">
@@ -378,10 +382,10 @@ Linux
 <span class=pricing-feature-label-text>Data backup</span>
 </span>
 </th>
-<td class="pricing-plan-cell text-center">
+<td class="pricing-plan-cell text-center pricing-plan-cell--solo">
 <span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
 </td>
-<td class="pricing-plan-cell text-center">
+<td class="pricing-plan-cell text-center pricing-plan-cell--entreprise">
 <span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
 </td>
 <td class="pricing-plan-cell text-center pricing-plan-cell--premium">
@@ -395,10 +399,10 @@ Linux
 <span class=pricing-feature-label-text>Dashboard and charts</span>
 </span>
 </th>
-<td class="pricing-plan-cell text-center">
+<td class="pricing-plan-cell text-center pricing-plan-cell--solo">
 <span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
 </td>
-<td class="pricing-plan-cell text-center">
+<td class="pricing-plan-cell text-center pricing-plan-cell--entreprise">
 <span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
 </td>
 <td class="pricing-plan-cell text-center pricing-plan-cell--premium">
@@ -412,10 +416,10 @@ Linux
 <span class=pricing-feature-label-text>Remote tracking</span>
 </span>
 </th>
-<td class="pricing-plan-cell text-center">
+<td class="pricing-plan-cell text-center pricing-plan-cell--solo">
 <span class="pricing-cell-text pricing-cell-text--no" aria-label="Not included">—</span>
 </td>
-<td class="pricing-plan-cell text-center">
+<td class="pricing-plan-cell text-center pricing-plan-cell--entreprise">
 <span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
 </td>
 <td class="pricing-plan-cell text-center pricing-plan-cell--premium">
@@ -429,10 +433,10 @@ Linux
 <span class=pricing-feature-label-text>Multi-store management</span>
 </span>
 </th>
-<td class="pricing-plan-cell text-center">
+<td class="pricing-plan-cell text-center pricing-plan-cell--solo">
 <span class="pricing-cell-text pricing-cell-text--no" aria-label="Not included">—</span>
 </td>
-<td class="pricing-plan-cell text-center">
+<td class="pricing-plan-cell text-center pricing-plan-cell--entreprise">
 <span class="pricing-cell-text pricing-cell-text--yes" aria-label=Included>✓</span>
 </td>
 <td class="pricing-plan-cell text-center pricing-plan-cell--premium">
@@ -446,10 +450,10 @@ Linux
 <span class=pricing-feature-label-text>Accounting exports</span>
 </span>
 </th>
-<td class="pricing-plan-cell text-center">
+<td class="pricing-plan-cell text-center pricing-plan-cell--solo">
 <span class="pricing-cell-text pricing-cell-text--no" aria-label="Not included">—</span>
 </td>
-<td class="pricing-plan-cell text-center">
+<td class="pricing-plan-cell text-center pricing-plan-cell--entreprise">
 <span class="pricing-cell-text pricing-cell-text--no" aria-label="Not included">—</span>
 </td>
 <td class="pricing-plan-cell text-center pricing-plan-cell--premium">
@@ -463,10 +467,10 @@ Linux
 <span class=pricing-feature-label-text>Advanced dashboard (ML & AI)</span>
 </span>
 </th>
-<td class="pricing-plan-cell text-center">
+<td class="pricing-plan-cell text-center pricing-plan-cell--solo">
 <span class="pricing-cell-text pricing-cell-text--no" aria-label="Not included">—</span>
 </td>
-<td class="pricing-plan-cell text-center">
+<td class="pricing-plan-cell text-center pricing-plan-cell--entreprise">
 <span class="pricing-cell-text pricing-cell-text--no" aria-label="Not included">—</span>
 </td>
 <td class="pricing-plan-cell text-center pricing-plan-cell--premium">
@@ -480,9 +484,9 @@ Linux
 <span class=pricing-feature-label-text>Assistance</span>
 </span>
 </th>
-<td class="pricing-plan-cell text-center">Community + email</td>
-<td class="pricing-plan-cell text-center">Direct line</td>
-<td class="pricing-plan-cell text-center pricing-plan-cell--premium">Priority handling</td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--solo"><span class=pricing-cell-text>Community + email</span></td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--entreprise"><span class=pricing-cell-text>Direct line</span></td>
+<td class="pricing-plan-cell text-center pricing-plan-cell--premium"><span class=pricing-cell-text>Priority handling</span></td>
 </tr>
 </tbody>
 </table>
@@ -492,8 +496,7 @@ Linux
 </button>
 <p class="pricing-scroll-hint text-center mb-0">Swipe or use the arrows to compare all plans</p>
 </div>
-<p class="text-center mt-4 mb-2 pricing-premium-note">Priority assistance, advanced dashboard (ML & AI) and accounting exports are included with Premium only.</p>
-<p class="text-center mb-3 small pricing-license-note">Remote tracking and multi-store management require an Enterprise or Premium license.</p>
+<p class="text-center mb-3 small pricing-license-note">Remote tracking and multi-store management require an Enterprise or Premium plan.</p>
 <div class="text-center pricing-cta">
 <a class="btn btn-light btn-lg rounded-pill px-5 fw-semibold" href=https://cloud.weebi.com/#/billing target=_blank rel=noopener>Buy a license</a>
 </div>
@@ -907,7 +910,7 @@ hello[at]weebi.com
 <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-1">
 <p class="col-md-4 mb-0 text-body-secondary">Boutiques Broker OÜ © 2026</p>
 <ul class="nav col-md-4 justify-content-end">
-<li class=nav-item><a href=//sr/privacy_policy/ class="nav-link px-2 text-body-secondary">Политика приватности</a></li>
+<li class=nav-item><a href=https://www.weebi.com//sr/privacy_policy/ class="nav-link px-2 text-body-secondary">Политика приватности</a></li>
 </ul>
 </div>
 </div>
