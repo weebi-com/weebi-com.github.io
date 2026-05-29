@@ -1,11 +1,13 @@
 +++
-title = 'Nouvelles offres Weebi : Entreprise et Premium'
+title = 'Nouvelles offres Weebi sans abonnement : Entreprise et Premium'
 date = 2026-05-29T10:00:00+00:00
 draft = false
-summary = 'Découvrez les deux nouvelles offres Weebi pour la gestion multi-utilisateurs et l'automatisation de la comptabilité'
+summary = "Découvrez les deux nouvelles offres Weebi pour la gestion multi-utilisateurs et l'automatisation de la comptabilité"
 tags = ['offres', 'pricing', 'Entreprise', 'Premium', 'fonctionnalités']
 image = 'https://images.pexels.com/photos/20259609/pexels-photo-20259609.jpeg'
 +++
+
+Nous lançons **deux nouvelles offres** avec un paiement unique pour mieux répondre au développement de votre activité commerciale.
 
 ![](entrepreneurs.png)
 
