@@ -1501,8 +1501,18 @@ h2, h3, h4, h5, h6 {
     height: 80px;
   }
 
-  .web-demo-icon .bi {
-    font-size: 2.5rem !important;
-  }
+.web-demo-icon .bi {
+  font-size: 2.5rem !important;
+}
 
+}
+
+/* Blog card image styling */
+.blog-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
 }

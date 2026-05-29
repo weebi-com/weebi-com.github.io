@@ -4,6 +4,7 @@ date = 2025-05-17T09:00:00+00:00
 draft = false
 summary = 'Petite entreprise dans l’espace OHADA sans TVA ? Découvrez le Système Minimal de Trésorerie (SMT) : plan comptable allégé, journal de caisse, créances hors bilan et exemple complet en FCFA.'
 tags = ['comptabilité', 'OHADA', 'SMT', 'Afrique']
+image = 'https://upload.wikimedia.org/wikipedia/fr/1/16/Logo-ohada.png?_=20210809141550'
 +++
 
 Tenir une comptabilité conforme sans se noyer dans la paperasse : c’est le défi de milliers de commerçants, artisans et TPE dans l’espace **OHADA**. Lorsque le chiffre d’affaires reste modeste et que la **TVA** ne s’applique pas, le cadre légal propose une voie plus légère : le **Système Minimal de Trésorerie (SMT)**.

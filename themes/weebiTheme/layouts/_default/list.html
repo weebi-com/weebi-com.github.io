@@ -6,17 +6,29 @@
       </div>
     </div>
 
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" data-masonry='{"percentPosition": true }'>
-      {{ .Content }}
-      {{ range .Pages }}
-        <div class="col-sm-12 col-md-6">
-          <img src="/images/blog_image.jpeg" class="card-img-top" alt="...">
-          <div class="card shadow-sm p-3 border rounded">
-            <h2 class="my-3"><a class="text-decoration-none weebi-text-primary-color" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-            <p class="card-text">{{ .Summary }}</p>
-          </div>
+    <div class="row">
+      <div class="col-12 col-lg-8">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3" data-masonry='{"percentPosition": true }'>
+          {{ range .Pages }}
+            <div class="col-sm-12 col-md-6">
+              <a href="{{ .RelPermalink }}" class="text-decoration-none">
+                {{ if .Params.image }}
+                  <img src="{{ .Params.image }}" class="card-img-top blog-card-img" alt="..." style="cursor: pointer;">
+                {{ else }}
+                  <img src="/images/blog_image.jpeg" class="card-img-top blog-card-img" alt="..." style="cursor: pointer;">
+                {{ end }}
+              </a>
+              <div class="card shadow-sm p-3 border rounded">
+                <h2 class="my-3"><a class="text-decoration-none weebi-text-primary-color" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+                <p class="card-text">{{ .Summary }}</p>
+              </div>
+            </div>
+          {{ end }}
         </div>
-      {{ end }}
+      </div>
+      <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+        {{ .Content }}
+      </div>
     </div>
   </div>
 {{ end }}
