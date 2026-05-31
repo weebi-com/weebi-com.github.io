@@ -1,5 +1,5 @@
 +++
-title = 'Conformité du logiciel Weebi à la réglementation française (article 286 CGI)'
+title = 'Conformité du logiciel Weebi à la réglementation française'
 date = 2025-05-31T09:00:00+00:00
 draft = false
 summary = 'Logiciel de caisse et certificat de conformité en France'
