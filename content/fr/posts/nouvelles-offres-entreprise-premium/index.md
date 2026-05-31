@@ -2,12 +2,12 @@
 title = 'Nouvelles offres Weebi sans abonnement : Entreprise et Premium'
 date = 2026-05-29T10:00:00+00:00
 draft = false
-summary = "Découvrez les deux nouvelles offres Weebi pour la gestion multi-utilisateurs et l'automatisation de la comptabilité"
+summary = "Découvrez les x2 nouvelles offres Weebi pour le suivi à distance et l'automatisation de la comptabilité"
 tags = ['offres', 'pricing', 'Entreprise', 'Premium', 'fonctionnalités']
 image = 'https://images.pexels.com/photos/20259609/pexels-photo-20259609.jpeg'
 +++
 
-Nous lançons **deux nouvelles offres** avec un paiement unique pour mieux répondre au développement de votre activité commerciale.
+Nous lançons **x2 nouvelles offres** avec un paiement unique pour mieux répondre au développement de votre activité commerciale.
 
 ![](entrepreneurs.png)
 
@@ -36,11 +36,9 @@ Paiement unique, sans abonnement.
 
 **Ce que vous gagnez :**
 - **Suivi à distance** : accédez à votre activité depuis n'importe où (web ou mobile)
-- **Gestion multi-utilisateurs** : invitez collaborateurs et vendeurs, avec permissions granulaires
+- **Gestion multi-utilisateurs** : invitez vos collaborateurs et vendeurs, avec permissions granulaires
 - **Gestion multi-boutiques** : centralisez le suivi de plusieurs points de vente en un seul tableau de bord
-- **Sauvegarde sécurisée des données** sans limite de durée
-- **Tableau de bord et graphiques** enrichis pour mieux piloter votre activité
-- **Support prioritaire** : assistance directe pour vos questions
+- **Fonctionnalités avancés** : personnalisez la gestion (ex: empêcher les niveaux de stocks négatifs, corriger une vente après émission etc.) 
 
 ---
 
@@ -51,10 +49,9 @@ Paiement unique, sans abonnement.
 **Pour qui ?** Les grossistes, franchises et réseaux de boutiques qui veulent automatiser leur compatiblité
 
 **Ce que vous gagnez (en plus des avantages Entreprise) :**
+- **Tableau de bord ML/IA** : accédez à des statistiques prédictives et des recommandations sur-mesure
 - **Exports comptables OHADA** : générez vos états financiers prêts pour l'audit et la déclaration fiscale
-- **Rattrapage de tickets** et autres fonctionnalités avancées pour optimiser la gestion opérationnelle
-- **Tableau de bord ML/IA** : statistiques prédictives et recommandations intelligentes
-- **Support traitement prioritaire** : accès direct à l'équipe Weebi pour un accompagnement personnalisé
+- **Support traitement prioritaire** : échangez avec l'équipe Weebi en direct pour un accompagnement personnalisé
 
 ---
 
@@ -74,8 +71,7 @@ Envie d'essayer ? Voici comment procéder :
 
 1. **Testez Solo gratuitement** : installez Weebi et explorez ses fonctionnalités
 2. **Choisissez votre offre** : selon vos besoins de suivi à distance ou d'export comptable
-3. **Achetez votre licence** : paiement unique, sans abonnement
-4. **Migrez vos données** : importez votre historique depuis votre ancienne solution ou commencez une page blanche
+3. **Achetez votre licence** : paiement unique en Carte Bancaire, sans abonnement
 
 Pour plus de détails et pour acheter, rendez-vous sur **[nos tarifs](https://www.weebi.com/fr/prix/)**.
 

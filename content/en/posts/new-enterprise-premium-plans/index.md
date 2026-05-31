@@ -2,12 +2,12 @@
 title = 'New Weebi Plans: Enterprise and Premium'
 date = 2026-05-29T10:00:00+00:00
 draft = false
-summary = "Discover Weebi's two new plans: Enterprise (19,000 FCFA / 14€) for multi-user management and remote monitoring, and Premium (29,000 FCFA / 34€) with OHADA accounting exports and advanced AI features."
+summary = "Discover Weebi's x2 new plans: Enterprise for remote monitoring and Premium (29,000 FCFA / 34€) with OHADA accounting exports and advanced AI features."
 tags = ['plans', 'pricing', 'Enterprise', 'Premium', 'features']
 image = 'https://images.pexels.com/photos/20259609/pexels-photo-20259609.jpeg'
 +++
 
-We are thrilled to announce the arrival of **two new plans** to better serve your business needs. Whether you're managing a single shop or multiple points of sale, Weebi grows with you.
+We are thrilled to announce the arrival of **x2 new plans** to better serve your business needs. Whether you're managing a single boutique or multiple points of sale, Weebi grows with you.
 
 ![](entrepreneurs.png)
 
@@ -17,7 +17,7 @@ We are thrilled to announce the arrival of **two new plans** to better serve you
 
 Until now, Weebi offered a free plan. We're expanding our lineup with two new options designed to support your growth journey.
 
-### 📦 Solo Plan (Free)
+### Solo Plan (Free)
 
 Perfect for independent traders just getting started:
 - Simple cash register or small inventory management
@@ -29,34 +29,31 @@ Perfect for independent traders just getting started:
 
 ---
 
-### 🚀 Enterprise Plan – 19,000 FCFA (14€)
+### Enterprise Plan – 19,000 FCFA (14€)
 
 One-time payment, no subscription.
 
-**For whom?** Traders and small businesses who need to manage multiple users or multiple points of sale.
+**For whom?** Boutique owners and small businesses who need to manage multiple users/points of sale.
 
 **What you get:**
 - **Remote monitoring**: access your business from anywhere (web or mobile)
 - **Multi-user management**: invite staff and salespeople with granular permissions
 - **Multi-store management**: centralize tracking across multiple locations in one dashboard
-- **Secure data backup** with no time limits
-- **Enhanced dashboards and charts** to better control your activity
-- **Priority support**: direct assistance for your questions
+- **Advance functions**: personnalize operations based on your rules (e.g. guard against negative stocks, receipt recovery...)
 
 Perfect for small businesses that want to stay in control and scale without recurring fees.
 
 ---
 
-### 💎 Premium Plan – 29,000 FCFA (34€)
+### Premium Plan – 29,000 FCFA (34€)
 
 One-time payment, no subscription.
 
-**For whom?** SMEs and shop networks looking to go further in analysis and administration.
+**For whom?** Traders and franchise looking to go further in analysis and administration.
 
 **What you get (plus all Enterprise benefits):**
 - **OHADA accounting exports**: generate financial statements ready for audit and tax filing
-- **Custom charts with AI**: visualizations and trends generated automatically based on your industry
-- **Receipt recovery** and other advanced features to optimize operations
+- **Custom charts**: visualize aggregated charts for your business
 - **ML/AI dashboard**: predictive statistics and intelligent recommendations
 - **Priority support**: direct access to the Weebi team for personalized assistance
 
@@ -79,17 +76,14 @@ Ready to try it? Here's how:
 1. **Test Solo for free**: install Weebi and explore its features
 2. **Choose your plan**: based on your remote monitoring or accounting export needs
 3. **Buy your license**: one-time payment, no subscription
-4. **Migrate your data**: import your history from your old solution or start fresh
 
-For more details and to purchase, visit **[our pricing page](https://www.weebi.com/fr/prix/)**.
+For more details and to purchase, visit **[our pricing page](https://www.weebi.com/en/prix/)**.
 
 ---
 
-## Have questions?
+## Any questions?
 
-Torn between Enterprise and Premium? Want to understand OHADA exports better? **[Get in touch](https://www.weebi.com/fr/#contact)** or check out our [complete OHADA accounting guide](./comptabilite-ohada-smt/).
-
-Welcome to the Weebi family! 🎉
+Reach out to us at : hello@weebi.com
 
 ---
 
