@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://www.weebi.com/'
 theme = 'weebiTheme'
 publishDir = 'docs'
 defaultContentLanguage = 'fr'

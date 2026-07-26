@@ -39,3 +39,7 @@ optimize_images.py
 update_privacy_policies.py
 AUDIT_REPORT.md
 DEPLOYMENT_VERIFICATION.md
+
+# CI / local Hugo publish dir (Actions builds to public/)
+/public/
+
