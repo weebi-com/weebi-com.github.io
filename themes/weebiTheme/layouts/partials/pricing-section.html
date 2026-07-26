@@ -12,7 +12,7 @@
         <button type="button" class="pricing-scroll-btn pricing-scroll-btn--prev" aria-label="{{ T "pricing_scroll_prev" }}" hidden>
           <i class="bi bi-chevron-left" aria-hidden="true"></i>
         </button>
-        <div class="table-responsive pricing-table-wrapper pricing-table-wrapper--3-plans" tabindex="0" role="region" aria-label="{{ T "pricing_table_aria" }}">
+        <div class="table-responsive pricing-table-wrapper pricing-table-wrapper--2-plans" tabindex="0" role="region" aria-label="{{ T "pricing_table_aria" }}">
           <table class="table pricing-table mb-0">
             <thead>
               <tr>
@@ -21,9 +21,6 @@
                 </th>
                 <th scope="col" class="pricing-plan-col pricing-plan-col--solo">
                   <div class="pricing-plan-header">{{ T "pricing_table_solo_cloud" }}</div>
-                </th>
-                <th scope="col" class="pricing-plan-col pricing-plan-col--entreprise">
-                  <div class="pricing-plan-header">{{ T "pricing_table_entreprise" }}</div>
                 </th>
                 <th scope="col" class="pricing-plan-col pricing-plan-col--premium">
                   <div class="pricing-plan-header">{{ T "pricing_table_premium" }}</div>
@@ -35,12 +32,6 @@
                   <div class="pricing-price-cell-inner">
                     <span class="price-amount fw-bold">{{ T "pricing_solo_cloud_price" }}</span>
                   </div>
-                </td>
-                <td class="pricing-plan-cell pricing-price-cell text-center pricing-plan-cell--entreprise" id="pricing-entreprise-price" data-default-value="{{ T "pricing_entreprise_price_value" }}" data-default-currency="{{ T "pricing_entreprise_price_currency" }}" data-payment-terms="{{ T "pricing_payment_terms" }}" data-unavailable="{{ T "pricing_license_unavailable" }}" data-unavailable-reason="{{ T "pricing_license_unavailable_reason" }}">
-                  <div class="price-amount fw-bold">
-                    <span class="price-value">{{ T "pricing_entreprise_price_value" }}</span><span class="price-currency"> {{ T "pricing_entreprise_price_currency" }}</span><span class="price-license-suffix">{{ T "pricing_price_license_suffix" }}</span>
-                  </div>
-                  <div class="small fw-normal price-payment-terms">{{ T "pricing_payment_terms" }}</div>
                 </td>
                 <td class="pricing-plan-cell pricing-price-cell text-center pricing-plan-cell--premium" id="pricing-premium-price" data-default-value="{{ T "pricing_premium_price_value" }}" data-default-currency="{{ T "pricing_premium_price_currency" }}" data-payment-terms="{{ T "pricing_payment_terms" }}" data-unavailable="{{ T "pricing_license_unavailable" }}" data-unavailable-reason="{{ T "pricing_license_unavailable_reason" }}">
                   <div class="price-amount fw-bold">
@@ -54,55 +45,41 @@
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "people-fill" "key" "pricing_feature_users") }}
                 {{ partial "pricing/cell-text.html" (dict "text" (printf "%s %s" (T "pricing_solo_cloud_users") (T "utilisateur_singular")) "class" "pricing-plan-cell--solo") }}
-                {{ partial "pricing/cell-text.html" (dict "text" (T "pricing_entreprise_users") "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-text.html" (dict "text" (T "pricing_premium_users") "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "wifi-off" "key" "pricing_feature_offline") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--solo") }}
-                {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "cloud-check-fill" "key" "pricing_feature_backup") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--solo") }}
-                {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "graph-up-arrow" "key" "pricing_feature_dashboard") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--solo") }}
-                {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "binoculars-fill" "key" "pricing_feature_remote") }}
                 {{ partial "pricing/cell-no.html" (dict "class" "pricing-plan-cell--solo") }}
-                {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "shop" "key" "pricing_feature_multi") }}
                 {{ partial "pricing/cell-no.html" (dict "class" "pricing-plan-cell--solo") }}
-                {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--entreprise") }}
-                {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--premium") }}
-              </tr>
-              <tr>
-                {{ partial "pricing/feature-label.html" (dict "icon" "file-earmark-spreadsheet-fill" "key" "pricing_feature_accounting_export") }}
-                {{ partial "pricing/cell-no.html" (dict "class" "pricing-plan-cell--solo") }}
-                {{ partial "pricing/cell-no.html" (dict "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "cpu-fill" "key" "pricing_feature_advanced_dashboard") }}
                 {{ partial "pricing/cell-no.html" (dict "class" "pricing-plan-cell--solo") }}
-                {{ partial "pricing/cell-no.html" (dict "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-yes.html" (dict "class" "pricing-plan-cell--premium") }}
               </tr>
               <tr>
                 {{ partial "pricing/feature-label.html" (dict "icon" "headset" "key" "pricing_feature_assistance") }}
                 {{ partial "pricing/cell-text.html" (dict "text" (T "pricing_solo_assistance") "class" "pricing-plan-cell--solo") }}
-                {{ partial "pricing/cell-text.html" (dict "text" (T "pricing_entreprise_assistance") "class" "pricing-plan-cell--entreprise") }}
                 {{ partial "pricing/cell-text.html" (dict "text" (T "pricing_premium_assistance") "class" "pricing-plan-cell--premium") }}
               </tr>
             </tbody>
@@ -118,6 +95,19 @@
       <div class="text-center pricing-cta">
         <a class="btn btn-light btn-lg rounded-pill px-5 fw-semibold" href="{{ site.Params.stores.webConsoleBilling | default "https://cloud.weebi.com/#/billing" }}" target="_blank" rel="noopener">{{ T "pricing_buy_license_cta" }}</a>
       </div>
+
+      <div class="pricing-addon" aria-label="{{ T "pricing_addon_aria" }}">
+        <div class="pricing-addon-eyebrow">{{ T "pricing_addon_eyebrow" }}</div>
+        <div class="pricing-addon-title">{{ T "pricing_addon_title" }}</div>
+        <p class="pricing-addon-subtitle mb-0">{{ T "pricing_addon_subtitle" }}</p>
+        <div class="pricing-addon-price" id="pricing-syscohada-price" data-default-value="{{ T "pricing_syscohada_price_value" }}" data-default-currency="{{ T "pricing_syscohada_price_currency" }}" data-payment-terms="{{ T "pricing_syscohada_payment_terms" }}">
+          <span class="price-amount fw-bold">
+            <span class="price-value">{{ T "pricing_syscohada_price_value" }}</span><span class="price-currency"> {{ T "pricing_syscohada_price_currency" }}</span>
+          </span>
+          <span class="pricing-addon-terms">{{ T "pricing_syscohada_payment_terms" }}</span>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>

@@ -725,8 +725,62 @@ h2, h3, h4, h5, h6 {
   --pricing-premium-gold-muted: #dfc25a;
   --pricing-cell-border: rgba(255, 255, 255, 0.22);
   --pricing-feature-col-width: clamp(5.25rem, 26vw, 6.75rem);
-  --pricing-plan-col-width: 7.25rem;
-  --pricing-table-min-width: calc(var(--pricing-feature-col-width) + 3 * var(--pricing-plan-col-width));
+  --pricing-plan-col-width: 8.5rem;
+  --pricing-table-min-width: calc(var(--pricing-feature-col-width) + 2 * var(--pricing-plan-col-width));
+}
+
+.pricing-table-wrapper--2-plans {
+  --pricing-table-min-width: calc(var(--pricing-feature-col-width) + 2 * var(--pricing-plan-col-width));
+}
+
+.pricing-addon {
+  margin: 1.75rem auto 1.25rem;
+  max-width: 36rem;
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 0.85rem;
+  background: rgba(15, 35, 64, 0.55);
+}
+
+.pricing-addon-eyebrow {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+  margin-bottom: 0.35rem;
+}
+
+.pricing-addon-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.pricing-addon-subtitle {
+  font-size: 0.92rem;
+  color: rgba(255, 255, 255, 0.82);
+  margin-bottom: 0.75rem;
+}
+
+.pricing-addon-price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.45rem 0.65rem;
+}
+
+.pricing-addon-price .price-amount {
+  font-size: 1.35rem;
+  color: var(--pricing-premium-gold);
+}
+
+.pricing-addon-terms {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .pricing-table-scroll {

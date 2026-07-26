@@ -1,26 +1,26 @@
 /**
  * IP-based pricing geolocation
- * Adapts Entreprise and Premium license prices based on user's location
+ * Adapts Premium license and SYSCOHADA report prices based on user's location
  */
 
-// Entreprise — base ~14 € / 9 000 FCFA per license
-const ENTREPRISE_CURRENCY_MAP = {
-  'SN': { value: '9 000', symbol: 'FCFA' },
-  'CI': { value: '9 000', symbol: 'FCFA' },
-  'ML': { value: '9 000', symbol: 'FCFA' },
-  'BF': { value: '9 000', symbol: 'FCFA' },
-  'NE': { value: '9 000', symbol: 'FCFA' },
-  'TG': { value: '9 000', symbol: 'FCFA' },
-  'BJ': { value: '9 000', symbol: 'FCFA' },
-  'GW': { value: '9 000', symbol: 'FCFA' },
-  'CM': { value: '9 000', symbol: 'FCFA' },
-  'GA': { value: '9 000', symbol: 'FCFA' },
-  'CG': { value: '9 000', symbol: 'FCFA' },
-  'TD': { value: '9 000', symbol: 'FCFA' },
-  'CF': { value: '9 000', symbol: 'FCFA' },
-  'GQ': { value: '9 000', symbol: 'FCFA' },
-  'GN': { value: '130 000', symbol: 'FG' },
-  'CD': { value: '31 000', symbol: 'FC' },
+// Premium — base 14 € / 19 000 FCFA per license
+const PREMIUM_CURRENCY_MAP = {
+  'SN': { value: '19 000', symbol: 'FCFA' },
+  'CI': { value: '19 000', symbol: 'FCFA' },
+  'ML': { value: '19 000', symbol: 'FCFA' },
+  'BF': { value: '19 000', symbol: 'FCFA' },
+  'NE': { value: '19 000', symbol: 'FCFA' },
+  'TG': { value: '19 000', symbol: 'FCFA' },
+  'BJ': { value: '19 000', symbol: 'FCFA' },
+  'GW': { value: '19 000', symbol: 'FCFA' },
+  'CM': { value: '19 000', symbol: 'FCFA' },
+  'GA': { value: '19 000', symbol: 'FCFA' },
+  'CG': { value: '19 000', symbol: 'FCFA' },
+  'TD': { value: '19 000', symbol: 'FCFA' },
+  'CF': { value: '19 000', symbol: 'FCFA' },
+  'GQ': { value: '19 000', symbol: 'FCFA' },
+  'GN': { value: '270 000', symbol: 'FG' },
+  'CD': { value: '65 000', symbol: 'FC' },
   'FR': { value: '14', symbol: '€' },
   'BE': { value: '14', symbol: '€' },
   'DE': { value: '14', symbol: '€' },
@@ -51,52 +51,40 @@ const ENTREPRISE_CURRENCY_MAP = {
   'PK': { value: '4 200', symbol: '₨' },
 };
 
-// Premium — base ~29 € / 18 000 FCFA per license
-const PREMIUM_CURRENCY_MAP = {
-  'SN': { value: '18 000', symbol: 'FCFA' },
-  'CI': { value: '18 000', symbol: 'FCFA' },
-  'ML': { value: '18 000', symbol: 'FCFA' },
-  'BF': { value: '18 000', symbol: 'FCFA' },
-  'NE': { value: '18 000', symbol: 'FCFA' },
-  'TG': { value: '18 000', symbol: 'FCFA' },
-  'BJ': { value: '18 000', symbol: 'FCFA' },
-  'GW': { value: '18 000', symbol: 'FCFA' },
-  'CM': { value: '18 000', symbol: 'FCFA' },
-  'GA': { value: '18 000', symbol: 'FCFA' },
-  'CG': { value: '18 000', symbol: 'FCFA' },
-  'TD': { value: '18 000', symbol: 'FCFA' },
-  'CF': { value: '18 000', symbol: 'FCFA' },
-  'GQ': { value: '18 000', symbol: 'FCFA' },
-  'GN': { value: '260 000', symbol: 'FG' },
-  'CD': { value: '62 000', symbol: 'FC' },
-  'FR': { value: '29', symbol: '€' },
-  'BE': { value: '29', symbol: '€' },
-  'DE': { value: '29', symbol: '€' },
-  'ES': { value: '29', symbol: '€' },
-  'IT': { value: '29', symbol: '€' },
-  'NL': { value: '29', symbol: '€' },
-  'PT': { value: '29', symbol: '€' },
-  'AT': { value: '29', symbol: '€' },
-  'GR': { value: '29', symbol: '€' },
-  'IE': { value: '29', symbol: '€' },
-  'FI': { value: '29', symbol: '€' },
-  'LU': { value: '29', symbol: '€' },
-  'US': { value: '30', symbol: '$' },
-  'CA': { value: '30', symbol: '$' },
-  'MX': { value: '30', symbol: '$' },
-  'GB': { value: '25', symbol: '£' },
-  'JP': { value: '4 500', symbol: '¥' },
-  'IN': { value: '2 500', symbol: '₹' },
-  'CN': { value: '200', symbol: '¥' },
-  'KR': { value: '40 000', symbol: '₩' },
-  'SG': { value: '40', symbol: 'S$' },
-  'MY': { value: '140', symbol: 'RM' },
-  'TH': { value: '1 100', symbol: '฿' },
-  'ID': { value: '480 000', symbol: 'Rp' },
-  'PH': { value: '1 700', symbol: '₱' },
-  'VN': { value: '750 000', symbol: '₫' },
-  'BD': { value: '3 300', symbol: '৳' },
-  'PK': { value: '8 400', symbol: '₨' },
+// SYSCOHADA report — base ~3 € / 1 900 FCFA per report
+const SYSCOHADA_CURRENCY_MAP = {
+  'SN': { value: '1 900', symbol: 'FCFA' },
+  'CI': { value: '1 900', symbol: 'FCFA' },
+  'ML': { value: '1 900', symbol: 'FCFA' },
+  'BF': { value: '1 900', symbol: 'FCFA' },
+  'NE': { value: '1 900', symbol: 'FCFA' },
+  'TG': { value: '1 900', symbol: 'FCFA' },
+  'BJ': { value: '1 900', symbol: 'FCFA' },
+  'GW': { value: '1 900', symbol: 'FCFA' },
+  'CM': { value: '1 900', symbol: 'FCFA' },
+  'GA': { value: '1 900', symbol: 'FCFA' },
+  'CG': { value: '1 900', symbol: 'FCFA' },
+  'TD': { value: '1 900', symbol: 'FCFA' },
+  'CF': { value: '1 900', symbol: 'FCFA' },
+  'GQ': { value: '1 900', symbol: 'FCFA' },
+  'GN': { value: '27 000', symbol: 'FG' },
+  'CD': { value: '6 500', symbol: 'FC' },
+  'FR': { value: '2.90', symbol: '€' },
+  'BE': { value: '2.90', symbol: '€' },
+  'DE': { value: '2.90', symbol: '€' },
+  'ES': { value: '2.90', symbol: '€' },
+  'IT': { value: '2.90', symbol: '€' },
+  'NL': { value: '2.90', symbol: '€' },
+  'PT': { value: '2.90', symbol: '€' },
+  'AT': { value: '2.90', symbol: '€' },
+  'GR': { value: '2.90', symbol: '€' },
+  'IE': { value: '2.90', symbol: '€' },
+  'FI': { value: '2.90', symbol: '€' },
+  'LU': { value: '2.90', symbol: '€' },
+  'US': { value: '2.90', symbol: '$' },
+  'CA': { value: '2.90', symbol: '$' },
+  'MX': { value: '2.90', symbol: '$' },
+  'GB': { value: '2.50', symbol: '£' },
 };
 
 const UNAVAILABLE_COUNTRIES = {
@@ -153,10 +141,10 @@ function showUnavailable(priceElement) {
   priceCell.classList.add('pricing-unavailable-cell');
 }
 
-function updatePriceElement(priceElement, countryCode, currencyMap) {
+function updatePriceElement(priceElement, countryCode, currencyMap, { markUnavailable = true } = {}) {
   if (!priceElement) return;
 
-  if (countryCode && UNAVAILABLE_COUNTRIES[countryCode]) {
+  if (markUnavailable && countryCode && UNAVAILABLE_COUNTRIES[countryCode]) {
     showUnavailable(priceElement);
     return;
   }
@@ -172,7 +160,9 @@ function updatePriceElement(priceElement, countryCode, currencyMap) {
 
   const valueSpan = priceElement.querySelector('.price-value');
   const currencySpan = priceElement.querySelector('.price-currency');
-  const paymentTermsSpan = priceElement.querySelector('.price-payment-terms');
+  const paymentTermsSpan =
+    priceElement.querySelector('.price-payment-terms') ||
+    priceElement.querySelector('.pricing-addon-terms');
 
   if (valueSpan) {
     valueSpan.textContent = currencyInfo.value;
@@ -187,21 +177,22 @@ function updatePriceElement(priceElement, countryCode, currencyMap) {
 
 function updatePricing(countryCode) {
   updatePriceElement(
-    document.getElementById('pricing-entreprise-price'),
-    countryCode,
-    ENTREPRISE_CURRENCY_MAP
-  );
-  updatePriceElement(
     document.getElementById('pricing-premium-price'),
     countryCode,
     PREMIUM_CURRENCY_MAP
+  );
+  updatePriceElement(
+    document.getElementById('pricing-syscohada-price'),
+    countryCode,
+    SYSCOHADA_CURRENCY_MAP,
+    { markUnavailable: false }
   );
 }
 
 async function initPricingGeo() {
   if (
-    !document.getElementById('pricing-entreprise-price') &&
-    !document.getElementById('pricing-premium-price')
+    !document.getElementById('pricing-premium-price') &&
+    !document.getElementById('pricing-syscohada-price')
   ) {
     return;
   }

@@ -1,23 +1,19 @@
 +++
-title = 'Nouvelles offres Weebi sans abonnement : Entreprise et Premium'
+title = 'Nouvelle offre Weebi Premium — et comptabilité OHADA à la carte'
 date = 2026-05-29T10:00:00+00:00
 draft = false
-summary = "Découvrez les x2 nouvelles offres Weebi pour le suivi à distance et l'automatisation de la comptabilité"
-tags = ['offres', 'pricing', 'Entreprise', 'Premium', 'fonctionnalités']
+summary = "Une licence Premium à 19 000 FCFA, et les états financiers SYSCOHADA disponibles pour tous à 1 900 FCFA"
+tags = ['offres', 'pricing', 'Premium', 'OHADA', 'SYSCOHADA', 'fonctionnalités']
 image = 'https://images.pexels.com/photos/20259609/pexels-photo-20259609.jpeg'
 +++
 
-Nous lançons **x2 nouvelles offres** avec un paiement unique pour mieux répondre au développement de votre activité commerciale.
+Nous simplifions l'offre Weebi : **une licence Premium** en paiement unique, et la **comptabilité OHADA à la carte** pour tout le monde.
 
 ![](entrepreneurs.png)
 
 <!--more-->
 
-## Des offres adaptées à chaque étape
-
-Jusqu'à présent, Weebi proposait seulement une offre gratuite. Nous enrichissons notre gamme avec deux nouvelles formules pensées pour accompagner votre développement.
-
-### Offre Solo (Gratuit)
+## Offre Solo (Gratuit)
 
 Idéale pour les commerçants indépendants qui démarrent :
 - Gestion simple d'une caisse ou d'un petit stock
@@ -28,56 +24,51 @@ Idéale pour les commerçants indépendants qui démarrent :
 
 ---
 
-### Offre Entreprise – 19 000 FCFA (14€)
+## Offre Premium – 19 000 FCFA (14 €)
 
 Paiement unique, sans abonnement.
 
-**Pour qui ?** Les commerçants et petites entreprises qui ont besoin de gérer plusieurs utilisateurs ou plusieurs points de vente.
+**Pour qui ?** Les commerçants et entreprises qui ont besoin de gérer plusieurs utilisateurs ou plusieurs points de vente.
 
 **Ce que vous gagnez :**
 - **Suivi à distance** : accédez à votre activité depuis n'importe où (web ou mobile)
 - **Gestion multi-utilisateurs** : invitez vos collaborateurs et vendeurs, avec permissions granulaires
 - **Gestion multi-boutiques** : centralisez le suivi de plusieurs points de vente en un seul tableau de bord
-- **Fonctionnalités avancés** : personnalisez la gestion (ex: empêcher les niveaux de stocks négatifs, corriger une vente après émission etc.) 
+- **Tableau de bord ML/IA** : statistiques prédictives et recommandations sur-mesure
+- **Fonctionnalités avancées** : personnalisez la gestion (ex. empêcher les stocks négatifs, corriger une vente après émission)
+- **Support prioritaire** : échangez avec l'équipe Weebi pour un accompagnement personnalisé
 
 ---
 
-### Offre Premium – 29 000 FCFA (34€)
+## À la carte — États financiers SYSCOHADA : 1 900 FCFA
 
-Paiement unique, sans abonnement.
+Accessible à **tous** (Solo ou Premium).
 
-**Pour qui ?** Les grossistes, franchises et réseaux de boutiques qui veulent automatiser leur compatiblité
-
-**Ce que vous gagnez (en plus des avantages Entreprise) :**
-- **Tableau de bord ML/IA** : accédez à des statistiques prédictives et des recommandations sur-mesure
-- **Exports comptables OHADA** : générez vos états financiers prêts pour l'audit et la déclaration fiscale
-- **Support traitement prioritaire** : échangez avec l'équipe Weebi en direct pour un accompagnement personnalisé
+Générez vos états financiers selon le **Système Minimal de Trésorerie** (SYSCOHADA), prêts pour l'audit et la déclaration fiscale — **1 900 FCFA par rapport**, sans abonnement.
 
 ---
 
-**Important :** À partir du **30 juin 2026**, la gestion multi-boutiques et multi-utilisateurs exigeront une license. Pensez à migrer vers Entreprise ou Premium avant cette date pour ne pas être bloqués.
+**Important :** À partir du **30 juin 2026**, la gestion multi-boutiques et multi-utilisateurs exigera une licence Premium. Pensez à migrer avant cette date pour ne pas être bloqués.
 
 ---
 
 ## Pas d'abonnement, pas de surprise
 
-Contrairement aux solutions concurrentes, **Weebi fonctionne sans abonnement mensuel**. Vous investissez une fois dans une licence utilisateur, et c'est tout. Pas de frais caché, pas de surprise à la fin du mois.
+Contrairement aux solutions concurrentes, **Weebi fonctionne sans abonnement mensuel**. Vous investissez une fois dans une licence utilisateur, et c'est tout. La comptabilité OHADA se paie uniquement quand vous en avez besoin.
 
 ---
 
 ## Passer à l'action
 
-Envie d'essayer ? Voici comment procéder :
-
 1. **Testez Solo gratuitement** : installez Weebi et explorez ses fonctionnalités
-2. **Choisissez votre offre** : selon vos besoins de suivi à distance ou d'export comptable
-3. **Achetez votre licence** : paiement unique en Carte Bancaire, sans abonnement
+2. **Passez à Premium** si vous avez besoin du suivi à distance ou du multi-boutiques
+3. **Générez un état SYSCOHADA** quand vous en avez besoin — 1 900 FCFA par rapport
 
 Pour plus de détails et pour acheter, rendez-vous sur **[nos tarifs](https://www.weebi.com/fr/prix/)**.
 
 ---
 
-## Une questions avant de vous décider ?
+## Une question avant de vous décider ?
 
 N'hésitez pas à nous écrire à : hello@weebi.com
 
