@@ -3,22 +3,22 @@
  * Adapts Premium license and SYSCOHADA report prices based on user's location
  */
 
-// Premium — base 14 € / 19 000 FCFA per license
+// Premium — base 14 € / 9 900 FCFA per license
 const PREMIUM_CURRENCY_MAP = {
-  'SN': { value: '19 000', symbol: 'FCFA' },
-  'CI': { value: '19 000', symbol: 'FCFA' },
-  'ML': { value: '19 000', symbol: 'FCFA' },
-  'BF': { value: '19 000', symbol: 'FCFA' },
-  'NE': { value: '19 000', symbol: 'FCFA' },
-  'TG': { value: '19 000', symbol: 'FCFA' },
-  'BJ': { value: '19 000', symbol: 'FCFA' },
-  'GW': { value: '19 000', symbol: 'FCFA' },
-  'CM': { value: '19 000', symbol: 'FCFA' },
-  'GA': { value: '19 000', symbol: 'FCFA' },
-  'CG': { value: '19 000', symbol: 'FCFA' },
-  'TD': { value: '19 000', symbol: 'FCFA' },
-  'CF': { value: '19 000', symbol: 'FCFA' },
-  'GQ': { value: '19 000', symbol: 'FCFA' },
+  'SN': { value: '9 900', symbol: 'FCFA' },
+  'CI': { value: '9 900', symbol: 'FCFA' },
+  'ML': { value: '9 900', symbol: 'FCFA' },
+  'BF': { value: '9 900', symbol: 'FCFA' },
+  'NE': { value: '9 900', symbol: 'FCFA' },
+  'TG': { value: '9 900', symbol: 'FCFA' },
+  'BJ': { value: '9 900', symbol: 'FCFA' },
+  'GW': { value: '9 900', symbol: 'FCFA' },
+  'CM': { value: '9 900', symbol: 'FCFA' },
+  'GA': { value: '9 900', symbol: 'FCFA' },
+  'CG': { value: '9 900', symbol: 'FCFA' },
+  'TD': { value: '9 900', symbol: 'FCFA' },
+  'CF': { value: '9 900', symbol: 'FCFA' },
+  'GQ': { value: '9 900', symbol: 'FCFA' },
   'GN': { value: '270 000', symbol: 'FG' },
   'CD': { value: '65 000', symbol: 'FC' },
   'FR': { value: '14', symbol: '€' },

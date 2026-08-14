@@ -2,7 +2,7 @@
 title = 'Nouvelle offre Weebi Premium — et comptabilité OHADA à la carte'
 date = 2026-05-29T10:00:00+00:00
 draft = false
-summary = "Une licence Premium à 19 000 FCFA, et les états financiers SYSCOHADA disponibles pour tous à 1 900 FCFA"
+summary = "Une licence Premium à 9 900 FCFA, et les états financiers SYSCOHADA disponibles pour tous à 1 900 FCFA"
 tags = ['offres', 'pricing', 'Premium', 'OHADA', 'SYSCOHADA', 'fonctionnalités']
 image = 'https://images.pexels.com/photos/20259609/pexels-photo-20259609.jpeg'
 +++
@@ -24,7 +24,7 @@ Idéale pour les commerçants indépendants qui démarrent :
 
 ---
 
-## Offre Premium – 19 000 FCFA (14 €)
+## Offre Premium – 9 900 FCFA (14 €)
 
 Paiement unique, sans abonnement.
 

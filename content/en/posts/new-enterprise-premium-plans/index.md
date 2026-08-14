@@ -29,7 +29,7 @@ Perfect for independent traders just getting started:
 
 ---
 
-### Enterprise Plan – 19,000 FCFA (14€)
+### Enterprise Plan – 9,900 FCFA (14€)
 
 One-time payment, no subscription.
 
