@@ -1,0 +1,141 @@
+{{ define "main" }}
+<div class="container py-5">
+  <div class="row">
+    <div class="col-lg-10 col-xl-8 mx-auto">
+      <h1 class="h2 fw-bold mb-4">{{ .Title }}</h1>
+
+      <!-- Sommaire -->
+      <nav class="mb-5 p-3 rounded bg-light">
+        <h3 class="h6 fw-bold mb-2">{{ T "faq_page_sommaire" }}</h3>
+        <div class="row g-2">
+          <div class="col-md-6"><a class="text-decoration-none" href="#faq-intro">{{ T "faq_page_intro_title" }}</a></div>
+          <div class="col-md-6"><a class="text-decoration-none" href="#faq-articles">{{ T "articles" }}</a></div>
+          <div class="col-md-6"><a class="text-decoration-none" href="#faq-stock">{{ T "stock" }}</a></div>
+          <div class="col-md-6"><a class="text-decoration-none" href="#faq-ventes">{{ T "ventes" }}</a></div>
+          <div class="col-md-6"><a class="text-decoration-none" href="#faq-tickets">{{ T "ticketsUpper" }}</a></div>
+          <div class="col-md-6"><a class="text-decoration-none" href="#faq-contacts">{{ T "contactsUpper" }}</a></div>
+          <div class="col-md-6"><a class="text-decoration-none" href="#faq-accessoires">{{ T "lesAccessoires" }}</a></div>
+          <div class="col-md-6"><a class="text-decoration-none" href="#faq-synchro">{{ T "synchronisation" }}</a></div>
+          <div class="col-md-6"><a class="text-decoration-none" href="#faq-console">{{ T "faq_page_console_title" }}</a></div>
+        </div>
+      </nav>
+
+      <!-- Contenu en sections simples -->
+      <article class="faq-content">
+        <section id="faq-intro" class="mb-5">
+          <h2 class="h5 fw-bold mb-3">{{ T "faq_page_intro_title" }}</h2>
+          <div class="prose">{{ T "faq_page_intro_content" | markdownify }}</div>
+        </section>
+
+        <section id="faq-articles" class="mb-5">
+          <h2 class="h5 fw-bold mb-4 pb-2 border-bottom">{{ T "articles" }}</h2>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqCommentConfigurerLeCatalogueDesArticles" }}</h3>
+          <div class="mb-4">{{ T "faq_page_articles_catalogue" | markdownify }}</div>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "creerUnArticle" }}</h3>
+          <div class="mb-4">{{ T "faq_page_articles_creer" | markdownify }}</div>
+          <div class="mb-4" style="max-width: 420px;">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube-nocookie.com/embed/3qmF9trudBI" title="YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen class="rounded" loading="lazy"></iframe>
+            </div>
+          </div>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqCreerUnPanierDArticles" }}</h3>
+          <div class="mb-4">{{ T "faq_page_articles_panier" | markdownify }}</div>
+        </section>
+
+        <section id="faq-stock" class="mb-5">
+          <h2 class="h5 fw-bold mb-4 pb-2 border-bottom">{{ T "stock" }}</h2>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqCommentSuivreLeStock" }}</h3>
+          <div class="mb-4">{{ T "faq_page_stock_suivre" | markdownify }}</div>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqNoterUneEntreeDeStock" }}</h3>
+          <div class="mb-4">{{ T "faq_page_stock_entree" | markdownify }}</div>
+          <div class="mb-4" style="max-width: 420px;">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube-nocookie.com/embed/5aem3EcL03I" title="YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen class="rounded" loading="lazy"></iframe>
+            </div>
+          </div>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqCommentConfigurerLeStock" }}</h3>
+          <div class="mb-4">{{ T "faq_page_stock_config" | markdownify }}</div>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqPeutOnFaireLInventairesDesProduitsVendus" }}</h3>
+          <div class="mb-4">{{ T "faq_page_stock_inventaire" | markdownify }}</div>
+        </section>
+
+        <section id="faq-ventes" class="mb-5">
+          <h2 class="h5 fw-bold mb-4 pb-2 border-bottom">{{ T "ventes" }}</h2>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqCommentFaireUneVente" }}</h3>
+          <div class="mb-4">{{ T "faq_page_ventes_faire" | markdownify }}</div>
+          <div class="mb-4" style="max-width: 420px;">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube-nocookie.com/embed/zilrWrkgdOw" title="YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen class="rounded" loading="lazy"></iframe>
+            </div>
+          </div>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqCommentAjouterUnArticleAuPanier" }}</h3>
+          <div class="mb-4">{{ T "faq_page_ventes_ajouter" | markdownify }}</div>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqAutresFonctionnalitesDuPanier" }}</h3>
+          <div class="mb-4">{{ T "faq_page_ventes_panier" | markdownify }}</div>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqCommentSelectionnerUnClient" }}</h3>
+          <div class="mb-4">{{ T "faq_page_ventes_client" | markdownify }}</div>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqQuelsSontLesModesDePaiementDisponibles" }}</h3>
+          <div class="mb-4">{{ T "faq_page_ventes_paiement" | markdownify }}</div>
+        </section>
+
+        <section id="faq-tickets" class="mb-5">
+          <h2 class="h5 fw-bold mb-4 pb-2 border-bottom">{{ T "ticketsUpper" }}</h2>
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqCommentEffacerUnTicket" }}</h3>
+          <div class="mb-4">{{ T "faq_page_tickets_effacer" | markdownify }}</div>
+        </section>
+
+        <section id="faq-contacts" class="mb-5">
+          <h2 class="h5 fw-bold mb-4 pb-2 border-bottom">{{ T "contactsUpper" }}</h2>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqGestionDesContactsEtDesComptes" }}</h3>
+          <div class="mb-4">{{ T "faq_page_contacts_video" | markdownify }}</div>
+          <div class="mb-4" style="max-width: 420px;">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube-nocookie.com/embed/IRQRbS5VTVA" title="YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen class="rounded" loading="lazy"></iframe>
+            </div>
+          </div>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqCommentConfigurerLeRepertoireClient" }}</h3>
+          <div class="mb-4">{{ T "faq_page_contacts_config" | markdownify }}</div>
+
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqCommentGererLesSoldesDesClients" }}</h3>
+          <div class="mb-4">{{ T "faq_page_contacts_soldes" | markdownify }}</div>
+        </section>
+
+        <section id="faq-accessoires" class="mb-5">
+          <h2 class="h5 fw-bold mb-4 pb-2 border-bottom">{{ T "lesAccessoires" }}</h2>
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "lImprimante" }}</h3>
+          <div class="mb-4">{{ T "faq_page_imprimante" | markdownify }}</div>
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "leLecteurDeCodeBarre" }}</h3>
+          <div class="mb-4">{{ T "faq_page_barcode" | markdownify }}</div>
+        </section>
+
+        <section id="faq-synchro" class="mb-5">
+          <h2 class="h5 fw-bold mb-4 pb-2 border-bottom">{{ T "synchronisation" }}</h2>
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqSauvegardeEnLigneQuestion" }}</h3>
+          <div class="mb-4">{{ T "faq_page_synchro_sauvegarde" | markdownify }}</div>
+          <h3 class="h6 fw-bold mt-4 mb-2">{{ T "faqPlusieursPointsDeVenteQuestion" }}</h3>
+          <div class="mb-4">{{ T "faq_page_synchro_multipdv" | markdownify }}</div>
+        </section>
+
+        <section id="faq-console" class="mb-5">
+          <h2 class="h5 fw-bold mb-4 pb-2 border-bottom">{{ T "faq_page_console_title" }}</h2>
+          <div>{{ T "faq_page_console_content" | markdownify }}</div>
+        </section>
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}

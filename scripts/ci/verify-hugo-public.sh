@@ -70,4 +70,18 @@ if grep -qi "http-equiv=\"refresh\"" "${PUBLISH_DIR}/fr/index.html"; then
   exit 1
 fi
 
+# Empty homepage guard (Hugo home.html overriding index.html with blank main)
+if grep -Eq '<main[[:space:]]*></main>|<main[[:space:]]*>[[:space:]]*</main>' "${PUBLISH_DIR}/fr/index.html"; then
+  echo "::error::fr/index.html has an empty <main> — homepage template is blank (check layouts/_default/home.html)"
+  exit 1
+fi
+
+if ! grep -qi "main-hero\\|site_title\\|store-links\\|utilisations" "${PUBLISH_DIR}/fr/index.html"; then
+  # Fallback: require substantial French marketing copy markers
+  if ! grep -qi "Weebi" "${PUBLISH_DIR}/fr/index.html" || ! grep -qi "caisse\\|stock\\|boutique\\|Dakar" "${PUBLISH_DIR}/fr/index.html"; then
+    echo "::error::fr/index.html missing expected homepage content markers"
+    exit 1
+  fi
+fi
+
 echo "Publish output OK."

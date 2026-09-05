@@ -29,10 +29,15 @@ check_url() {
     rm -f "${body}"
     return 1
   fi
-  # Nested-under-/docs regression: root /fr must not be a tiny refresh stub only
+  # Empty homepage (blank <main>)
   if [[ "${url}" == "${BASE_URL}/fr/" ]] || [[ "${url}" == "${BASE_URL}/fr" ]]; then
-    if grep -qi "http-equiv=\"refresh\"" "${body}" && ! grep -qi "Weebi" "${body}"; then
-      echo "FAIL ${url} → refresh stub instead of homepage (site probably published under /docs/)"
+    if grep -Eq '<main[[:space:]]*></main>|<main[[:space:]]*>[[:space:]]*</main>' "${body}"; then
+      echo "FAIL ${url} → empty <main> (homepage template blank)"
+      rm -f "${body}"
+      return 1
+    fi
+    if ! grep -qi "main-hero" "${body}"; then
+      echo "FAIL ${url} → missing homepage hero content"
       rm -f "${body}"
       return 1
     fi
