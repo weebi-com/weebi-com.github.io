@@ -1,3 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Weebi: Privacy Policy (Czech)</title><link>https://www.weebi.com/cs/</link><description>Recent content on Weebi: Privacy Policy (Czech)</description><generator>Hugo -- gohugo.io</generator><language>cs-CZ</language><atom:link href="https://www.weebi.com/cs/index.xml" rel="self" type="application/rss+xml"/><item><title>Zásady ochrany osobních údajů</title><link>https://www.weebi.com/cs/privacy_policy/</link><pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate><guid>https://www.weebi.com/cs/privacy_policy/</guid><description>Osobní údaje shromážděné weebi.com budou použity pouze v souladu s účelem, ke kterému jste je zanechali, a v souladu se senegalským zákonem o ochraně osobních údajů.Tyto zásady ochrany osobních údajů stanoví, jak shromažďujeme a zpracováváme osobní údaje.
-Jaké citlivé informace shromažďujeme? Standardně žádný. Weebi shromažďuje data pouze v případě, že se zaregistrujete.Automatická záloha do cloudu pak uloží informace jako:
-Uživatel křestní jméno příjmení e-mail zašifrované heslo Butik jméno e-mail telefon adresa země články (produkty) označení cena náklady fotografie kategorie Kontakty křestní jméno příjmení e-mail telefon země Vstupenky Datum BoutiqueId Položky Kontakt Jak chráníme informace?</description></item><item><title>User Guide</title><link>https://www.weebi.com/cs/user-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.weebi.com/cs/user-guide/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Weebi: Privacy Policy (Czech)</title>
+		<link>https://www.weebi.com/cs/</link>
+		<description>Recent content on Weebi: Privacy Policy (Czech)</description>
+		<generator>Hugo</generator>
+		<language>cs-CZ</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Apr 2024 08:30:00 -0700</lastBuildDate>
+		
+			<atom:link href="https://www.weebi.com/cs/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Zásady ochrany osobních údajů</title>
+				<link>https://www.weebi.com/cs/privacy_policy/</link>
+				<pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate>
+				<guid>https://www.weebi.com/cs/privacy_policy/</guid>
+				<description>&lt;p&gt;Osobní údaje shromážděné weebi.com budou použity pouze v souladu s účelem, ke kterému jste je zanechali, a v souladu se senegalským zákonem o ochraně osobních údajů.Tyto zásady ochrany osobních údajů stanoví, jak shromažďujeme a zpracováváme osobní údaje.&lt;/p&gt;&#xA;&lt;h2 id=&#34;jaké-citlivé-informace-shromažďujeme&#34;&gt;Jaké citlivé informace shromažďujeme?&lt;/h2&gt;&#xA;&lt;p&gt;Standardně žádný.&#xA;Weebi shromažďuje data pouze v případě, že se zaregistrujete.Automatická záloha do cloudu pak uloží informace jako:&lt;/p&gt;&#xA;&lt;h3 id=&#34;uživatel&#34;&gt;Uživatel&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;křestní jméno&lt;/li&gt;&#xA;&lt;li&gt;příjmení&lt;/li&gt;&#xA;&lt;li&gt;e-mail&lt;/li&gt;&#xA;&lt;li&gt;zašifrované heslo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;butik&#34;&gt;Butik&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;jméno&lt;/li&gt;&#xA;&lt;li&gt;e-mail&lt;/li&gt;&#xA;&lt;li&gt;telefon&lt;/li&gt;&#xA;&lt;li&gt;adresa&lt;/li&gt;&#xA;&lt;li&gt;země&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;články-produkty&#34;&gt;články (produkty)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;označení&lt;/li&gt;&#xA;&lt;li&gt;cena&lt;/li&gt;&#xA;&lt;li&gt;náklady&lt;/li&gt;&#xA;&lt;li&gt;fotografie&lt;/li&gt;&#xA;&lt;li&gt;kategorie&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;kontakty&#34;&gt;Kontakty&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;křestní jméno&lt;/li&gt;&#xA;&lt;li&gt;příjmení&lt;/li&gt;&#xA;&lt;li&gt;e-mail&lt;/li&gt;&#xA;&lt;li&gt;telefon&lt;/li&gt;&#xA;&lt;li&gt;země&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;vstupenky&#34;&gt;Vstupenky&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Datum&lt;/li&gt;&#xA;&lt;li&gt;BoutiqueId&lt;/li&gt;&#xA;&lt;li&gt;Položky&lt;/li&gt;&#xA;&lt;li&gt;Kontakt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;jak-chráníme-informace&#34;&gt;Jak chráníme informace?&lt;/h2&gt;&#xA;&lt;p&gt;Tyto informace budou obsaženy v zabezpečených sítích a budou přístupné pouze omezenému počtu osob, které mají zvláštní přístupová práva k takovým systémům a jsou povinny uchovávat informace v tajnosti.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>User Guide</title>
+				<link>https://www.weebi.com/cs/user-guide/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.weebi.com/cs/user-guide/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

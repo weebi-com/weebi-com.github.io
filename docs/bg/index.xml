@@ -1,3 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Weebi: Privacy Policy (Bulgarian)</title><link>https://www.weebi.com/bg/</link><description>Recent content on Weebi: Privacy Policy (Bulgarian)</description><generator>Hugo -- gohugo.io</generator><language>bg-BG</language><atom:link href="https://www.weebi.com/bg/index.xml" rel="self" type="application/rss+xml"/><item><title>Политика за поверителност</title><link>https://www.weebi.com/bg/privacy_policy/</link><pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate><guid>https://www.weebi.com/bg/privacy_policy/</guid><description>Личните данни, събрани от weebi.com, ще бъдат използвани само според целта, с която сте ги оставили, и в съответствие със Закона за защита на данните на Сенегал.Тази политика за поверителност определя как събираме и обработваме лична информация.
-Каква чувствителна информация събираме? Няма по подразбиране. Weebi събира данни само ако се регистрирате.Тогава автоматичното архивиране в облак ще съхранява информация като:
-Потребител първо име фамилия имейл криптирана парола Бутик име имейл телефон адрес държава Статии (продукти) обозначение цена цена снимки категории Контакти първо име фамилия имейл телефон държава Билети Дата BoutiqueId Предмети Контакт Как защитаваме информацията?</description></item><item><title>User Guide</title><link>https://www.weebi.com/bg/user-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.weebi.com/bg/user-guide/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Weebi: Privacy Policy (Bulgarian)</title>
+		<link>https://www.weebi.com/bg/</link>
+		<description>Recent content on Weebi: Privacy Policy (Bulgarian)</description>
+		<generator>Hugo</generator>
+		<language>bg-BG</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Apr 2024 08:30:00 -0700</lastBuildDate>
+		
+			<atom:link href="https://www.weebi.com/bg/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Политика за поверителност</title>
+				<link>https://www.weebi.com/bg/privacy_policy/</link>
+				<pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate>
+				<guid>https://www.weebi.com/bg/privacy_policy/</guid>
+				<description>&lt;p&gt;Личните данни, събрани от weebi.com, ще бъдат използвани само според целта, с която сте ги оставили, и в съответствие със Закона за защита на данните на Сенегал.Тази политика за поверителност определя как събираме и обработваме лична информация.&lt;/p&gt;&#xA;&lt;h2 id=&#34;каква-чувствителна-информация-събираме&#34;&gt;Каква чувствителна информация събираме?&lt;/h2&gt;&#xA;&lt;p&gt;Няма по подразбиране.&#xA;Weebi събира данни само ако се регистрирате.Тогава автоматичното архивиране в облак ще съхранява информация като:&lt;/p&gt;&#xA;&lt;h3 id=&#34;потребител&#34;&gt;Потребител&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;първо име&lt;/li&gt;&#xA;&lt;li&gt;фамилия&lt;/li&gt;&#xA;&lt;li&gt;имейл&lt;/li&gt;&#xA;&lt;li&gt;криптирана парола&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;бутик&#34;&gt;Бутик&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;име&lt;/li&gt;&#xA;&lt;li&gt;имейл&lt;/li&gt;&#xA;&lt;li&gt;телефон&lt;/li&gt;&#xA;&lt;li&gt;адрес&lt;/li&gt;&#xA;&lt;li&gt;държава&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;статии-продукти&#34;&gt;Статии (продукти)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;обозначение&lt;/li&gt;&#xA;&lt;li&gt;цена&lt;/li&gt;&#xA;&lt;li&gt;цена&lt;/li&gt;&#xA;&lt;li&gt;снимки&lt;/li&gt;&#xA;&lt;li&gt;категории&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;контакти&#34;&gt;Контакти&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;първо име&lt;/li&gt;&#xA;&lt;li&gt;фамилия&lt;/li&gt;&#xA;&lt;li&gt;имейл&lt;/li&gt;&#xA;&lt;li&gt;телефон&lt;/li&gt;&#xA;&lt;li&gt;държава&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;билети&#34;&gt;Билети&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Дата&lt;/li&gt;&#xA;&lt;li&gt;BoutiqueId&lt;/li&gt;&#xA;&lt;li&gt;Предмети&lt;/li&gt;&#xA;&lt;li&gt;Контакт&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;как-защитаваме-информацията&#34;&gt;Как защитаваме информацията?&lt;/h2&gt;&#xA;&lt;p&gt;Тази информация ще се съдържа зад защитени мрежи и ще бъде достъпна само за ограничен брой лица, които имат специални права за достъп до такива системи и са задължени да пазят информацията поверителна.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>User Guide</title>
+				<link>https://www.weebi.com/bg/user-guide/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.weebi.com/bg/user-guide/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>
