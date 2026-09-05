@@ -1,2 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Weebi: Privacy Policy (Persian)</title><link>https://www.weebi.com/fa/</link><description>Recent content on Weebi: Privacy Policy (Persian)</description><generator>Hugo -- gohugo.io</generator><language>fa-IR</language><atom:link href="https://www.weebi.com/fa/index.xml" rel="self" type="application/rss+xml"/><item><title>سیاست حفظ حریم خصوصی</title><link>https://www.weebi.com/fa/privacy_policy/</link><pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate><guid>https://www.weebi.com/fa/privacy_policy/</guid><description>داده های شخصی جمع آوری شده توسط weebi.com تنها بر اساس هدفی که شما آنها را ترک کرده اید و مطابق با قانون حفاظت از داده های سنگال است، استفاده می شود.این سیاست حفظ حریم خصوصی نحوه جمع آوری و پردازش اطلاعات شخصی را مشخص می کند.
-چه اطلاعات حساسی را جمع آوری می کنیم؟ هیچ کدام به صورت پیش فرض Weebi فقط در صورت ثبت نام داده ها را جمع آوری می کند.</description></item><item><title>User Guide</title><link>https://www.weebi.com/fa/user-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.weebi.com/fa/user-guide/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Weebi: Privacy Policy (Persian)</title>
+		<link>https://www.weebi.com/fa/</link>
+		<description>Recent content on Weebi: Privacy Policy (Persian)</description>
+		<generator>Hugo</generator>
+		<language>fa-IR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Apr 2024 08:30:00 -0700</lastBuildDate>
+		
+			<atom:link href="https://www.weebi.com/fa/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>سیاست حفظ حریم خصوصی</title>
+				<link>https://www.weebi.com/fa/privacy_policy/</link>
+				<pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate>
+				<guid>https://www.weebi.com/fa/privacy_policy/</guid>
+				<description>&lt;p&gt;داده های شخصی جمع آوری شده توسط weebi.com تنها بر اساس هدفی که شما آنها را ترک کرده اید و مطابق با قانون حفاظت از داده های سنگال است، استفاده می شود.این سیاست حفظ حریم خصوصی نحوه جمع آوری و پردازش اطلاعات شخصی را مشخص می کند.&lt;/p&gt;&#xA;&lt;h2 id=&#34;چه-اطلاعات-حساسی-را-جمع-آوری-می-کنیم&#34;&gt;چه اطلاعات حساسی را جمع آوری می کنیم؟&lt;/h2&gt;&#xA;&lt;p&gt;هیچ کدام به صورت پیش فرض&#xA;Weebi فقط در صورت ثبت نام داده ها را جمع آوری می کند.سپس پشتیبان گیری ابری خودکار اطلاعاتی مانند:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>User Guide</title>
+				<link>https://www.weebi.com/fa/user-guide/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.weebi.com/fa/user-guide/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

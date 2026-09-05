@@ -1,2 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Weebi: Privacy Policy (Albanian)</title><link>https://www.weebi.com/sq/</link><description>Recent content on Weebi: Privacy Policy (Albanian)</description><generator>Hugo -- gohugo.io</generator><language>sq-AL</language><atom:link href="https://www.weebi.com/sq/index.xml" rel="self" type="application/rss+xml"/><item><title>Politika e Privatësisë</title><link>https://www.weebi.com/sq/privacy_policy/</link><pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate><guid>https://www.weebi.com/sq/privacy_policy/</guid><description>Të dhënat personale të mbledhura nga weebi.com do të përdoren vetëm sipas qëllimit me të cilin i keni lënë ato dhe janë në përputhje me Aktin Senegali për Mbrojtjen e të Dhënave.Kjo politikë e privatësisë përcakton se si ne mbledhim dhe përpunojmë informacione personale.
-Çfarë informacioni të ndjeshëm mbledhim? Asnjë si parazgjedhje. Weebi mbledh të dhëna vetëm nëse regjistroheni.Pastaj rezervimi automatik i cloud do të ruajë informacione të tilla si:</description></item><item><title>User Guide</title><link>https://www.weebi.com/sq/user-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.weebi.com/sq/user-guide/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Weebi: Privacy Policy (Albanian)</title>
+		<link>https://www.weebi.com/sq/</link>
+		<description>Recent content on Weebi: Privacy Policy (Albanian)</description>
+		<generator>Hugo</generator>
+		<language>sq-AL</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Apr 2024 08:30:00 -0700</lastBuildDate>
+		
+			<atom:link href="https://www.weebi.com/sq/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Politika e Privatësisë</title>
+				<link>https://www.weebi.com/sq/privacy_policy/</link>
+				<pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate>
+				<guid>https://www.weebi.com/sq/privacy_policy/</guid>
+				<description>&lt;p&gt;Të dhënat personale të mbledhura nga weebi.com do të përdoren vetëm sipas qëllimit me të cilin i keni lënë ato dhe janë në përputhje me Aktin Senegali për Mbrojtjen e të Dhënave.Kjo politikë e privatësisë përcakton se si ne mbledhim dhe përpunojmë informacione personale.&lt;/p&gt;&#xA;&lt;h2 id=&#34;çfarë-informacioni-të-ndjeshëm-mbledhim&#34;&gt;Çfarë informacioni të ndjeshëm mbledhim?&lt;/h2&gt;&#xA;&lt;p&gt;Asnjë si parazgjedhje.&#xA;Weebi mbledh të dhëna vetëm nëse regjistroheni.Pastaj rezervimi automatik i cloud do të ruajë informacione të tilla si:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>User Guide</title>
+				<link>https://www.weebi.com/sq/user-guide/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.weebi.com/sq/user-guide/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

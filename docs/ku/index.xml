@@ -1,2 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Weebi: Privacy Policy (Kurdish)</title><link>https://www.weebi.com/ku/</link><description>Recent content on Weebi: Privacy Policy (Kurdish)</description><generator>Hugo -- gohugo.io</generator><language>ku-IQ</language><atom:link href="https://www.weebi.com/ku/index.xml" rel="self" type="application/rss+xml"/><item><title>Polîtîkaya Têkoşîna</title><link>https://www.weebi.com/ku/privacy_policy/</link><pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate><guid>https://www.weebi.com/ku/privacy_policy/</guid><description>Daneyên kesane yên ku ji hêla weebi.com ve têne berhev kirin dê tenê li gorî armanca ku we ji wan hiştiye were bikar anîn û li gorî Qanûna Parastina Daneyên Senegalê tevdigere.Ev polîtîkaya nepenîtiyê destnîşan dike ka em çawa agahdariya kesane berhev dikin û pêve dikin.
-Em çi agahdariya hesas berhev dikin? Ji hêla xwerû ve tune. Weebi tenê heke hûn qeyd bikin daneyan berhev dike.Dûv re vegerandina cloudê ya otomatîkî dê agahdariya wekî:</description></item><item><title>User Guide</title><link>https://www.weebi.com/ku/user-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.weebi.com/ku/user-guide/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Weebi: Privacy Policy (Kurdish)</title>
+		<link>https://www.weebi.com/ku/</link>
+		<description>Recent content on Weebi: Privacy Policy (Kurdish)</description>
+		<generator>Hugo</generator>
+		<language>ku-IQ</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Apr 2024 08:30:00 -0700</lastBuildDate>
+		
+			<atom:link href="https://www.weebi.com/ku/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Polîtîkaya Têkoşîna</title>
+				<link>https://www.weebi.com/ku/privacy_policy/</link>
+				<pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate>
+				<guid>https://www.weebi.com/ku/privacy_policy/</guid>
+				<description>&lt;p&gt;Daneyên kesane yên ku ji hêla weebi.com ve têne berhev kirin dê tenê li gorî armanca ku we ji wan hiştiye were bikar anîn û li gorî Qanûna Parastina Daneyên Senegalê tevdigere.Ev polîtîkaya nepenîtiyê destnîşan dike ka em çawa agahdariya kesane berhev dikin û pêve dikin.&lt;/p&gt;&#xA;&lt;h2 id=&#34;em-çi-agahdariya-hesas-berhev-dikin&#34;&gt;Em çi agahdariya hesas berhev dikin?&lt;/h2&gt;&#xA;&lt;p&gt;Ji hêla xwerû ve tune.&#xA;Weebi tenê heke hûn qeyd bikin daneyan berhev dike.Dûv re vegerandina cloudê ya otomatîkî dê agahdariya wekî:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>User Guide</title>
+				<link>https://www.weebi.com/ku/user-guide/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.weebi.com/ku/user-guide/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

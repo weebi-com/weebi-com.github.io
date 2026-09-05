@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="container py-5">
+  <div class="row">
+    <div class="col-lg-10 col-xl-8 mx-auto">
+      <h1 class="h2 fw-bold mb-4">{{ .Title }}</h1>
+
+      <nav class="mb-5 p-3 rounded bg-light" aria-label="{{ T "changelog_toc_label" }}">
+        <h2 class="h6 fw-bold mb-2">{{ T "changelog_toc" }}</h2>
+        <ul class="list-unstyled mb-0 row g-2">
+          <li class="col-6 col-md-4"><a class="text-decoration-none" href="#2026">2026</a></li>
+          <li class="col-6 col-md-4"><a class="text-decoration-none" href="#2025">2025</a></li>
+          <li class="col-6 col-md-4"><a class="text-decoration-none" href="#2024">2024</a></li>
+          <li class="col-6 col-md-4"><a class="text-decoration-none" href="#2023">2023</a></li>
+          <li class="col-6 col-md-4"><a class="text-decoration-none" href="#2022">2022</a></li>
+        </ul>
+      </nav>
+
+      <article class="changelog-content">
+        {{ .Content }}
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}

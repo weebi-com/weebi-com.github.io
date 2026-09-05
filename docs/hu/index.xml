@@ -1,3 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Weebi: Privacy Policy (Hungarian)</title><link>https://www.weebi.com/hu/</link><description>Recent content on Weebi: Privacy Policy (Hungarian)</description><generator>Hugo -- gohugo.io</generator><language>hu-HU</language><atom:link href="https://www.weebi.com/hu/index.xml" rel="self" type="application/rss+xml"/><item><title>Adatvédelmi irányelvek</title><link>https://www.weebi.com/hu/privacy_policy/</link><pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate><guid>https://www.weebi.com/hu/privacy_policy/</guid><description>A weebi.com által gyűjtött személyes adatokat csak az Ön által megadott célnak megfelelően használjuk fel, és megfelelnek a szenegáli adatvédelmi törvénynek.Ez az adatvédelmi szabályzat meghatározza, hogyan gyűjtjük és dolgozzuk fel a személyes adatokat.
-Milyen érzékeny információkat gyűjtünk? Alapértelmezés szerint egyik sem. A Weebi csak akkor gyűjt adatokat, ha Ön regisztrál.Ezután az automatikus felhőalapú biztonsági mentés olyan információkat tárol, mint:
-Felhasználó keresztnév vezetéknév email titkosított jelszó Butik név email telefon cím ország Cikkek (termékek) kijelölés ár költség fényképeket kategóriákat Kapcsolatok keresztnév vezetéknév email telefon ország Jegyek Dátum BoutiqueId Tételek Érintkezés Hogyan védjük az információkat?</description></item><item><title>User Guide</title><link>https://www.weebi.com/hu/user-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.weebi.com/hu/user-guide/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Weebi: Privacy Policy (Hungarian)</title>
+		<link>https://www.weebi.com/hu/</link>
+		<description>Recent content on Weebi: Privacy Policy (Hungarian)</description>
+		<generator>Hugo</generator>
+		<language>hu-HU</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Apr 2024 08:30:00 -0700</lastBuildDate>
+		
+			<atom:link href="https://www.weebi.com/hu/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Adatvédelmi irányelvek</title>
+				<link>https://www.weebi.com/hu/privacy_policy/</link>
+				<pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate>
+				<guid>https://www.weebi.com/hu/privacy_policy/</guid>
+				<description>&lt;p&gt;A weebi.com által gyűjtött személyes adatokat csak az Ön által megadott célnak megfelelően használjuk fel, és megfelelnek a szenegáli adatvédelmi törvénynek.Ez az adatvédelmi szabályzat meghatározza, hogyan gyűjtjük és dolgozzuk fel a személyes adatokat.&lt;/p&gt;&#xA;&lt;h2 id=&#34;milyen-érzékeny-információkat-gyűjtünk&#34;&gt;Milyen érzékeny információkat gyűjtünk?&lt;/h2&gt;&#xA;&lt;p&gt;Alapértelmezés szerint egyik sem.&#xA;A Weebi csak akkor gyűjt adatokat, ha Ön regisztrál.Ezután az automatikus felhőalapú biztonsági mentés olyan információkat tárol, mint:&lt;/p&gt;&#xA;&lt;h3 id=&#34;felhasználó&#34;&gt;Felhasználó&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;keresztnév&lt;/li&gt;&#xA;&lt;li&gt;vezetéknév&lt;/li&gt;&#xA;&lt;li&gt;email&lt;/li&gt;&#xA;&lt;li&gt;titkosított jelszó&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;butik&#34;&gt;Butik&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;név&lt;/li&gt;&#xA;&lt;li&gt;email&lt;/li&gt;&#xA;&lt;li&gt;telefon&lt;/li&gt;&#xA;&lt;li&gt;cím&lt;/li&gt;&#xA;&lt;li&gt;ország&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;cikkek-termékek&#34;&gt;Cikkek (termékek)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;kijelölés&lt;/li&gt;&#xA;&lt;li&gt;ár&lt;/li&gt;&#xA;&lt;li&gt;költség&lt;/li&gt;&#xA;&lt;li&gt;fényképeket&lt;/li&gt;&#xA;&lt;li&gt;kategóriákat&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;kapcsolatok&#34;&gt;Kapcsolatok&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;keresztnév&lt;/li&gt;&#xA;&lt;li&gt;vezetéknév&lt;/li&gt;&#xA;&lt;li&gt;email&lt;/li&gt;&#xA;&lt;li&gt;telefon&lt;/li&gt;&#xA;&lt;li&gt;ország&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;jegyek&#34;&gt;Jegyek&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Dátum&lt;/li&gt;&#xA;&lt;li&gt;BoutiqueId&lt;/li&gt;&#xA;&lt;li&gt;Tételek&lt;/li&gt;&#xA;&lt;li&gt;Érintkezés&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;hogyan-védjük-az-információkat&#34;&gt;Hogyan védjük az információkat?&lt;/h2&gt;&#xA;&lt;p&gt;Ezeket az információkat biztonságos hálózatok mögött tárolják, és csak korlátozott számú olyan személy férhet hozzá, akik különleges hozzáférési jogokkal rendelkeznek az ilyen rendszerekhez, és kötelesek az információkat bizalmasan kezelni.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>User Guide</title>
+				<link>https://www.weebi.com/hu/user-guide/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.weebi.com/hu/user-guide/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

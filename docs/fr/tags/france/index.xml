@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>France on Weebi : Suivi des Ventes, Gestion de Stock et Comptes Clients à Dakar</title>
+		<link>https://www.weebi.com/fr/tags/france/</link>
+		<description>Recent content in France on Weebi : Suivi des Ventes, Gestion de Stock et Comptes Clients à Dakar</description>
+		<generator>Hugo</generator>
+		<language>fr-FR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 31 May 2025 09:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.weebi.com/fr/tags/france/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Conformité du logiciel Weebi à la réglementation française</title>
+				<link>https://www.weebi.com/fr/posts/conformite-cgi/</link>
+				<pubDate>Sat, 31 May 2025 09:00:00 +0000</pubDate>
+				<guid>https://www.weebi.com/fr/posts/conformite-cgi/</guid>
+				<description>Logiciel de caisse et certificat de conformité en France</description>
+			</item>
+	</channel>
+</rss>

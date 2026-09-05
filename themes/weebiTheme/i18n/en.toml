@@ -12,6 +12,9 @@ contact_email = "Send email"
 contact_whatsapp = "WhatsApp"
 contact_view_all = "View all contact info"
 blog = "Blog"
+changelog = "What's new"
+changelog_toc = "Contents"
+changelog_toc_label = "Year contents"
 download = "Download"
 
 # home

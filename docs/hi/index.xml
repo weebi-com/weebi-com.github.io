@@ -1,2 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Weebi: Privacy Policy (Hindi)</title><link>https://www.weebi.com/hi/</link><description>Recent content on Weebi: Privacy Policy (Hindi)</description><generator>Hugo -- gohugo.io</generator><language>hi-IN</language><atom:link href="https://www.weebi.com/hi/index.xml" rel="self" type="application/rss+xml"/><item><title>गोपनीयता नीति</title><link>https://www.weebi.com/hi/privacy_policy/</link><pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate><guid>https://www.weebi.com/hi/privacy_policy/</guid><description>Weebi.com द्वारा एकत्र किए गए व्यक्तिगत डेटा का उपयोग केवल उस उद्देश्य के अनुसार किया जाएगा जिसके लिए आपने उन्हें छोड़ा है और सेनेगल डेटा संरक्षण अधिनियम का अनुपालन करता है।यह गोपनीयता नीति यह निर्धारित करती है कि हम व्यक्तिगत जानकारी कैसे एकत्र और संसाधित करते हैं।
-हम कौन सी संवेदनशील जानकारी एकत्र करते हैं? डिफ़ॉल्ट रूप से कोई नहीं. यदि आप साइनअप करते हैं तो वीबी केवल डेटा एकत्र करता है।फिर स्वचालित क्लाउड बैकअप जानकारी संग्रहीत करेगा जैसे:</description></item><item><title>User Guide</title><link>https://www.weebi.com/hi/user-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.weebi.com/hi/user-guide/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Weebi: Privacy Policy (Hindi)</title>
+		<link>https://www.weebi.com/hi/</link>
+		<description>Recent content on Weebi: Privacy Policy (Hindi)</description>
+		<generator>Hugo</generator>
+		<language>hi-IN</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Apr 2024 08:30:00 -0700</lastBuildDate>
+		
+			<atom:link href="https://www.weebi.com/hi/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>गोपनीयता नीति</title>
+				<link>https://www.weebi.com/hi/privacy_policy/</link>
+				<pubDate>Mon, 01 Apr 2024 08:30:00 -0700</pubDate>
+				<guid>https://www.weebi.com/hi/privacy_policy/</guid>
+				<description>&lt;p&gt;Weebi.com द्वारा एकत्र किए गए व्यक्तिगत डेटा का उपयोग केवल उस उद्देश्य के अनुसार किया जाएगा जिसके लिए आपने उन्हें छोड़ा है और सेनेगल डेटा संरक्षण अधिनियम का अनुपालन करता है।यह गोपनीयता नीति यह निर्धारित करती है कि हम व्यक्तिगत जानकारी कैसे एकत्र और संसाधित करते हैं।&lt;/p&gt;&#xA;&lt;h2 id=&#34;हम-कन-स-सवदनशल-जनकर-एकतर-करत-ह&#34;&gt;हम कौन सी संवेदनशील जानकारी एकत्र करते हैं?&lt;/h2&gt;&#xA;&lt;p&gt;डिफ़ॉल्ट रूप से कोई नहीं.&#xA;यदि आप साइनअप करते हैं तो वीबी केवल डेटा एकत्र करता है।फिर स्वचालित क्लाउड बैकअप जानकारी संग्रहीत करेगा जैसे:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>User Guide</title>
+				<link>https://www.weebi.com/hi/user-guide/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.weebi.com/hi/user-guide/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>
