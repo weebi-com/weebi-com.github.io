@@ -43,3 +43,4 @@ DEPLOYMENT_VERIFICATION.md
 # CI / local Hugo publish dir (Actions builds to public/)
 /public/
 
+docs-pages.md

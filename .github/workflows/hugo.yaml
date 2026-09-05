@@ -1,4 +1,9 @@
 # Build and deploy the Hugo site to GitHub Pages
+#
+# REQUIRED Pages setting (or /fr/ will 404 while /docs/fr/ works):
+#   Settings → Pages → Build and deployment → Source = "GitHub Actions"
+# Do NOT use "Deploy from a branch" with folder "/" (repo root): that publishes
+# the git tree and nests the real site under /docs/.
 name: Deploy Hugo site to Pages
 
 on:
@@ -23,7 +28,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.139.4
+      # Keep in sync with a modern Hugo; 0.146+ layout system is used by the theme.
+      HUGO_VERSION: 0.164.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -47,7 +53,6 @@ jobs:
           HUGO_ENV: production
         run: |
           # Build into ./public so we never wipe the tracked ./docs tree mid-deploy.
-          # Prefer the Pages base URL when available; always fall back to the custom domain.
           BASE_URL="${{ steps.pages.outputs.base_url }}"
           if [ -z "${BASE_URL}" ] || [ "${BASE_URL}" = "/" ]; then
             BASE_URL="https://www.weebi.com"
@@ -58,32 +63,21 @@ jobs:
             --cleanDestinationDir \
             --minify \
             --baseURL "${BASE_URL}/"
-      - name: Verify publish output
+      - name: Prepare Pages files
         run: |
           set -euo pipefail
-          echo "Publish tree (top level):"
-          ls -la public
-          echo "File count: $(find public -type f | wc -l)"
-          test -f public/fr/index.html
-          test -f public/css/bootstrap.min.css
-          test -f public/js/bootstrap.bundle.min.js
-          FR_SIZE=$(wc -c < public/fr/index.html)
-          echo "public/fr/index.html size=${FR_SIZE}"
-          if [ "${FR_SIZE}" -lt 1000 ]; then
-            echo "::error::French homepage is too small (${FR_SIZE} bytes) — refusing to deploy a broken site"
-            exit 1
-          fi
-          # GitHub Pages custom domain + non-Jekyll static hosting
           cp CNAME public/CNAME
           touch public/.nojekyll
-          # Root 404 for GitHub Pages (multilingual builds keep 404s under /fr/, /en/, …)
           if [ -f public/fr/404.html ]; then
             cp public/fr/404.html public/404.html
           elif [ -f public/404.html ]; then
             echo "Root 404.html already present"
           else
-            echo "::warning::No 404.html generated; GitHub soft-404 CSP page will be used for missing URLs"
+            echo "::error::No 404.html generated"
+            exit 1
           fi
+      - name: Verify publish output
+        run: bash scripts/ci/verify-hugo-public.sh public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -99,3 +93,13 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  smoke:
+    name: Smoke test live site
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Wait for CDN then smoke-test www.weebi.com
+        run: bash scripts/ci/smoke-test-live.sh https://www.weebi.com
