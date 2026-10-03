@@ -1,0 +1,44 @@
+{{- if and .IsHome (in (slice "fr" "en") .Lang) -}}
+{{- $faq := slice
+  (dict "@type" "Question" "name" (T "foireauquestions_1_title") "acceptedAnswer" (dict "@type" "Answer" "text" (T "foireauquestions_1_description")))
+  (dict "@type" "Question" "name" (T "foireauquestions_2_title") "acceptedAnswer" (dict "@type" "Answer" "text" (T "foireauquestions_2_description")))
+  (dict "@type" "Question" "name" (T "foireauquestions_3_title") "acceptedAnswer" (dict "@type" "Answer" "text" (T "foireauquestions_3_description")))
+  (dict "@type" "Question" "name" (T "foireauquestions_4_title") "acceptedAnswer" (dict "@type" "Answer" "text" (T "foireauquestions_4_description")))
+  (dict "@type" "Question" "name" (T "foireauquestions_5_title") "acceptedAnswer" (dict "@type" "Answer" "text" (T "foireauquestions_5_description")))
+-}}
+{{- $download := slice -}}
+{{- with site.Params.stores.googlePlay }}{{ $download = $download | append . }}{{ end -}}
+{{- with site.Params.stores.appleStore }}{{ $download = $download | append . }}{{ end -}}
+{{- with site.Params.stores.microsoftStore }}{{ $download = $download | append . }}{{ end -}}
+{{- $graph := slice
+  (dict
+    "@type" "Organization"
+    "name" "Weebi"
+    "url" .Permalink
+    "logo" ("images/Weebi_Logo_Full.png" | absURL)
+    "email" (site.Params.contact.email | default "hello@weebi.com")
+    "address" (dict
+      "@type" "PostalAddress"
+      "streetAddress" "Sacré coeur 3 Villa N° 9653, 4eme phase, 41 Voie de dégagement N"
+      "addressLocality" "Dakar"
+      "addressCountry" "SN"
+    )
+  )
+  (dict
+    "@type" "SoftwareApplication"
+    "name" "Weebi"
+    "applicationCategory" "BusinessApplication"
+    "operatingSystem" "Android, iOS, Windows, Linux"
+    "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "XOF")
+    "downloadUrl" $download
+    "inLanguage" (slice "fr" "en")
+  )
+  (dict
+    "@type" "FAQPage"
+    "mainEntity" $faq
+  )
+-}}
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}
+</script>
+{{- end -}}

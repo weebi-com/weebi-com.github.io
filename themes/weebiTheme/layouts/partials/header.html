@@ -22,7 +22,7 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ T "contact" }}</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="mailto:{{ site.Params.contact.email }}"><i class="bi bi-envelope me-2" style="color: #0d6efd;"></i>{{ T "contact_email" }}</a></li>
-            <li><a class="dropdown-item" href="{{ site.Params.contact.whatsapp }}" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2" style="color: #25D366;"></i>{{ T "contact_whatsapp" }}</a></li>
+            <li><a class="dropdown-item" href="{{ site.Params.contact.whatsapp }}" target="_blank" rel="noopener" data-track="whatsapp_click"><i class="bi bi-whatsapp me-2" style="color: #25D366;"></i>{{ T "contact_whatsapp" }}</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -33,8 +33,8 @@
         </li>
       </ul>
       <div class="d-flex align-items-center">
-        <a class="btn btn-outline-dark rounded-pill px-4 me-2" target="_blank" href="{{ site.Params.stores.webConsoleSignup }}">{{ T "signup" }}</a>
-        <a class="btn btn-weebi rounded-pill px-4" target="_blank" href="{{ site.Params.stores.webConsoleLogin }}">{{ T "login" }}</a>
+        <a class="btn btn-outline-dark rounded-pill px-4 me-2" target="_blank" rel="noopener" data-track="signup_click" href="{{ site.Params.stores.webConsoleSignup }}">{{ T "signup" }}</a>
+        <a class="btn btn-weebi rounded-pill px-4" target="_blank" rel="noopener" data-track="login_click" href="{{ site.Params.stores.webConsoleLogin }}">{{ T "login" }}</a>
         <div class="ms-3">
           <select class="form-select" onchange="window.location.href=this.value;" name="languages">
             {{ range sort .Site.Languages "LanguageName" }}

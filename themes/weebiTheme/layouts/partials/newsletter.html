@@ -133,6 +133,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (response.ok) {
         showMessage('{{ T "newsletter_success" }}', 'success');
         emailInput.value = '';
+        if (window.weebiTrack) window.weebiTrack('newsletter_subscribe', { category: category });
       } else {
         if (response.status === 409) {
           showMessage('{{ T "newsletter_error_already_subscribed" }}', 'warning');

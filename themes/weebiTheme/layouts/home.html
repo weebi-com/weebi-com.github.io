@@ -41,15 +41,15 @@
     </div>
     <div class="row g-4 pb-4">
       <div class="col-md-4 col-sm-12">
-        <img src="/images/boulangerie_matisse_dakar_weebi.jpg" class="img-fluid rounded" alt="Facile" />
+        <img src="/images/boulangerie_matisse_dakar_weebi.jpg" class="img-fluid rounded" alt="{{ T "utilisations_text_image_1" }}" />
         <p class="p-2 fst-italic">{{ T "utilisations_text_image_1" }}</p>
       </div>
       <div class="col-md-4 col-sm-12">
-        <img src="/images/weebi-thierno-boutique.jpg" class="img-fluid rounded" alt="Facile" />
+        <img src="/images/weebi-thierno-boutique.jpg" class="img-fluid rounded" alt="{{ T "utilisations_text_image_2" }}" />
         <p class="p-2 fst-italic">{{ T "utilisations_text_image_2" }}</p>
       </div>
       <div class="col-md-4 col-sm-12">
-        <img src="/images/boutique-abidjan.jpg" class="img-fluid rounded" alt="Facile" />
+        <img src="/images/boutique-abidjan.jpg" class="img-fluid rounded" alt="{{ T "utilisations_text_image_3" }}" />
         <p class="p-2 fst-italic">{{ T "utilisations_text_image_3" }}</p>
       </div>
     </div>
@@ -229,19 +229,19 @@
 
     <div class="row py-3 preview-img-wrapper">
       <div class="col">
-        <img src="/images/apercu/screenshot1.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+        <img src="/images/apercu/screenshot1.png" class="img-fluid rounded app-preview-img" alt="{{ if eq site.Language.Lang "en" }}Weebi app preview 1{{ else }}Aperçu de l'application Weebi 1{{ end }}" />
       </div>
       <div class="col">
-        <img src="/images/apercu/screenshot2.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+        <img src="/images/apercu/screenshot2.png" class="img-fluid rounded app-preview-img" alt="{{ if eq site.Language.Lang "en" }}Weebi app preview 2{{ else }}Aperçu de l'application Weebi 2{{ end }}" />
       </div>
       <div class="col">
-        <img src="/images/apercu/screenshot3.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+        <img src="/images/apercu/screenshot3.png" class="img-fluid rounded app-preview-img" alt="{{ if eq site.Language.Lang "en" }}Weebi app preview 3{{ else }}Aperçu de l'application Weebi 3{{ end }}" />
       </div>
       <div class="col">
-        <img src="/images/apercu/screenshot4.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+        <img src="/images/apercu/screenshot4.png" class="img-fluid rounded app-preview-img" alt="{{ if eq site.Language.Lang "en" }}Weebi app preview 4{{ else }}Aperçu de l'application Weebi 4{{ end }}" />
       </div>
       <div class="col">
-        <img src="/images/apercu/screenshot5.png" class="img-fluid rounded app-preview-img" alt="Facile" />
+        <img src="/images/apercu/screenshot5.png" class="img-fluid rounded app-preview-img" alt="{{ if eq site.Language.Lang "en" }}Weebi app preview 5{{ else }}Aperçu de l'application Weebi 5{{ end }}" />
       </div>
     </div>
 
@@ -265,7 +265,7 @@
       <div class="col-md-6 rounded">
         <div class="d-flex align-items-center presse-color p-4 rounded">
           <div class="flex-shrink-0">
-            <img width="75" height="75" class="rounded" src="/images/le_point.png" alt="...">
+            <img width="75" height="75" class="rounded" src="/images/le_point.png" alt="Le Point">
           </div>
           <div class="flex-grow-1 ms-3">
             <p class="mb-0">
@@ -281,7 +281,7 @@
       <div class="col-md-6 rounded">
         <div class="d-flex align-items-center presse-color p-4 rounded">
           <div class="flex-shrink-0">
-            <img width="75" height="75" class="rounded" src="/images/oserafrique.jpeg" alt="...">
+            <img width="75" height="75" class="rounded" src="/images/oserafrique.jpeg" alt="Oser l'Afrique">
           </div>
           <div class="flex-grow-1 ms-3">
             <p class="mb-0">
@@ -296,7 +296,7 @@
       <div class="col-md-6 rounded">
         <div class="d-flex align-items-center presse-color p-4 rounded">
           <div class="flex-shrink-0">
-            <img width="75" height="75" class="rounded" src="/images/jeuneafrique.png" alt="...">
+            <img width="75" height="75" class="rounded" src="/images/jeuneafrique.png" alt="Jeune Afrique">
           </div>
           <div class="flex-grow-1 ms-3">
             <p class="mb-0">
@@ -312,7 +312,7 @@
       <div class="col-md-6 rounded">
         <div class="d-flex align-items-center presse-color p-4 rounded">
           <div class="flex-shrink-0">
-            <img width="75" height="75" class="rounded" src="/images/rfi.png" alt="...">
+            <img width="75" height="75" class="rounded" src="/images/rfi.png" alt="RFI">
           </div>
           <div class="flex-grow-1 ms-3">
             <p class="mb-0">
@@ -328,7 +328,7 @@
       <div class="col-md-6 rounded">
         <div class="d-flex align-items-center presse-color p-4 rounded">
           <div class="flex-shrink-0">
-            <img width="75" height="75" class="rounded" src="/images/rfi2.jpeg" alt="...">
+            <img width="75" height="75" class="rounded" src="/images/rfi2.jpeg" alt="RFI">
           </div>
           <div class="flex-grow-1 ms-3">
             <p class="mb-0">
@@ -404,11 +404,11 @@
     <h2 class="h2 fw-bold mb-3">{{ T "open_source" }}</h2>
     <p class="lead mb-4">{{ T "open_source_description" }}</p>
     <div class="d-flex justify-content-center gap-4">
-      <a href="https://github.com/weebi-com/" target="_blank" rel="noopener" class="btn btn-outline-dark btn-lg d-flex align-items-center gap-2">
+      <a href="https://github.com/weebi-com/" target="_blank" rel="noopener" data-track="github_org_click" class="btn btn-outline-dark btn-lg d-flex align-items-center gap-2">
         <i class="bi bi-github" style="font-size: 1.5rem;"></i>
         <span>Organization</span>
       </a>
-      <a href="https://github.com/weebi-com/weebi_server" target="_blank" rel="noopener" class="btn btn-outline-dark btn-lg d-flex align-items-center gap-2">
+      <a href="https://github.com/weebi-com/weebi_server" target="_blank" rel="noopener" data-track="github_server_click" class="btn btn-outline-dark btn-lg d-flex align-items-center gap-2">
         <i class="bi bi-hdd-network" style="font-size: 1.5rem;"></i>
         <span>Server Code</span>
       </a>

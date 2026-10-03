@@ -24,8 +24,9 @@
     <h6 class="fw-bold mb-1 text-uppercase small text-muted">{{ T "apps_title" }}</h6>
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
       {{- if $stores.googlePlay -}}
-        <a target="_blank" 
-           id="download_playstore" 
+        <a target="_blank" rel="noopener"
+           id="download_playstore"
+           data-track="open_playstore"
            class="btn btn-black-weebi btn-lg px-4 centered-btn"
            href="{{ $stores.googlePlay }}">
           <i class="bi bi-google-play"></i>
@@ -34,8 +35,9 @@
       {{- end -}}
       
       {{- if $stores.appleStore -}}
-        <a target="_blank" 
-           id="download_apple_store" 
+        <a target="_blank" rel="noopener"
+           id="download_apple_store"
+           data-track="open_applestore"
            class="btn btn-black-weebi btn-lg px-4 centered-btn"
            href="{{ $stores.appleStore }}">
           <i class="bi bi-apple"></i>
@@ -44,8 +46,9 @@
       {{- end -}}
       
       {{- if $stores.microsoftStore -}}
-        <a target="_blank" 
-           id="download_microsoft_store" 
+        <a target="_blank" rel="noopener"
+           id="download_microsoft_store"
+           data-track="open_microsoftstore"
            class="btn btn-black-weebi btn-lg px-4 centered-btn"
            href="{{ $stores.microsoftStore }}">
           <i class="bi bi-microsoft"></i>
@@ -54,8 +57,9 @@
       {{- end -}}
       
       {{- if $stores.linux -}}
-        <a target="_blank" 
-           id="download_linux" 
+        <a target="_blank" rel="noopener"
+           id="download_linux"
+           data-track="open_linux"
            class="btn btn-black-weebi btn-lg px-4 centered-btn"
            href="{{ $stores.linux }}">
           <img src="/images/linux-icon.svg" alt="Linux" style="width: 2rem; height: 2rem; display: inline-block; vertical-align: middle; margin-right: 10px; filter: brightness(0) invert(1);" />

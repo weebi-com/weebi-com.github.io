@@ -93,7 +93,7 @@
 
       <p class="text-center mb-3 small pricing-license-note">{{ T "pricing_license_note" }}</p>
       <div class="text-center pricing-cta">
-        <a class="btn btn-light btn-lg rounded-pill px-5 fw-semibold" href="{{ site.Params.stores.webConsoleBilling | default "https://cloud.weebi.com/#/billing" }}" target="_blank" rel="noopener">{{ T "pricing_buy_license_cta" }}</a>
+        <a class="btn btn-light btn-lg rounded-pill px-5 fw-semibold" data-track="buy_license_click" href="{{ site.Params.stores.webConsoleBilling | default "https://cloud.weebi.com/#/billing" }}" target="_blank" rel="noopener">{{ T "pricing_buy_license_cta" }}</a>
       </div>
 
       <div class="pricing-addon" aria-label="{{ T "pricing_addon_aria" }}">

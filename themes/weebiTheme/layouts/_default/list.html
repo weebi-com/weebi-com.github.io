@@ -13,9 +13,9 @@
             <div class="col-sm-12 col-md-6">
               <a href="{{ .RelPermalink }}" class="text-decoration-none">
                 {{ if .Params.image }}
-                  <img src="{{ .Params.image }}" class="card-img-top blog-card-img" alt="..." style="cursor: pointer;">
+                  <img src="{{ .Params.image }}" class="card-img-top blog-card-img" alt="{{ .Title }}" style="cursor: pointer;">
                 {{ else }}
-                  <img src="/images/blog_image.jpeg" class="card-img-top blog-card-img" alt="..." style="cursor: pointer;">
+                  <img src="/images/blog_image.jpeg" class="card-img-top blog-card-img" alt="{{ .Title }}" style="cursor: pointer;">
                 {{ end }}
               </a>
               <div class="card shadow-sm p-3 border rounded">

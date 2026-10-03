@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ if .Site }}{{ .Site.Language.Lang }}{{ else }}en{{ end }}" dir="ltr">
+<html lang="{{ if .Site }}{{ or .Site.Language.LanguageCode .Site.Language.Lang }}{{ else }}en{{ end }}" dir="{{ if .Site }}{{ or .Site.Language.LanguageDirection "ltr" }}{{ else }}ltr{{ end }}">
 <head>
+  {{ if .Site }}{{ partial "head.html" . }}{{ else }}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>404 - {{ if .Site }}{{ T "page_not_found_title" }} | {{ .Site.Title }}{{ else }}Page Not Found{{ end }}</title>
-  {{ if .Site }}{{ partial "head.html" . }}{{ else }}
+  <meta name="robots" content="noindex, follow">
+  <title>Page Not Found | Weebi</title>
   <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="/css/main.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css" />

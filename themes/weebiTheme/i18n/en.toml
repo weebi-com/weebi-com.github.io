@@ -19,7 +19,7 @@ download = "Download"
 
 # home
 
-site_title = "Your Point of Sale"
+site_title = "Sales, stock and customer accounts in Dakar"
 site_description = "Weebi is a cash register application designed in Dakar to track sales, stock, and customer accounts."
 
 open_source = "Open Source"

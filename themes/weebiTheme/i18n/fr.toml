@@ -19,7 +19,7 @@ download = "Télécharger"
 
 # home
 
-site_title = "Votre application de caisse"
+site_title = "Suivi des ventes, stock et comptes clients"
 site_description = "Weebi est une application de gestion conçue à Dakar pour suivre les ventes, le stock et les comptes clients."
 
 open_source = "Open Source"

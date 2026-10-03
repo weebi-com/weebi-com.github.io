@@ -1,0 +1,30 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{ range .Data.Pages }}
+    {{- $seoLangs := slice "fr" "en" -}}
+    {{- $include := true -}}
+    {{- if .Sitemap.Disable }}{{ $include = false }}{{ end -}}
+    {{- if or (eq .Kind "taxonomy") (eq .Kind "term") }}{{ $include = false }}{{ end -}}
+    {{- if and .IsHome (not (in $seoLangs .Lang)) }}{{ $include = false }}{{ end -}}
+    {{- if $include }}
+  <url>
+    <loc>{{ .Permalink }}</loc>{{ if not .Lastmod.IsZero }}
+    <lastmod>{{ safeHTML (.Lastmod.Format "2006-01-02T15:04:05-07:00") }}</lastmod>{{ end }}{{ with .Sitemap.ChangeFreq }}
+    <changefreq>{{ . }}</changefreq>{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
+    <priority>{{ .Sitemap.Priority }}</priority>{{ end }}
+    {{- if and (in $seoLangs .Lang) .IsTranslated }}
+      {{- range .Translations }}
+        {{- if in (slice "fr" "en") .Lang }}
+    <xhtml:link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}"/>
+        {{- end }}
+      {{- end }}
+    <xhtml:link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}"/>
+      {{- range where .AllTranslations "Lang" "fr" }}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ .Permalink }}"/>
+      {{- end }}
+    {{- end }}
+  </url>
+    {{- end }}
+  {{ end }}
+</urlset>
