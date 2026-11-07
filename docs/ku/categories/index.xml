@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Categories on Weebi: Privacy Policy (Kurdish)</title>
-		<link>https://www.weebi.com/ku/categories/</link>
+		<link>http://localhost:1313/ku/categories/</link>
 		<description>Recent content in Categories on Weebi: Privacy Policy (Kurdish)</description>
 		<generator>Hugo</generator>
 		<language>ku-IQ</language>
@@ -10,6 +10,6 @@
 		
 		
 		
-			<atom:link href="https://www.weebi.com/ku/categories/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/ku/categories/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

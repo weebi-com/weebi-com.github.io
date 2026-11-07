@@ -1,14 +1,19 @@
-<nav class="navbar navbar-expand-lg bg-body-white">
+<nav class="navbar navbar-expand-xl bg-body-white">
   <div class="container py-2">
     <a class="navbar-brand" href="/">
       <img src="/images/Weebi_Logo_Full.png" alt="Weebi" width="130" height="35">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class="d-flex align-items-center gap-2 ms-auto d-xl-none">
+      <a class="topbar-icon" target="_blank" rel="noopener" data-track="whatsapp_click" href="{{ site.Params.contact.whatsapp }}" aria-label="{{ T "contact_whatsapp" }}">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+      <ul class="navbar-nav me-auto mb-2 mb-xl-0 align-items-center">
         <li class="nav-item">
           <a class="nav-link" href="/{{ .Site.Language.Lang }}/#demo">{{ T "videos" }}</a>
         </li>
@@ -32,16 +37,19 @@
           <a class="nav-link" href="/{{ .Site.Language.Lang }}/changelog/">{{ T "changelog" }}</a>
         </li>
       </ul>
-      <div class="d-flex align-items-center">
-        <a class="btn btn-outline-dark rounded-pill px-4 me-2" target="_blank" rel="noopener" data-track="signup_click" href="{{ site.Params.stores.webConsoleSignup }}">{{ T "signup" }}</a>
-        <a class="btn btn-weebi rounded-pill px-4" target="_blank" rel="noopener" data-track="login_click" href="{{ site.Params.stores.webConsoleLogin }}">{{ T "login" }}</a>
-        <div class="ms-3">
-          <select class="form-select" onchange="window.location.href=this.value;" name="languages">
-            {{ range sort .Site.Languages "LanguageName" }}
-              <option value="/{{ .Lang }}/"{{ if eq $.Site.Language.Lang .Lang }} selected{{ end }}>{{ .LanguageName }}</option>
-            {{ end }}
-          </select>
+      <div class="topbar-actions">
+        <a class="topbar-icon d-none d-xl-inline-flex" target="_blank" rel="noopener" data-track="whatsapp_click" href="{{ site.Params.contact.whatsapp }}" aria-label="{{ T "contact_whatsapp" }}">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <div class="topbar-account">
+          <a class="topbar-btn topbar-btn-outline" target="_blank" rel="noopener" data-track="signup_click" href="{{ site.Params.stores.webConsoleSignup }}">{{ T "signup" }}</a>
+          <a class="topbar-btn topbar-btn-solid" target="_blank" rel="noopener" data-track="login_click" href="{{ site.Params.stores.webConsoleLogin }}">{{ T "login" }}</a>
         </div>
+        <select class="form-select topbar-lang" onchange="window.location.href=this.value;" name="languages" aria-label="{{ T "language" }}">
+          {{ range sort .Site.Languages "LanguageName" }}
+            <option value="/{{ .Lang }}/"{{ if eq $.Site.Language.Lang .Lang }} selected{{ end }}>{{ .LanguageName }}</option>
+          {{ end }}
+        </select>
       </div>
     </div>
   </div>

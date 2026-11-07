@@ -8,6 +8,26 @@ defaultContentLanguageInSubdir = true
   [params.contact]
     email = 'hello@weebi.com'
     whatsapp = 'https://wa.me/33767989661'
+
+    [[params.contact.representatives]]
+      id = 'mali'
+      countryKey = 'rep_country_mali'
+      flag = 'ml'
+      phone = '+223 60 69 49 47'
+      whatsapp = 'https://wa.me/22360694947'
+      company = 'SY&KO SARL'
+      area = 'Zerny'
+      city = 'Bamako'
+
+    [[params.contact.representatives]]
+      id = 'guinea'
+      countryKey = 'rep_country_guinea'
+      flag = 'gn'
+      phone = '+224 622 13 74 13'
+      whatsapp = 'https://wa.me/224622137413'
+      company = 'Alliance securité'
+      area = 'Bambeto'
+      city = 'Conakry'
   [params.stores]
     googlePlay = 'https://play.google.com/store/apps/details?id=com.weebi.weebiapp'
     appleStore = 'https://apps.apple.com/us/app/weebi/id1602769796'

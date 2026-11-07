@@ -49,8 +49,26 @@
     </div>
   </div>
 
+  {{ with site.Params.contact.representatives }}
+  <div class="row mt-4">
+    <div class="col-12">
+      <h6 class="fw-bold mb-2">{{ T "contact_representatives_title" }}</h6>
+      <ul class="list-unstyled rep-list mb-0">
+        {{ range . }}
+        <li>
+          <span class="fi fi-{{ .flag }}"></span>
+          <span>{{ T .countryKey }}</span>
+          <a href="{{ .whatsapp }}" target="_blank" rel="noopener" data-track="whatsapp_click" data-track-label="{{ .id }}">{{ .phone }}</a>
+          <span class="rep-meta">— {{ .company }} — {{ .area }} — {{ .city }}</span>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+  {{ end }}
 
-  <div class="row border-top">
+
+  <div class="row border-top mt-4">
     <div class="col-md-12">
       <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-1">
         <p class="col-md-4 mb-0 text-body-secondary">Boutiques Broker OÜ © {{ now.Year }}</p>

@@ -1561,6 +1561,152 @@ h2, h3, h4, h5, h6 {
 
 }
 
+.navbar .nav-link {
+  white-space: nowrap;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.topbar-account {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.topbar-btn,
+.topbar-icon,
+.topbar-lang.form-select,
+.navbar .navbar-toggler {
+  height: 36px;
+  min-height: 36px;
+}
+
+.topbar-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.topbar-btn-outline {
+  color: #191C1F;
+  background: #fff;
+  border-color: #191C1F;
+}
+
+.topbar-btn-outline:hover,
+.topbar-btn-outline:focus {
+  color: #fff;
+  background: #191C1F;
+  border-color: #191C1F;
+}
+
+.topbar-btn-solid {
+  color: #fff;
+  background: #046DB5;
+  border-color: #046DB5;
+}
+
+.topbar-btn-solid:hover,
+.topbar-btn-solid:focus {
+  color: #fff;
+  background: #035a96;
+  border-color: #035a96;
+}
+
+.topbar-icon {
+  width: 36px;
+  flex: 0 0 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #25D366;
+  text-decoration: none;
+  font-size: 1.15rem;
+}
+
+.topbar-icon:hover,
+.topbar-icon:focus {
+  color: #fff;
+  background: #1da851;
+}
+
+.topbar-lang.form-select {
+  width: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0.85rem;
+  border-radius: 999px;
+  border-color: #cfd4dc;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+.navbar .navbar-toggler {
+  width: 36px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1199.98px) {
+  .topbar-actions {
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 0.75rem;
+  }
+
+  .topbar-lang.form-select {
+    width: 100%;
+  }
+}
+
+.rep-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  color: #495057;
+}
+
+.rep-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.rep-list .fi {
+  width: 1.15rem;
+  line-height: 1;
+  border-radius: 2px;
+}
+
+.rep-list a {
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+}
+
+.rep-list a:hover,
+.rep-list a:focus {
+  color: #1da851;
+}
+
 /* Blog card image styling */
 .blog-card-img {
   width: 100%;

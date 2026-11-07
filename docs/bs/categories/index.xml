@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Categories on Weebi: Privacy Policy (Bosnian)</title>
-		<link>https://www.weebi.com/bs/categories/</link>
+		<link>http://localhost:1313/bs/categories/</link>
 		<description>Recent content in Categories on Weebi: Privacy Policy (Bosnian)</description>
 		<generator>Hugo</generator>
 		<language>bs-BA</language>
@@ -10,6 +10,6 @@
 		
 		
 		
-			<atom:link href="https://www.weebi.com/bs/categories/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/bs/categories/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>
