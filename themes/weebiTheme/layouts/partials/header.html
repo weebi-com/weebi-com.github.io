@@ -4,6 +4,9 @@
       <img src="/images/Weebi_Logo_Full.png" alt="Weebi" width="130" height="35">
     </a>
     <div class="d-flex align-items-center gap-2 ms-auto d-xl-none">
+      <button type="button" class="topbar-icon topbar-icon-mail js-mail" data-track="email_click" aria-label="{{ T "contact_email" }}">
+        <i class="bi bi-envelope"></i>
+      </button>
       <a class="topbar-icon" target="_blank" rel="noopener" data-track="whatsapp_click" href="{{ site.Params.contact.whatsapp }}" aria-label="{{ T "contact_whatsapp" }}">
         <i class="bi bi-whatsapp"></i>
       </a>
@@ -23,21 +26,14 @@
         <li class="nav-item">
           <a class="nav-link" href="/{{ .Site.Language.Lang }}/user-guide/">{{ T "faq" }}</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ T "contact" }}</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="mailto:{{ site.Params.contact.email }}"><i class="bi bi-envelope me-2" style="color: #0d6efd;"></i>{{ T "contact_email" }}</a></li>
-            <li><a class="dropdown-item" href="{{ site.Params.contact.whatsapp }}" target="_blank" rel="noopener" data-track="whatsapp_click"><i class="bi bi-whatsapp me-2" style="color: #25D366;"></i>{{ T "contact_whatsapp" }}</a></li>
-          </ul>
-        </li>
         <li class="nav-item">
           <a class="nav-link" href="/{{ .Site.Language.Lang }}/posts/">{{ T "blog" }}</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/{{ .Site.Language.Lang }}/changelog/">{{ T "changelog" }}</a>
-        </li>
       </ul>
       <div class="topbar-actions">
+        <button type="button" class="topbar-icon topbar-icon-mail js-mail d-none d-xl-inline-flex" data-track="email_click" aria-label="{{ T "contact_email" }}">
+          <i class="bi bi-envelope"></i>
+        </button>
         <a class="topbar-icon d-none d-xl-inline-flex" target="_blank" rel="noopener" data-track="whatsapp_click" href="{{ site.Params.contact.whatsapp }}" aria-label="{{ T "contact_whatsapp" }}">
           <i class="bi bi-whatsapp"></i>
         </a>

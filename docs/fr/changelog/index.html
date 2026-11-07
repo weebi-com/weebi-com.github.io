@@ -3,23 +3,23 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nouveautés | Weebi</title>
+<title>App Changelog | Weebi</title>
 <meta name="description" content="Historique des évolutions de l&#39;application Weebi, de 2022 à aujourd&#39;hui.">
 <link rel="canonical" href="http://localhost:1313/fr/changelog/">
 
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Weebi">
-<meta property="og:title" content="Nouveautés | Weebi">
+<meta property="og:title" content="App Changelog | Weebi">
 <meta property="og:description" content="Historique des évolutions de l&#39;application Weebi, de 2022 à aujourd&#39;hui.">
 <meta property="og:url" content="http://localhost:1313/fr/changelog/">
 <meta property="og:image" content="http://localhost:1313/images/Weebi_Logo_Full.png">
 <meta property="og:locale" content="fr_FR">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Nouveautés | Weebi">
+<meta name="twitter:title" content="App Changelog | Weebi">
 <meta name="twitter:description" content="Historique des évolutions de l&#39;application Weebi, de 2022 à aujourd&#39;hui.">
 <meta name="twitter:image" content="http://localhost:1313/images/Weebi_Logo_Full.png">
-<link rel="alternate" hreflang="fr-FR" href="http://localhost:1313/fr/changelog/">
 <link rel="alternate" hreflang="en-US" href="http://localhost:1313/en/changelog/">
+<link rel="alternate" hreflang="fr-FR" href="http://localhost:1313/fr/changelog/">
 <link rel="alternate" hreflang="x-default" href="http://localhost:1313/fr/changelog/">
 
 
@@ -53,6 +53,9 @@
       <img src="/images/Weebi_Logo_Full.png" alt="Weebi" width="130" height="35">
     </a>
     <div class="d-flex align-items-center gap-2 ms-auto d-xl-none">
+      <button type="button" class="topbar-icon topbar-icon-mail js-mail" data-track="email_click" aria-label="Envoyer un email">
+        <i class="bi bi-envelope"></i>
+      </button>
       <a class="topbar-icon" target="_blank" rel="noopener" data-track="whatsapp_click" href="https://wa.me/33767989661" aria-label="WhatsApp">
         <i class="bi bi-whatsapp"></i>
       </a>
@@ -72,21 +75,14 @@
         <li class="nav-item">
           <a class="nav-link" href="/fr/user-guide/">Guide</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="mailto:hello@weebi.com"><i class="bi bi-envelope me-2" style="color: #0d6efd;"></i>Envoyer un email</a></li>
-            <li><a class="dropdown-item" href="https://wa.me/33767989661" target="_blank" rel="noopener" data-track="whatsapp_click"><i class="bi bi-whatsapp me-2" style="color: #25D366;"></i>WhatsApp</a></li>
-          </ul>
-        </li>
         <li class="nav-item">
           <a class="nav-link" href="/fr/posts/">Blog</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/fr/changelog/">Nouveautés</a>
-        </li>
       </ul>
       <div class="topbar-actions">
+        <button type="button" class="topbar-icon topbar-icon-mail js-mail d-none d-xl-inline-flex" data-track="email_click" aria-label="Envoyer un email">
+          <i class="bi bi-envelope"></i>
+        </button>
         <a class="topbar-icon d-none d-xl-inline-flex" target="_blank" rel="noopener" data-track="whatsapp_click" href="https://wa.me/33767989661" aria-label="WhatsApp">
           <i class="bi bi-whatsapp"></i>
         </a>
@@ -230,7 +226,7 @@
 <div class="container py-5">
   <div class="row">
     <div class="col-lg-10 col-xl-8 mx-auto">
-      <h1 class="h2 fw-bold mb-4">Nouveautés</h1>
+      <h1 class="h2 fw-bold mb-4">App Changelog</h1>
 
       <nav class="mb-5 p-3 rounded bg-light" aria-label="Sommaire des années">
         <h2 class="h6 fw-bold mb-2">Sommaire</h2>
@@ -246,6 +242,46 @@
       <article class="changelog-content">
         <p>Historique des évolutions de l&rsquo;application</p>
 <h2 id="2026">2026</h2>
+<h3 id="version-384--30-octobre-2026">Version 384 — 30 octobre 2026</h3>
+<ul>
+<li>La première synchronisation de nombreuses photos ne fige plus l&rsquo;écran : compression en arrière-plan, avec une indication de progression</li>
+<li>Correction d&rsquo;un plantage à l&rsquo;import sur iOS</li>
+<li>Correction d&rsquo;un plantage lorsqu&rsquo;une note sans paiement est absente</li>
+<li>Plus d&rsquo;erreur du garde-fou stock quand celui-ci n&rsquo;est pas activé</li>
+<li>Si un calibre n&rsquo;est plus au catalogue, la grille affiche à nouveau les articles</li>
+<li>Un message d&rsquo;erreur s&rsquo;affiche si la création d&rsquo;un contact échoue</li>
+</ul>
+<h3 id="version-378--25-septembre-2026">Version 378 — 25 septembre 2026</h3>
+<ul>
+<li>Import du catalogue complet au format .db</li>
+<li>Partage du ticket en PNG, PDF ou texte sur mobile (le dernier format est mémorisé)</li>
+<li>Imports revus, avec des erreurs plus claires</li>
+<li>Exports CSV revus</li>
+<li>Mise à jour en lot des articles du catalogue</li>
+<li>Compression des photos avant envoi vers le cloud</li>
+<li>Import du catalogue depuis un fichier .weebi</li>
+<li>Import .weebi en un clic, photos comprises ; ouverture directe sur Android et Windows</li>
+<li>L&rsquo;icône « Mes permissions » est masquée si l&rsquo;appareil n&rsquo;est pas lié</li>
+<li>Windows : le composant nécessaire à l&rsquo;import .weebi est bien fourni</li>
+<li>Windows : la version minimale de l&rsquo;application est de nouveau vérifiée</li>
+<li>Le rattrapage d&rsquo;un ticket demande une licence Weebi</li>
+<li>Fiche ticket revue</li>
+<li>Windows : le partage du ticket enregistre le PDF et l&rsquo;ouvre</li>
+<li>Mac et Linux : le partage du ticket reste en PDF</li>
+</ul>
+<h3 id="version-370--septembre-2026">Version 370 — septembre 2026</h3>
+<ul>
+<li>Correction du partage de ticket</li>
+</ul>
+<h3 id="version-369--septembre-2026">Version 369 — septembre 2026</h3>
+<ul>
+<li>Plus d&rsquo;indications sur l&rsquo;appui long pour les décimales et les grandes quantités</li>
+<li>Dernières finitions sur les factures libres</li>
+<li>Édition des lignes de facture libre revue : masquer ou renommer</li>
+<li>Correction du dialogue de confirmation de sortie sur Android</li>
+<li>Le total d&rsquo;une facture libre tient à nouveau compte de la quantité</li>
+<li>Le détail du ticket affiche prix unitaire × quantité pour les lignes de facture libre (comme le PDF, le thermique et WhatsApp)</li>
+</ul>
 <h3 id="version-368--5-septembre-2026">Version 368 — 5 septembre 2026</h3>
 <ul>
 <li>Plusieurs articles possibles sur une facture libre</li>
@@ -1081,9 +1117,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="col-md-4">
       <h6 class="fw-bold">Email</h6>
       <p>
-        <span class="email-obfuscated" data-user="hello" data-domain="weebi.com">
-          hello[at]weebi.com
-        </span>
+        <button type="button" class="js-mail footer-mail" data-track="email_click">Envoyer un email</button>
       </p>
     </div>
 
@@ -1150,31 +1184,21 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <script>
-  
-  (function() {
-    
-    const emailElements = document.querySelectorAll('.email-obfuscated');
-    emailElements.forEach(function(el) {
-      const user = el.getAttribute('data-user');
-      const domain = el.getAttribute('data-domain');
-      if (user && domain) {
-        const email = user + '@' + domain;
-        el.innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
-      }
+  (function () {
+    function inbox() {
+      return String.fromCharCode(104, 101, 108, 108, 111, 64, 119, 101, 101, 98, 105, 46, 99, 111, 109);
+    }
+    document.querySelectorAll('.js-mail').forEach(function (el) {
+      el.addEventListener('click', function () {
+        window.location.href = 'mailto:' + inbox();
+      });
     });
-    
-    
-    const textNodes = document.querySelectorAll('p, div, span, li');
-    textNodes.forEach(function(node) {
-      if (node.querySelector('.email-obfuscated')) return; 
-      const text = node.textContent || node.innerText;
-      if (text.includes('[at]')) {
-        const regex = /(\w+)\[at\](\w+\.\w+)/g;
-        node.innerHTML = node.innerHTML.replace(regex, function(match, user, domain) {
-          const email = user + '@' + domain;
-          return '<a href="mailto:' + email + '">' + email + '</a>';
-        });
-      }
+
+    document.querySelectorAll('p, li').forEach(function (node) {
+      if (!node.textContent || node.textContent.indexOf('[at]') === -1) return;
+      node.innerHTML = node.innerHTML.replace(/(\w+)\[at\](\w+\.\w+)/g, function (match, user, domain) {
+        return '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
+      });
     });
   })();
 </script>

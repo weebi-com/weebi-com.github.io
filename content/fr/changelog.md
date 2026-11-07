@@ -1,5 +1,5 @@
 ---
-title: "Nouveautés"
+title: "App Changelog"
 layout: "changelog"
 description: "Historique des évolutions de l'application Weebi, de 2022 à aujourd'hui."
 ---
@@ -7,6 +7,46 @@ description: "Historique des évolutions de l'application Weebi, de 2022 à aujo
 Historique des évolutions de l'application
 
 ## 2026
+
+### Version 384 — 30 octobre 2026
+
+- La première synchronisation de nombreuses photos ne fige plus l'écran : compression en arrière-plan, avec une indication de progression
+- Correction d'un plantage à l'import sur iOS
+- Correction d'un plantage lorsqu'une note sans paiement est absente
+- Plus d'erreur du garde-fou stock quand celui-ci n'est pas activé
+- Si un calibre n'est plus au catalogue, la grille affiche à nouveau les articles
+- Un message d'erreur s'affiche si la création d'un contact échoue
+
+### Version 378 — 25 septembre 2026
+
+- Import du catalogue complet au format .db
+- Partage du ticket en PNG, PDF ou texte sur mobile (le dernier format est mémorisé)
+- Imports revus, avec des erreurs plus claires
+- Exports CSV revus
+- Mise à jour en lot des articles du catalogue
+- Compression des photos avant envoi vers le cloud
+- Import du catalogue depuis un fichier .weebi
+- Import .weebi en un clic, photos comprises ; ouverture directe sur Android et Windows
+- L'icône « Mes permissions » est masquée si l'appareil n'est pas lié
+- Windows : le composant nécessaire à l'import .weebi est bien fourni
+- Windows : la version minimale de l'application est de nouveau vérifiée
+- Le rattrapage d'un ticket demande une licence Weebi
+- Fiche ticket revue
+- Windows : le partage du ticket enregistre le PDF et l'ouvre
+- Mac et Linux : le partage du ticket reste en PDF
+
+### Version 370 — septembre 2026
+
+- Correction du partage de ticket
+
+### Version 369 — septembre 2026
+
+- Plus d'indications sur l'appui long pour les décimales et les grandes quantités
+- Dernières finitions sur les factures libres
+- Édition des lignes de facture libre revue : masquer ou renommer
+- Correction du dialogue de confirmation de sortie sur Android
+- Le total d'une facture libre tient à nouveau compte de la quantité
+- Le détail du ticket affiche prix unitaire × quantité pour les lignes de facture libre (comme le PDF, le thermique et WhatsApp)
 
 ### Version 368 — 5 septembre 2026
 

@@ -50,6 +50,9 @@
       <img src="/images/Weebi_Logo_Full.png" alt="Weebi" width="130" height="35">
     </a>
     <div class="d-flex align-items-center gap-2 ms-auto d-xl-none">
+      <button type="button" class="topbar-icon topbar-icon-mail js-mail" data-track="email_click" aria-label="Envoyer un email">
+        <i class="bi bi-envelope"></i>
+      </button>
       <a class="topbar-icon" target="_blank" rel="noopener" data-track="whatsapp_click" href="https://wa.me/33767989661" aria-label="WhatsApp">
         <i class="bi bi-whatsapp"></i>
       </a>
@@ -69,21 +72,14 @@
         <li class="nav-item">
           <a class="nav-link" href="/lv/user-guide/">Guide</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sazināties</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="mailto:hello@weebi.com"><i class="bi bi-envelope me-2" style="color: #0d6efd;"></i>Envoyer un email</a></li>
-            <li><a class="dropdown-item" href="https://wa.me/33767989661" target="_blank" rel="noopener" data-track="whatsapp_click"><i class="bi bi-whatsapp me-2" style="color: #25D366;"></i>WhatsApp</a></li>
-          </ul>
-        </li>
         <li class="nav-item">
           <a class="nav-link" href="/lv/posts/">Emuārs</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/lv/changelog/">Changelog</a>
-        </li>
       </ul>
       <div class="topbar-actions">
+        <button type="button" class="topbar-icon topbar-icon-mail js-mail d-none d-xl-inline-flex" data-track="email_click" aria-label="Envoyer un email">
+          <i class="bi bi-envelope"></i>
+        </button>
         <a class="topbar-icon d-none d-xl-inline-flex" target="_blank" rel="noopener" data-track="whatsapp_click" href="https://wa.me/33767989661" aria-label="WhatsApp">
           <i class="bi bi-whatsapp"></i>
         </a>
@@ -252,9 +248,7 @@
     <div class="col-md-4">
       <h6 class="fw-bold">Email</h6>
       <p>
-        <span class="email-obfuscated" data-user="hello" data-domain="weebi.com">
-          hello[at]weebi.com
-        </span>
+        <button type="button" class="js-mail footer-mail" data-track="email_click">Envoyer un email</button>
       </p>
     </div>
 
@@ -321,31 +315,21 @@
 </div>
 
 <script>
-  
-  (function() {
-    
-    const emailElements = document.querySelectorAll('.email-obfuscated');
-    emailElements.forEach(function(el) {
-      const user = el.getAttribute('data-user');
-      const domain = el.getAttribute('data-domain');
-      if (user && domain) {
-        const email = user + '@' + domain;
-        el.innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
-      }
+  (function () {
+    function inbox() {
+      return String.fromCharCode(104, 101, 108, 108, 111, 64, 119, 101, 101, 98, 105, 46, 99, 111, 109);
+    }
+    document.querySelectorAll('.js-mail').forEach(function (el) {
+      el.addEventListener('click', function () {
+        window.location.href = 'mailto:' + inbox();
+      });
     });
-    
-    
-    const textNodes = document.querySelectorAll('p, div, span, li');
-    textNodes.forEach(function(node) {
-      if (node.querySelector('.email-obfuscated')) return; 
-      const text = node.textContent || node.innerText;
-      if (text.includes('[at]')) {
-        const regex = /(\w+)\[at\](\w+\.\w+)/g;
-        node.innerHTML = node.innerHTML.replace(regex, function(match, user, domain) {
-          const email = user + '@' + domain;
-          return '<a href="mailto:' + email + '">' + email + '</a>';
-        });
-      }
+
+    document.querySelectorAll('p, li').forEach(function (node) {
+      if (!node.textContent || node.textContent.indexOf('[at]') === -1) return;
+      node.innerHTML = node.innerHTML.replace(/(\w+)\[at\](\w+\.\w+)/g, function (match, user, domain) {
+        return '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
+      });
     });
   })();
 </script>

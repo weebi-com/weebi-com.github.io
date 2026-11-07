@@ -1,5 +1,5 @@
 ---
-title: "What's new"
+title: "App Changelog"
 layout: "changelog"
 description: "History of Weebi app updates, from 2022 to today."
 ---
@@ -7,6 +7,46 @@ description: "History of Weebi app updates, from 2022 to today."
 User-facing product history for Weebi shop owners: sales, stock, customers, printing, sync, accounting, and everyday usability. Purely technical changes are omitted.
 
 ## 2026
+
+### Version 384 — 30 October 2026
+
+- First sync of many photos no longer freezes the screen: compression runs in the background, with a progress indicator
+- iOS import crash fixed
+- Crash fixed when a no-payment note is missing
+- No more stock-guard error when the guard is turned off
+- If a calibre is no longer in the catalog, the grid shows articles again
+- An error message appears when contact creation fails
+
+### Version 378 — 25 September 2026
+
+- Import a full catalog as a .db file
+- Share a ticket as PNG, PDF, or text on mobile (the last format is remembered)
+- Imports reworked, with clearer errors
+- CSV exports reworked
+- Bulk update of catalog articles
+- Photos compressed before they go to the cloud
+- Import a catalog from a .weebi file
+- One-click .weebi import, photos included; open directly on Android and Windows
+- "My permissions" icon hidden when the device is not linked
+- Windows: the component required for .weebi import is included
+- Windows: the minimum app version is checked again
+- Catching up a ticket requires a Weebi license
+- Ticket detail screen refreshed
+- Windows: sharing a ticket saves the PDF and opens it
+- Mac and Linux: ticket sharing stays PDF only
+
+### Version 370 — September 2026
+
+- Ticket sharing fix
+
+### Version 369 — September 2026
+
+- More guidance on long-press for decimals and large quantities
+- Final touches on free invoices
+- Free-invoice line editing reworked: hide or rename
+- Quit confirmation dialog fixed on Android
+- A free invoice total takes quantity into account again
+- Ticket detail shows unit price × quantity on free-invoice lines (PDF, thermal, and WhatsApp already did)
 
 ### Version 368 — 5 September 2026
 

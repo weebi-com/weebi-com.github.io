@@ -1,0 +1,33 @@
+{{ with site.GetPage "changelog" }}
+  {{ $raw := .RawContent }}
+  {{ $yearSplit := split $raw "## 2026" }}
+  {{ if gt (len $yearSplit) 1 }}
+    {{ $versions := split (index $yearSplit 1) "### " }}
+    {{ if gt (len $versions) 1 }}
+      {{ $block := index $versions 1 }}
+      {{ $lines := split $block "\n" }}
+      {{ $title := index $lines 0 | strings.TrimSpace }}
+      {{ $bullets := slice }}
+      {{ range $lines }}
+        {{ $line := strings.TrimSpace . }}
+        {{ if hasPrefix $line "- " }}
+          {{ $bullets = $bullets | append (strings.TrimPrefix "- " $line) }}
+        {{ end }}
+      {{ end }}
+      <div class="row justify-content-center mt-5 text-start">
+        <div class="col-lg-8">
+          <h3 class="h5 fw-bold mb-2">
+            <a class="text-decoration-none" href="{{ .RelPermalink }}">{{ T "changelog" }}</a>
+          </h3>
+          <p class="fw-semibold mb-2">{{ $title }}</p>
+          <ul class="mb-3">
+            {{ range first 4 $bullets }}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+          <a class="fw-semibold" href="{{ .RelPermalink }}">{{ T "changelog_see_all" }}</a>
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+{{ end }}

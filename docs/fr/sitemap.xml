@@ -64,6 +64,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/fr/posts/"/>
   </url>
   
+  <url>
+    <loc>http://localhost:1313/fr/changelog/</loc>
+    <xhtml:link rel="alternate" hreflang="en-US" href="http://localhost:1313/en/changelog/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="http://localhost:1313/fr/changelog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/fr/changelog/"/>
+  </url>
+  
   
   <url>
     <loc>http://localhost:1313/fr/user-guide/</loc>
@@ -77,13 +84,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="http://localhost:1313/en/prix/"/>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="http://localhost:1313/fr/prix/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/fr/prix/"/>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/fr/changelog/</loc>
-    <xhtml:link rel="alternate" hreflang="en-US" href="http://localhost:1313/en/changelog/"/>
-    <xhtml:link rel="alternate" hreflang="fr-FR" href="http://localhost:1313/fr/changelog/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/fr/changelog/"/>
   </url>
   
 </urlset>

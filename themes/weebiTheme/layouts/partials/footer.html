@@ -20,9 +20,7 @@
     <div class="col-md-4">
       <h6 class="fw-bold">Email</h6>
       <p>
-        <span class="email-obfuscated" data-user="hello" data-domain="weebi.com">
-          hello[at]weebi.com
-        </span>
+        <button type="button" class="js-mail footer-mail" data-track="email_click">{{ T "contact_email" }}</button>
       </p>
     </div>
 
@@ -82,31 +80,21 @@
 </div>
 
 <script>
-  // Email deobfuscation - converts hello[at]weebi.com to clickable mailto links
-  (function() {
-    // Handle data-attribute based obfuscation
-    const emailElements = document.querySelectorAll('.email-obfuscated');
-    emailElements.forEach(function(el) {
-      const user = el.getAttribute('data-user');
-      const domain = el.getAttribute('data-domain');
-      if (user && domain) {
-        const email = user + '@' + domain;
-        el.innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
-      }
+  (function () {
+    function inbox() {
+      return String.fromCharCode(104, 101, 108, 108, 111, 64, 119, 101, 101, 98, 105, 46, 99, 111, 109);
+    }
+    document.querySelectorAll('.js-mail').forEach(function (el) {
+      el.addEventListener('click', function () {
+        window.location.href = 'mailto:' + inbox();
+      });
     });
-    
-    // Handle text-based obfuscation (hello[at]weebi.com)
-    const textNodes = document.querySelectorAll('p, div, span, li');
-    textNodes.forEach(function(node) {
-      if (node.querySelector('.email-obfuscated')) return; // Skip if already processed
-      const text = node.textContent || node.innerText;
-      if (text.includes('[at]')) {
-        const regex = /(\w+)\[at\](\w+\.\w+)/g;
-        node.innerHTML = node.innerHTML.replace(regex, function(match, user, domain) {
-          const email = user + '@' + domain;
-          return '<a href="mailto:' + email + '">' + email + '</a>';
-        });
-      }
+
+    document.querySelectorAll('p, li').forEach(function (node) {
+      if (!node.textContent || node.textContent.indexOf('[at]') === -1) return;
+      node.innerHTML = node.innerHTML.replace(/(\w+)\[at\](\w+\.\w+)/g, function (match, user, domain) {
+        return '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
+      });
     });
   })();
 </script>

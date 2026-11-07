@@ -24,7 +24,7 @@
 <link rel="alternate" hreflang="x-default" href="http://localhost:1313/fr/">
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[{"@type":"Organization","address":{"@type":"PostalAddress","addressCountry":"SN","addressLocality":"Dakar","streetAddress":"Sacré coeur 3 Villa N° 9653, 4eme phase, 41 Voie de dégagement N"},"email":"hello@weebi.com","logo":"http://localhost:1313/images/Weebi_Logo_Full.png","name":"Weebi","url":"http://localhost:1313/fr/"},{"@type":"SoftwareApplication","applicationCategory":"BusinessApplication","downloadUrl":["https://play.google.com/store/apps/details?id=com.weebi.weebiapp","https://apps.apple.com/us/app/weebi/id1602769796","https://apps.microsoft.com/store/detail/weebi/9N89B761JRRT?hl=fr-fr\u0026gl=fr"],"inLanguage":["fr","en"],"name":"Weebi","offers":{"@type":"Offer","price":"0","priceCurrency":"XOF"},"operatingSystem":"Android, iOS, Windows, Linux"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Toujours. Vous n'aurez besoin de vous abonnez que si vous souhaitez synchroniser vos données."},"name":"COMBIEN DE TEMPS PUIS-JE UTILISER WEEBI GRATUITEMENT ?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Oui c'est possible, mais cela exige de synchroniser des données, ce qui nécessite une license."},"name":"PUIS-JE L'UTILISER SUR PLUSIEURS POINTS DE VENTE?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"L'application mobile weebi peut se connecter à tous les types d'imprimantes thermiques Bluetooth. Elle peut aussi être lié à une balance digitale via bluetooth pour accélérer la pesée des produits. La caméra de votre appareil permet de détecter des code-barres."},"name":"QUELS ACCESSOIRES SONT COMPATIBLES ?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"La création/mise à jour/suppression d'un produit se fait directement depuis l'application. Il est possible d'importer un catalogue produit depuis un fichier excel. Un modèle du fichier et un tutoriel sont disponibles dans l'application. Il est aussi possible de charger un ancien catalogue de produits weebi en 1 clic."},"name":"COMMENT PEUT-ON CONFIGURER LE CATALOGUE PRODUIT ?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Oui, weebi permet de suivre le stock et permet de saisir des entrées et des sorties de stock et même de réaliser des inventaires."},"name":"EST-CE QUE WEEBI PERMET DE SUIVRE LE NIVEAU DE STOCK ?"}]}]}
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","address":{"@type":"PostalAddress","addressCountry":"SN","addressLocality":"Dakar","streetAddress":"Sacré coeur 3 Villa N° 9653, 4eme phase, 41 Voie de dégagement N"},"logo":"http://localhost:1313/images/Weebi_Logo_Full.png","name":"Weebi","url":"http://localhost:1313/fr/"},{"@type":"SoftwareApplication","applicationCategory":"BusinessApplication","downloadUrl":["https://play.google.com/store/apps/details?id=com.weebi.weebiapp","https://apps.apple.com/us/app/weebi/id1602769796","https://apps.microsoft.com/store/detail/weebi/9N89B761JRRT?hl=fr-fr\u0026gl=fr"],"inLanguage":["fr","en"],"name":"Weebi","offers":{"@type":"Offer","price":"0","priceCurrency":"XOF"},"operatingSystem":"Android, iOS, Windows, Linux"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Toujours. Vous n'aurez besoin de vous abonnez que si vous souhaitez synchroniser vos données."},"name":"COMBIEN DE TEMPS PUIS-JE UTILISER WEEBI GRATUITEMENT ?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Oui c'est possible, mais cela exige de synchroniser des données, ce qui nécessite une license."},"name":"PUIS-JE L'UTILISER SUR PLUSIEURS POINTS DE VENTE?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"L'application mobile weebi peut se connecter à tous les types d'imprimantes thermiques Bluetooth. Elle peut aussi être lié à une balance digitale via bluetooth pour accélérer la pesée des produits. La caméra de votre appareil permet de détecter des code-barres."},"name":"QUELS ACCESSOIRES SONT COMPATIBLES ?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"La création/mise à jour/suppression d'un produit se fait directement depuis l'application. Il est possible d'importer un catalogue produit depuis un fichier excel. Un modèle du fichier et un tutoriel sont disponibles dans l'application. Il est aussi possible de charger un ancien catalogue de produits weebi en 1 clic."},"name":"COMMENT PEUT-ON CONFIGURER LE CATALOGUE PRODUIT ?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Oui, weebi permet de suivre le stock et permet de saisir des entrées et des sorties de stock et même de réaliser des inventaires."},"name":"EST-CE QUE WEEBI PERMET DE SUIVRE LE NIVEAU DE STOCK ?"}]}]}
 </script>
 <link rel="stylesheet" type="text/css" href="/css/animate.min.css" />
 <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
@@ -56,6 +56,9 @@
       <img src="/images/Weebi_Logo_Full.png" alt="Weebi" width="130" height="35">
     </a>
     <div class="d-flex align-items-center gap-2 ms-auto d-xl-none">
+      <button type="button" class="topbar-icon topbar-icon-mail js-mail" data-track="email_click" aria-label="Envoyer un email">
+        <i class="bi bi-envelope"></i>
+      </button>
       <a class="topbar-icon" target="_blank" rel="noopener" data-track="whatsapp_click" href="https://wa.me/33767989661" aria-label="WhatsApp">
         <i class="bi bi-whatsapp"></i>
       </a>
@@ -75,21 +78,14 @@
         <li class="nav-item">
           <a class="nav-link" href="/fr/user-guide/">Guide</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="mailto:hello@weebi.com"><i class="bi bi-envelope me-2" style="color: #0d6efd;"></i>Envoyer un email</a></li>
-            <li><a class="dropdown-item" href="https://wa.me/33767989661" target="_blank" rel="noopener" data-track="whatsapp_click"><i class="bi bi-whatsapp me-2" style="color: #25D366;"></i>WhatsApp</a></li>
-          </ul>
-        </li>
         <li class="nav-item">
           <a class="nav-link" href="/fr/posts/">Blog</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/fr/changelog/">Nouveautés</a>
-        </li>
       </ul>
       <div class="topbar-actions">
+        <button type="button" class="topbar-icon topbar-icon-mail js-mail d-none d-xl-inline-flex" data-track="email_click" aria-label="Envoyer un email">
+          <i class="bi bi-envelope"></i>
+        </button>
         <a class="topbar-icon d-none d-xl-inline-flex" target="_blank" rel="noopener" data-track="whatsapp_click" href="https://wa.me/33767989661" aria-label="WhatsApp">
           <i class="bi bi-whatsapp"></i>
         </a>
@@ -887,6 +883,83 @@
         <span>Server Code</span>
       </a>
     </div>
+    
+  
+  
+  
+    
+    
+      
+      
+      
+      
+      
+        
+        
+      
+        
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+      
+        
+        
+      
+      <div class="row justify-content-center mt-5 text-start">
+        <div class="col-lg-8">
+          <h3 class="h5 fw-bold mb-2">
+            <a class="text-decoration-none" href="/fr/changelog/">App Changelog</a>
+          </h3>
+          <p class="fw-semibold mb-2">Version 384 — 30 octobre 2026</p>
+          <ul class="mb-3">
+            
+              <li>La première synchronisation de nombreuses photos ne fige plus l&#39;écran : compression en arrière-plan, avec une indication de progression</li>
+            
+              <li>Correction d&#39;un plantage à l&#39;import sur iOS</li>
+            
+              <li>Correction d&#39;un plantage lorsqu&#39;une note sans paiement est absente</li>
+            
+              <li>Plus d&#39;erreur du garde-fou stock quand celui-ci n&#39;est pas activé</li>
+            
+          </ul>
+          <a class="fw-semibold" href="/fr/changelog/">Voir tout l&#39;historique</a>
+        </div>
+      </div>
+    
+  
+
+
   </div>
 </div>
 
@@ -1388,9 +1461,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="col-md-4">
       <h6 class="fw-bold">Email</h6>
       <p>
-        <span class="email-obfuscated" data-user="hello" data-domain="weebi.com">
-          hello[at]weebi.com
-        </span>
+        <button type="button" class="js-mail footer-mail" data-track="email_click">Envoyer un email</button>
       </p>
     </div>
 
@@ -1457,31 +1528,21 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <script>
-  
-  (function() {
-    
-    const emailElements = document.querySelectorAll('.email-obfuscated');
-    emailElements.forEach(function(el) {
-      const user = el.getAttribute('data-user');
-      const domain = el.getAttribute('data-domain');
-      if (user && domain) {
-        const email = user + '@' + domain;
-        el.innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
-      }
+  (function () {
+    function inbox() {
+      return String.fromCharCode(104, 101, 108, 108, 111, 64, 119, 101, 101, 98, 105, 46, 99, 111, 109);
+    }
+    document.querySelectorAll('.js-mail').forEach(function (el) {
+      el.addEventListener('click', function () {
+        window.location.href = 'mailto:' + inbox();
+      });
     });
-    
-    
-    const textNodes = document.querySelectorAll('p, div, span, li');
-    textNodes.forEach(function(node) {
-      if (node.querySelector('.email-obfuscated')) return; 
-      const text = node.textContent || node.innerText;
-      if (text.includes('[at]')) {
-        const regex = /(\w+)\[at\](\w+\.\w+)/g;
-        node.innerHTML = node.innerHTML.replace(regex, function(match, user, domain) {
-          const email = user + '@' + domain;
-          return '<a href="mailto:' + email + '">' + email + '</a>';
-        });
-      }
+
+    document.querySelectorAll('p, li').forEach(function (node) {
+      if (!node.textContent || node.textContent.indexOf('[at]') === -1) return;
+      node.innerHTML = node.innerHTML.replace(/(\w+)\[at\](\w+\.\w+)/g, function (match, user, domain) {
+        return '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
+      });
     });
   })();
 </script>

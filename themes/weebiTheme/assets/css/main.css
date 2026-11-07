@@ -1638,10 +1638,36 @@ h2, h3, h4, h5, h6 {
   font-size: 1.15rem;
 }
 
+button.topbar-icon {
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.topbar-icon-mail {
+  background: #046DB5;
+}
+
 .topbar-icon:hover,
 .topbar-icon:focus {
   color: #fff;
   background: #1da851;
+}
+
+.topbar-icon-mail:hover,
+.topbar-icon-mail:focus {
+  color: #fff;
+  background: #035a96;
+}
+
+.footer-mail {
+  border: 0;
+  padding: 0;
+  background: none;
+  color: #046DB5;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .topbar-lang.form-select {
