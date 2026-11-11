@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Bamako on Weebi : Suivi des Ventes, Gestion de Stock et Comptes Clients à Dakar</title>
+		<link>http://localhost:1313/fr/tags/bamako/</link>
+		<description>Recent content in Bamako on Weebi : Suivi des Ventes, Gestion de Stock et Comptes Clients à Dakar</description>
+		<generator>Hugo</generator>
+		<language>fr-FR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 07 Nov 2026 18:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/fr/tags/bamako/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Représentant exclusif au Mali</title>
+				<link>http://localhost:1313/fr/posts/representant-exclusif-mali/</link>
+				<pubDate>Sat, 07 Nov 2026 18:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/posts/representant-exclusif-mali/</guid>
+				<description>Nous sommes heureux de confier le Mali à SY&amp;amp;KO SARL, à Zerny (Bamako) : une équipe de confiance, au parcours solide.</description>
+			</item>
+	</channel>
+</rss>

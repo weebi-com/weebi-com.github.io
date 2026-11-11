@@ -10,89 +10,91 @@
 		
 		
 		
+			<lastBuildDate>Sat, 07 Nov 2026 17:00:00 +0000</lastBuildDate>
+		
 			<atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Conakry</title>
+				<link>http://localhost:1313/en/tags/conakry/</link>
+				<pubDate>Sat, 07 Nov 2026 17:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/conakry/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Guinea</title>
+				<link>http://localhost:1313/en/tags/guinea/</link>
+				<pubDate>Sat, 07 Nov 2026 17:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/guinea/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Representative</title>
+				<link>http://localhost:1313/en/tags/representative/</link>
+				<pubDate>Sat, 07 Nov 2026 17:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/representative/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Accounting</title>
 				<link>http://localhost:1313/en/tags/accounting/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<pubDate>Sat, 05 Sep 2026 09:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/en/tags/accounting/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Africa</title>
 				<link>http://localhost:1313/en/tags/africa/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<pubDate>Sat, 05 Sep 2026 09:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/en/tags/africa/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Conakry</title>
-				<link>http://localhost:1313/en/tags/conakry/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/tags/conakry/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Features</title>
-				<link>http://localhost:1313/en/tags/features/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/tags/features/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Guinea</title>
-				<link>http://localhost:1313/en/tags/guinea/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/tags/guinea/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>OHADA</title>
 				<link>http://localhost:1313/en/tags/ohada/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<pubDate>Sat, 05 Sep 2026 09:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/en/tags/ohada/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Plans</title>
-				<link>http://localhost:1313/en/tags/plans/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/tags/plans/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Premium</title>
-				<link>http://localhost:1313/en/tags/premium/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/tags/premium/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Pricing</title>
-				<link>http://localhost:1313/en/tags/pricing/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/tags/pricing/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Representative</title>
-				<link>http://localhost:1313/en/tags/representative/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/tags/representative/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>SMT</title>
 				<link>http://localhost:1313/en/tags/smt/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<pubDate>Sat, 05 Sep 2026 09:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/en/tags/smt/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>SYSCOHADA</title>
 				<link>http://localhost:1313/en/tags/syscohada/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<pubDate>Sat, 05 Sep 2026 09:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/en/tags/syscohada/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Features</title>
+				<link>http://localhost:1313/en/tags/features/</link>
+				<pubDate>Fri, 29 May 2026 10:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/features/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Plans</title>
+				<link>http://localhost:1313/en/tags/plans/</link>
+				<pubDate>Fri, 29 May 2026 10:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/plans/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Premium</title>
+				<link>http://localhost:1313/en/tags/premium/</link>
+				<pubDate>Fri, 29 May 2026 10:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/premium/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Pricing</title>
+				<link>http://localhost:1313/en/tags/pricing/</link>
+				<pubDate>Fri, 29 May 2026 10:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/pricing/</guid>
 				<description></description>
 			</item>
 	</channel>

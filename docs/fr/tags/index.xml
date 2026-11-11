@@ -10,124 +10,140 @@
 		
 		
 		
+			<lastBuildDate>Sat, 07 Nov 2026 18:00:00 +0000</lastBuildDate>
+		
 			<atom:link href="http://localhost:1313/fr/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Afrique</title>
-				<link>http://localhost:1313/fr/tags/afrique/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/fr/tags/afrique/</guid>
+				<title>Bamako</title>
+				<link>http://localhost:1313/fr/tags/bamako/</link>
+				<pubDate>Sat, 07 Nov 2026 18:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/bamako/</guid>
 				<description></description>
 			</item>
 			<item>
-				<title>Attestation</title>
-				<link>http://localhost:1313/fr/tags/attestation/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/fr/tags/attestation/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Caisse</title>
-				<link>http://localhost:1313/fr/tags/caisse/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/fr/tags/caisse/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Certification</title>
-				<link>http://localhost:1313/fr/tags/certification/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/fr/tags/certification/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Comptabilité</title>
-				<link>http://localhost:1313/fr/tags/comptabilit%C3%A9/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/fr/tags/comptabilit%C3%A9/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Conakry</title>
-				<link>http://localhost:1313/fr/tags/conakry/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/fr/tags/conakry/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Conformité</title>
-				<link>http://localhost:1313/fr/tags/conformit%C3%A9/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/fr/tags/conformit%C3%A9/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Fonctionnalités</title>
-				<link>http://localhost:1313/fr/tags/fonctionnalit%C3%A9s/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/fr/tags/fonctionnalit%C3%A9s/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>France</title>
-				<link>http://localhost:1313/fr/tags/france/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/fr/tags/france/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Guinée</title>
-				<link>http://localhost:1313/fr/tags/guin%C3%A9e/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/fr/tags/guin%C3%A9e/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Offres</title>
-				<link>http://localhost:1313/fr/tags/offres/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/fr/tags/offres/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>OHADA</title>
-				<link>http://localhost:1313/fr/tags/ohada/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/fr/tags/ohada/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Premium</title>
-				<link>http://localhost:1313/fr/tags/premium/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/fr/tags/premium/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Pricing</title>
-				<link>http://localhost:1313/fr/tags/pricing/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/fr/tags/pricing/</guid>
+				<title>Mali</title>
+				<link>http://localhost:1313/fr/tags/mali/</link>
+				<pubDate>Sat, 07 Nov 2026 18:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/mali/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Représentant</title>
 				<link>http://localhost:1313/fr/tags/repr%C3%A9sentant/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<pubDate>Sat, 07 Nov 2026 18:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/fr/tags/repr%C3%A9sentant/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Conakry</title>
+				<link>http://localhost:1313/fr/tags/conakry/</link>
+				<pubDate>Sat, 07 Nov 2026 17:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/conakry/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Guinée</title>
+				<link>http://localhost:1313/fr/tags/guin%C3%A9e/</link>
+				<pubDate>Sat, 07 Nov 2026 17:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/guin%C3%A9e/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Afrique</title>
+				<link>http://localhost:1313/fr/tags/afrique/</link>
+				<pubDate>Sat, 05 Sep 2026 09:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/afrique/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Comptabilité</title>
+				<link>http://localhost:1313/fr/tags/comptabilit%C3%A9/</link>
+				<pubDate>Sat, 05 Sep 2026 09:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/comptabilit%C3%A9/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>OHADA</title>
+				<link>http://localhost:1313/fr/tags/ohada/</link>
+				<pubDate>Sat, 05 Sep 2026 09:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/ohada/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>SMT</title>
 				<link>http://localhost:1313/fr/tags/smt/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<pubDate>Sat, 05 Sep 2026 09:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/fr/tags/smt/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>SYSCOHADA</title>
 				<link>http://localhost:1313/fr/tags/syscohada/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<pubDate>Sat, 05 Sep 2026 09:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/fr/tags/syscohada/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Fonctionnalités</title>
+				<link>http://localhost:1313/fr/tags/fonctionnalit%C3%A9s/</link>
+				<pubDate>Fri, 29 May 2026 10:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/fonctionnalit%C3%A9s/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Offres</title>
+				<link>http://localhost:1313/fr/tags/offres/</link>
+				<pubDate>Fri, 29 May 2026 10:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/offres/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Premium</title>
+				<link>http://localhost:1313/fr/tags/premium/</link>
+				<pubDate>Fri, 29 May 2026 10:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/premium/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Pricing</title>
+				<link>http://localhost:1313/fr/tags/pricing/</link>
+				<pubDate>Fri, 29 May 2026 10:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/pricing/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Attestation</title>
+				<link>http://localhost:1313/fr/tags/attestation/</link>
+				<pubDate>Sat, 31 May 2025 09:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/attestation/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Caisse</title>
+				<link>http://localhost:1313/fr/tags/caisse/</link>
+				<pubDate>Sat, 31 May 2025 09:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/caisse/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Certification</title>
+				<link>http://localhost:1313/fr/tags/certification/</link>
+				<pubDate>Sat, 31 May 2025 09:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/certification/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Conformité</title>
+				<link>http://localhost:1313/fr/tags/conformit%C3%A9/</link>
+				<pubDate>Sat, 31 May 2025 09:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/conformit%C3%A9/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>France</title>
+				<link>http://localhost:1313/fr/tags/france/</link>
+				<pubDate>Sat, 31 May 2025 09:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/tags/france/</guid>
 				<description></description>
 			</item>
 	</channel>
