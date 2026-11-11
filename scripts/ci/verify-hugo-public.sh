@@ -64,6 +64,21 @@ if [[ "${FILE_COUNT}" -lt 100 ]]; then
   exit 1
 fi
 
+# A `hugo server` build stamps http://localhost:1313 into canonicals and the
+# root redirect. GitHub Pages publishes this directory, so that ships the dev URL.
+# Do not match every "localhost": the Aptabase SDK keeps a DEV host constant.
+if grep -RIn --binary-files=without-match -E 'localhost:1313|127\.0\.0\.1|livereload\.js' "${PUBLISH_DIR}" >/tmp/hugo-dev-urls.txt; then
+  echo "::error::Publish dir contains a Hugo dev server URL. Rebuild with: hugo --minify --baseURL https://www.weebi.com/ --renderToMemory is for the dev server only."
+  head -n 20 /tmp/hugo-dev-urls.txt
+  exit 1
+fi
+rm -f /tmp/hugo-dev-urls.txt
+
+if [[ -f "${PUBLISH_DIR}/index.html" ]] && grep -qi 'localhost\|127\.0\.0\.1' "${PUBLISH_DIR}/index.html"; then
+  echo "::error::${PUBLISH_DIR}/index.html redirects to the dev server instead of https://www.weebi.com/fr/"
+  exit 1
+fi
+
 # Soft-404 / redirect-only homepage detection
 if grep -qi "http-equiv=\"refresh\"" "${PUBLISH_DIR}/fr/index.html"; then
   echo "::error::fr/index.html looks like a meta-refresh stub, not the real homepage"

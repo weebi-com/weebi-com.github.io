@@ -28,7 +28,7 @@ npm install
 
 ## From Windows
 ```bash
-hugo server -D --navigateToChanged
+hugo server -D --navigateToChanged --renderToMemory
 ```
 then go to http://localhost:1313/
 
@@ -49,9 +49,10 @@ hugo version
 # wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.120.4/hugo_extended_0.120.4_linux-amd64.deb
 # sudo dpkg -i /tmp/hugo.deb
 
-# Run Hugo server (explicitly specify config if needed)
-hugo server -D --navigateToChanged --config hugo.toml
-hugo server -D --disableFastRender --config hugo.toml
+# Run Hugo server in memory so it does not rewrite docs/ with localhost URLs.
+# docs/ is what GitHub Pages publishes.
+hugo server -D --navigateToChanged --renderToMemory --config hugo.toml
+hugo server -D --disableFastRender --renderToMemory --config hugo.toml
 ```
 
 then go to http://localhost:1313/
@@ -62,8 +63,9 @@ then go to http://localhost:1313/
 
 # How to build for production
 ```
-hugo server --environment production
+hugo --minify --baseURL https://www.weebi.com/
 ```
+Do not use `hugo server` for this. It writes `http://localhost:1313` into `docs/`, and that folder is the live site.
 
 **Newsletter API Configuration:**
 - The newsletter subscription form uses `https://express.prd.weebi.com` (hardcoded for production/GitHub Pages)

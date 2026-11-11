@@ -78,6 +78,8 @@ jobs:
           fi
       - name: Verify publish output
         run: bash scripts/ci/verify-hugo-public.sh public
+      - name: Reject a dev build checked into docs
+        run: bash scripts/ci/verify-hugo-public.sh docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
