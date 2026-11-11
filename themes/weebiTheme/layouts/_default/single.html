@@ -6,6 +6,8 @@
     {{ $dateHuman := .Date | time.Format ":date_long" }}
     <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
 
-    {{ .Content }}
+    <div class="post-body">
+      {{ .Content }}
+    </div>
   </div>
 {{ end }}

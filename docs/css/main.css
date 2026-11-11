@@ -1733,6 +1733,11 @@ button.topbar-icon {
   color: #1da851;
 }
 
+.post-body img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Blog card image styling */
 .blog-card-img {
   width: 100%;
