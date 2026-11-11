@@ -1,16 +1,8 @@
-weebi.com
+# www.weebi.com
 
-TODO - add photo images team 69009137.jpg 
+## Prerequisite
 
-# Prerequisite
-
-## macOS
-```bash
-brew install hugo
-npm install
-```
-
-## WSL (Windows Subsystem for Linux)
+### WSL (Windows Subsystem for Linux)
 ```bash
 # Install Hugo
 sudo apt update
@@ -24,9 +16,9 @@ sudo apt-get install -y nodejs
 npm install
 ```
 
-# How to run the projet
+## How to run the website
 
-## From Windows
+### From Windows
 ```bash
 hugo server -D --navigateToChanged --renderToMemory
 ```
@@ -34,11 +26,9 @@ then go to http://localhost:1313/
 
 **Note:** To preview the 404 page during development, visit `http://localhost:1313/404.html` directly. The custom 404 page will work automatically in production (GitHub Pages).
 
-## From WSL
+### From WSL
 ```bash
 # Navigate to the project directory
-cd /mnt/c/Users/PierreGancel/Documents/git_weebi/weebi-com.github.io
-
 # Verify config file exists
 ls -la hugo.toml
 
@@ -61,14 +51,6 @@ then go to http://localhost:1313/
 - The `apt` version of Hugo might be too old. Install Hugo Extended manually (see commands above)
 - Or explicitly specify the config file with `--config hugo.toml` 
 
-# How to build for production
-```
-hugo --minify --baseURL https://www.weebi.com/
-```
-Do not use `hugo server` for this. It writes `http://localhost:1313` into `docs/`, and that folder is the live site.
-
-**Newsletter API Configuration:**
-- The newsletter subscription form uses `https://express.prd.weebi.com` (hardcoded for production/GitHub Pages)
 
 ## pricing
 To add more countries or adjust prices, edit themes/weebiTheme/assets/js/pricing-geo.js:
