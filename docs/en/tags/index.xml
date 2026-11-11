@@ -10,9 +10,30 @@
 		
 		
 		
-			<lastBuildDate>Sat, 07 Nov 2026 17:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Wed, 11 Nov 2026 12:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Bamako</title>
+				<link>http://localhost:1313/en/tags/bamako/</link>
+				<pubDate>Wed, 11 Nov 2026 12:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/bamako/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Mali</title>
+				<link>http://localhost:1313/en/tags/mali/</link>
+				<pubDate>Wed, 11 Nov 2026 12:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/mali/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Representative</title>
+				<link>http://localhost:1313/en/tags/representative/</link>
+				<pubDate>Wed, 11 Nov 2026 12:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/representative/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Conakry</title>
 				<link>http://localhost:1313/en/tags/conakry/</link>
@@ -25,13 +46,6 @@
 				<link>http://localhost:1313/en/tags/guinea/</link>
 				<pubDate>Sat, 07 Nov 2026 17:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/en/tags/guinea/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Representative</title>
-				<link>http://localhost:1313/en/tags/representative/</link>
-				<pubDate>Sat, 07 Nov 2026 17:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/tags/representative/</guid>
 				<description></description>
 			</item>
 			<item>

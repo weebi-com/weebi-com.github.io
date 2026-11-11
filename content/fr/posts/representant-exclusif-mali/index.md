@@ -1,6 +1,6 @@
 +++
 title = 'Représentant exclusif au Mali'
-date = 2026-11-07T18:00:00+00:00
+date = 2026-11-11T12:00:00+00:00
 draft = false
 summary = "Nous sommes heureux de confier le Mali à SY&KO SARL, à Zerny (Bamako) : une équipe de confiance, au parcours solide."
 tags = ['Mali', 'Bamako', 'représentant']

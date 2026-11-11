@@ -1,6 +1,6 @@
 +++
 title = 'Exclusive representative in Mali'
-date = 2026-11-07T18:00:00+00:00
+date = 2026-11-11T12:00:00+00:00
 draft = false
 summary = "We are glad to entrust Mali to SY&KO SARL, in Zerny (Bamako): a team we trust, with a solid track record."
 tags = ['Mali', 'Bamako', 'representative']
